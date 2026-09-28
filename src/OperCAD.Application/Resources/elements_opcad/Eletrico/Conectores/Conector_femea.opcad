@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Conector_femea.opcad",
+  "id": "{e9e6ff3d-42c8-0f2f-7375-35dddc0ce001}",
+  "names": {
+    "ar": "موصل أنثوي",
+    "ca": "Connector femella",
+    "cs": "Kontakt zásuvka",
+    "de": "Steckverbindung Buchse",
+    "el": "Θηλυκός σύνδεσμος",
+    "en": "Female connector",
+    "es": "Conector hembra",
+    "fr": "Connecteur femelle",
+    "hu": "Anya csatlakozó",
+    "it": "Connettore femmina",
+    "nl": "Contact vrouw",
+    "pl": "Gniazdo",
+    "pt": "Conector fêmea",
+    "ru": "Гнездо (нов.)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 3.499,
+  "height": 12.749,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 0.0,
+      "y2": -0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -1.5,
+      "y": 0.0,
+      "width": 2.999,
+      "height": 2.999,
+      "start": 96,
+      "angle": 84,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.5,
+      "y": 0.0,
+      "width": 2.999,
+      "height": 2.999,
+      "start": 359,
+      "angle": 84,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9497f6ad-4f68-4a12-af69-7e3a346b48d3}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.999,
+      "y": -9.75,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{7733c3d5-cb89-458e-8c29-686d9cd4b74a}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

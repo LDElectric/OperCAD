@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_de_retencao.opcad",
+  "id": "{b2488fb3-7f21-6a92-e25b-52269f874b87}",
+  "names": {
+    "ar": "صمام ذو أتجاه واحد",
+    "ca": "Vàlvula antiretorn",
+    "cs": "Zpětný ventil",
+    "da": "Kontraventil",
+    "de": "Rückschlagventil",
+    "el": "Βαλβίδα αντεπιστροφής",
+    "en": "Non-return valve",
+    "es": "Válvula de retención",
+    "fr": "Clapet anti-retour",
+    "hr": "Nepovratni ventil",
+    "hu": "Visszacsapó szelep",
+    "it": "Valvola di non ritorno",
+    "ja": "逆止弁",
+    "mn": "Буцах хавхлага",
+    "nb": "Tilbakeslagsventil",
+    "nl": "Terugslagklep",
+    "pl": "Zawór zwrotny",
+    "pt": "Válvula de retenção",
+    "pt_BR": "Válvula de retenção",
+    "ro": "Supapă antiretur",
+    "ru": "Обратный клапан",
+    "sl": "Nepovratni ventil",
+    "sr": "Не Повратни вентил",
+    "tr": "çek valf"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 11.249,
+  "hotspotX": 2.5,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -4.0872243730843465,
+      "y": -5.748980642240876,
+      "width": 13.332,
+      "height": 6.667,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 12.244775626915652,
+      "y1": -2.4159806422408763,
+      "x2": 2.912775626915653,
+      "y2": -2.4159806422408763,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5797756269156529,
+      "y1": -2.4159806422408763,
+      "x2": -7.419224373084347,
+      "y2": -2.4159806422408763,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.579775626915653,
+          "y": -0.7489806422408763
+        },
+        {
+          "x": 4.246775626915653,
+          "y": -2.4159806422408763
+        },
+        {
+          "x": 2.579775626915653,
+          "y": -4.081980642240876
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5797756269156529,
+      "y": -3.4139806422408765,
+      "width": 2.0,
+      "height": 2.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{494066a7-844c-4ab8-ba59-ad7b0c34f913}",
+      "name": "",
+      "x": 12.5,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dfd8e8bc-8144-46c4-95d6-aaa3182a2347}",
+      "name": "",
+      "x": -7.5,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.48677562691565285,
+      "y": -12.166980642240876,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{9af06fb5-5c6a-4380-b5ef-9b4364f8bd04}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

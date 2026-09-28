@@ -1,0 +1,194 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "NTC_2.opcad",
+  "id": "{87a7c5ac-1df1-9bd5-1171-4302f8c66ad0}",
+  "names": {
+    "ar": "NTC",
+    "cs": "NTC",
+    "de": "NTC",
+    "en": "NTC",
+    "es": "NTC",
+    "fr": "NTC",
+    "it": "NTC",
+    "nl": "NTC",
+    "pl": "NTC",
+    "pt": "NTC"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 04-01-04",
+  "width": 9.499,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "T",
+      "x": -5.032,
+      "y": -1.666,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.002,
+      "y1": 5.123,
+      "x2": 0.002,
+      "y2": -7.377,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.75,
+      "y1": -2.471,
+      "x2": -4.75,
+      "y2": -4.346,
+      "end1": "none",
+      "end2": "simple",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.874,
+      "y1": -4.064,
+      "x2": -2.874,
+      "y2": -2.189,
+      "end1": "none",
+      "end2": "simple",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -1.248,
+      "y": -4.252,
+      "width": 2.5,
+      "height": 6.25,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.912,
+      "y1": -4.603,
+      "x2": -2.912,
+      "y2": -6.2,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.791,
+      "y1": -2.067,
+      "x2": -4.791,
+      "y2": -0.845,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c7e51b81-8463-48ea-8ce9-c9e0ee06f975}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{93dabc0a-a6e8-4c0a-8d1c-c67b65a575e3}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.4024927009036627,
+      "y": -3.425470752430611,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{a8e69c5a-8390-49e3-8ae7-4ecfdc998a76}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

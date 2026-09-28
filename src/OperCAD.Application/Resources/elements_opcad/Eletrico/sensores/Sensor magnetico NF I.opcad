@@ -1,0 +1,284 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nf_3.opcad",
+  "id": "{189d29eb-32bc-d3c0-5953-2a70e5c64aee}",
+  "names": {
+    "ar": "حسّاس مغناطيسي NC",
+    "cs": "Magnetický snímač NC",
+    "de": "Magnetischer Sensor 2-Leiter Öffner",
+    "el": "Μαγνητικός αισθητήρας, κλειστή επαφή",
+    "en": "Magnetic sensor NC",
+    "es": "Sensor magnetico NC",
+    "fr": "Capteur magnetique NC",
+    "it": "Sensore magnetico NC",
+    "nl": "Magnetisch contact (NC)",
+    "pl": "Czujnik magnetyczny rozwierny",
+    "pt": "Sensor magnetico NF I"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 23.999,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.999,
+          "y": -7.5
+        },
+        {
+          "x": -8.999,
+          "y": -6.499
+        },
+        {
+          "x": -10.0,
+          "y": -6.499
+        },
+        {
+          "x": -10.0,
+          "y": -3.5
+        },
+        {
+          "x": -8.999,
+          "y": -3.5
+        },
+        {
+          "x": -8.999,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.999,
+          "y": -7.5
+        },
+        {
+          "x": -11.0,
+          "y": -7.5
+        },
+        {
+          "x": -11.0,
+          "y": -2.5
+        },
+        {
+          "x": -8.999,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 7.999,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 12.498,
+          "y": -10.0
+        },
+        {
+          "x": 10.0,
+          "y": 0.0
+        },
+        {
+          "x": 10.0,
+          "y": 5.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 10.0,
+      "y1": -9.499,
+      "x2": 12.999,
+      "y2": -9.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 10.0,
+      "y1": -14.998,
+      "x2": 10.0,
+      "y2": -9.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -7.999,
+          "y": -5.0
+        },
+        {
+          "x": -5.0,
+          "y": -7.999
+        },
+        {
+          "x": -1.999,
+          "y": -5.0
+        },
+        {
+          "x": -5.0,
+          "y": -1.999
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.499,
+      "y1": -6.999,
+      "x2": -4.499,
+      "y2": -2.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.499,
+      "y1": -6.999,
+      "x2": -5.499,
+      "y2": -2.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{68f5edb5-c85f-477e-9915-63ba68e23fd0}",
+      "name": "",
+      "x": 10.0,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{04a6c37d-3696-41da-98d1-3348f043d600}",
+      "name": "",
+      "x": 10.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 12.875,
+      "y": -9.75,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{2f3e6879-a091-4e03-b2dd-eb2a9636612c}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

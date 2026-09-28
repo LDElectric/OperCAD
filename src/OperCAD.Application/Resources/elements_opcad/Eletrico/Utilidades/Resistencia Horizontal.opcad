@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nf.opcad",
+  "id": "{0be87f60-ca1a-a407-f1fe-0365b429d1ae}",
+  "names": {
+    "ar": "مقاومة تسخين",
+    "cs": "Výkonový odpor",
+    "de": "Heizwiderstand",
+    "el": "Αντίσταση θέρμανσης",
+    "en": "Resistance heating",
+    "es": "Resistor térmico",
+    "fr": "Résistance chauffante",
+    "it": "Resistenza di riscaldamento",
+    "nl": "Verwarmingsweerstand",
+    "pl": "Grzejnik rezystancyjny",
+    "pt": "Resistencia Horizontal"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.0,
+  "height": 3.749,
+  "hotspotX": 0.0,
+  "hotspotY": -1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -2.812,
+      "y1": 0.0,
+      "x2": -4.75,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.812,
+      "y1": 0.0,
+      "x2": 4.75,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -2.812,
+      "y": -0.938,
+      "width": 5.623,
+      "height": 1.875,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.875,
+          "y": -0.938
+        },
+        {
+          "x": 1.875,
+          "y": 0.938
+        },
+        {
+          "x": 0.938,
+          "y": 0.938
+        },
+        {
+          "x": 0.938,
+          "y": -0.938
+        },
+        {
+          "x": 0.0,
+          "y": -0.938
+        },
+        {
+          "x": 0.0,
+          "y": 0.938
+        },
+        {
+          "x": -0.938,
+          "y": 0.938
+        },
+        {
+          "x": -0.938,
+          "y": -0.938
+        },
+        {
+          "x": -1.875,
+          "y": -0.938
+        },
+        {
+          "x": -1.875,
+          "y": 0.938
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{60de9acf-1a0f-4bf8-8468-ed5cd6dcec18}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f822f3e9-6025-41f9-8c79-b7dc0dc00584}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.557,
+      "y": -5.576,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{75ce7728-d6e0-4ab8-9d82-484bd773f5ae}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

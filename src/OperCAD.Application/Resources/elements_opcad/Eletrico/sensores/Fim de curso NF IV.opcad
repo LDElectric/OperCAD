@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fim_de_curso_NC_4.opcad",
+  "id": "{1c46328a-92cd-ce0b-02d3-2575a8bab3bf}",
+  "names": {
+    "ar": "مفتاح نهاية مشوار (NC)",
+    "cs": "Koncový spínač NC",
+    "de": "Öffner mechanisch",
+    "el": "Τερματικό, Κλειστό",
+    "en": "Limitswitch (NC)",
+    "es": "Final de carrera (NC)",
+    "fr": "Fin de course (NF)",
+    "it": "Finecorsa (NC)",
+    "nl": "Eindschakelaar (NC)",
+    "pl": "Zestyk rozwierny łącznika krańcowego",
+    "pt": "Fim de curso NF IV",
+    "ru": "Концевой контакт (НЗ)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 3.5,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.865695652173913,
+          "y": -3.814260869565217
+        },
+        {
+          "x": -0.009304347826086912,
+          "y": 3.685739130434783
+        },
+        {
+          "x": -0.009304347826086912,
+          "y": 7.435739130434783
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.009304347826086912,
+      "y1": -3.4382608695652173,
+      "x2": 2.2406956521739128,
+      "y2": -3.4382608695652173,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.009304347826086912,
+      "y1": -7.564260869565217,
+      "x2": -0.009304347826086912,
+      "y2": -3.4382608695652173,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.4906956521739132,
+          "y": -2.689260869565217
+        },
+        {
+          "x": -0.3843043478260869,
+          "y": -2.689260869565217
+        },
+        {
+          "x": 0.36669565217391303,
+          "y": 2.184739130434783
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{520823b9-dd91-4a93-b160-860349ec71dc}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{45ee90a3-a4ff-46ac-ba9b-92be0b034f53}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 3.582217391304349,
+      "y": -2.6552173913043475,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{01f2c0f2-edb6-4256-8c55-049254618ce7}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

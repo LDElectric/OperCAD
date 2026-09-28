@@ -1,0 +1,209 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Analog_Pressure.opcad",
+  "id": "{68259382-07b5-c570-70d1-d6e37d5c1131}",
+  "names": {
+    "ar": "حسّاس ضغط تماثلي",
+    "ca": "Pressió analògica",
+    "cs": "Převodník analogově tlakový",
+    "de": "Drucksensor Analog",
+    "en": "Analog Pressure",
+    "fr": "Presssion analogique",
+    "it": "Analogico / pressione",
+    "nl": "Druk analoog blok",
+    "pl": "Przetwornik analogowo ciśnieniowy"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 24.996,
+  "height": 19.996,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -5.0,
+      "y": -7.5,
+      "width": 14.998,
+      "height": 14.998,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "P",
+      "x": -4.499,
+      "y": -2.5,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.0,
+          "y": -6.0
+        },
+        {
+          "x": -5.0,
+          "y": -4.0
+        },
+        {
+          "x": -2.999,
+          "y": -5.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 5.0,
+      "y": 1.999,
+      "width": 2.999,
+      "height": 2.999,
+      "start": 0,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 7.999,
+      "y1": 3.5,
+      "x2": 7.999,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 3.5,
+      "x2": 5.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.785,
+      "y1": 7.269,
+      "x2": 9.86,
+      "y2": -7.314,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.999,
+      "y1": -5.0,
+      "x2": -5.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1708905f-2695-4f14-8459-e687ecffba8c}",
+      "name": "",
+      "x": -10.0,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.1102427930205376,
+      "y": -11.588663713297228,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{486d5e4a-3ae4-4ea3-b75c-a66259c48383}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

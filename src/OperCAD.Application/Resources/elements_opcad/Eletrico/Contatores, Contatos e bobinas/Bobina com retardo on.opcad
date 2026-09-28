@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Bobina_6.opcad",
+  "id": "{a0cedc4d-9015-8ff2-673e-e87578a17d22}",
+  "names": {
+    "ar": "ملف مُؤقت مع تاخير الإستجابة",
+    "cs": "Relé se zpožděným zapnutím",
+    "de": "Relais ansprechverzögert",
+    "el": "Πηνίο χρονικού, καθυστέρηση ενεργοποίησης",
+    "en": "Coil with on delay",
+    "es": "Bobina de trabajo temporizado",
+    "fr": "Bobine tempo travail",
+    "hu": "Tekercs be késleltetéssel",
+    "it": "Bobina di relè ritardato",
+    "nl": "mechanisch met opkomvertraging",
+    "nl_BE": "Spoel met inschakel vertraging",
+    "pl": "Cewka przekaźnika działająca ze zwłoką przy wzbudzeniu",
+    "ru": "Обмотка",
+    "pt": "Bobina com retardo on"
+  },
+  "kindInformations": {
+    "type": "coil"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 19.497,
+  "height": 22.334,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": 3.125,
+      "y": -2.5,
+      "width": 1.249,
+      "height": 4.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -4.374,
+      "y": -2.5,
+      "width": 8.749,
+      "height": 4.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 4.375,
+      "y1": -2.5,
+      "x2": 3.125,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 3.125,
+      "y1": -2.5,
+      "x2": 4.375,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -4.774,
+      "x2": 0.0,
+      "y2": -2.582,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.008,
+      "x2": 0.0,
+      "y2": 2.504,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{05466ae6-19cc-4ac5-8c03-fb89d24ff460}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d72faa3e-aebc-4304-8a95-db43acbce854}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.02,
+      "y": 3.16,
+      "z": 7,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{b6e2661c-9f4a-4a13-9cc7-c0b21b7871ca}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "A2",
+      "infoName": "tag"
+    },
+    {
+      "x": 1.7,
+      "y": -5.76,
+      "z": 7,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{27c77db6-326a-4b9e-89ae-d8c62ca61395}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "A1",
+      "infoName": "tag"
+    },
+    {
+      "x": 5.5435559390497104,
+      "y": -1.8495559390497105,
+      "z": 9,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{7917f0a1-c387-48e0-a013-d2d5e8ef46af}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

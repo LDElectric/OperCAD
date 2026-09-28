@@ -1,0 +1,1166 @@
+<Window x:Class="OperCAD.UI.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:OperCAD.UI.Controls"
+        xmlns:local="clr-namespace:OperCAD.UI.Views"
+        xmlns:vm="clr-namespace:OperCAD.UI.ViewModels"
+        Title="{Binding WindowTitle}"
+        Icon="pack://application:,,,/OperCAD.UI;component/Resources/app.ico"
+        Width="1360" Height="840"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}"
+        PreviewMouseDown="OnWindowPreviewMouseDown"
+        KeyDown="OnWindowKeyDown">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <local:SelectionTypeVisibilityConverter x:Key="SelectionToNoneVis" TargetType="none" />
+        <local:SelectionTypeVisibilityConverter x:Key="SelectionToElementVis" TargetType="element" />
+        <local:SelectionTypeVisibilityConverter x:Key="SelectionToConductorVis" TargetType="conductor" />
+        <local:IconKeyToImageConverter x:Key="IconKeyToImage" />
+        <local:BoolToGridLengthConverter x:Key="BoolToGridLength" />
+        <local:HexToBrushConverter x:Key="HexToBrush" />
+    </Window.Resources>
+
+    <Window.InputBindings>
+        <KeyBinding Key="N" Modifiers="Control" Command="{Binding NewProjectCommand}" />
+        <KeyBinding Key="O" Modifiers="Control" Command="{Binding OpenProjectCommand}" />
+        <KeyBinding Key="S" Modifiers="Control" Command="{Binding SaveProjectCommand}" />
+        <KeyBinding Key="S" Modifiers="Control+Shift" Command="{Binding SaveProjectAsCommand}" />
+        <KeyBinding Key="W" Modifiers="Control" Command="{Binding CloseProjectCommand}" />
+        <KeyBinding Key="P" Modifiers="Control" Command="{Binding PrintCommand}" />
+        <KeyBinding Key="Q" Modifiers="Control" Command="{Binding ExitCommand}" />
+        <KeyBinding Key="Z" Modifiers="Control" Command="{Binding UndoCommand}" />
+        <KeyBinding Key="Y" Modifiers="Control" Command="{Binding RedoCommand}" />
+        <KeyBinding Key="X" Modifiers="Control" Command="{Binding CutCommand}" />
+        <KeyBinding Key="C" Modifiers="Control" Command="{Binding CopyCommand}" />
+        <KeyBinding Key="V" Modifiers="Control" Command="{Binding PasteCommand}" />
+        <KeyBinding Key="A" Modifiers="Control" Command="{Binding SelectAllCommand}" />
+        <KeyBinding Key="A" Modifiers="Control+Shift" Command="{Binding DeselectAllCommand}" />
+        <KeyBinding Key="I" Modifiers="Control" Command="{Binding InvertSelectionCommand}" />
+        <KeyBinding Key="E" Modifiers="Control" Command="{Binding EditSelectedCommand}" />
+        <KeyBinding Key="OemPlus" Modifiers="Control" Command="{Binding ZoomElementInCommand}" />
+        <KeyBinding Key="Add" Modifiers="Control" Command="{Binding ZoomElementInCommand}" />
+        <KeyBinding Key="OemMinus" Modifiers="Control" Command="{Binding ZoomElementOutCommand}" />
+        <KeyBinding Key="Subtract" Modifiers="Control" Command="{Binding ZoomElementOutCommand}" />
+        <KeyBinding Key="T" Modifiers="Control" Command="{Binding AddPageCommand}" />
+        <KeyBinding Key="F" Modifiers="Control" Command="{Binding SearchCommand}" />
+        <KeyBinding Key="F11" Command="{Binding ToggleFullScreenCommand}" />
+        <KeyBinding Key="Home" Modifiers="Control+Shift" Command="{Binding BringToFrontCommand}" />
+        <KeyBinding Key="Up" Modifiers="Control+Shift" Command="{Binding RaiseCommand}" />
+        <KeyBinding Key="Down" Modifiers="Control+Shift" Command="{Binding LowerCommand}" />
+        <KeyBinding Key="End" Modifiers="Control+Shift" Command="{Binding SendToBackCommand}" />
+        <KeyBinding Key="E" Modifiers="Control+Shift" Command="{Binding ExportConductorNumberingCommand}" />
+        <KeyBinding Key="H" Modifiers="Control" Command="{Binding OpenSearchReplaceCommand}" />
+        <KeyBinding Key="L" Modifiers="Control" Command="{Binding LocateInPaletteCommand}" />
+        <KeyBinding Key="R" Modifiers="Control" Command="{Binding RotateWithAngleCommand}" />
+        <KeyBinding Key="D8" Modifiers="Control" Command="{Binding FitToContentCommand}" />
+    </Window.InputBindings>
+
+    <DockPanel>
+
+        <!-- ======================= BARRA SUPERIOR (menus + barras de ferramentas) ======================= -->
+        <DockPanel DockPanel.Dock="Top">
+
+            <!-- Menu principal em português (Brasil). -->
+            <Menu DockPanel.Dock="Top" Style="{StaticResource App.MenuBar}">
+                <MenuItem Header="Arquivo">
+                    <MenuItem Header="Novo projeto" Icon="{StaticResource Icon.New}" Command="{Binding NewProjectCommand}" InputGestureText="Ctrl+N" />
+                    <MenuItem Header="Abrir projeto..." Icon="{StaticResource Icon.Open}" Command="{Binding OpenProjectCommand}" InputGestureText="Ctrl+O" />
+                    <MenuItem Header="Importar PDF..." Command="{Binding ImportPdfCommand}" />
+                    <MenuItem Header="Importar DXF..." Command="{Binding ImportDxfCommand}" />
+                    <MenuItem Header="Reconhecer elementos importados (marcar/triar)..." Command="{Binding ElementTriageCommand}" />
+                    <MenuItem Header="Arquivos recentes" ItemsSource="{Binding RecentFiles}">
+                        <MenuItem.ItemContainerStyle>
+                            <Style TargetType="{x:Type MenuItem}" BasedOn="{StaticResource App.MenuItem}">
+                                <Setter Property="Header" Value="{Binding Name}" />
+                                <Setter Property="Command" Value="{Binding DataContext.OpenRecentFileCommand, RelativeSource={RelativeSource AncestorType=Window}}" />
+                                <Setter Property="CommandParameter" Value="{Binding}" />
+                            </Style>
+                        </MenuItem.ItemContainerStyle>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Fechar projeto" Icon="{StaticResource Icon.Close}" Command="{Binding CloseProjectCommand}" InputGestureText="Ctrl+W" />
+                    <MenuItem Header="Salvar" Icon="{StaticResource Icon.Save}" Command="{Binding SaveProjectCommand}" InputGestureText="Ctrl+S" />
+                    <MenuItem Header="Salvar como..." Icon="{StaticResource Icon.SaveAs}" Command="{Binding SaveProjectAsCommand}" />
+                    <Separator />
+                    <MenuItem Header="Exportar para imagem..." Command="{Binding ExportImageCommand}" />
+                    <MenuItem Header="Exportar para PDF..." Command="{Binding ExportPdfCommand}" />
+                    <MenuItem Header="Exportar SVG..." Command="{Binding ExportSvgCommand}" />
+                    <MenuItem Header="Exportar DXF..." Command="{Binding ExportDxfCommand}" />
+                    <MenuItem Header="Imprimir..." Command="{Binding PrintCommand}" InputGestureText="Ctrl+P" />
+                    <Separator />
+                    <MenuItem Header="Sair" Icon="{StaticResource Icon.Close}" Command="{Binding ExitCommand}" InputGestureText="Ctrl+Q" />
+                </MenuItem>
+                <MenuItem Header="Editar">
+                    <MenuItem Header="Desfazer" Icon="{StaticResource Icon.Undo}" Command="{Binding UndoCommand}" InputGestureText="Ctrl+Z" />
+                    <MenuItem Header="Refazer" Icon="{StaticResource Icon.Redo}" Command="{Binding RedoCommand}" InputGestureText="Ctrl+Y" />
+                    <Separator />
+                    <MenuItem Header="Recortar" Icon="{StaticResource Icon.Cut}" Command="{Binding CutCommand}" InputGestureText="Ctrl+X" />
+                    <MenuItem Header="Copiar" Icon="{StaticResource Icon.Copy}" Command="{Binding CopyCommand}" InputGestureText="Ctrl+C" />
+                    <MenuItem Header="Colar" Icon="{StaticResource Icon.Paste}" Command="{Binding PasteCommand}" InputGestureText="Ctrl+V" />
+                    <Separator />
+                    <MenuItem Header="Selecionar tudo" Command="{Binding SelectAllCommand}" InputGestureText="Ctrl+A" />
+                    <MenuItem Header="Desselecionar" Command="{Binding DeselectAllCommand}" InputGestureText="Ctrl+Shift+A" />
+                    <MenuItem Header="Inverter seleção" Command="{Binding InvertSelectionCommand}" InputGestureText="Ctrl+I" />
+                    <Separator />
+                    <MenuItem Header="Excluir" Icon="{StaticResource Icon.Delete}" Command="{Binding DeleteSelectionCommand}" />
+                    <MenuItem Header="Selecionar grupo importado" Command="{Binding SelectImportedGroupCommand}" />
+                    <MenuItem Header="Bloquear/desbloquear grupo importado" Command="{Binding ToggleImportedGroupLockCommand}" />
+                    <MenuItem Header="Separar rótulos do objeto" Command="{Binding SplitSelectedShapesCommand}"
+                              ToolTip="Separa um objeto que contém vários rótulos (um path do PDF) em objetos independentes, para selecionar/editar/excluir cada rótulo sozinho." />
+                    <MenuItem Header="Girar" Icon="{StaticResource Icon.Rotate}" Command="{Binding RotateSelectionCommand}" />
+                    <MenuItem Header="Girar grupo" Command="{Binding RotateSelectionCommand}" />
+                    <MenuItem Header="Girar textos" Command="{Binding RotateSelectionCommand}" />
+                    <Separator />
+                    <MenuItem Header="Trazer para a frente" Command="{Binding BringToFrontCommand}" />
+                    <MenuItem Header="Subir" Command="{Binding RaiseCommand}" />
+                    <MenuItem Header="Descer" Command="{Binding LowerCommand}" />
+                    <MenuItem Header="Enviar para trás" Command="{Binding SendToBackCommand}" />
+                    <Separator />
+                    <MenuItem Header="Vincular (mestre↔escravo)" Command="{Binding LinkElementsCommand}" />
+                    <MenuItem Header="Desvincular" Command="{Binding UnlinkElementsCommand}" />
+                    <Separator />
+                    <MenuItem Header="Buscar e Substituir..." Command="{Binding OpenSearchReplaceCommand}" InputGestureText="Ctrl+H" />
+                    <MenuItem Header="Seleção de Potencial..." Command="{Binding OpenPotentialSelectorCommand}" />
+                    <MenuItem Header="Localizar na paleta..." Command="{Binding LocateInPaletteCommand}" InputGestureText="Ctrl+L" />
+                </MenuItem>
+                <MenuItem Header="Exibir">
+                    <MenuItem Header="Modo seleção" IsCheckable="True" IsChecked="{Binding IsSelectionMode}" Click="OnToggleSelectionMode" />
+                    <MenuItem Header="Modo visualização" IsCheckable="True" Click="OnToggleVisualizationMode" />
+                    <MenuItem Header="Somente leitura" IsCheckable="True" IsChecked="{Binding IsReadOnly}" Command="{Binding ToggleReadOnlyCommand}" />
+                    <Separator />
+                    <MenuItem Header="Grid" Icon="{StaticResource Icon.Grid}" IsCheckable="True" IsChecked="{Binding GridVisible}" />
+                    <MenuItem Header="Ajustar à grade" Icon="{StaticResource Icon.Snap}" IsCheckable="True" IsChecked="{Binding SnapToGrid}" InputGestureText="N" />
+                    <MenuItem Header="Guias" Icon="{StaticResource Icon.Guides}" IsCheckable="True" IsChecked="{Binding GuidesVisible}" />
+                    <MenuItem Header="Fundo cinza" Icon="{StaticResource Icon.Grey}" IsCheckable="True" IsChecked="{Binding GreyBackground}" />
+                    <MenuItem Header="Cursor">
+                        <MenuItem Header="Retas completas (AutoCAD)" IsCheckable="True" IsChecked="{Binding IsFullCrosshair}" />
+                        <MenuItem Header="Cruz curta" IsCheckable="True" IsChecked="{Binding IsShortCrosshair}" />
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem Header="Exibir painel esquerdo" Icon="{StaticResource Icon.PanelLeft}" IsCheckable="True" IsChecked="{Binding IsLeftPanelVisible}" />
+                    <MenuItem Header="Exibir painel direito (Legendas)" IsCheckable="True" IsChecked="{Binding IsRightPanelVisible}" />
+                    <Separator />
+                    <MenuItem Header="Zoom +" Command="{Binding ZoomInCommand}" />
+                    <MenuItem Header="Zoom -" Command="{Binding ZoomOutCommand}" />
+                    <MenuItem Header="Zoom ajustado" Command="{Binding FitPageCommand}" />
+                    <MenuItem Header="Ajustar ao conteúdo" Command="{Binding FitToContentCommand}" InputGestureText="Ctrl+8" />
+                    <MenuItem Header="Sem zoom (100%)" Command="{Binding ResetZoomCommand}" />
+                </MenuItem>
+                <MenuItem Header="Projeto">
+                    <MenuItem Header="Nova folha" Icon="{StaticResource Icon.New}" Command="{Binding AddPageCommand}" />
+                    <MenuItem Header="Excluir folha" Command="{Binding RemovePageCommand}" />
+                    <Separator />
+                    <MenuItem Header="Propriedades da folha..." Icon="{StaticResource Icon.Folha}" Command="{Binding OpenDiagramPropertiesCommand}" />
+                    <Separator />
+                    <MenuItem Header="Limpar folha" Command="{Binding CleanPageCommand}" />
+                </MenuItem>
+                <MenuItem Header="Janelas">
+                    <MenuItem Header="Próxima folha" Command="{Binding NextPageCommand}" InputGestureText="Ctrl+PageDown" />
+                    <MenuItem Header="Folha anterior" Command="{Binding PreviousPageCommand}" InputGestureText="Ctrl+PageUp" />
+                </MenuItem>
+                <MenuItem Header="Configuração">
+                    <MenuItem Header="Tela cheia" Click="OnToggleFullScreen" />
+                    <MenuItem Header="Configurar OperCAD..." Command="{Binding ConfigureCommand}" />
+                </MenuItem>
+                <MenuItem Header="Ajuda">
+                    <MenuItem Header="Manual do OperCAD" Click="OnHelpClicked" />
+                    <MenuItem Header="Sobre o OperCAD" Click="OnAboutClicked" />
+                </MenuItem>
+            </Menu>
+                    <!-- Barra de ferramentas principal organizada por grupos. -->
+            <Border DockPanel.Dock="Top" Style="{StaticResource App.ToolBar}">
+                <StackPanel Orientation="Horizontal">
+                    <!-- Ferramentas -->
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Novo projeto (Ctrl+N)" Command="{Binding NewProjectCommand}">
+                        <Image Source="{StaticResource Icon.New}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Abrir projeto (Ctrl+O)" Command="{Binding OpenProjectCommand}">
+                        <Image Source="{StaticResource Icon.Open}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Importar PDF" Command="{Binding ImportPdfCommand}">
+                        <Image Source="{StaticResource Icon.Pdf}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Salvar projeto (Ctrl+S)" Command="{Binding SaveProjectCommand}">
+                        <Image Source="{StaticResource Icon.Save}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Salvar como..." Command="{Binding SaveProjectAsCommand}">
+                        <Image Source="{StaticResource Icon.SaveAs}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Fechar projeto (Ctrl+W)" Command="{Binding CloseProjectCommand}">
+                        <Image Source="{StaticResource Icon.Close}" Width="18" Height="18" />
+                    </Button>
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Imprimir (Ctrl+P)" Command="{Binding PrintCommand}">
+                        <Image Source="{StaticResource Icon.Print}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Exportar para PDF" Command="{Binding ExportPdfCommand}">
+                        <Image Source="{StaticResource Icon.Pdf}" Width="18" Height="18" />
+                    </Button>
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Desfazer (Ctrl+Z)" Command="{Binding UndoCommand}">
+                        <Image Source="{StaticResource Icon.Undo}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Refazer (Ctrl+Y)" Command="{Binding RedoCommand}">
+                        <Image Source="{StaticResource Icon.Redo}" Width="18" Height="18" />
+                    </Button>
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Recortar (Ctrl+X)" Command="{Binding CutCommand}">
+                        <Image Source="{StaticResource Icon.Cut}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Copiar (Ctrl+C)" Command="{Binding CopyCommand}">
+                        <Image Source="{StaticResource Icon.Copy}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Colar (Ctrl+V)" Command="{Binding PasteCommand}">
+                        <Image Source="{StaticResource Icon.Paste}" Width="18" Height="18" />
+                    </Button>
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Excluir (Del)" Command="{Binding DeleteSelectionCommand}">
+                        <Image Source="{StaticResource Icon.Delete}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Girar (Espaço)" Command="{Binding RotateSelectionCommand}">
+                        <Image Source="{StaticResource Icon.Rotate}" Width="18" Height="18" />
+                    </Button>
+
+                    <!-- Exibição -->
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Mostrar/ocultar grid"
+                                  IsChecked="{Binding GridVisible}">
+                        <Image Source="{StaticResource Icon.Grid}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Ajustar à grade (N)"
+                                  IsChecked="{Binding SnapToGrid}">
+                        <Image Source="{StaticResource Icon.Snap}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Mostrar/ocultar guias (cabeçalhos da moldura)"
+                                  IsChecked="{Binding GuidesVisible}">
+                        <Image Source="{StaticResource Icon.Guides}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Fundo cinza"
+                                  IsChecked="{Binding GreyBackground}">
+                        <Image Source="{StaticResource Icon.Grey}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Zoom ajustado" Command="{Binding FitPageCommand}">
+                        <Image Source="{StaticResource Icon.Fit}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Sem zoom (100%)" Command="{Binding ResetZoomCommand}">
+                        <Image Source="{StaticResource Icon.ZoomReset}" Width="18" Height="18" />
+                    </Button>
+
+                    <!-- Adicionar -->
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar campo de texto"
+                                  IsChecked="{Binding IsTextPending}" Click="OnAddTextTool">
+                        <Image Source="{StaticResource Icon.Text}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Diminuir tamanho da fonte"
+                            Click="OnFontSizeDecrease">
+                        <TextBlock Text="A-" FontSize="11" FontWeight="Bold" />
+                    </Button>
+                    <TextBox x:Name="TxtFontSize" Width="36" Height="22" Style="{StaticResource App.TextBox}"
+                             Text="5" FontSize="11" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"
+                             Margin="1,0" LostFocus="OnFontSizeChanged" KeyDown="OnFontSizeKeyDown" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Aumentar tamanho da fonte"
+                            Click="OnFontSizeIncrease">
+                        <TextBlock Text="A+" FontSize="11" FontWeight="Bold" />
+                    </Button>
+                    <ToggleButton x:Name="BtnBold" Style="{StaticResource App.ToolButtonToggle}"
+                                  ToolTip="Negrito (Ctrl+B)" Click="OnToggleBold">
+                        <TextBlock Text="N" FontWeight="Bold" FontSize="12" />
+                    </ToggleButton>
+                    <ToggleButton x:Name="BtnItalic" Style="{StaticResource App.ToolButtonToggle}"
+                                  ToolTip="Itálico (Ctrl+I)" Click="OnToggleItalic">
+                        <TextBlock Text="I" FontStyle="Italic" FontSize="12" />
+                    </ToggleButton>
+                    <ToggleButton x:Name="BtnUnderline" Style="{StaticResource App.ToolButtonToggle}"
+                                  ToolTip="Sublinhado (Ctrl+U)" Click="OnToggleUnderline">
+                        <TextBlock Text="S" TextDecorations="Underline" FontSize="12" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar imagem"
+                                  IsChecked="{Binding IsImagePending}" Click="OnAddImageTool">
+                        <Image Source="{StaticResource Icon.Image}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar linha"
+                                  IsChecked="{Binding IsLineTool}" Click="OnToggleLineTool">
+                        <Image Source="{StaticResource Icon.Line}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar retângulo"
+                                  IsChecked="{Binding IsRectangleTool}" Click="OnToggleRectangleTool">
+                        <Image Source="{StaticResource Icon.Rect}" Width="18" Height="18" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar elipse"
+                                  IsChecked="{Binding IsEllipseTool}" Click="OnToggleEllipseTool">
+                        <Image Source="{StaticResource Icon.Ellipse}" Width="18" Height="18" />
+                    </ToggleButton>
+<ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar triângulo"
+                              IsChecked="{Binding IsTriangleTool}" Click="OnToggleTriangleTool">
+                        <TextBlock Text="△" FontSize="16" FontWeight="Bold" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar curva suave"
+                                  IsChecked="{Binding IsCurveTool}" Click="OnToggleCurveTool">
+                        <TextBlock Text="∿" FontSize="16" FontWeight="Bold" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar arco"
+                                  IsChecked="{Binding IsArcTool}" Click="OnToggleArcTool">
+                        <TextBlock Text="⌒" FontSize="16" FontWeight="Bold" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar arco de elipse"
+                                  IsChecked="{Binding IsEllipseArcTool}" Click="OnToggleEllipseArcTool">
+                        <TextBlock Text="◜" FontSize="16" FontWeight="Bold" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Adicionar retângulo arredondado"
+                                  IsChecked="{Binding IsRoundedRectangleTool}" Click="OnToggleRoundedRectangleTool">
+                        <TextBlock Text="▢" FontSize="16" FontWeight="Bold" />
+                    </ToggleButton>
+                    <ToggleButton Style="{StaticResource App.ToolButtonToggle}" ToolTip="Régua (medir distância)"
+                                  IsChecked="{Binding IsMeasureTool}" Click="OnToggleMeasureTool">
+                        <TextBlock Text="📏" FontSize="14" />
+                    </ToggleButton>
+
+                    <!-- Profundidade -->
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Trazer para a frente" Command="{Binding BringToFrontCommand}">
+                        <Image Source="{StaticResource Icon.Front}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Enviar para trás" Command="{Binding SendToBackCommand}">
+                        <Image Source="{StaticResource Icon.Back}" Width="18" Height="18" />
+                    </Button>
+                </StackPanel>
+            </Border>
+        </DockPanel>
+
+        <!-- ======================= BARRA DE CLASSES DE ELEMENTOS (estilo CADE-SIMU) ======================= -->
+        <DockPanel DockPanel.Dock="Top" Visibility="{Binding ElementToolbar.IsVisible, Converter={StaticResource BoolToVis}}">
+            <!-- Barra de classes (seletor de modo + ícones das classes) -->
+            <Border DockPanel.Dock="Top"
+                    Background="{DynamicResource App.Panel.Header}"
+                    BorderBrush="{DynamicResource App.Divider}"
+                    BorderThickness="0,1,0,0"
+                    Padding="4,2">
+                <DockPanel>
+                    <!-- Seletor de modo: Elétrica / Fluidos -->
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Left" VerticalAlignment="Center" Margin="0,0,6,0">
+                        <ToggleButton Style="{StaticResource App.ToolButtonToggle}"
+                                      IsChecked="{Binding ElementToolbar.IsEletricaMode, Mode=OneWay}"
+                                      Click="OnEletricaModeClick"
+                                      Content="Elétrica" ToolTip="Elétrica + Lógica"
+                                      Width="Auto" Height="28" Padding="8,0" Margin="0,0,2,0" />
+                        <ToggleButton Style="{StaticResource App.ToolButtonToggle}"
+                                      IsChecked="{Binding ElementToolbar.IsFluidosMode, Mode=OneWay}"
+                                      Click="OnFluidosModeClick"
+                                      Content="Fluidos" ToolTip="Pneumática + Hidráulica"
+                                      Width="Auto" Height="28" Padding="8,0" />
+                    </StackPanel>
+                    <Rectangle DockPanel.Dock="Left" Style="{StaticResource App.ToolSeparator}" Margin="0,2,6,2" />
+                    <!-- Opções de estilo de desenho (à direita da barra de classes) -->
+                    <Border x:Name="DrawToolStyleFlyout"
+                            DockPanel.Dock="Right"
+                            Visibility="Collapsed"
+                            VerticalAlignment="Center"
+                            Margin="8,0,4,0">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Linha:" VerticalAlignment="Center" Margin="0,0,4,0"
+                                       FontSize="10" FontWeight="SemiBold" Foreground="{DynamicResource App.Text.Secondary}" />
+                            <Button x:Name="BtnStyleSolid" Click="OnDrawToolStyleSolid"
+                                    Padding="6,1" Margin="1,0" FontSize="10" MinWidth="28"
+                                    ToolTip="Linha sólida">
+                                <TextBlock Text="━━━" />
+                            </Button>
+                            <Button x:Name="BtnStyleDashed" Click="OnDrawToolStyleDashed"
+                                    Padding="6,1" Margin="1,0" FontSize="10" MinWidth="28"
+                                    ToolTip="Linha tracejada">
+                                <TextBlock Text="╌╌╌" />
+                            </Button>
+                            <Button x:Name="BtnStyleDotted" Click="OnDrawToolStyleDotted"
+                                    Padding="6,1" Margin="1,0" FontSize="10" MinWidth="28"
+                                    ToolTip="Linha pontilhada">
+                                <TextBlock Text="···" />
+                            </Button>
+                            <Button x:Name="BtnStyleDashDot" Click="OnDrawToolStyleDashDot"
+                                    Padding="6,1" Margin="1,0" FontSize="10" MinWidth="28"
+                                    ToolTip="Linha traço-ponto">
+                                <TextBlock Text="─·─" />
+                            </Button>
+                            <Border Width="1" Height="16" Background="{DynamicResource App.Divider}" Margin="6,0" />
+                            <TextBlock Text="Espessura:" VerticalAlignment="Center" Margin="0,0,4,0"
+                                       FontSize="10" FontWeight="SemiBold" Foreground="{DynamicResource App.Text.Secondary}" />
+                            <Button x:Name="BtnThickThin" Click="OnDrawToolThickThin"
+                                    Padding="6,1" Margin="1,0" MinWidth="28"
+                                    ToolTip="Fino (0.07 mm)">
+                                <Ellipse Width="1.5" Height="10" Fill="Black" />
+                            </Button>
+                            <Button x:Name="BtnThickDefault" Click="OnDrawToolThickDefault"
+                                    Padding="6,1" Margin="1,0" MinWidth="28"
+                                    ToolTip="Padrão (0.29 mm)">
+                                <Ellipse Width="3.5" Height="10" Fill="Black" />
+                            </Button>
+                            <Button x:Name="BtnThickThick" Click="OnDrawToolThickThick"
+                                    Padding="6,1" Margin="1,0" MinWidth="28"
+                                    ToolTip="Grosso (1.0 mm)">
+                                <Ellipse Width="7" Height="10" Fill="Black" />
+                            </Button>
+                            <Border Width="1" Height="16" Background="{DynamicResource App.Divider}" Margin="6,0" />
+                            <!-- COR -->
+                            <TextBlock Text="Cor:" VerticalAlignment="Center" Margin="0,0,4,0"
+                                       FontSize="10" FontWeight="SemiBold" Foreground="{DynamicResource App.Text.Secondary}" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#000000"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#000000" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#FF0000"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#FF0000" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#00AA00"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#00AA00" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#0000FF"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#0000FF" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#FFFF00"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#FFFF00" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#FF8800"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#FF8800" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#808080"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#808080" />
+                            <Border Width="16" Height="16" Margin="1" CornerRadius="3" Background="#FFFFFF"
+                                    BorderBrush="{DynamicResource App.Divider}" BorderThickness="1"
+                                    Cursor="Hand" MouseLeftButtonDown="OnDrawingColorClick" Tag="#FFFFFF" />
+                            <Button Content="Mais…" Margin="3,0,0,0" Padding="6,1" FontSize="10" Height="22" Width="Auto"
+                                    Style="{StaticResource App.ToolButton}" Click="OnDrawingMoreColors" />
+                        </StackPanel>
+                    </Border>
+                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                        <ItemsControl ItemsSource="{Binding ElementToolbar.Classes}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal" />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Button ToolTip="{Binding ToolTip}"
+                                            Click="OnClassButtonClick"
+                                            Tag="{Binding}"
+                                            Width="34" Height="28" Margin="1,0">
+                                        <Button.Style>
+                                            <Style TargetType="{x:Type Button}" BasedOn="{StaticResource App.ToolButton}">
+                                                <Style.Triggers>
+                                                    <!-- Classe marcada (selecionada) -->
+                                                    <DataTrigger Binding="{Binding IsSelected}" Value="True">
+                                                        <Setter Property="Background" Value="{DynamicResource App.Accent.Soft}" />
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+                                        <Image Source="{Binding IconKey, Converter={StaticResource IconKeyToImage}}"
+                                               Width="20" Height="20" />
+                                    </Button>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+
+            <!-- Barra de elementos da classe selecionada (apenas símbolos) -->
+            <Border Background="{DynamicResource App.Panel.Background}"
+                    BorderBrush="{DynamicResource App.Divider}"
+                    BorderThickness="0,1,0,0"
+                    Padding="4,2">
+                <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                        <ItemsControl ItemsSource="{Binding ElementToolbar.SelectedClassElements}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Horizontal" />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Margin="2" Padding="4,2" CornerRadius="4"
+                                            Cursor="Hand"
+                                            ToolTip="{Binding ToolTip}"
+                                            MouseLeftButtonDown="OnElementDragStart"
+                                            MouseLeftButtonUp="OnElementBarClick"
+                                            MouseMove="OnElementBarMove"
+                                            Tag="{Binding}">
+                                        <Border.Style>
+                                            <Style TargetType="{x:Type Border}">
+                                                <Setter Property="Background" Value="{DynamicResource App.Panel.Background}" />
+                                                <Setter Property="BorderBrush" Value="{DynamicResource App.Divider}" />
+                                                <Setter Property="BorderThickness" Value="1" />
+                                                <Style.Triggers>
+                                                    <!-- Arrastável marcado (hover) -->
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter Property="Background" Value="{DynamicResource App.Hover}" />
+                                                        <Setter Property="BorderBrush" Value="{DynamicResource App.Accent}" />
+                                                    </Trigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Border.Style>
+                                        <Image Source="{Binding PreviewImage}" Width="28" Height="28"
+                                               Stretch="Uniform"
+                                               RenderOptions.BitmapScalingMode="HighQuality" />
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+            </Border>
+        </DockPanel>
+
+        <!-- ======================= BARRA DE STATUS ======================= -->
+        <Border DockPanel.Dock="Bottom" Style="{StaticResource App.StatusBar}">
+            <DockPanel>
+                <TextBlock DockPanel.Dock="Left" Text="{Binding StatusMessage}"
+                           Foreground="{DynamicResource App.Text.Secondary}"
+                           FontSize="11" VerticalAlignment="Center" />
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <TextBlock Text="{Binding ElementToolbar.ModeStatus}"
+                               Foreground="{DynamicResource App.Text.Secondary}"
+                               FontSize="11" Margin="8,0" VerticalAlignment="Center" />
+                    <Rectangle Width="1" Fill="{DynamicResource App.Divider}" Margin="4,3" />
+                    <TextBlock Text="{Binding CursorPosition}"
+                               Foreground="{DynamicResource App.Text.Primary}"
+                               FontSize="11" Margin="12,0" VerticalAlignment="Center" />
+                    <Rectangle Width="1" Fill="{DynamicResource App.Divider}" Margin="4,3" />
+                    <TextBlock Text="{Binding ZoomPercent}"
+                               Foreground="{DynamicResource App.Text.Primary}"
+                               FontSize="11" Margin="8,0,4,0" VerticalAlignment="Center" />
+                    <Rectangle Width="1" Fill="{DynamicResource App.Divider}" Margin="4,3" />
+                    <TextBlock Text="{Binding ScaleStatus}"
+                               Foreground="{DynamicResource App.Text.Primary}"
+                               FontSize="11" Margin="8,0,4,0" VerticalAlignment="Center" />
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <!-- ======================= ÁREA PRINCIPAL (docks esquerdo/direito + folha) ======================= -->
+        <Grid Background="{DynamicResource App.Background}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="{Binding IsLeftPanelVisible, Converter={StaticResource BoolToGridLength}, ConverterParameter=230}" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="{Binding IsRightPanelVisible, Converter={StaticResource BoolToGridLength}, ConverterParameter=300}" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Painel esquerdo: Projeto + Elementos (ocultável para dar espaço à folha) -->
+            <Border Grid.Column="0"
+                    Visibility="{Binding IsLeftPanelVisible, Converter={StaticResource BoolToVis}}"
+                    Background="{DynamicResource App.Panel.Background}"
+                    BorderBrush="{DynamicResource App.Divider}"
+                    BorderThickness="0,0,1,0">
+                <Grid>
+                    <TabControl Background="Transparent" BorderThickness="0" ItemContainerStyle="{StaticResource App.PanelTabItem}">
+                    <TabItem Header="Projetos">
+                        <DockPanel>
+                            <!-- Botão novo projeto -->
+                            <Button DockPanel.Dock="Top" Margin="6,6,6,4"
+                                    Style="{StaticResource App.ToolButton}"
+                                    ToolTip="Criar novo projeto"
+                                    HorizontalAlignment="Stretch"
+                                    Click="OnNewProjectFromPanel">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+                                    <Image Source="{StaticResource Icon.New}" Width="14" Height="14" Margin="0,0,6,0" />
+                                    <TextBlock Text="Novo projeto" VerticalAlignment="Center" />
+                                </StackPanel>
+                            </Button>
+
+                            <!-- Lista de projetos (lista, não árvore) -->
+                            <Grid Margin="4,0">
+                                <TextBlock Text="Nenhum projeto encontrado.&#x0a;Clique em 'Novo projeto' para começar."
+                                           Foreground="{DynamicResource App.Text.Muted}"
+                                           TextAlignment="Center"
+                                           VerticalAlignment="Center"
+                                           HorizontalAlignment="Center"
+                                           TextWrapping="Wrap">
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="Visibility" Value="Collapsed" />
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding Items.Count, ElementName=ProjectListBox}" Value="0">
+                                                    <Setter Property="Visibility" Value="Visible" />
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                                <ListBox x:Name="ProjectListBox"
+                                         Background="Transparent" BorderThickness="0"
+                                         ItemsSource="{Binding ProjectList.Projects}"
+                                     SelectedItem="{Binding ProjectList.SelectedProject, Mode=TwoWay}"
+                                     HorizontalContentAlignment="Stretch"
+                                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                     PreviewMouseRightButtonDown="OnProjectListRightButtonDown"
+                                     MouseDoubleClick="OnProjectListDoubleClick"
+                                     KeyDown="OnProjectListKeyDown">
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                        <Setter Property="Padding" Value="2,1" />
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" Margin="2,1">
+                                            <!-- Nome do projeto (quando NÃO está editando) -->
+                                            <TextBlock Text="{Binding Name}"
+                                                       FontWeight="Normal"
+                                                       VerticalAlignment="Center"
+                                                       TextTrimming="CharacterEllipsis"
+                                                       MaxWidth="150"
+                                                       ToolTip="{Binding Name}">
+                                                <TextBlock.Style>
+                                                    <Style TargetType="TextBlock">
+                                                        <Setter Property="Visibility" Value="Visible" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsEditing}" Value="True">
+                                                                <Setter Property="Visibility" Value="Collapsed" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </TextBlock.Style>
+                                            </TextBlock>
+                                            <!-- TextBox de renomear (quando ESTÁ editando) -->
+                                            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+                                                     MinWidth="100"
+                                                     MaxWidth="180"
+                                                     VerticalContentAlignment="Center"
+                                                     LostFocus="OnProjectRenameLostFocus"
+                                                     KeyDown="OnProjectRenameKeyDown">
+                                                <TextBox.Style>
+                                                    <Style TargetType="TextBox" BasedOn="{StaticResource App.TextBox}">
+                                                        <Setter Property="Visibility" Value="Collapsed" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsEditing}" Value="True">
+                                                                <Setter Property="Visibility" Value="Visible" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </TextBox.Style>
+                                            </TextBox>
+                                            <!-- Data em fonte menor -->
+                                            <TextBlock Text="{Binding DateDisplay}"
+                                                       FontSize="10"
+                                                       Foreground="{DynamicResource App.Text.Muted}"
+                                                       Margin="6,0,0,0"
+                                                       VerticalAlignment="Center"
+                                                       ToolTip="{Binding LastModifiedAt, StringFormat='Última modificação: {0:dd/MM/yyyy HH:mm}'}" />
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                            </Grid>
+                        </DockPanel>
+                    </TabItem>
+                    <TabItem Header="Elementos">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="*" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+
+                            <!-- Busca -->
+                            <TextBox Grid.Row="0" Style="{StaticResource App.TextBox}" Margin="6,6,6,4"
+                                     Text="{Binding Palette.SearchText, UpdateSourceTrigger=PropertyChanged}"
+                                     ToolTip="Filtrar elementos por nome ou categoria" />
+
+                            <!-- Árvore de domínios → classes → elementos com ícones e arrasto -->
+                            <TreeView Grid.Row="1" Margin="4,0"
+                                      x:Name="PaletteTreeView"
+                                      ItemsSource="{Binding Palette.PaletteTree}"
+                                      SelectedItemChanged="OnPaletteTreeSelected"
+                                      Visibility="{Binding Palette.IsBrowsing, Converter={StaticResource BoolToVis}}"
+                                      Background="Transparent" BorderThickness="0"
+                                      AllowDrop="True"
+                                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                      PreviewMouseLeftButtonDown="OnPaletteTreeMouseDown"
+                                      PreviewMouseMove="OnPaletteTreeMouseMove">
+                                <TreeView.Resources>
+                                    <HierarchicalDataTemplate DataType="{x:Type vm:PaletteTreeNode}" ItemsSource="{Binding Children}">
+                                        <StackPanel Orientation="Horizontal" Margin="1,1">
+                                            <!-- Ícone da pasta/classe (oculto para folhas de elemento) -->
+                                            <Image Source="{Binding IconKey, Converter={StaticResource IconKeyToImage}}"
+                                                   Width="16" Height="16" Margin="0,0,4,0"
+                                                   Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality">
+                                                <Image.Style>
+                                                    <Style TargetType="Image">
+                                                        <Setter Property="Visibility" Value="Visible" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IconKey}" Value="{x:Null}">
+                                                                <Setter Property="Visibility" Value="Collapsed" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Image.Style>
+                                            </Image>
+                                            <!-- Símbolo do elemento (oculto para pastas) -->
+                                            <Image Source="{Binding Preview}" Width="16" Height="16" Margin="0,0,4,0"
+                                                   Stretch="Uniform" RenderOptions.BitmapScalingMode="HighQuality">
+                                                <Image.Style>
+                                                    <Style TargetType="Image">
+                                                        <Setter Property="Visibility" Value="Visible" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding Preview}" Value="{x:Null}">
+                                                                <Setter Property="Visibility" Value="Collapsed" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Image.Style>
+                                            </Image>
+                                            <TextBlock Text="{Binding Name}" Margin="2,0,0,0" FontSize="11"
+                                                       VerticalAlignment="Center" TextTrimming="CharacterEllipsis"
+                                                       MaxWidth="150" ToolTip="{Binding Name}">
+                                                <TextBlock.Style>
+                                                    <Style TargetType="TextBlock">
+                                                        <Setter Property="FontWeight" Value="Normal" />
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding IsRoot}" Value="True">
+                                                                <Setter Property="FontWeight" Value="Bold" />
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </TextBlock.Style>
+                                            </TextBlock>
+                                        </StackPanel>
+                                    </HierarchicalDataTemplate>
+                                </TreeView.Resources>
+                                <TreeView.ItemContainerStyle>
+                                    <Style TargetType="{x:Type TreeViewItem}" BasedOn="{StaticResource App.TreeViewItem}" />
+                                </TreeView.ItemContainerStyle>
+                            </TreeView>
+
+                            <!-- Status da biblioteca -->
+                            <TextBlock Grid.Row="2" Text="{Binding Palette.LoadMessage}"
+                                       Foreground="{DynamicResource App.Text.Muted}"
+                                       FontSize="10" Margin="8,4" TextWrapping="Wrap" />
+
+                            <!-- Resultados da busca (quadradinhos menores, estilo CADe-SIMU) -->
+                            <ListBox Grid.Row="1" Margin="4,0,4,6"
+                                     ItemsSource="{Binding Palette.VisibleElements}"
+                                     SelectedItem="{Binding Palette.SelectedElement}"
+                                     Visibility="{Binding Palette.IsSearching, Converter={StaticResource BoolToVis}}"
+                                     Background="Transparent" BorderThickness="0"
+                                     ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="{x:Type ListBoxItem}">
+                                        <Setter Property="Foreground" Value="{DynamicResource App.Text.Primary}" />
+                                        <Setter Property="Padding" Value="4" />
+                                        <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                                        <Style.Triggers>
+                                            <Trigger Property="IsSelected" Value="True">
+                                                <Setter Property="Background" Value="{DynamicResource App.Accent.Soft}" />
+                                            </Trigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+                                <ListBox.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <WrapPanel Margin="2" />
+                                    </ItemsPanelTemplate>
+                                </ListBox.ItemsPanel>
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Margin="2" Padding="4" CornerRadius="4"
+                                                Background="{DynamicResource App.Panel.Background}"
+                                                BorderBrush="{DynamicResource App.Divider}"
+                                                BorderThickness="1">
+                                            <StackPanel HorizontalAlignment="Center">
+                                                <Image Source="{Binding Preview}" Width="36" Height="36"
+                                                       Margin="0,0,0,4" Stretch="Uniform" />
+                                                <TextBlock Text="{Binding Name}" TextWrapping="Wrap"
+                                                           HorizontalAlignment="Center" FontSize="10"
+                                                           MaxWidth="64" TextAlignment="Center" />
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+                        </Grid>
+                    </TabItem>
+                </TabControl>
+                    <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,4,4,0"
+                            Style="{StaticResource App.ToolButton}"
+                            ToolTip="Fechar painel esquerdo (reabrir pelo menu Exibir)"
+                            Command="{Binding ToggleLeftPanelCommand}">
+                        <Image Source="{StaticResource Icon.Close}" Width="12" Height="12" />
+                    </Button>
+                </Grid>
+            </Border>
+
+            <!-- Centro: abas de folhas + folha de desenho -->
+            <Grid Grid.Column="1" Background="{DynamicResource App.Panel.Background}">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" Background="{DynamicResource App.Panel.Header}"
+                        BorderBrush="{DynamicResource App.Divider}" BorderThickness="0,0,0,1"
+                        Height="36">
+                    <DockPanel LastChildFill="True" VerticalAlignment="Bottom">
+                        <TabControl Background="Transparent" BorderThickness="0"
+                                    ItemsSource="{Binding Pages}" SelectedIndex="{Binding ActivePageIndex}"
+                                    PreviewMouseRightButtonUp="OnSheetTabRightClick"
+                                    VerticalAlignment="Bottom">
+                            <TabControl.Template>
+                                <ControlTemplate TargetType="{x:Type TabControl}">
+                                    <ScrollViewer HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Disabled">
+                                        <StackPanel Orientation="Horizontal">
+                                            <TabPanel x:Name="HeaderPanel" IsItemsHost="true"
+                                                      Panel.ZIndex="1" Margin="4,0,0,0" />
+                                            <Button ToolTip="Nova folha (Ctrl+T)"
+                                                    Command="{Binding DataContext.AddPageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                                                    Width="28" Height="28"
+                                                    Margin="-1,0,0,-1"
+                                                    VerticalAlignment="Bottom"
+                                                    FocusVisualStyle="{x:Null}"
+                                                    Cursor="Hand">
+                                                <Button.Template>
+                                                    <ControlTemplate TargetType="Button">
+                                                        <Border x:Name="Bd"
+                                                                Background="{DynamicResource App.Panel.Background}"
+                                                                BorderBrush="{DynamicResource App.Divider}"
+                                                                BorderThickness="1,1,1,0"
+                                                                CornerRadius="4,4,0,0"
+                                                                Padding="0">
+                                                            <TextBlock Text="+" FontSize="14" FontWeight="Bold"
+                                                                       Foreground="{DynamicResource App.Text.Secondary}"
+                                                                       HorizontalAlignment="Center" VerticalAlignment="Center" />
+                                                        </Border>
+                                                        <ControlTemplate.Triggers>
+                                                            <Trigger Property="IsMouseOver" Value="True">
+                                                                <Setter TargetName="Bd" Property="Background" Value="{DynamicResource App.Hover}" />
+                                                            </Trigger>
+                                                        </ControlTemplate.Triggers>
+                                                    </ControlTemplate>
+                                                </Button.Template>
+                                            </Button>
+                                        </StackPanel>
+                                    </ScrollViewer>
+                                </ControlTemplate>
+                            </TabControl.Template>
+                            <TabControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid ToolTip="{Binding Name}">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*" />
+                                            <ColumnDefinition Width="Auto" />
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Text="{Binding Name}" MaxWidth="130" TextTrimming="CharacterEllipsis" VerticalAlignment="Center" Margin="0,0,8,0" />
+                                        <Button Grid.Column="1" Content="✕" Width="16" Height="16" FontSize="10"
+                                                Background="Transparent" BorderThickness="0" VerticalAlignment="Center"
+                                                Cursor="Hand" Foreground="{DynamicResource App.Text.Secondary}"
+                                                Command="{Binding DataContext.DeletePageCommand, RelativeSource={RelativeSource AncestorType={x:Type TabControl}}}" CommandParameter="{Binding}">
+                                            <Button.Template>
+                                                <ControlTemplate TargetType="Button">
+                                                    <Border Background="{TemplateBinding Background}" CornerRadius="2">
+                                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                    </Border>
+                                                    <ControlTemplate.Triggers>
+                                                        <Trigger Property="IsMouseOver" Value="True">
+                                                            <Setter Property="Background" Value="#33000000" />
+                                                            <Setter Property="Foreground" Value="Red" />
+                                                        </Trigger>
+                                                    </ControlTemplate.Triggers>
+                                                </ControlTemplate>
+                                            </Button.Template>
+                                        </Button>
+                                    </Grid>
+                                </DataTemplate>
+                            </TabControl.ItemTemplate>
+                            <TabControl.ItemContainerStyle>
+                                <Style TargetType="{x:Type TabItem}">
+                                    <Setter Property="Foreground" Value="{DynamicResource App.Text.Secondary}" />
+                                    <Setter Property="Padding" Value="12,0" />
+                                    <Setter Property="Height" Value="28" />
+                                    <Setter Property="Margin" Value="-1,0,0,-1" />
+                                    <Setter Property="VerticalAlignment" Value="Bottom" />
+                                    <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+                                    <Setter Property="Cursor" Value="Hand" />
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type TabItem}">
+                                                <Border x:Name="Bd"
+                                                        Background="Transparent"
+                                                        BorderBrush="{DynamicResource App.Divider}"
+                                                        BorderThickness="0"
+                                                        CornerRadius="5,5,0,0"
+                                                        Padding="{TemplateBinding Padding}"
+                                                        Margin="{TemplateBinding Margin}">
+                                                    <ContentPresenter ContentSource="Header"
+                                                                      HorizontalAlignment="Center"
+                                                                      VerticalAlignment="Center" />
+                                                </Border>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsSelected" Value="True">
+                                                        <Setter TargetName="Bd" Property="Background" Value="{DynamicResource App.Background}" />
+                                                        <Setter TargetName="Bd" Property="BorderBrush" Value="{DynamicResource App.Divider}" />
+                                                        <Setter TargetName="Bd" Property="BorderThickness" Value="1,1,1,0" />
+                                                        <Setter Property="Foreground" Value="{DynamicResource App.Text.Primary}" />
+                                                        <Setter Property="FontWeight" Value="SemiBold" />
+                                                    </Trigger>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+                                                        <Setter TargetName="Bd" Property="Background" Value="{DynamicResource App.Hover}" />
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </TabControl.ItemContainerStyle>
+                        </TabControl>
+                    </DockPanel>
+                </Border>
+                <controls:SheetViewport Grid.Row="1" x:Name="Sheet"
+                                        AllowDrop="True" Drop="OnSheetDrop" DragOver="OnSheetDragOver" />
+
+            </Grid>
+
+            <!-- Painel direito: Propriedades + Desfazer (ocultável para dar espaço à folha) -->
+            <Border Grid.Column="2"
+                    Visibility="{Binding IsRightPanelVisible, Converter={StaticResource BoolToVis}}"
+                    Background="{DynamicResource App.Panel.Background}"
+                    BorderBrush="{DynamicResource App.Divider}"
+                    BorderThickness="1,0,0,0">
+                <Grid>
+                    <TabControl Background="Transparent" BorderThickness="0" ItemContainerStyle="{StaticResource App.PanelTabItem}">
+                    <TabItem Header="Legendas">
+                        <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="12,10">
+                            <StackPanel>
+                                <TextBlock Text="LEGENDA" Style="{StaticResource App.SectionHeader}" />
+                                <TextBlock Text="Edite o rótulo (nome) de cada campo da legenda."
+                                           Foreground="{DynamicResource App.Text.Muted}" FontSize="10" TextWrapping="Wrap" Margin="0,2,0,0" />
+                                <Grid Margin="0,6,0,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" MinWidth="96" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
+
+                                    <TextBlock Text="Autor" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBox Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                             Text="{Binding ActivePage.TitleBlock.AuthorLabel, UpdateSourceTrigger=LostFocus}" LostFocus="OnFolhaEdited" />
+
+                                    <TextBlock Grid.Row="1" Text="Rev. por" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBox Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                             Text="{Binding ActivePage.TitleBlock.ReviewedByLabel, UpdateSourceTrigger=LostFocus}" LostFocus="OnFolhaEdited" />
+
+                                    <TextBlock Grid.Row="2" Text="Aprov. por" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBox Grid.Row="2" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                             Text="{Binding ActivePage.TitleBlock.ApprovedByLabel, UpdateSourceTrigger=LostFocus}" LostFocus="OnFolhaEdited" />
+
+                                    <TextBlock Grid.Row="3" Text="Escala" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBlock Grid.Row="3" Grid.Column="1"
+                                               Text="{Binding ActivePage.TitleBlock.ScaleLabel}"
+                                               Style="{StaticResource App.FieldValueText}" Margin="0,3"
+                                               Foreground="{DynamicResource App.Text.Muted}" />
+
+                                    <TextBlock Grid.Row="4" Text="Empreendimento" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBox Grid.Row="4" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                             Text="{Binding ActivePage.TitleBlock.CompanyLabel, UpdateSourceTrigger=LostFocus}" LostFocus="OnFolhaEdited" />
+
+                                    <TextBlock Grid.Row="5" Text="Descrição do desenho" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBox Grid.Row="5" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                             Text="{Binding ActivePage.TitleBlock.DescriptionLabel, UpdateSourceTrigger=LostFocus}" LostFocus="OnFolhaEdited" />
+
+                                    <TextBlock Grid.Row="6" Text="Registro - n° do desenho" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBox Grid.Row="6" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                             Text="{Binding ActivePage.TitleBlock.DrawingNumberLabel, UpdateSourceTrigger=LostFocus}" LostFocus="OnFolhaEdited" />
+
+                                    <TextBlock Grid.Row="7" Text="Rev" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBox Grid.Row="7" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                             Text="{Binding ActivePage.TitleBlock.RevisionLabel, UpdateSourceTrigger=LostFocus}" LostFocus="OnFolhaEdited" />
+
+                                    <TextBlock Grid.Row="8" Text="Página" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBlock Grid.Row="8" Grid.Column="1"
+                                               Text="{Binding ActivePage.TitleBlock.SheetLabel}"
+                                               Style="{StaticResource App.FieldValueText}" Margin="0,3"
+                                               Foreground="{DynamicResource App.Text.Muted}" />
+
+                                    <TextBlock Grid.Row="9" Text="De total de páginas" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                    <TextBlock Grid.Row="9" Grid.Column="1"
+                                               Text="{Binding ActivePage.TitleBlock.TotalSheetsLabel}"
+                                               Style="{StaticResource App.FieldValueText}" Margin="0,3"
+                                               Foreground="{DynamicResource App.Text.Muted}" />
+                                </Grid>
+
+                                <!-- Sem seleção: propriedades da folha -->
+                                <StackPanel Visibility="{Binding SelectionType, Converter={StaticResource SelectionToNoneVis}}">
+                                    <TextBlock Text="FOLHA" Style="{StaticResource App.SectionHeader}" Margin="0,16,0,0" />
+                                    <Grid Margin="0,6,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="96" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                            <RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="Nome" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                                 Text="{Binding ActivePage.Name, UpdateSourceTrigger=PropertyChanged}" />
+                                        <TextBlock Grid.Row="1" Text="Tamanho" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding ActivePage.Settings.Size}" Style="{StaticResource App.FieldValueText}" Margin="0,3" />
+                                        <TextBlock Grid.Row="2" Text="Moldura" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBlock Grid.Row="2" Grid.Column="1" Text="Visível" Style="{StaticResource App.FieldValueText}" Margin="0,3" />
+                                        <TextBlock Grid.Row="3" Text="Dimensões" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBlock Grid.Row="3" Grid.Column="1"
+                                                   Text="{Binding ActivePage.Settings.Width, StringFormat={}{0:0} x }" Style="{StaticResource App.FieldValueText}" Margin="0,3" />
+                                    </Grid>
+                                </StackPanel>
+
+                                <!-- Elemento selecionado: propriedades do elemento -->
+                                <StackPanel Visibility="{Binding SelectionType, Converter={StaticResource SelectionToElementVis}}"
+                                            x:Name="ElementPropsPanel">
+                                    <TextBlock Text="ELEMENTO" Style="{StaticResource App.SectionHeader}" />
+                                    <Grid Margin="0,6,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="96" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition /><RowDefinition /><RowDefinition />
+                                            <RowDefinition /><RowDefinition /><RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="Etiqueta" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="ElLabel" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                                 Text="{Binding ElementLabel, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                                        <TextBlock Grid.Row="1" Text="Comentário" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="ElComment" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                                 Text="{Binding ElementComment, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                                        <TextBlock Grid.Row="2" Text="Função" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox Grid.Row="2" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                                 Text="{Binding ElementFunction, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                                        <TextBlock Grid.Row="3" Text="Descrição" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox Grid.Row="3" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                                 Text="{Binding ElementDescription, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                                        <TextBlock Grid.Row="4" Text="Fabricante" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox Grid.Row="4" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                                 Text="{Binding ElementManufacturer, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                                        <TextBlock Grid.Row="5" Text="Designação" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox Grid.Row="5" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3"
+                                                 Text="{Binding ElementDesignation, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}" />
+                                    </Grid>
+                                    <TextBlock Text="Tipo de vínculo" Style="{StaticResource App.FieldLabel}" Margin="0,8,0,3" />
+                                    <TextBlock x:Name="ElLinkType" Style="{StaticResource App.FieldValueText}" TextWrapping="Wrap" />
+                                </StackPanel>
+
+                                <!-- Condutor selecionado: propriedades do condutor -->
+                                <StackPanel Visibility="{Binding SelectionType, Converter={StaticResource SelectionToConductorVis}}"
+                                            x:Name="ConductorPropsPanel">
+                                    <TextBlock Text="CONDUTOR" Style="{StaticResource App.SectionHeader}" />
+                                    <Grid Margin="0,6,0,0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="96" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition /><RowDefinition /><RowDefinition />
+                                            <RowDefinition /><RowDefinition /><RowDefinition />
+                                            <RowDefinition /><RowDefinition />
+                                        </Grid.RowDefinitions>
+                                        <TextBlock Text="Número" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="CondText" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                                        <TextBlock Grid.Row="1" Text="Fórmula" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="CondFormula" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                                        <TextBlock Grid.Row="2" Text="Cor" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <ComboBox x:Name="CondColor" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,3" />
+                                        <TextBlock Grid.Row="3" Text="Espessura" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="CondWidth" Grid.Row="3" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                                        <TextBlock Grid.Row="4" Text="Seção" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="CondSection" Grid.Row="4" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                                        <TextBlock Grid.Row="5" Text="Cabo" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="CondCable" Grid.Row="5" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                                        <TextBlock Grid.Row="6" Text="Função" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                                        <TextBox x:Name="CondFunction" Grid.Row="6" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                                        <CheckBox x:Name="CondDisplay" Grid.Row="7" Grid.Column="1" Content="Exibir número"
+                                                  Style="{StaticResource App.CheckBox}" Margin="0,4" />
+                                    </Grid>
+                                </StackPanel>
+                            </StackPanel>
+                        </ScrollViewer>
+                    </TabItem>
+                </TabControl>
+                    <Button HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,4,4,0"
+                            Style="{StaticResource App.ToolButton}"
+                            ToolTip="Fechar painel direito (reabrir pelo menu Exibir)"
+                            Command="{Binding ToggleRightPanelCommand}">
+                        <Image Source="{StaticResource Icon.Close}" Width="12" Height="12" />
+                    </Button>
+                </Grid>
+            </Border>
+
+            <!-- Seta sutil (efeito cortina) para expandir/recolher o painel direito -->
+            <Button Grid.Column="1"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="0,0,0,0"
+                    Width="14" Height="36"
+                    Cursor="Hand"
+                    ToolTip="Expandir/recolher painel de legendas"
+                    Command="{Binding ToggleRightPanelCommand}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Transparent" />
+                        <Setter Property="BorderThickness" Value="0" />
+                        <Style.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="{DynamicResource App.Hover}" />
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+                <Grid Width="8" Height="12" VerticalAlignment="Center">
+                    <!-- Seta para esquerda (◀) — visível quando painel está recolhido (expandir) -->
+                    <Path Data="M 6 0 L 1 6 L 6 12 Z"
+                          Fill="{DynamicResource App.Text.Muted}" Opacity="0.5" Stretch="Uniform"
+                          ToolTip="Expandir painel">
+                        <Path.Style>
+                            <Style TargetType="Path">
+                                <Setter Property="Visibility" Value="Visible" />
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsRightPanelVisible}" Value="True">
+                                        <Setter Property="Visibility" Value="Collapsed" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Path.Style>
+                    </Path>
+                    <!-- Seta para direita (▶) — visível quando painel está aberto (recolher) -->
+                    <Path Data="M 2 0 L 7 6 L 2 12 Z"
+                          Fill="{DynamicResource App.Text.Muted}" Opacity="0.5" Stretch="Uniform"
+                          ToolTip="Recolher painel">
+                        <Path.Style>
+                            <Style TargetType="Path">
+                                <Setter Property="Visibility" Value="Collapsed" />
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsRightPanelVisible}" Value="True">
+                                        <Setter Property="Visibility" Value="Visible" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Path.Style>
+                    </Path>
+                </Grid>
+            </Button>
+        </Grid>
+    </DockPanel>
+</Window>

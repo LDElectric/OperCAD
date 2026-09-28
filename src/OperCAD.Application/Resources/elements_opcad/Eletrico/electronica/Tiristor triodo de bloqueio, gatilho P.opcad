@@ -1,0 +1,180 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Comando_2.opcad",
+  "id": "{a1bfd610-0ce4-cfb5-8b86-5bc01cfac3e6}",
+  "names": {
+    "ar": "ثايريستور ببوابة إطفاء GTO  P  (محكوم من جهة الكاثود)",
+    "cs": "Vypínací tyristor, P-brána (řízeno na katodě)",
+    "de": "Abschalt-Thyristortriode, P-Gate (Kathode\ngesteuert)",
+    "en": "Turn-off triode thyristor, P-gate\n(cathode-side controlled)",
+    "fr": "Thyristor triode blocable par la gâchette P\n(commandé côté cathode)",
+    "it": "Tiristore triodo bloccabile, portaP (controllato sul catodo)",
+    "nl": "Thyristor P gate",
+    "pl": "Tyrystor triodowy odłączający z bramką P",
+    "pt": "Tiristor triodo de bloqueio, gatilho P"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-04-09",
+  "width": 7.5,
+  "height": 12.975,
+  "hotspotX": 5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 1.0,
+      "y1": -1.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 1.999,
+          "y": 0.0
+        },
+        {
+          "x": 4.0,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": -10.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5,
+          "y": -7.5
+        },
+        {
+          "x": 7.5,
+          "y": -7.5
+        },
+        {
+          "x": 5.0,
+          "y": -2.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -2.5,
+      "x2": 7.5,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ea304bec-1784-4e8d-98e3-8993f47bdadb}",
+      "name": "",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c1bb5b7a-575f-4bc3-96b9-e2ccddc538aa}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c9e63b13-b158-435e-842c-df438556048d}",
+      "name": "",
+      "x": 0.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 7.5,
+      "y": -11.975,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{85aa8115-8467-4c26-8b63-f00303ea7bbb}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

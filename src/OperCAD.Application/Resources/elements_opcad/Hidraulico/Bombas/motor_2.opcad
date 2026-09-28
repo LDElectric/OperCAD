@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "motor_2.opcad",
+  "id": "{e7a03d29-54cb-bdd8-e916-5311f2618056}",
+  "names": {
+    "ar": "مُحرّك هيدروليكي 2",
+    "ca": "motor hidràulic 2",
+    "cs": "Vodní motor 2",
+    "el": "Υδραυλικός κινητήρας 2",
+    "en": "hydraulic motor 2",
+    "es": "Motor hidraulico, bidireccional, 1 eje",
+    "fr": "Moteur hydraulique 2",
+    "it": "Motore idraulico 2",
+    "nl": "Motor 2",
+    "pl": "Silnik hydrauliczny o jednym kierunku przepływu, o stałej objętości roboczej i o jednym kierunku obrotów"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 39.496,
+  "height": 28.473,
+  "hotspotX": 10.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.637667323459641,
+          "y": 3.953134252843497
+        },
+        {
+          "x": -1.3556673234596408,
+          "y": 3.953134252843497
+        },
+        {
+          "x": -2.496667323459641,
+          "y": 1.9591342528434974
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.637667323459641,
+          "y": -4.030865747156502
+        },
+        {
+          "x": -1.3556673234596408,
+          "y": -4.030865747156502
+        },
+        {
+          "x": -2.496667323459641,
+          "y": -2.034865747156503
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.3473326765403595,
+          "y": 3.0991342528434975
+        },
+        {
+          "x": 5.204332676540359,
+          "y": 2.243134252843497
+        },
+        {
+          "x": 6.061332676540359,
+          "y": 3.953134252843497
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.773667323459641,
+      "y": -4.3158657471565025,
+      "width": 8.555,
+      "height": 8.555,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.3473326765403595,
+          "y": -3.1748657471565025
+        },
+        {
+          "x": 5.204332676540359,
+          "y": -2.3188657471565026
+        },
+        {
+          "x": 6.061332676540359,
+          "y": -4.030865747156502
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 3.7783326765403586,
+      "y": -4.3158657471565025,
+      "width": 8.555,
+      "height": 8.555,
+      "start": 135,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.496667323459641,
+      "y1": 4.240134252843497,
+      "x2": -2.496667323459641,
+      "y2": 7.092134252843497,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.7813326765403592,
+      "y1": 0.24713425284349733,
+      "x2": 6.061332676540359,
+      "y2": 0.24713425284349733,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.7813326765403592,
+      "y1": -0.3228657471565026,
+      "x2": 6.061332676540359,
+      "y2": -0.3228657471565026,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.496667323459641,
+      "y1": -7.1668657471565025,
+      "x2": -2.496667323459641,
+      "y2": -4.3158657471565025,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{aa2cc7b7-e1ac-4825-bdd7-9da7d46f3932}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dc945580-a73b-4316-8cc3-5e05f9ec5bbd}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.323735435070851,
+      "y": -1.9017736180889413,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0d5e15ee-b688-49ae-b7fe-369cad51b94d}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Pressao_diferencial.opcad",
+  "id": "{a262367f-6f29-e2aa-5c18-55dc6070b170}",
+  "names": {
+    "ar": "الضغط التفاضلي",
+    "ca": "Pressió diferencial",
+    "cs": "Diferenční tlak",
+    "da": "Differenstryk",
+    "de": "Differenzdruck",
+    "el": "Διαφορική πίεση",
+    "en": "Differential Pressure",
+    "es": "Presión diferencial",
+    "fr": "Pression différentielle",
+    "hr": "Diferencijalni tlak",
+    "hu": "Nyomáskülönbség",
+    "it": "Pressione differenziale",
+    "ja": "差圧",
+    "mn": "Дифференциал даралт",
+    "nb": "Differensialtrykk",
+    "nl": "Drukverschil",
+    "pl": "Ciśnienie różnicowe",
+    "pt": "Pressão diferencial",
+    "pt_BR": "Pressão diferencial",
+    "ro": "Presiune diferențială",
+    "ru": "Перепад давления",
+    "sl": "Diferencialni tlak",
+    "sr": "Диференцијални притисак",
+    "tr": "Diferansiyel basınç"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.499,
+  "height": 21.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.0056268861454050745,
+      "y1": 1.778869684499314,
+      "x2": -0.0056268861454050745,
+      "y2": 5.054869684499314,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.270373113854595,
+      "y1": 0.46786968449931354,
+      "x2": 0.9773731138545949,
+      "y2": -1.8251303155006862,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.643626886145405,
+      "y": -4.444130315500686,
+      "width": 6.552,
+      "height": 6.551,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.6493731138545948,
+          "y": -1.1681303155006864
+        },
+        {
+          "x": 1.632373113854595,
+          "y": -2.152130315500686
+        },
+        {
+          "x": -0.0056268861454050745,
+          "y": -2.8061303155006865
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.445130315500686,
+      "y1": 4.890260631001372,
+      "x2": 2.445130315500686,
+      "y2": 2.0507544581618653,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{78768ded-c4bf-4150-b057-e591c17a8de5}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{89b5be46-f356-4d98-a0c3-8679c584e87a}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.4660205761316867,
+      "y": -7.8449931412894385,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{626bc3ce-662b-4448-9b76-fc8f3ca51dd7}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

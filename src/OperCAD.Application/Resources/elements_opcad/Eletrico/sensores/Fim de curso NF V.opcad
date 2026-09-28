@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fim_de_curso_NC_2.opcad",
+  "id": "{e60b0666-8ca2-2db1-8b64-23ef32cd4c59}",
+  "names": {
+    "ar": "مفتاح نهاية مشوار بحدبة (NC)",
+    "cs": "Koncový spínač s kladkou NC",
+    "de": "Öffner Ausschaltnocken",
+    "el": "Τερματικό, κλειστό",
+    "en": "Limitswitch (NC)",
+    "es": "Final de carrera (NC)",
+    "fr": "Fin de course  à came (NF)",
+    "it": "Finecorsa (NC)",
+    "nl": "eindschakelaar (NC)",
+    "pl": "Zestyk rozwierny łącznika krańcowego",
+    "pt": "Fim de curso NF V",
+    "ru": "Концевой контакт (НЗ)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.498,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.487347826086957,
+          "y": 3.8452608695652173
+        },
+        {
+          "x": -8.487347826086957,
+          "y": -0.2827391304347828
+        },
+        {
+          "x": -8.863347826086956,
+          "y": -1.406739130434783
+        },
+        {
+          "x": -8.863347826086956,
+          "y": -4.409739130434783
+        },
+        {
+          "x": -9.613347826086956,
+          "y": -4.409739130434783
+        },
+        {
+          "x": -9.613347826086956,
+          "y": 3.8452608695652173
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -8.675347826086956,
+      "y": -1.5957391304347828,
+      "width": 1.125,
+      "height": 1.126,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -7.549347826086956,
+      "y1": -1.0327391304347828,
+      "x2": -1.3593478260869567,
+      "y2": -1.0327391304347828,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.6083478260869568,
+          "y": -3.6587391304347827
+        },
+        {
+          "x": -2.4843478260869567,
+          "y": 3.8452608695652173
+        },
+        {
+          "x": -2.4843478260869567,
+          "y": 7.5972608695652175
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.4843478260869567,
+      "y1": -3.282739130434783,
+      "x2": -0.2343478260869567,
+      "y2": -3.282739130434783,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.4843478260869567,
+      "y1": -7.4107391304347825,
+      "x2": -2.4843478260869567,
+      "y2": -3.282739130434783,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c5824412-f03d-44a6-808f-38e12cbb260a}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1bba40f5-83a1-4434-8f91-d30529bc232a}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.5713043478260869,
+      "y": -1.889,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{eac7ab4a-6f54-4249-ac68-e607aeccb4c9}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

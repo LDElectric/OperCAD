@@ -1,0 +1,213 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "refrigeracao_de_ar_comprimido.opcad",
+  "id": "{24941f96-d0ae-2f22-2e8a-86953d674ab4}",
+  "names": {
+    "ar": "تبريد الهواء المضغوط",
+    "ca": "refrigeració per aire comprimit",
+    "cs": "chlazení stlačeným vzduchem",
+    "da": "trykluftkøling",
+    "de": "Druckluftkühlung",
+    "el": "ψύξη πεπιεσμένου αέρα",
+    "en": "compressed air cooling",
+    "es": "refrigeración por aire comprimido",
+    "fr": "refroidissement par air comprimé",
+    "hr": "hlađenje komprimiranim zrakom",
+    "hu": "sűrített levegős hűtés",
+    "it": "raffreddamento ad aria compressa",
+    "ja": "圧縮空気冷却",
+    "mn": "шахсан агаарын хөргөлт",
+    "nb": "trykkluftkjøling",
+    "nl": "persluchtkoeling",
+    "pl": "chłodzenie sprężonym powietrzem",
+    "pt": "refrigeração de ar comprimido",
+    "ro": "racire cu aer comprimat",
+    "ru": "охлаждение сжатым воздухом",
+    "sl": "hlajenje s stisnjenim zrakom",
+    "sr": "хлађење компримованим ваздухом",
+    "tr": "basınçlı hava soğutma"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.25,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -1.389,
+      "y1": -3.056,
+      "x2": -1.389,
+      "y2": 3.056,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.5,
+      "y1": 0.0,
+      "x2": 4.722,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.796,
+          "y": 2.953
+        },
+        {
+          "x": -0.982,
+          "y": 2.953
+        },
+        {
+          "x": -1.389,
+          "y": 3.971
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.389,
+          "y": -3.971
+        },
+        {
+          "x": -1.796,
+          "y": -2.953
+        },
+        {
+          "x": -0.982,
+          "y": -2.953
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.463,
+          "y": 0.0
+        },
+        {
+          "x": -1.389,
+          "y": -4.074
+        },
+        {
+          "x": 2.685,
+          "y": 0.0
+        },
+        {
+          "x": -1.389,
+          "y": 4.074
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{056574b6-1dbe-44eb-9df3-14046b6238ff}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8e7706d2-dcea-4f3c-8555-601dc914e55a}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -7.754221552985572,
+      "y": -8.858637231257262,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{bcb5894d-ddef-f4b8-b2f2-d875c2919942}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -8.014321534433579,
+      "y": -4.806833302413342,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{287938ad-1cfd-5285-690e-07d370dad0c1}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

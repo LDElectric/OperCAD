@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Motor_4.opcad",
+  "id": "{f903a4aa-ef63-c424-603d-8cc6228c5740}",
+  "names": {
+    "ar": "مضخّة محرّكة هيدروليكية 1",
+    "ca": "Motor hidràulic de la bomba 1",
+    "cs": "Čerpadlo - vodní motor 1",
+    "en": "Pump hydraulic motor 1",
+    "es": "Bomba hidráulica,volumen de trabajo ajustable, giro unidireccional",
+    "fr": "Pompe-moteur hydraulique 1",
+    "it": "Pompa idraulica motore 1",
+    "nl": "Pomp motor 1",
+    "pl": "Pompa-silnik hydrauliczny o zmiennej objętości roboczej, o jednym kierunku obrotów"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 39.496,
+  "height": 30.973,
+  "hotspotX": 10.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -7.005963787360836,
+      "y": -5.480487006082363,
+      "width": 8.957,
+      "height": 8.958,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -8.499963787360835,
+      "y1": 4.971512993917637,
+      "x2": 3.4440362126391637,
+      "y2": -6.972487006082362,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.7219637873608358,
+          "y": -1.2984870060823628
+        },
+        {
+          "x": -1.333963787360835,
+          "y": -1.2984870060823628
+        },
+        {
+          "x": -2.5269637873608364,
+          "y": -3.389487006082363
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.7219637873608358,
+          "y": -5.181487006082363
+        },
+        {
+          "x": -1.333963787360835,
+          "y": -5.181487006082363
+        },
+        {
+          "x": -2.5269637873608364,
+          "y": -3.389487006082363
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.9510362126391634,
+          "y": -6.375487006082363
+        },
+        {
+          "x": 2.8480362126391636,
+          "y": -5.480487006082363
+        },
+        {
+          "x": 3.7440362126391644,
+          "y": -7.2714870060823635
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.639036212639164,
+          "y": -4.285487006082363
+        },
+        {
+          "x": 5.535036212639165,
+          "y": -3.389487006082363
+        },
+        {
+          "x": 6.431036212639166,
+          "y": -5.181487006082363
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 4.041036212639165,
+      "y": -5.480487006082363,
+      "width": 8.958,
+      "height": 8.958,
+      "start": 135,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.9510362126391634,
+      "y1": -0.7014870060823628,
+      "x2": 6.431036212639166,
+      "y2": -0.7014870060823628,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.9510362126391634,
+      "y1": -1.2984870060823628,
+      "x2": 6.431036212639166,
+      "y2": -1.2984870060823628,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5187574821482803,
+      "y1": -7.32729449352227,
+      "x2": -2.5187574821482803,
+      "y2": -5.552715358372346,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5187574821482803,
+      "y1": 3.434669293838564,
+      "x2": -2.5187574821482803,
+      "y2": 5.037514964296561,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{2b184f8d-b613-496f-b302-4e7e0dbd1bda}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8fd3ccf3-70ad-4024-b045-a81d62ab4fc3}",
+      "name": "",
+      "x": -2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.820875599051119,
+      "y": -3.184751571011511,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{571c4eab-f69f-47a8-adda-6908d6caf26b}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

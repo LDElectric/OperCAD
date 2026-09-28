@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Separacao_manual_de_agua.opcad",
+  "id": "{08caf1cc-be3a-2552-a7b2-b0a468836c8b}",
+  "names": {
+    "ar": "فصل الماء اليدوي",
+    "ca": "Separació manual d'aigua",
+    "cs": "Ruční odlučování vody",
+    "da": "Manuel vandseparation",
+    "de": "Manuelle Wasserabscheidung",
+    "el": "Χειροκίνητος διαχωρισμός νερού",
+    "en": "Manual water separation",
+    "es": "Separación manual de agua",
+    "fr": "Séparation manuelle de l'eau",
+    "hr": "Ručno odvajanje vode",
+    "hu": "Kézi vízleválasztás",
+    "it": "Separazione manuale dell'acqua",
+    "ja": "手動水分離",
+    "mn": "Гараар ус ялгах",
+    "nb": "Manuell vannseparering",
+    "nl": "Handmatige waterscheiding",
+    "pl": "Ręczna separacja wody",
+    "pt": "Separação manual de água",
+    "ro": "Separarea manuală a apei",
+    "ru": "Ручное отделение воды",
+    "sl": "Ročno ločevanje vode",
+    "sr": "Ручно одвајање воде",
+    "tr": "Manuel su ayırma"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.875,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -1.25,
+      "y1": 2.5,
+      "x2": -1.25,
+      "y2": 3.125,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.75,
+          "y": 0.0
+        },
+        {
+          "x": -1.25,
+          "y": -2.5
+        },
+        {
+          "x": 1.25,
+          "y": 0.0
+        },
+        {
+          "x": -1.25,
+          "y": 2.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 1.25,
+      "x2": 0.0,
+      "y2": 1.25,
+      "end1": "circle",
+      "end2": "circle",
+      "length1": 0.013,
+      "length2": 0.013,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.25,
+      "y1": 0.0,
+      "x2": 2.125,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.375,
+      "y1": 0.0,
+      "x2": -3.75,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a7bafd07-c268-4da2-a84c-0923a30380bd}",
+      "name": "",
+      "x": -1.25,
+      "y": 3.75,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{931d9d1a-92c5-4000-9f78-9c6797e06ef2}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4764415f-7705-49cc-bc63-46e47db13c19}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -4.374,
+      "y": -3.124,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{3afd5154-7360-6e3a-df92-c1b80ba5990c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -0.625,
+      "y": 1.875,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e9ab6de1-ffe8-5840-ef96-78a688b04b0e}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

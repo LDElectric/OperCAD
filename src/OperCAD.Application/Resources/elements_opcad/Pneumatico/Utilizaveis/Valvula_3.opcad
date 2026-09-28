@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_3.opcad",
+  "id": "{7302171b-7112-f9b7-fae8-bc45e8a1a451}",
+  "names": {
+    "ar": "صمّام معياري",
+    "ca": "Vàlvula calibrada",
+    "cs": "Přesně nastavený ventil",
+    "de": "Ventil Kalibriert",
+    "el": "Ρυθμιζόμενη βαλβίδα",
+    "en": "Calibrated valve",
+    "fr": "Soupape tarré",
+    "it": "Valvola tarata",
+    "nl": "Klep gekalibreerd",
+    "pl": "Odpowietrznik chwilowy o zadanej wartości"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.537,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 1.25,
+      "y1": -6.249,
+      "x2": 1.25,
+      "y2": -4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -6.249,
+      "x2": 2.5,
+      "y2": -6.249,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -3.249
+        },
+        {
+          "x": 1.25,
+          "y": -4.499
+        },
+        {
+          "x": 2.5,
+          "y": -3.249
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 0.5,
+      "y": -3.999,
+      "width": 1.5,
+      "height": 1.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.25,
+      "y1": -2.5,
+      "x2": 1.25,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 0.962,
+      "y": -0.287,
+      "width": 0.575,
+      "height": 0.575,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{213e3618-8ada-4a01-9739-d79546006977}",
+      "name": "",
+      "x": -2.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b449de20-4584-4856-92ef-3c631c2372f1}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.749,
+      "y": -5.987,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{5be19ace-f669-4f8a-ade6-51e17f88af57}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

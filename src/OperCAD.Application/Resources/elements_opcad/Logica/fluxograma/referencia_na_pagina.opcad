@@ -1,0 +1,91 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "referencia_na_pagina.opcad",
+  "id": "{02401ad5-9502-7d3a-9eb6-066a77570705}",
+  "names": {
+    "ar": "المراجع على الصفحة",
+    "ca": "referència a la pàgina",
+    "cs": "odkaz na stránce",
+    "da": "henvisning på siden",
+    "de": "On-Page-Referenz",
+    "el": "αναφορά στη σελίδα",
+    "en": "on-page referenc",
+    "es": "referencia en la página",
+    "fr": "référence sur la page",
+    "hr": "referenca na stranici",
+    "hu": "oldalon található hivatkozás",
+    "it": "riferimento in pagina",
+    "ja": "オンページ参照",
+    "mn": "хуудас дээрх лавлагаа",
+    "nb": "referanse på siden",
+    "nl": "verwijzing op de pagina",
+    "pl": "odnośnik na stronie",
+    "pt": "referência na página",
+    "ro": "referință pe pagină",
+    "ru": "ссылка на странице",
+    "sl": "referenca na strani",
+    "sr": "референца на страници",
+    "tr": "sayfa referansı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 11.0,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -5.0,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{b36fff4b-b574-418f-8fb6-f89902d37ded}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a4f3b16d-de3d-4796-b4a9-ad55a5aa7c2b}",
+      "name": "",
+      "x": -4.98096240942029,
+      "y": 0.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e06d4651-0c48-4f1a-b281-7b186e259162}",
+      "name": "",
+      "x": 5.0575926003344485,
+      "y": 0.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7ab4d72d-e8f3-40ca-a89c-6a4766c60a4c}",
+      "name": "",
+      "x": -0.0766301909141583,
+      "y": 5.1342227912486065,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

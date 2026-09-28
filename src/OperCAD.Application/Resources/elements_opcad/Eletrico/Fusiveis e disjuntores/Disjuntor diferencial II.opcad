@@ -1,0 +1,682 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Disjunctor_diferencial_7.opcad",
+  "id": "{3cefd4e2-e277-b9a2-9d5b-15785fef266d}",
+  "names": {
+    "ar": "قاطع تفاضلي",
+    "cs": "Proudový chránič 2P",
+    "de": "Fehlerstromschutzschalter 2P",
+    "en": "Residual Circuit Breaker with Overload",
+    "es": "Dispositivo diferencial residual",
+    "fr": "Disjoncteur différentiel",
+    "hu": "Hibaáram-védőkapcsoló 2P nyomógombos",
+    "it": "Interruttore differenziale",
+    "nl": "Aardlekschakelaar",
+    "pl": "Wyłącznik różnicowoprądowy dwubiegunowy",
+    "pt": "Disjuntor diferencial II",
+    "ru": "Дифавтомат"
+  },
+  "kindInformations": {
+    "type": "protection"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.124,
+  "height": 15.999,
+  "hotspotX": -2.5,
+  "hotspotY": 1.25,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": 4.499,
+      "y": -2.5,
+      "width": 1.0,
+      "height": 1.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -0.5,
+      "y": -2.5,
+      "width": 1.0,
+      "height": 1.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.0,
+          "y": 9.999
+        },
+        {
+          "x": 5.0,
+          "y": 2.5
+        },
+        {
+          "x": 3.5,
+          "y": -2.749
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.5,
+      "y1": -2.5,
+      "x2": -0.5,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.5,
+      "y1": -2.5,
+      "x2": 4.499,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 9.999
+        },
+        {
+          "x": 0.0,
+          "y": 2.5
+        },
+        {
+          "x": -1.499,
+          "y": -2.749
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 4.375,
+      "y": 6.499,
+      "width": 1.5,
+      "height": 1.5,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 4.375,
+      "y": 3.5,
+      "width": 1.5,
+      "height": 1.5,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -10.011,
+      "y1": -1.012,
+      "x2": -10.011,
+      "y2": 0.987,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 4.375,
+      "y": 5.0,
+      "width": 1.5,
+      "height": 1.5,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -6.499,
+      "y": -1.499,
+      "width": 3.0,
+      "height": 3.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -1.499,
+      "x2": -5.0,
+      "y2": 1.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -6.499,
+      "y1": 0.0,
+      "x2": -3.5,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 0.0,
+      "x2": -6.499,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -7.999,
+          "y": 0.5
+        },
+        {
+          "x": -7.999,
+          "y": -0.5
+        },
+        {
+          "x": -8.999,
+          "y": 0.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -4.999,
+      "x2": 0.0,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": -4.999,
+      "x2": 5.0,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -10.249,
+      "y": 4.25,
+      "width": 4.5,
+      "height": 3.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 1.5,
+      "x2": -5.0,
+      "y2": 5.749,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "IΔ",
+      "x": -10.02285514736656,
+      "y": 3.427434557900325,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.999,
+      "y1": 3.5,
+      "x2": 5.0,
+      "y2": 3.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.999,
+      "y1": 8.0,
+      "x2": 5.0,
+      "y2": 8.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 0.0,
+      "x2": 4.25,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.999,
+      "y1": 3.5,
+      "x2": -7.999,
+      "y2": 4.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.999,
+      "y1": 7.25,
+      "x2": -7.999,
+      "y2": 8.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.749,
+      "y1": 5.749,
+      "x2": -5.0,
+      "y2": 5.749,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.0,
+      "x2": 5.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 6.499,
+      "x2": 5.0,
+      "y2": 6.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{448977bc-3b93-4355-b9c0-7e96ba2aa7dd}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{fc88b5f7-1e34-4fe8-b151-7d58dace470e}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{673fae92-22fb-4189-8b4b-5fd5dd0f2ca4}",
+      "name": "",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{080e89c5-70f8-4c52-8417-5eed674537e7}",
+      "name": "",
+      "x": 5.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.5,
+      "y": 7.75,
+      "z": 11,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{34af944d-03dc-48a0-84fd-650c813bdf27}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": ""
+    },
+    {
+      "x": 2.5,
+      "y": -5.999,
+      "z": 12,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c43e40b5-e8d2-4132-8dc0-90d799f7b536}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": ""
+    },
+    {
+      "x": -2.5,
+      "y": -5.999,
+      "z": 13,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c659067f-4fe1-40e1-8dac-e51e47344880}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": ""
+    },
+    {
+      "x": 2.5,
+      "y": 7.75,
+      "z": 15,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{7bed39ea-49ca-4e5f-a305-a42d1f63aa77}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": ""
+    },
+    {
+      "x": -15.573230149150593,
+      "y": -1.7400108360171773,
+      "z": 22,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{26078dba-3bd1-4570-89a0-f7dab5817cdf}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

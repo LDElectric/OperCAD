@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal_4.opcad",
+  "id": "{adc156db-d3ac-43e7-ccef-7db754d99399}",
+  "names": {
+    "ar": "عدّاد طاقة فعّالة - وات ساعة متر -",
+    "cs": "Činný elektroměr",
+    "de": "Wattstundenzähler",
+    "el": "Μετρητής βατ/ώρα",
+    "en": "Watt hour meter",
+    "fr": "Compteur d'énergie active Wattheuremètre",
+    "it": "Misuratore di Wh",
+    "nl": "Watt uur meter",
+    "pl": "Licznik watogodzin",
+    "pt": "Medidor de energia monofasico"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 10.374,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -4.75,
+      "x2": -2.5,
+      "y2": 7.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -4.75,
+      "x2": 2.5,
+      "y2": 7.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -3.75,
+      "y": -2.5,
+      "width": 7.499,
+      "height": 7.499,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "Wh",
+      "x": -3.110257525083612,
+      "y": -0.5970479375696767,
+      "rotation": 0,
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.75,
+      "y1": -0.5,
+      "x2": 3.75,
+      "y2": -0.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{33064eff-e1af-48fe-887b-ab577ad81ca0}",
+      "name": "N",
+      "x": 2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c5518603-6161-4a2b-be7d-9d45f8157319}",
+      "name": "N.1",
+      "x": 2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a5a22122-75a8-4814-b3d2-5d3247066c46}",
+      "name": "L1",
+      "x": -2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a1f83453-2a04-444f-a6f1-190c10eb5fec}",
+      "name": "L1.1",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.911947603121515,
+      "y": -0.24194314381270865,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c6273b25-dae0-4113-8bf7-29bb12749b73}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "saida.opcad",
+  "id": "{1303c509-a988-34f1-5fbc-0478b4488da6}",
+  "names": {
+    "ar": "انتاج",
+    "ca": "sortida",
+    "cs": "výstup",
+    "da": "produktion",
+    "de": "Ausgang",
+    "el": "παραγωγή",
+    "en": "output",
+    "es": "producción",
+    "fr": "sortir",
+    "hr": "izlaz",
+    "hu": "Kimenet",
+    "it": "produzione",
+    "ja": "出力",
+    "mn": "гаралт",
+    "nb": "produksjon",
+    "nl": "uitvoer",
+    "pl": "wyjście",
+    "pt": "saída",
+    "ro": "ieșire",
+    "ru": "вывод",
+    "sl": "izhod",
+    "sr": "излаз",
+    "tr": "çıktı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.996,
+  "height": 20.497,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -7.5742912332838035,
+      "y1": 0.0,
+      "x2": -5.076291233283804,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "Q",
+      "x": -1.9403120356612167,
+      "y": -2.6743536404160473,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.076291233283804,
+      "y": -4.938225854383358,
+      "width": 9.998,
+      "height": 9.998,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1c83ff59-65c1-4b0d-8424-0d21c5d6027f}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.015108727954001,
+      "y": -7.499864073906582,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ea048edc-52d7-4bb5-89f8-66bb17f4d184}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -8.48838632986627,
+      "y": -3.735482912332838,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{5173581e-2de8-44a4-905c-5a0d450e21a5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    }
+  ]
+}

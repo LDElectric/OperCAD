@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Bateria_3.opcad",
+  "id": "{5682371d-d402-0703-86a1-18547ef46c9b}",
+  "names": {
+    "ar": "بطارية بخليتين",
+    "cs": "Baterie 2 články",
+    "de": "Batterie 2 Elemente",
+    "el": "Μπαταρία (2 στοιχεία σε σειρά)",
+    "en": "Battery 2 elements",
+    "es": "Bateria 2 elementos en serie",
+    "fr": "Pile 2 éléments",
+    "it": "Batteria (2 elementi, serie)",
+    "nl": "batterij 2 elementen DC",
+    "nl_BE": "Batterij 2 elementen DC",
+    "pl": "Bateria ogniw elektrochemicznych",
+    "pt": "Bateria III"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.5,
+  "height": 13.42,
+  "hotspotX": 1.25,
+  "hotspotY": -3.125,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": 0.0,
+      "x2": 4.375,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.188,
+      "y1": 0.0,
+      "x2": -0.312,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.875,
+      "y1": 0.0,
+      "x2": -5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.875,
+      "y1": -2.812,
+      "x2": -1.875,
+      "y2": 2.812,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -0.937,
+      "y": -1.874,
+      "width": 0.938,
+      "height": 3.75,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.407,
+      "y1": -2.812,
+      "x2": 2.407,
+      "y2": 2.812,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "-",
+      "x": 5.625,
+      "y": 1.771,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "+",
+      "x": -4.687,
+      "y": 1.771,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": 3.343,
+      "y": -1.874,
+      "width": 0.938,
+      "height": 3.75,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{777eed6f-b1a9-4abf-ad7f-8d0b60634226}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{41381867-3ff6-4f79-8492-efe174914b3f}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.4964164624596972,
+      "y": -7.140520813698048,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{815f57f5-3286-4044-a1d3-775a516dc38a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

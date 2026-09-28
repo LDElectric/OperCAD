@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "medicao_de_vazao.opcad",
+  "id": "{c81318fc-b2aa-b8a5-466c-70494d71e85e}",
+  "names": {
+    "ar": "قياس التدفق",
+    "ca": "mesura de cabal",
+    "cs": "měření průtoku",
+    "da": "flowmåling",
+    "de": "Durchlussmessung",
+    "el": "μέτρηση ροής",
+    "en": "flow measurement",
+    "es": "medición de flujo",
+    "fr": "Mesure de flux",
+    "hr": "mjerenje protoka",
+    "hu": "áramlásmérés",
+    "it": "misurazione del flusso",
+    "ja": "流量測定",
+    "mn": "урсгалын хэмжилт",
+    "nb": "strømningsmåling",
+    "nl": "stroommeting",
+    "pl": "pomiar przepływu",
+    "pt": "medição de vazão",
+    "pt_BR": "medição de vazão",
+    "ro": "măsurarea debitului",
+    "ru": "измерение расхода",
+    "sl": "merjenje pretoka",
+    "sr": "мерење протока",
+    "tr": "Akış ölçümü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 9.374,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -3.125,
+      "y": 0.938,
+      "width": 3.75,
+      "height": 3.75,
+      "start": 50,
+      "angle": 80,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.125,
+      "y": -4.687,
+      "width": 3.75,
+      "height": 3.75,
+      "start": 230,
+      "angle": 80,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.625,
+      "y1": 0.0,
+      "x2": 1.562,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.062,
+      "y1": 0.0,
+      "x2": -3.125,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.125,
+      "y": -1.875,
+      "width": 3.75,
+      "height": 3.75,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{81c59d59-1cbf-46af-b9b5-a8764d61e705}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{083a6b3a-ce5b-4bf1-b666-c5fbb0f69150}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.5269555656147635,
+      "y": -8.80788385344525,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{5cd127ef-ff15-4a15-b93a-c55adcae7428}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

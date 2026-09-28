@@ -1,0 +1,503 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Cilindro_sem_haste_freio_limitador_em_ambos_os_lados_ajustavel_freio_normalmente.opcad",
+  "id": "{21d32441-58c5-ad20-7e9c-aa563df6c2ef}",
+  "names": {
+    "ar": "أسطوانة بدون رود + فرامل محدودة على كلا الجانبين + قابل للتعديل + فرامل مغلقة عادة",
+    "ca": "Cilindre sense vara + fre de límit a ambdós costats + regulable + fre normalment tancat",
+    "cs": "Bezpístnicový válec + koncová brzda na obou stranách + nastavitelná + brzda normálně zavřená",
+    "da": "Stangløs cylinder + grænsebremse på begge sider + justerbar + bremse normalt lukket",
+    "de": "Kolbenstangenloser Zylinder + Endlagenbremse beidseitig + einstellbar + Bremse normal geschlossen",
+    "el": "Κύλινδρος χωρίς ράβδο + οριακό φρένο και στις δύο πλευρές + ρυθμιζόμενο + φρένο κανονικά κλειστό",
+    "en": "Rodless cylinder + limit brake on both sides + adjustable + brake normally closed",
+    "es": "Cilindro sin vástago + freno de límite en ambos lados + ajustable + freno normalmente cerrado",
+    "fr": "Vérin sans tige + frein de fin de course des deux côtés + réglable + frein normalement fermé",
+    "hr": "Cilindar bez poluge + granična kočnica s obje strane + podesiva + kočnica normalno zatvorena",
+    "hu": "Rúd nélküli henger + határfék mindkét oldalon + állítható + fék alaphelyzetben zárva",
+    "it": "Cilindro senza stelo + freno di fine corsa su entrambi i lati + registrabile + freno normalmente chiuso",
+    "ja": "ロッドレスシリンダー+両側のリミットブレーキ+調整可能+ブレーキは通常閉",
+    "mn": "Саваагүй цилиндр + 2 талдаа хязгаарлах тоормос + тохируулгатай + тоормос ердийн хаалттай",
+    "nb": "Stangløs sylinder + grensebrems på begge sider + justerbar + brems normalt lukket",
+    "nl": "Stangloze cilinder + eindrem aan beide zijden + verstelbaar + rem normaal gesloten",
+    "pl": "Cylinder beztłoczyskowy + hamulec krańcowy po obu stronach + regulowany + hamulec normalnie zamknięty",
+    "pt": "Cilindro sem haste + freio limitador em ambos os lados + ajustável + freio normalmente fechado",
+    "pt_BR": "Cilindro sem haste + freio limitador em ambos os lados + ajustável + freio normalmente fechado",
+    "ro": "Cilindru fara tija + frana de limitare pe ambele parti + reglabil + frana normal inchisa",
+    "ru": "Бесштоковый цилиндр + концевой тормоз с обеих сторон + регулируемый + нормально закрытый тормоз",
+    "sl": "Cilinder brez droga + končna zavora na obeh straneh + nastavljiva + normalno zaprta zavora",
+    "sr": "Цилиндар без полуге + гранична кочница са обе стране + подесива + кочница нормално затворена",
+    "tr": "Milsiz silindir + her iki tarafta limit freni + ayarlanabilir + fren normalde kapalı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 8.399,
+  "height": 8.692,
+  "hotspotX": -0.5,
+  "hotspotY": -0.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.965395245170878,
+          "y": 7.246179791976223
+        },
+        {
+          "x": 6.965395245170878,
+          "y": 12.013179791976222
+        },
+        {
+          "x": -13.564604754829123,
+          "y": 12.013179791976222
+        },
+        {
+          "x": -13.564604754829123,
+          "y": 4.680179791976222
+        },
+        {
+          "x": 6.965395245170878,
+          "y": 4.680179791976222
+        },
+        {
+          "x": 6.965395245170878,
+          "y": 9.444179791976223
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -6.965604754829123,
+          "y": 17.877179791976225
+        },
+        {
+          "x": -6.965604754829123,
+          "y": 16.998179791976224
+        },
+        {
+          "x": -8.066604754829122,
+          "y": 17.508179791976225
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -7.700604754829122,
+      "y": 6.878179791976223,
+      "width": 0.735,
+      "height": 2.934,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.269398504052872,
+          "y": 11.901037400387937
+        },
+        {
+          "x": 5.735398504052873,
+          "y": 11.901037400387937
+        },
+        {
+          "x": 5.001398504052873,
+          "y": 10.432037400387937
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -13.195604754829123,
+          "y": 12.013179791976222
+        },
+        {
+          "x": -11.732604754829122,
+          "y": 12.013179791976222
+        },
+        {
+          "x": -12.463604754829124,
+          "y": 10.544179791976223
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -9.166604754829123,
+          "y": 12.013179791976222
+        },
+        {
+          "x": -9.166604754829123,
+          "y": 16.045179791976224
+        },
+        {
+          "x": -8.432604754829121,
+          "y": 16.045179791976224
+        },
+        {
+          "x": -8.432604754829121,
+          "y": 12.013179791976222
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -9.783604754829122,
+      "y": 4.680179791976222,
+      "width": 2.199,
+      "height": 7.333,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -10.525604754829121,
+          "y": 12.467179791976223
+        },
+        {
+          "x": -7.054604754829122,
+          "y": 13.496179791976223
+        },
+        {
+          "x": -10.474604754829123,
+          "y": 14.617179791976223
+        },
+        {
+          "x": -6.988604754829122,
+          "y": 16.017179791976222
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -6.965604754829123,
+          "y": 6.146179791976223
+        },
+        {
+          "x": -6.231604754829123,
+          "y": 6.878179791976223
+        },
+        {
+          "x": -5.4996047548291225,
+          "y": 5.412179791976223
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -10.630604754829122,
+      "y": 6.878179791976223,
+      "width": 0.733,
+      "height": 2.934,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -6.9676047548291224,
+      "y1": 17.442179791976223,
+      "x2": -3.0606047548291224,
+      "y2": 17.442179791976223,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -10.630604754829122,
+      "y": 3.5801797919762226,
+      "width": 3.668,
+      "height": 1.1,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -11.732604754829122,
+      "y1": 10.544179791976223,
+      "x2": -6.599604754829123,
+      "y2": 6.512179791976223,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.225,
+      "length2": 0.225,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -10.630604754829122,
+      "y": 16.045179791976224,
+      "width": 3.668,
+      "height": 0.732,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.432604754829121,
+          "y": 12.379179791976224
+        },
+        {
+          "x": -6.965604754829123,
+          "y": 12.379179791976224
+        },
+        {
+          "x": -6.965604754829123,
+          "y": 18.242179791976223
+        },
+        {
+          "x": -10.630604754829122,
+          "y": 18.242179791976223
+        },
+        {
+          "x": -10.630604754829122,
+          "y": 12.379179791976224
+        },
+        {
+          "x": -9.166604754829123,
+          "y": 12.379179791976224
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -12.545042365465937,
+      "y1": 12.06254073602494,
+      "x2": -12.545042365465937,
+      "y2": 15.026479316876783,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.9628739028216895,
+      "y1": 11.924683127613227,
+      "x2": 4.9628739028216895,
+      "y2": 14.957550512670926,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4ea6177d-0faf-44b3-b36c-f50e5a308db3}",
+      "name": "",
+      "x": 5.0,
+      "y": 15.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1ac0653a-5c23-4f8b-a284-ac1803084d64}",
+      "name": "",
+      "x": -2.5,
+      "y": 17.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{073fa4d4-5ccb-4d36-89b7-4826140cf6d8}",
+      "name": "",
+      "x": -12.5,
+      "y": 15.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.114604754829123,
+      "y": -0.19182020802377764,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c3efff05-349f-4f53-b079-25c8668ad3d8}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -10.50067335096724,
+      "y": 18.986376090003514,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{45927bd6-7622-4862-920a-31b490d99814}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "quantity"
+    }
+  ]
+}

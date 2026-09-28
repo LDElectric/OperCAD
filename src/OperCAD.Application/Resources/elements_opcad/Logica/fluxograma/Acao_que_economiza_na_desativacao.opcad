@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Acao_que_economiza_na_desativacao.opcad",
+  "id": "{ef32e6dd-8db9-a1b6-e7f9-95e10f352696}",
+  "names": {
+    "ar": "الإجراء الذي يحفظ عند التعطيل",
+    "ca": "Acció que estalvia en la desactivació",
+    "cs": "Akce, která ušetří na deaktivaci",
+    "da": "Handling, der sparer ved deaktivering",
+    "de": "Speichernd wirkende Aktion bei Deaktivierung",
+    "el": "Ενέργεια που εξοικονομεί κατά την απενεργοποίηση",
+    "en": "Action that saves on deactivation",
+    "es": "Acción que ahorra en la desactivación",
+    "fr": "Action qui économise sur la désactivation",
+    "hr": "Akcija koja štedi na deaktivaciji",
+    "hu": "Művelet, amely megtakarítja a deaktiválást",
+    "it": "Azione che risparmia alla disattivazione",
+    "ja": "非アクティブ化を節約するアクション",
+    "mn": "Идэвхгүй болгоход хэмнэлттэй үйлдэл",
+    "nb": "Handling som sparer ved deaktivering",
+    "nl": "Actie die bespaart op deactivering",
+    "pl": "Akcja oszczędzająca przy dezaktywacji",
+    "pt": "Ação que economiza na desativação",
+    "ro": "Acțiune care economisește la dezactivare",
+    "ru": "Действие, экономящее на деактивации",
+    "sl": "Ukrep, ki prihrani pri deaktivaciji",
+    "sr": "Радња која штеди на деактивацији",
+    "tr": "Devre dışı bırakmada tasarruf sağlayan eylem"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 53.999,
+  "height": 15.194,
+  "hotspotX": -5.0,
+  "hotspotY": 5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -15.689966380992198,
+          "y": 4.569814834169454
+        },
+        {
+          "x": -14.984966380992196,
+          "y": 6.121814834169454
+        },
+        {
+          "x": -14.278966380992197,
+          "y": 4.569814834169454
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -14.967966380992197,
+      "y1": 6.012814834169454,
+      "x2": -14.967966380992197,
+      "y2": -2.4541851658305456,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -14.986181438127089,
+          2.636457845596432
+        ],
+        [
+          7.631851658305462,
+          2.636457845596432
+        ],
+        [
+          7.631851658305462,
+          -2.428316436733556
+        ],
+        [
+          -14.986181438127089,
+          -2.428316436733556
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d7cd8b41-bab6-4e7f-8f49-2603eee3d629}",
+      "name": "",
+      "x": -15.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

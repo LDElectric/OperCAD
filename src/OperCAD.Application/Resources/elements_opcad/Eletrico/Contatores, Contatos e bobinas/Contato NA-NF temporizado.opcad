@@ -1,0 +1,263 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_13.opcad",
+  "id": "{56123b79-74cc-37ab-37b0-3ef6c763306f}",
+  "names": {
+    "cs": "Kontakt NC/NO řízený elektrickými hodinami",
+    "de": "Wechsler zeitgesteuert",
+    "el": "Μεταγωγική επαφή χρονοδιακόπτη",
+    "en": "Contact NC/NO-controlled clock",
+    "es": "Contacto NC/NA controlado por reloj",
+    "fr": "Commande par horloge électrique NO/NF",
+    "it": "Contatto NC/NO comandato da orologio",
+    "nl": "Klok contact (NC/NO)",
+    "pl": "Zestyk przełączny sterowany zegarem",
+    "pt": "Contato NA-NF temporizado"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.75,
+  "height": 10.999,
+  "hotspotX": -2.5,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -4.808,
+      "y1": -2.396,
+      "x2": 0.646,
+      "y2": -2.396,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -8.362,
+      "y": -4.377,
+      "width": 3.636,
+      "height": 3.636,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -4.808,
+      "y1": -5.668,
+      "x2": -0.081,
+      "y2": -5.668,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.465,
+          "y": 4.877
+        },
+        {
+          "x": 2.465,
+          "y": 1.241
+        },
+        {
+          "x": -1.172,
+          "y": -6.032
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -4.972,
+      "y1": -9.667,
+      "x2": -4.972,
+      "y2": -5.668,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.465,
+      "y1": -9.667,
+      "x2": 2.465,
+      "y2": -6.032,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -7.509,
+          "y": -2.109
+        },
+        {
+          "x": -6.053,
+          "y": -2.109
+        },
+        {
+          "x": -6.053,
+          "y": -3.564
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8e29d3a0-ad87-49ee-8163-78fe2a262957}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{06c1843d-a2ff-4572-8cd6-8fb9be633222}",
+      "name": "",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0da9e4a4-a0cc-4eb7-8e07-d3133f9e0db1}",
+      "name": "",
+      "x": -5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -12.766847707619888,
+      "y": -4.8224723557148765,
+      "z": 8,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{3f1d8c64-4452-4efa-89d8-9ba13a5660a2}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 3.157246147756331,
+      "y": 1.8536230738781654,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c619a461-15f9-4b6f-94b7-3cba990270fd}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": -8.11832674799451,
+      "y": -9.227676807370287,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c26ae93a-daa1-4c30-9ec6-0f980aa07327}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "22",
+      "infoName": "tag"
+    },
+    {
+      "x": 3.30108060023818,
+      "y": -9.179057684695413,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{daf35dc9-5e1e-4ee9-8b09-a13ff795b5a6}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "24",
+      "infoName": "tag"
+    }
+  ]
+}

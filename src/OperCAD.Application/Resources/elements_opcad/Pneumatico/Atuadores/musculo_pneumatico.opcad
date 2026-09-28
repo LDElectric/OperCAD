@@ -1,0 +1,278 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "musculo_pneumatico.opcad",
+  "id": "{94949815-ef14-a2e7-99ad-72fa4bc94dfc}",
+  "names": {
+    "ar": "عضلة هوائية",
+    "ca": "múscul pneumàtic",
+    "cs": "pneumatický sval",
+    "da": "pneumatisk muskel",
+    "de": "pneumatischer Muskel",
+    "el": "πνευματικός μυς",
+    "en": "pneumatic muscle",
+    "es": "músculo neumático",
+    "fr": "muscle pneumatique",
+    "hr": "pneumatski mišić",
+    "hu": "pneumatikus izom",
+    "it": "muscolo pneumatico",
+    "ja": "空気圧筋肉",
+    "mn": "пневматик булчин",
+    "nb": "pneumatisk muskel",
+    "nl": "pneumatische spier",
+    "pl": "mięsień pneumatyczny",
+    "pt": "músculo pneumático",
+    "pt_BR": "músculo pneumático",
+    "ro": "muşchi pneumatic",
+    "ru": "пневматическая мышца",
+    "sl": "pnevmatska mišica",
+    "sr": "пнеуматски мишић",
+    "tr": "pnömatik kas"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 17.5,
+  "height": 9.449,
+  "hotspotX": 6.25,
+  "hotspotY": -4.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -16.127199590987292,
+          "y": 16.857425235678356
+        },
+        {
+          "x": -16.127199590987292,
+          "y": 18.119425235678353
+        },
+        {
+          "x": -14.86419959098729,
+          "y": 17.488425235678356
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 9.126800409012708,
+      "y1": 17.488425235678356,
+      "x2": 12.283800409012708,
+      "y2": 17.488425235678356,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.262,
+      "length2": 0.262,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 9.126800409012708,
+          "y": 18.119425235678353
+        },
+        {
+          "x": 9.126800409012708,
+          "y": 16.857425235678356
+        },
+        {
+          "x": 7.864800409012707,
+          "y": 17.488425235678356
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -16.127199590987292,
+      "y1": 13.068425235678355,
+      "x2": -16.127199590987292,
+      "y2": 22.539425235678355,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.262,
+      "length2": 0.262,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -12.65519959098729,
+      "y1": 14.331425235678354,
+      "x2": 5.654800409012708,
+      "y2": 14.331425235678354,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.262,
+      "length2": 0.262,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -19.284199590987292,
+      "y1": 17.488425235678356,
+      "x2": -16.127199590987292,
+      "y2": 17.488425235678356,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.262,
+      "length2": 0.262,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 9.126800409012708,
+      "y1": 12.754425235678355,
+      "x2": 9.126800409012708,
+      "y2": 22.224425235678353,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.262,
+      "length2": 0.262,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -12.830199590987291,
+      "y1": 20.629425235678355,
+      "x2": 5.654800409012708,
+      "y2": 20.644425235678355,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.262,
+      "length2": 0.262,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 2.8128004090127092,
+      "y": 14.331425235678354,
+      "width": 6.314,
+      "height": 6.313,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -16.127199590987292,
+      "y": 14.331425235678354,
+      "width": 6.314,
+      "height": 6.313,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{06f869c5-58ea-4b7d-ab6f-19bbdee9917f}",
+      "name": "",
+      "x": 12.5,
+      "y": 17.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6985d7b2-350f-4286-9ab6-2b5f3126b63b}",
+      "name": "",
+      "x": -20.0,
+      "y": 17.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -4.251005210740756,
+      "y": 10.134697777036212,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8e89297a-f74b-4222-adf3-489107b04684}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

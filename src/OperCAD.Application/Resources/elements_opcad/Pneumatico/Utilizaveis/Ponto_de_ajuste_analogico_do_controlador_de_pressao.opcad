@@ -1,0 +1,632 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Ponto_de_ajuste_analogico_do_controlador_de_pressao.opcad",
+  "id": "{0ca0fcc5-41f3-45e8-05ff-26df03fdca21}",
+  "names": {
+    "ar": "الضبط التناظري للتحكم في الضغط",
+    "ca": "Punt de consigna analògic del controlador de pressió",
+    "cs": "Analogová požadovaná hodnota regulátoru tlaku",
+    "da": "Trykregulator analogt sætpunkt",
+    "de": "Druckregler analog Sollwert",
+    "el": "Σημείο ρύθμισης αναλογικού ελεγκτή πίεσης",
+    "en": "Pressure controller analog setpoint",
+    "es": "Punto de ajuste analógico del controlador de presión",
+    "fr": "Consigne analogique du régulateur de pression",
+    "hr": "Analogna zadana vrijednost regulatora tlaka",
+    "hu": "Nyomásszabályozó analóg alapjel",
+    "it": "Setpoint analogico del regolatore di pressione",
+    "ja": "圧力コントローラーのアナログ設定値",
+    "mn": "Даралт хянагчийн аналог тогтоосон цэг",
+    "nb": "Trykkregulator analogt settpunkt",
+    "nl": "Analoge instelwaarde van de drukregelaar",
+    "pl": "Analogowa wartość zadana regulatora ciśnienia",
+    "pt": "Ponto de ajuste analógico do controlador de pressão",
+    "pt_BR": "Ponto de ajuste analógico do controlador de pressão",
+    "ro": "Valoarea de referință analogică a regulatorului de presiune",
+    "ru": "Аналоговая уставка регулятора давления",
+    "sl": "Analogna nastavitev regulatorja tlaka",
+    "sr": "Аналогна задана вредност регулатора притиска",
+    "tr": "Basınç kontrolörü analog ayar noktası"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 36.996,
+  "height": 30.0,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 8.766919105643488,
+          "y": 2.820161788713021
+        },
+        {
+          "x": 9.586919105643489,
+          "y": 3.2601617887130208
+        },
+        {
+          "x": 9.71391910564349,
+          "y": 2.009161788713021
+        },
+        {
+          "x": 8.757919105643488,
+          "y": 2.808161788713021
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 15.336919105643489,
+      "y1": 0.20216178871302082,
+      "x2": 15.336919105643489,
+      "y2": 0.4981617887130208,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 10.01191910564349,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 10.01191910564349,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 10.01191910564349,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 10.01191910564349,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 10.308919105643488,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 11.20091910564349,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 11.794919105643489,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 12.68791910564349,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 4.46516178871302
+        },
+        {
+          "x": 10.01191910564349,
+          "y": 4.46516178871302
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 14.442919105643488,
+      "y": -0.24483821128697913,
+      "width": 0.894,
+      "height": 0.892,
+      "start": 0,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 12.983919105643489,
+          "y": 2.384161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": -0.5888382112869792
+        },
+        {
+          "x": 15.659919105643489,
+          "y": -0.5888382112869792
+        },
+        {
+          "x": 15.659919105643489,
+          "y": 2.384161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 2.384161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": -0.5888382112869792
+        },
+        {
+          "x": 15.564919105643488,
+          "y": 2.304161788713021
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 7.03991910564349,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 10.01191910564349,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 10.01191910564349,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 7.03991910564349,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 7.03991910564349,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 7.03991910564349,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 7.336919105643489,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 8.227919105643489,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 8.82291910564349,
+          "y": 3.5721617887130206
+        },
+        {
+          "x": 9.68791910564349,
+          "y": 5.293161788713021
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 14.442919105643488,
+      "y1": 0.20216178871302082,
+      "x2": 14.442919105643488,
+      "y2": 0.4981617887130208,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.633919105643489,
+      "y1": 5.653161788713021,
+      "x2": 9.268919105643489,
+      "y2": 2.8531617887130207,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.0,
+      "length2": 0.0,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 12.983919105643489,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 2.384161788713021
+        },
+        {
+          "x": 15.659919105643489,
+          "y": 2.384161788713021
+        },
+        {
+          "x": 15.659919105643489,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 5.355161788713021
+        },
+        {
+          "x": 12.983919105643489,
+          "y": 2.384161788713021
+        },
+        {
+          "x": 14.768919105643489,
+          "y": 2.384161788713021
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 15.064919105643488,
+          "y": 2.9781617887130207
+        },
+        {
+          "x": 13.57891910564349,
+          "y": 3.8701617887130206
+        },
+        {
+          "x": 15.064919105643488,
+          "y": 4.76016178871302
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.1479191056434885,
+          "y": 5.951161788713021
+        },
+        {
+          "x": 5.55291910564349,
+          "y": 7.140161788713021
+        },
+        {
+          "x": 4.9589191056434885,
+          "y": 5.951161788713021
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.985919105643489,
+          "y": 4.316161788713021
+        },
+        {
+          "x": 3.175919105643489,
+          "y": 4.316161788713021
+        },
+        {
+          "x": 2.5809191056434893,
+          "y": 5.8031617887130205
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "P",
+      "x": 12.25338726290434,
+      "y": -0.6382659213695743,
+      "rotation": 0,
+      "font": "Liberation Sans,5,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#707070",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5809191056434893,
+      "y1": 4.76016178871302,
+      "x2": 2.5809191056434893,
+      "y2": -1.7768382112869792,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -1.8780808943565108,
+      "y": -2.967838211286979,
+      "width": 8.918,
+      "height": 8.917,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.512572289917404,
+      "y1": -7.357491395560895,
+      "x2": 2.512572289917404,
+      "y2": -2.899491395560894,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.175919105643489,
+          "y": -1.3328382112869792
+        },
+        {
+          "x": 1.985919105643489,
+          "y": -1.3328382112869792
+        },
+        {
+          "x": 2.5809191056434893,
+          "y": -2.8198382112869793
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.5125722899174043,
+      "y1": 5.751687602030341,
+      "x2": 2.5125722899174043,
+      "y2": 9.75168760203034,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5809191056434893,
+          "y": -2.967838211286979
+        },
+        {
+          "x": -0.39108089435651083,
+          "y": -5.9388382112869795
+        },
+        {
+          "x": -6.3360808943565115,
+          "y": -5.9388382112869795
+        },
+        {
+          "x": -6.3360808943565115,
+          "y": -1.4818382112869792
+        },
+        {
+          "x": -1.8780808943565108,
+          "y": -1.4818382112869792
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "dotted",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{82f67b50-2f71-42c4-8ba6-a890cf9b525d}",
+      "name": "",
+      "x": 2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d5ff4a09-864f-40d5-961a-c637a98e74d8}",
+      "name": "",
+      "x": 2.5,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.048040447178254,
+      "y": -6.76753184273915,
+      "z": 7,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{fad0cd91-4b1e-986c-6442-af29fa0276b8}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": "tag"
+    },
+    {
+      "x": 3.845346815726085,
+      "y": 7.621404471782553,
+      "z": 7,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{eb221ce0-4c02-8801-dd8d-6330c7f0c921}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "tag"
+    }
+  ]
+}

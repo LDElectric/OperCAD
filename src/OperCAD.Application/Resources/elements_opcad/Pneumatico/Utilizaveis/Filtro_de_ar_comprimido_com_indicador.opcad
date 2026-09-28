@@ -1,0 +1,328 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Filtro_de_ar_comprimido_com_indicador.opcad",
+  "id": "{7dba8d33-e253-1baa-8726-63d2f559a8ae}",
+  "names": {
+    "ar": "فلتر هواء مضغوط مع مؤشر",
+    "ca": "Filtre d'aire comprimit amb indicador",
+    "cs": "Filtr stlačeného vzduchu s indikátorem",
+    "da": "Trykluftfilter med indikator",
+    "de": "Druckluftfilter mit Anzeige",
+    "el": "Φίλτρο πεπιεσμένου αέρα με ένδειξη",
+    "en": "Compressed air filter with indicator",
+    "es": "Filtro de aire comprimido con indicador",
+    "fr": "Filtre à air comprimé avec indicateur",
+    "hr": "Filter komprimiranog zraka s indikatorom",
+    "hu": "Sűrített levegő szűrő indikátorral",
+    "it": "Filtro aria compressa con indicatore",
+    "ja": "インジケーター付き圧縮空気フィルター",
+    "mn": "Заагч бүхий шахсан агаарын шүүлтүүр",
+    "nb": "Trykkluftfilter med indikator",
+    "nl": "Persluchtfilter met indicator",
+    "pl": "Filtr sprężonego powietrza ze wskaźnikiem",
+    "pt": "Filtro de ar comprimido com indicador",
+    "ro": "Filtru de aer comprimat cu indicator",
+    "ru": "Фильтр сжатого воздуха с индикатором",
+    "sl": "Filter za stisnjen zrak z indikatorjem",
+    "sr": "Филтер за компримовани ваздух са индикатором",
+    "tr": "Göstergeli basınçlı hava filtresi"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.25,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -1.9302012033631941,
+      "y1": -5.728792779820838,
+      "x2": -0.7082012033631941,
+      "y2": -4.506792779820838,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.7082012033631941,
+      "y1": -5.728792779820838,
+      "x2": -1.9302012033631941,
+      "y2": -4.506792779820838,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.337201203363194,
+      "y": -6.136792779820837,
+      "width": 2.036,
+      "height": 2.037,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.3192012033631941,
+      "y1": 2.8272072201791625,
+      "x2": -1.3192012033631941,
+      "y2": 3.8452072201791627,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.3192012033631941,
+      "y1": 1.4002072201791624,
+      "x2": -1.3192012033631941,
+      "y2": 2.4192072201791626,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.3192012033631941,
+      "y1": 0.17820722017916246,
+      "x2": -1.3192012033631941,
+      "y2": 0.9932072201791624,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.3192012033631941,
+      "y1": -1.0437927798208375,
+      "x2": -1.3192012033631941,
+      "y2": -0.2287927798208375,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.3192012033631941,
+      "y1": -2.4697927798208377,
+      "x2": -1.3192012033631941,
+      "y2": -1.4507927798208375,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.3192012033631941,
+      "y1": -3.8947927798208375,
+      "x2": -1.3192012033631941,
+      "y2": -2.8767927798208377,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.754798796636806,
+      "y1": -0.025792779820837497,
+      "x2": 4.791798796636806,
+      "y2": -0.025792779820837497,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.430201203363194,
+      "y1": -0.025792779820837497,
+      "x2": -5.393201203363194,
+      "y2": -0.025792779820837497,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.393201203363194,
+          "y": -0.025792779820837497
+        },
+        {
+          "x": -1.3192012033631941,
+          "y": -4.099792779820838
+        },
+        {
+          "x": 2.754798796636806,
+          "y": -0.025792779820837497
+        },
+        {
+          "x": -1.3192012033631941,
+          "y": 4.049207220179163
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{65695f29-99c2-43e1-a490-5c7e038d553a}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b7fce7e0-f29d-4d70-8ad9-dde55c031109}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -7.84799398318403,
+      "y": -9.09432418811879,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b4cc7152-f13a-c0aa-23e5-29bda1f3f020}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -8.328062816595907,
+      "y": -4.717459206506325,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{3affe812-c57e-8d11-b40e-f5bb8955c853}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Temporizador.opcad",
+  "id": "{a7bad70b-206f-14c6-e081-cc53430f8055}",
+  "names": {
+    "ar": "مفتاح ساعة",
+    "cs": "Časový spínač NO",
+    "de": "Zeitschalter Schliesser",
+    "el": "Επαφή χρονοδιακόπτη",
+    "en": "Timer NO",
+    "es": "Contacto temporizado",
+    "fr": "Contact horloge",
+    "it": "Contatto orologio NO",
+    "nl": "contact Klok",
+    "pl": "Zegar sterujący",
+    "pt": "Temporizador NA"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 14.874,
+  "height": 20.399,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -11.0,
+      "y": -2.999,
+      "width": 6.0,
+      "height": 6.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.0,
+      "y1": 0.0,
+      "x2": -5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -5.0
+        },
+        {
+          "x": 2.5,
+          "y": 5.0
+        },
+        {
+          "x": 2.5,
+          "y": 10.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -10.0,
+      "x2": 2.5,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.999,
+          "y": -1.999
+        },
+        {
+          "x": -7.999,
+          "y": 0.0
+        },
+        {
+          "x": -6.499,
+          "y": 0.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{887ec901-2e95-4f4d-8878-1da94937a77e}",
+      "name": "",
+      "x": 2.5,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{66bd0d09-de35-42c9-8622-db73fae43bc9}",
+      "name": "",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.009,
+      "y": -1.68,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{a4214204-a2be-4c03-9f96-47489328466a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

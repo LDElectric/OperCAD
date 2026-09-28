@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "impulsos_de_sinal_caindo.opcad",
+  "id": "{bfb67c02-7622-f0ba-292a-31f1c323aedf}",
+  "names": {
+    "ar": "نبضات إشارة السقوط",
+    "cs": "klesající signálový impuls",
+    "da": "signalimpuls falder",
+    "de": "Signalimpuls fallend",
+    "el": "πέφτουν παλμοί σημάτων",
+    "en": "signal impuls falling",
+    "es": "impulso de señal cayendo",
+    "fr": "impulsion de signal tombant",
+    "hr": "signalni impuls pada",
+    "hu": "jelimpulzus esés",
+    "it": "segnali di caduta degli impulsi",
+    "ja": "信号インパルスの落下",
+    "mn": "дохионы импульс буурч байна",
+    "nb": "signalimpuls faller",
+    "nl": "signaalimpuls valt",
+    "pl": "opadający impuls sygnału",
+    "pt": "Contato NA",
+    "ro": "căderea impulsului de semnal",
+    "ru": "сигнальные импульсы падают",
+    "sl": "padec signalnega impulza",
+    "sr": "сигнални импулс пада",
+    "tr": "düşen sinyal dürtüsü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 20.0,
+  "height": 14.239,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 3.5,
+      "x2": 5.0,
+      "y2": -3.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -3.5,
+      "x2": -5.0,
+      "y2": 3.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 0.0,
+      "x2": 9.499,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.499,
+      "y1": 0.0,
+      "x2": -5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f119ec03-231a-4a46-9f8f-acd6fa4d088d}",
+      "name": "",
+      "x": 10.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c7cd62f3-e282-4965-93d2-e6f6c4aaa21e}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.34481277860327,
+      "y": -6.642573551263,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b6931c24-7ee8-2c02-8e81-ba71e6bf67b8}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

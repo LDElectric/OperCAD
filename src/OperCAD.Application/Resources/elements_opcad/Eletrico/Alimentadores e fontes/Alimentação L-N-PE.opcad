@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_3.opcad",
+  "id": "{0634ff24-5f6a-a914-24f7-d04c43e837c3}",
+  "names": {
+    "ar": "مصدر وحيد القطبية + أرضي PE + محايد N",
+    "cs": "Přípojnice 1f+N+PE",
+    "de": "Wechselstrom + PE +N",
+    "el": "Μονοφασικό +N +PE",
+    "en": "Single-pole source + PE +N",
+    "es": "Fuente unipolo + PE +N",
+    "fr": "Source unipolaire + PE +N",
+    "hu": "F + N + PE",
+    "it": "Sorgente unipolare + PE +N",
+    "nl": "1 fase + aarde + nul",
+    "pl": "Linia jednofazowa (trójprzewodowa)",
+    "ru": "Однополюсный + PE +N",
+    "pt": "Alimentação L-N-PE"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.0,
+  "height": 34.972,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -10.0,
+      "x2": 5.0,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "PE",
+      "x": -1.340799155225794,
+      "y": -0.9134384794064292,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 5.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "N",
+      "x": -1.0759589862709527,
+      "y": -5.949478437167718,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L",
+      "x": -0.821,
+      "y": -10.781,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{e54d11d9-f490-45c8-93a4-e1af7f588fb5}",
+      "name": "N",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e17ad991-7b38-4e0e-98f5-3072ae836974}",
+      "name": "PE",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6a808326-9aed-4c61-92b1-799b418218bf}",
+      "name": "L",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.11902416013176431,
+      "y": -14.818223756198842,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{99cc9aed-9351-4f90-a932-d9a35bc4268e}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

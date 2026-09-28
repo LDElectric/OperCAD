@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "termometro.opcad",
+  "id": "{10c7b1af-0a97-0159-a51e-20f8b3112e5f}",
+  "names": {
+    "ar": "ميزان الحرارة",
+    "ca": "termòmetre",
+    "cs": "teploměr",
+    "da": "termometer",
+    "de": "Thermometer",
+    "el": "θερμόμετρο",
+    "en": "thermometer",
+    "es": "termómetro",
+    "fr": "thermomètre",
+    "hr": "termometar",
+    "hu": "hőmérő",
+    "it": "termometro",
+    "ja": "温度計",
+    "mn": "термометр",
+    "nb": "termometer",
+    "nl": "thermometer",
+    "pl": "termometr",
+    "pt": "termômetro",
+    "pt_BR": "termômetro",
+    "ro": "termometru",
+    "ru": "термометр",
+    "sl": "termometer",
+    "sr": "термометар",
+    "tr": "termometre"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 22.498,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.08114705336706018,
+      "x2": 0.0,
+      "y2": 3.2291470533670603,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": -1.3208529466329397,
+      "width": 7.0,
+      "height": 7.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -0.523,
+      "y": 3.0541470533670605,
+      "width": 1.05,
+      "height": 1.05,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.6791470533670605,
+      "x2": 0.0,
+      "y2": 7.4291470533670605,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ba0d6e00-48b3-4ca8-9f08-9b2ed8a3cc44}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.3529216086415596,
+      "y": -5.108678465566422,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{4806bc96-dfb8-41a8-98f6-340299de7cb5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

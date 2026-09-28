@@ -1,0 +1,232 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_tripolar_neutro.opcad",
+  "id": "{f6eb8411-eb32-6f47-1f1a-867653b1e3ae}",
+  "names": {
+    "ar": "مصدر ثلاثي القطبيّة + محايد",
+    "ca": "Font tripolar + neutre",
+    "cs": "Přípojnice 3f+N",
+    "de": "Dreiphasig + Neutral",
+    "el": "Τριφασικό + Ουδέτερος",
+    "en": "Three-pole source + neutral",
+    "es": "Fuente tripolar + neutro",
+    "fr": "Source tripolaire + neutre",
+    "hu": "3F + N",
+    "it": "Sorgente tripolare + neutro",
+    "nl": "Driefasen + nul",
+    "pl": "Linia trójfazowa (czteroprzewodowa)",
+    "pt": "Fonte tripolar + neutro",
+    "ru": "Трёхполюсный + нейтраль"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.0,
+  "height": 44.972,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 5.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -10.0,
+      "x2": 5.0,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -0.002,
+      "x2": 5.0,
+      "y2": -0.002,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "N",
+      "x": -1.1481666980831235,
+      "y": -1.0669167452078088,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L3",
+      "x": -1.298333396166247,
+      "y": -5.842437558905856,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L2",
+      "x": -1.2983333961662469,
+      "y": -10.930229233426637,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L1",
+      "x": -1.2379583726039045,
+      "y": -15.705750047124686,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -14.998,
+      "x2": 5.0,
+      "y2": -14.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{01faa4e7-482d-4045-baa4-61a2dc225632}",
+      "name": "L3",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7be3baab-0831-441e-b36f-14b8a0db9cdb}",
+      "name": "N",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1f253f63-14f6-4da1-ab17-6d48cdbcd362}",
+      "name": "L1",
+      "x": 5.0,
+      "y": -15.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2812deae-d483-41c8-b053-354464a4305c}",
+      "name": "L2",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.11044406095028932,
+      "y": -19.472895024795367,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{3a4e94ae-dd0d-4762-b657-0a5fe8b6cb18}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

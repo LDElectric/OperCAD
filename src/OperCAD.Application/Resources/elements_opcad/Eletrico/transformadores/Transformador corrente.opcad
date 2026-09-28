@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Transformador_corrente.opcad",
+  "id": "{6050bec5-7f67-1846-264d-88f831bc72a1}",
+  "names": {
+    "cs": "Proudový nebo impulzní transformátor",
+    "de": "Stromwandler, Impulswandler",
+    "en": "Current transformer, pulse transformer",
+    "fr": "Transformateur de courant, transformateur d'impulsion",
+    "it": "Trasformatore di corrente o d'impulso",
+    "nl": "Stroomtrafo",
+    "pl": "Przekładnik (forma 2)",
+    "pt": "Transformador corrente"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 6.25,
+  "height": 21.749,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -1.25,
+      "y": 2.5,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.25,
+      "y": 0.0,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.0,
+      "x2": 5.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 0.0,
+      "y2": 10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f07cdab7-909c-4755-b603-9a9b17a65ef8}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{bafd8930-3714-445b-9f4b-2b2ca6d4cdd5}",
+      "name": "",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dfc0932a-6780-4229-b7a6-412f8ea654f3}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4300194c-bb62-45da-809f-974c7819ff41}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.0,
+      "y": -11.749,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{372e3e43-82dc-4191-997c-aa8f2a9f8648}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

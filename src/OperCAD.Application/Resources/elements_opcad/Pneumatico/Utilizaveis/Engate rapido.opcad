@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Quick_Connect.opcad",
+  "id": "{59a277cd-4fb7-a286-ef9f-1a1d9e90c025}",
+  "names": {
+    "ar": "رابط سريع",
+    "cs": "Rychlé spojení",
+    "de": "Schnellanschluss geschlossen",
+    "el": "Ταχυσύνδεσμος",
+    "en": "Quick Connect",
+    "fr": "Raccord rapide",
+    "it": "Raccordo rapido",
+    "nl": "Snelkoppeling",
+    "pl": "Szybkozłączka bez mechanicznie otwieranych zaworów zwrotnych - połączona",
+    "pt": "Engate rapido"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.5,
+  "height": 9.736,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.75,
+          "y": -1.25
+        },
+        {
+          "x": -2.5,
+          "y": 0.0
+        },
+        {
+          "x": -3.75,
+          "y": 1.25
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -5.749,
+      "y": -2.5,
+      "width": 8.999,
+      "height": 5.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.25,
+          "y": 1.25
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        },
+        {
+          "x": 1.25,
+          "y": -1.25
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.25,
+      "y1": -0.5,
+      "x2": -1.25,
+      "y2": 0.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.499,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8b08f524-7484-4ee1-a204-fbd75a878db1}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7e27dd9f-a4a4-46f8-8696-2960ddaf2cba}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.83161865569273,
+      "y": -6.3693731138545955,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{6bd58f6c-7abd-46e2-af3a-17aeb981feaa}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

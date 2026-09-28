@@ -1,0 +1,165 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal_7.opcad",
+  "id": "{78640214-f26d-0a45-bc0b-0e3aa5155ec3}",
+  "names": {
+    "ar": "ثايريستور دايود موصل في الانحياز العكسي",
+    "cs": "Diodový tyristor, vedoucí zpět",
+    "de": "Thyristordiode, rückwärts leitend",
+    "en": "Reverse conducting diode thyristor",
+    "fr": "Thyristor diode passant en inverse",
+    "it": "Tiristore diodo che conduce nel senso inverso di conduzione",
+    "nl": "Thyristor geleidend",
+    "pl": "Tyrystor diodowy przewodzący wstecznie",
+    "pt": "Tiristor diodo de condução reversa"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-04-02",
+  "width": 5.0,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -1.667,
+      "y1": -1.834,
+      "x2": -1.667,
+      "y2": -0.833,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.667,
+      "y1": -2.5,
+      "x2": 1.667,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -7.5,
+      "x2": 0.0,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.667,
+          "y": -4.167
+        },
+        {
+          "x": 1.667,
+          "y": -4.167
+        },
+        {
+          "x": 0.0,
+          "y": -0.833
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.667,
+      "y1": -0.833,
+      "x2": 1.667,
+      "y2": -0.833,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{96dff35f-9fa1-4e5b-ad90-71fc26ca89ab}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{36f88ef3-6883-4a7e-a51a-8e9175bf6e5f}",
+      "name": "",
+      "x": 0.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.655,
+      "y": -9.405,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8443e363-72eb-4afb-a0df-fd899d5a50ef}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

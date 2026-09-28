@@ -1,0 +1,118 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Voltimetro_horizontal.opcad",
+  "id": "{ef48e4a8-3aa5-9984-e131-0d58f198e649}",
+  "names": {
+    "ar": "فولتمتر أفقي",
+    "cs": "Voltmetr, vodorovný",
+    "de": "Voltmeter waagerecht",
+    "el": "Βολτόμετρο οριζόντιο",
+    "en": "Horizontal voltmeter",
+    "es": "Voltímetro horizontal",
+    "fr": "Voltmètre horizontal",
+    "it": "Volmetro orizzontale",
+    "nl": "Voltmeter",
+    "pl": "Woltomierz (poziomo)",
+    "pt": "Voltimetro horizontal",
+    "ru": "Вольтметр (горизонтальный)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 8.499,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -2.5,
+      "x2": 5.0,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.5,
+      "y": -5.0,
+      "width": 5.0,
+      "height": 5.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "V",
+      "x": -0.978,
+      "y": -4.285,
+      "rotation": 0,
+      "font": "Liberation Sans,12,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ebcdd160-7d65-4378-8fc2-d8e95e6a51fc}",
+      "name": "A2",
+      "x": 5.0,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d550f696-cf33-4673-bb70-25827bfd01cd}",
+      "name": "A1",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.829,
+      "y": -7.548,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{19218c38-62ae-4b89-875e-82b6d38b8b4b}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

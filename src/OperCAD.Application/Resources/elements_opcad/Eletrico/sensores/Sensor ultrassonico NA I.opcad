@@ -1,0 +1,290 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Na_8.opcad",
+  "id": "{35b2a755-5aa8-21cb-7fe6-50d925178a46}",
+  "names": {
+    "ar": "حسّاس فوق صوتي NO",
+    "ca": "Sensor d'ultrasons NO",
+    "cs": "Ultrazvukový snímač NO 2 vodiče",
+    "de": "Ultraschallschalter 2-Leiter Schliesser",
+    "el": "Αισθητήρας υπερήχων, ανοικτή επαφή",
+    "en": "Ultrasonic sensor  NO",
+    "es": "Sensor ultrasónico NA",
+    "fr": "Capteur ultrasons NO",
+    "it": "Sensore ultrasonico NO",
+    "nl": "Ultrasoon contact 2 (NO)",
+    "pl": "Czujnik ultradźwiękowy trójprzewodowy, zwierny"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 17.899,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -13.5,
+      "y1": -7.999,
+      "x2": -13.5,
+      "y2": -8.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -10.0
+        },
+        {
+          "x": 2.5,
+          "y": 0.0
+        },
+        {
+          "x": 2.5,
+          "y": 5.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -13.999,
+      "y": -6.999,
+      "width": 1.0,
+      "height": 1.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.844,
+      "y1": -6.0,
+      "x2": 1.155,
+      "y2": -6.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -13.999,
+      "y1": -7.999,
+      "x2": -12.999,
+      "y2": -7.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -13.5,
+      "y1": -2.999,
+      "x2": -13.5,
+      "y2": -4.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -14.025,
+      "y1": -4.025,
+      "x2": -13.023,
+      "y2": -4.025,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -14.998,
+      "x2": 2.5,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -11.843,
+          "y": -6.0
+        },
+        {
+          "x": -8.845,
+          "y": -8.999
+        },
+        {
+          "x": -5.846,
+          "y": -6.0
+        },
+        {
+          "x": -8.845,
+          "y": -2.999
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -8.344,
+      "y1": -7.999,
+      "x2": -8.344,
+      "y2": -4.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.345,
+      "y1": -7.999,
+      "x2": -9.345,
+      "y2": -4.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1451fbe8-7df3-4c16-b31c-1f7484944946}",
+      "name": "",
+      "x": 2.5,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{cb627eef-2636-4a04-a87a-4a6456c571e6}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 3.874,
+      "y": -9.75,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{21b544e2-4b6d-4e7a-8f34-f93e122b6b02}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

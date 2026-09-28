@@ -1,0 +1,68 @@
+<Window x:Class="OperCAD.UI.Views.ElementTriageWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Reconhecimento assistido — marcar elementos"
+        Width="520" Height="560" MinWidth="440" MinHeight="440"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" TextWrapping="Wrap" Margin="0,0,0,8" Foreground="#555555">
+            Selecione na folha um aglomerado de primitivas de um símbolo importado (ex.: o motor) e
+            marque-o como um elemento da biblioteca ou como "não é elemento". Depois, "Sugerir" tenta
+            identificar aglomerados parecidos (invariante a escala).
+        </TextBlock>
+
+        <TextBlock Grid.Row="1" x:Name="TxtSelection" Text="Seleção: nenhuma" FontWeight="SemiBold" Margin="0,0,0,6" />
+
+        <Grid Grid.Row="2" Margin="0,0,0,6">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Marcar seleção como elemento…" Margin="0,0,6,0"
+                    Click="OnMarkElement" />
+            <Button Grid.Column="1" Content="Não é elemento" Width="120" Margin="0,0,6,0"
+                    Click="OnMarkNotElement" />
+            <Button Grid.Column="2" Content="Sugerir" Width="90" Click="OnSuggest" />
+        </Grid>
+
+        <Border Grid.Row="3" x:Name="SuggestBox" Background="#FFF8E1" BorderBrush="#E0C060"
+                BorderThickness="1" Padding="8" Margin="0,0,0,8" Visibility="Collapsed">
+            <TextBlock x:Name="TxtSuggestion" TextWrapping="Wrap" />
+        </Border>
+
+        <Grid Grid.Row="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Amostras marcadas nesta sessão:" Margin="0,0,0,4" FontWeight="SemiBold" />
+            <ListBox Grid.Row="1" x:Name="ListSamples" BorderBrush="#CCCCCC" BorderThickness="1">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <Run Text="{Binding Display}" />
+                            <Run Text="{Binding KindLabel}" FontWeight="SemiBold" Foreground="#555555" />
+                        </TextBlock>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+        <Grid Grid.Row="5" Margin="0,10,0,0">
+            <Button Content="Limpar amostras" Width="120" Margin="0,0,8,0" Click="OnClear" HorizontalAlignment="Left" />
+            <Button Content="Fechar" Width="100" Click="OnClose" HorizontalAlignment="Right" />
+        </Grid>
+    </Grid>
+</Window>

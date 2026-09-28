@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_4.opcad",
+  "id": "{4c37e7cd-bc10-cb1c-e442-400321acdc50}",
+  "names": {
+    "ar": "مصدر وحيد القطبية +PEN",
+    "cs": "Přípojnice 1f+PEN",
+    "de": "Wechselstrom + PEN",
+    "el": "Μονοφασικό +PEN",
+    "en": "Single-pole source +PEN",
+    "es": "Fuente unipolo + PEN",
+    "fr": "Source unipolaire + PEN",
+    "hu": "F + PEN",
+    "it": "Sorgente unipolare + PEN",
+    "nl": "1 fase + aardenul",
+    "pl": "Linia jednofazowa (TN-C)",
+    "ru": "Однополюсный + PEN",
+    "pt": "Alimentação L-PE"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.999,
+  "height": 23.973,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 5.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "PEN",
+      "x": -1.254140781231287,
+      "y": -1.0176619017628596,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L",
+      "x": -1.1525662756960204,
+      "y": -5.927908208535038,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f37e0814-af5f-4551-919d-72bed4e8e964}",
+      "name": "L",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{bbccf87f-6c55-48a8-bca4-767c83c14335}",
+      "name": "PEN",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.00019959606707864452,
+      "y": -9.484667817149132,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0b4466b2-6a70-44c1-81d5-678b8ee89e6a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

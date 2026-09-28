@@ -1,0 +1,1694 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "D-SUB_25_pin_male.opcad",
+  "id": "{2636e263-a3a2-47a2-e3e1-cf66344b410f}",
+  "names": {
+    "ar": "رابط توصيل SUB-D 25 (ذكري)",
+    "cs": "Zástrčka D-SUB 25 kolíků",
+    "de": "Stecker D-SUB 25-polig männlich",
+    "el": "D-SUB 25 ακροδέκτες (αρσενικό)",
+    "en": "D-SUB 25 pin (male)",
+    "es": "D-SUB 25 pines (macho)",
+    "fr": "SUB-D 25 broches (male)",
+    "hu": "25 tűs apa D-Sub",
+    "it": "D-SUB 25 Pin (maschio)",
+    "nl": "D-SUB 25 pin man",
+    "pl": "Wtyk D-Sub, dwudziestopięciostykowy",
+    "pt": "DB25 macho"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 20.0,
+  "height": 78.969,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -4.499,
+      "y1": -28.997,
+      "x2": 1.0,
+      "y2": -31.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 29.998,
+      "x2": 5.0,
+      "y2": -29.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "21",
+      "x": -8.999,
+      "y": -8.5,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "13",
+      "x": -13.999,
+      "y": -30.998,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "8",
+      "x": -13.999,
+      "y": -6.0,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": -7.5,
+      "x2": -10.0,
+      "y2": -7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "23",
+      "x": -8.999,
+      "y": -18.498,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "14",
+      "x": -8.999,
+      "y": 26.499,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": -8.5,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "24",
+      "x": -8.999,
+      "y": -23.498,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "18",
+      "x": -8.999,
+      "y": 6.499,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "25",
+      "x": -8.999,
+      "y": -28.498,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "19",
+      "x": -8.999,
+      "y": 1.5,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "9",
+      "x": -13.999,
+      "y": -11.0,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "20",
+      "x": -8.999,
+      "y": -3.5,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "10",
+      "x": -13.999,
+      "y": -15.998,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -13.999,
+      "y": 28.997,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "11",
+      "x": -13.999,
+      "y": -20.998,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -13.999,
+      "y": 23.999,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "12",
+      "x": -13.999,
+      "y": -25.998,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": -13.999,
+      "y": 18.999,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": -22.498,
+      "x2": -10.0,
+      "y2": -22.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "4",
+      "x": -13.999,
+      "y": 13.999,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": -27.498,
+      "x2": -10.0,
+      "y2": -27.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "5",
+      "x": -13.999,
+      "y": 8.999,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": -24.998,
+      "x2": -14.998,
+      "y2": -24.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "6",
+      "x": -13.999,
+      "y": 4.0,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "22",
+      "x": -8.999,
+      "y": -13.5,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "7",
+      "x": -13.999,
+      "y": -1.0,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": -29.998,
+      "x2": -14.998,
+      "y2": -29.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 2.5,
+      "x2": -10.0,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": -25.998,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "15",
+      "x": -8.999,
+      "y": 21.499,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": -10.0,
+      "x2": -14.998,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": -2.5,
+      "x2": -10.0,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": -14.998,
+      "x2": -14.998,
+      "y2": -14.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "16",
+      "x": -8.999,
+      "y": 16.499,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": -19.998,
+      "x2": -14.998,
+      "y2": -19.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 0.0,
+      "x2": -14.998,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": -23.498,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "17",
+      "x": -8.999,
+      "y": 11.499,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": -15.998,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": -5.0,
+      "x2": -14.998,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": -30.998,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": -12.498,
+      "x2": -10.0,
+      "y2": -12.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -5.0,
+      "y": -29.998,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 148,
+      "angle": 32,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": -17.498,
+      "x2": -10.0,
+      "y2": -17.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 0.0,
+      "y": -32.496,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 0,
+      "angle": 120,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": -13.5,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.0,
+      "y1": 32.496,
+      "x2": -4.499,
+      "y2": 29.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": -20.998,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -5.0,
+      "y": 25.497,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 180,
+      "angle": 30,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": -11.0,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 0.0,
+      "y": 27.997,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 240,
+      "angle": 120,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": -28.498,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": -1.0,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": -18.498,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -27.498,
+      "x2": -5.0,
+      "y2": 27.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 29.998,
+      "x2": -14.998,
+      "y2": 29.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 24.998,
+      "x2": -14.998,
+      "y2": 24.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 19.998,
+      "x2": -14.998,
+      "y2": 19.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 14.998,
+      "x2": -14.998,
+      "y2": 14.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 10.0,
+      "x2": -14.998,
+      "y2": 10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 5.0,
+      "x2": -14.998,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": 1.5,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": 28.997,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": 8.999,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": 18.999,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": -6.0,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 27.498,
+      "x2": -10.0,
+      "y2": 27.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 22.498,
+      "x2": -10.0,
+      "y2": 22.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 17.498,
+      "x2": -10.0,
+      "y2": 17.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 12.498,
+      "x2": -10.0,
+      "y2": 12.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 7.5,
+      "x2": -10.0,
+      "y2": 7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": 11.499,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": 23.999,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": 4.0,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.5,
+      "y": 13.999,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": 21.499,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": -3.5,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": 26.499,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": 6.499,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.5,
+      "y": 16.499,
+      "width": 1.999,
+      "height": 1.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9031c25f-a474-49ad-ba5c-7db00a289866}",
+      "name": "",
+      "x": -15.0,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{5da397ba-f248-4714-9758-013d5762bf07}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8761f236-4ee0-455a-bb6f-fb7299923d97}",
+      "name": "",
+      "x": -15.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9ac06ab8-c71b-4c2a-b953-e65e453b739f}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1365343a-e847-414e-a334-7265c9b887b7}",
+      "name": "",
+      "x": -15.0,
+      "y": 5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ce1d2542-7b5c-42c9-96f9-6b4bcff96801}",
+      "name": "",
+      "x": -10.0,
+      "y": 10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d9c81ab5-d11f-46fb-bbaa-45722596a446}",
+      "name": "",
+      "x": -10.0,
+      "y": 10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{23a80f02-91c1-4772-87c8-a73faca589ee}",
+      "name": "",
+      "x": -15.0,
+      "y": 20.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{fc51fd91-41bf-4b2f-99ee-b55404cddf6c}",
+      "name": "",
+      "x": -15.0,
+      "y": 15.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7c81660b-c407-453b-8c57-d57b95674e04}",
+      "name": "",
+      "x": -15.0,
+      "y": 10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d7e71fc8-99da-4ba8-8efc-bd2659e89005}",
+      "name": "",
+      "x": -10.0,
+      "y": 20.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7bf2982d-a36f-432a-a3c0-f67568019a8a}",
+      "name": "",
+      "x": -10.0,
+      "y": 15.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{85dfadca-e172-4dbc-beae-49908e654739}",
+      "name": "",
+      "x": -10.0,
+      "y": 25.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e8998fa0-9fac-44ea-9dd0-7afebd324708}",
+      "name": "",
+      "x": -15.0,
+      "y": 25.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{45126521-b6cf-4e54-a6db-903d4dcbff57}",
+      "name": "",
+      "x": -15.0,
+      "y": 30.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6bdf5ab0-0ff5-4959-96ff-9c83e4792e59}",
+      "name": "",
+      "x": -15.0,
+      "y": -30.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{25be4dbd-c500-425e-b698-9f7c30456de5}",
+      "name": "",
+      "x": -10.0,
+      "y": -25.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{866eb6aa-f355-45e3-b7e6-063b0d2ae7cf}",
+      "name": "",
+      "x": -15.0,
+      "y": -25.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2fb04e78-6fba-4965-a66f-d0ca53666cd4}",
+      "name": "",
+      "x": -10.0,
+      "y": -20.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{875f7e7c-ee37-4b42-9c3d-d8e0b0bab1cf}",
+      "name": "",
+      "x": -15.0,
+      "y": -20.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8ea22916-fedb-48b9-8b88-ca56aa124566}",
+      "name": "",
+      "x": -10.0,
+      "y": -15.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{bf9080f6-94a4-4bf7-b6bf-8c8a2eaa9393}",
+      "name": "",
+      "x": -10.0,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4318cb4d-3eef-46c3-a6b6-83a2a0e5c8ed}",
+      "name": "",
+      "x": -15.0,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f0fa28f0-befb-4b67-b7f1-8197e1b0ca4a}",
+      "name": "",
+      "x": -15.0,
+      "y": -15.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a2a1834f-65a9-4fb4-acac-416fbd496ea9}",
+      "name": "",
+      "x": -10.0,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.5,
+      "y": -45.972,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{41579fd9-87a8-4907-84ac-e5b8cf716f78}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

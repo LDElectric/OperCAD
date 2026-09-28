@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "passo_inicial.opcad",
+  "id": "{044e1891-af87-8827-226f-aba03fb1da61}",
+  "names": {
+    "ar": "خطوة أولية",
+    "ca": "pas inicial",
+    "cs": "počáteční krok",
+    "da": "indledende trin",
+    "de": "ersten Schritt",
+    "el": "αρχικό βήμα",
+    "en": "initial step",
+    "es": "paso inicial",
+    "fr": "première étape",
+    "hr": "početni korak",
+    "hu": "kezdeti lépés",
+    "it": "passo iniziale",
+    "ja": "最初のステップ",
+    "mn": "эхний алхам",
+    "nb": "innledende trinn",
+    "nl": "eerste stap",
+    "pl": "pierwszy krok",
+    "pt": "passo inicial",
+    "pt_BR": "passo inicial",
+    "ro": "pas inițial",
+    "ru": "начальный шаг",
+    "sl": "začetni korak",
+    "sr": "почетни корак",
+    "tr": "ilk adım"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 22.496,
+  "height": 17.5,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -6.0,
+      "y": -6.0,
+      "width": 11.999,
+      "height": 11.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -7.5,
+      "y": -7.5,
+      "width": 14.998,
+      "height": 14.998,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4abd0c3d-297c-4181-99b2-41dcf0c70987}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8067556c-5371-446c-b709-cf090e3095fd}",
+      "name": "",
+      "x": 0.3065207636566332,
+      "y": -7.739649282329989,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{728c0b56-e071-4e5f-a1fa-a54112795d88}",
+      "name": "",
+      "x": -7.739649282329989,
+      "y": 0.0766301909141583,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b18cfcd6-c7b5-499b-a105-a43f7883551d}",
+      "name": "",
+      "x": 7.586388900501672,
+      "y": -0.0766301909141583,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

@@ -1,0 +1,129 @@
+<Window x:Class="OperCAD.UI.Views.PrintWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Imprimir folhas do projeto"
+        Width="980" Height="640"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="290" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Painel de opções -->
+        <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto"
+                      Background="{DynamicResource App.Panel.Background}"
+                      BorderBrush="{DynamicResource App.Divider}" BorderThickness="0,0,1,0">
+            <StackPanel Margin="12">
+                <TextBlock Text="FOLHAS A IMPRIMIR" Style="{StaticResource App.SectionHeader}" />
+                <ListBox x:Name="ListaFolhas" Margin="0,6,0,0" Background="Transparent" BorderThickness="0"
+                         MaxHeight="180">
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="{x:Type ListBoxItem}">
+                            <Setter Property="Foreground" Value="{DynamicResource App.Text.Primary}" />
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox IsChecked="{Binding IsChecked, UpdateSourceTrigger=PropertyChanged}"
+                                          Checked="OnOptionChanged" Unchecked="OnOptionChanged" />
+                                <TextBlock Text="{Binding Title}" Margin="4,0,0,0" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <TextBlock Text="OPÇÕES DE RENDER" Style="{StaticResource App.SectionHeader}" Margin="0,14,0,0" />
+                <CheckBox x:Name="ChkFrame" Style="{StaticResource App.CheckBox}" Content="Desenhar a moldura"
+                          Checked="OnOptionChanged" Unchecked="OnOptionChanged" />
+                <CheckBox x:Name="ChkTitleBlock" Style="{StaticResource App.CheckBox}" Content="Desenhar o carimbo"
+                          Checked="OnOptionChanged" Unchecked="OnOptionChanged" />
+                <CheckBox x:Name="ChkColors" Style="{StaticResource App.CheckBox}" Content="Conservar as cores dos condutores"
+                          Checked="OnOptionChanged" Unchecked="OnOptionChanged" />
+                <CheckBox x:Name="ChkTerminals" Style="{StaticResource App.CheckBox}" Content="Desenhar os terminais" />
+
+                <TextBlock Text="OPÇÕES DE IMPRESSÃO" Style="{StaticResource App.SectionHeader}" Margin="0,14,0,0" />
+                <CheckBox x:Name="ChkFit" Style="{StaticResource App.CheckBox}" Content="Adaptar a folha à página" />
+                <CheckBox x:Name="ChkFullPage" Style="{StaticResource App.CheckBox}" Content="Usar página inteira (sem margens)"
+                          Margin="0,6,0,0" ToolTip="Usa toda a área da folha de papel sem margens" />
+
+                <TextBlock Text="ORIENTAÇÃO" Style="{StaticResource App.SectionHeader}" Margin="0,14,0,0" />
+                <ComboBox x:Name="CmbOrientation" Width="160" SelectedIndex="0" Margin="0,6,0,0"
+                          Style="{StaticResource App.ComboBox}">
+                    <ComboBoxItem Content="Retrato" />
+                    <ComboBoxItem Content="Paisagem" />
+                </ComboBox>
+
+                <TextBlock Text="TAMANHO DO PAPEL" Style="{StaticResource App.SectionHeader}" Margin="0,14,0,0" />
+                <ComboBox x:Name="CmbPaperSize" Width="160" SelectedIndex="0" Margin="0,6,0,0"
+                          SelectionChanged="OnPaperSizeChanged"
+                          Style="{StaticResource App.ComboBox}">
+                    <ComboBoxItem Content="A4 (297 × 210 mm)" />
+                    <ComboBoxItem Content="A3 (420 × 297 mm)" />
+                    <ComboBoxItem Content="A2 (594 × 420 mm)" />
+                    <ComboBoxItem Content="A1 (841 × 594 mm)" />
+                    <ComboBoxItem Content="A0 (1189 × 841 mm)" />
+                    <ComboBoxItem Content="Personalizado" />
+                </ComboBox>
+
+                <CheckBox x:Name="ChkPrintAllSheets" Style="{StaticResource App.CheckBox}" Margin="0,14,0,0"
+                          Content="Imprimir todas as folhas"
+                          Checked="OnOptionChanged" Unchecked="OnOptionChanged" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Preview -->
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Border Grid.Row="0" Style="{StaticResource App.ToolBar}">
+                <StackPanel Orientation="Horizontal">
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Zoom -" Click="OnZoomOut">
+                        <Image Source="{StaticResource Icon.ZoomOut}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Zoom +" Click="OnZoomIn">
+                        <Image Source="{StaticResource Icon.ZoomIn}" Width="18" Height="18" />
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Ajustar página" Click="OnFitPage">
+                        <Image Source="{StaticResource Icon.Fit}" Width="18" Height="18" />
+                    </Button>
+                    <Rectangle Style="{StaticResource App.ToolSeparator}" />
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Página anterior" Click="OnPrevious">
+                        <Image Source="{StaticResource Icon.Down}" Width="18" Height="18">
+                            <Image.LayoutTransform><RotateTransform Angle="90" /></Image.LayoutTransform>
+                        </Image>
+                    </Button>
+                    <Button Style="{StaticResource App.ToolButton}" ToolTip="Página seguinte" Click="OnNext">
+                        <Image Source="{StaticResource Icon.Down}" Width="18" Height="18">
+                            <Image.LayoutTransform><RotateTransform Angle="-90" /></Image.LayoutTransform>
+                        </Image>
+                    </Button>
+                    <TextBlock x:Name="TxtPage" Margin="10,0,0,0" VerticalAlignment="Center"
+                               Style="{StaticResource App.FieldValueText}" />
+                </StackPanel>
+            </Border>
+
+            <ScrollViewer Grid.Row="1" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                          Background="#6D6D6D">
+                <Image x:Name="PreviewImage" Stretch="None" Margin="12" />
+            </ScrollViewer>
+
+            <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="12">
+                <Button Content="Imprimir" IsDefault="True" Click="OnPrint" Width="96" Height="30"
+                        Background="{DynamicResource App.Accent}" Foreground="White"
+                        FontFamily="{StaticResource App.Font}" BorderThickness="0" />
+                <Button Content="Cancelar" IsCancel="True" Width="88" Height="30" Margin="8,0,0,0"
+                        Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                        FontFamily="{StaticResource App.Font}" BorderBrush="{DynamicResource App.Border}" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,285 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal_3.opcad",
+  "id": "{fad73dbe-985f-5d1a-ec9e-cd05bad927b1}",
+  "names": {
+    "cs": "Přepínací kontakt zpožděný přítah i odpad",
+    "en": "Timed switch rest and work",
+    "fr": "Inverseur temporisé repos et travail",
+    "pt": "Contator 2P"
+  },
+  "kindInformations": {
+    "type": "delayOnOff",
+    "state": "SW",
+    "number": "1"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.162,
+  "height": 11.999,
+  "hotspotX": -2.5,
+  "hotspotY": 0.0,
+  "linkType": "slave",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -0.9980000000000002,
+      "y": -8.222000000000001,
+      "width": 1.948,
+      "height": 1.948,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 4.102,
+      "y": -8.391,
+      "width": 1.948,
+      "height": 1.948,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.02400000000000002,
+      "y1": -10.365,
+      "x2": -0.02400000000000002,
+      "y2": -6.468999999999999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.033,
+          "y": -7.054
+        },
+        {
+          "x": 4.98,
+          "y": 0.7389999999999999
+        },
+        {
+          "x": 4.98,
+          "y": 4.636
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.654,
+      "y1": -1.998,
+      "x2": 5.836,
+      "y2": -1.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.9720000000000004,
+          "y": -6.903
+        },
+        {
+          "x": -0.02400000000000002,
+          "y": 0.891
+        },
+        {
+          "x": -0.02400000000000002,
+          "y": 4.787
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.075,
+      "y1": -10.534,
+      "x2": 5.075,
+      "y2": -6.637,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{403dba07-c826-4ef3-ad9a-94772819c228}",
+      "name": "5",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{14ce14c1-283d-424a-a3db-c2349ff86203}",
+      "name": "3",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3132a76d-8f4a-410b-8626-0ede718d8959}",
+      "name": "4",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{74958a23-b8f9-4512-8b2f-28b2bcfe9505}",
+      "name": "6",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -7.9732912933035545,
+      "y": -4.220122015990089,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{f906ffdd-9c4a-418a-bf07-f74d7509c6f1}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -3.22,
+      "y": 1.58,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{6ad2d39c-694b-43bf-a0b9-0f9ad8b1e68f}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": "tag"
+    },
+    {
+      "x": -3.508548812239489,
+      "y": -10.472970573668,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{9dd8558e-a0be-48ab-874b-0468fb105f73}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "tag"
+    },
+    {
+      "x": 1.979783278575669,
+      "y": 1.63,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{b1d14cdd-056b-40a4-b437-3ad449353732}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": "tag"
+    },
+    {
+      "x": 1.32,
+      "y": -10.570433442848662,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{7baa39bc-04bd-4f4f-ac09-f790d53a5291}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": "tag"
+    }
+  ]
+}

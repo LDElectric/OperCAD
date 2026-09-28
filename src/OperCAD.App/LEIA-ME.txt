@@ -1,0 +1,61 @@
+================================================================================
+                         OPERCAD - INSTRUÇÕES DE USO
+================================================================================
+
+Este é o OperCAD — programa portátil para desenhos de esquemas técnicos.
+
+--------------------------------------------------------------------------------
+  COMO USAR
+--------------------------------------------------------------------------------
+
+1. Execute o arquivo "OperCAD.exe".
+2. Na primeira execução, o programa extrai automaticamente seus recursos
+   (biblioteca de elementos, cartuchos, etc.) e cria a pasta "data" ao lado
+   do executável. Aguarde o processo.
+3. Pronto — o programa abrirá normalmente.
+
+--------------------------------------------------------------------------------
+  IMPORTANTE — NÃO ALTERE AS PASTAS DO PROGRAMA
+--------------------------------------------------------------------------------
+
+Ao lado do executável, o OperCAD cria as seguintes pastas e arquivos:
+
+  OperCAD.exe          ← executável (este arquivo)
+  elements_opcad/      ← biblioteca de elementos (NÃO ALTERAR)
+  titleblocks/         ← cartuchos / legendas (NÃO ALTERAR)
+  template.json        ← template padrão (NÃO ALTERAR)
+  data/                ← pasta de dados do usuário
+    ├── projects/      ← seus projetos salvos (.xml)
+    ├── autosave/      ← backup automático
+    ├── settings.json  ← configurações do programa
+    └── recentfiles.json ← lista de arquivos recentes
+
+REGRAS OBRIGATÓRIAS:
+
+  ✗ NÃO exclua, renomeie ou mova as pastas "elements_opcad" ou "titleblocks".
+  ✗ NÃO exclua o arquivo "template.json".
+  ✗ NÃO altere o conteúdo interno dessas pastas/arquivos.
+  ✗ NÃO mova o executável para fora do diretório junto com essas pastas.
+
+  Se qualquer um desses arquivos for removido ou corrompido, o programa
+  pode falhar ao iniciar ou exibir a biblioteca de elementos incompleta.
+
+  Para reinstalar, basta baixar novamente o "OperCAD.exe" e executar —
+  os recursos serão extraídos automaticamente.
+
+--------------------------------------------------------------------------------
+  DADOS DO USUÁRIO
+--------------------------------------------------------------------------------
+
+Todos os seus projetos, configurações e backups ficam na pasta "data/".
+
+Para fazer backup dos seus projetos, copie toda a pasta "data/projects/".
+
+Para resetar as configurações, exclua o arquivo "data/settings.json"
+(e reinicie o programa).
+
+--------------------------------------------------------------------------------
+  SUPORTE
+--------------------------------------------------------------------------------
+
+GitHub: https://github.com/LDElectric

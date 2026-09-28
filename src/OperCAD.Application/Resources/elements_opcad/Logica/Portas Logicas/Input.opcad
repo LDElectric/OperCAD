@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Entrada.opcad",
+  "id": "{9ee4898e-268a-eacf-0ef0-c65becdca03a}",
+  "names": {
+    "ar": "إدخال",
+    "cs": "Vstup",
+    "da": "Input",
+    "de": "Eingang",
+    "el": "Εισαγωγή",
+    "en": "Input",
+    "es": "Aporte",
+    "fr": "Contribution",
+    "hr": "Ulazni",
+    "hu": "Bemenet",
+    "it": "Ingresso",
+    "ja": "入力",
+    "mn": "Оролт",
+    "nb": "Inndata",
+    "nl": "Invoer",
+    "pl": "Wejście",
+    "pt": "Input",
+    "ro": "Intrare",
+    "ru": "Вход",
+    "sl": "Vnos",
+    "sr": "Улазни",
+    "tr": "Giriş"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.0,
+  "height": 20.497,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 7.5022867756315,
+      "y1": 0.001,
+      "x2": 5.271286775631501,
+      "y2": 0.001,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -4.590668647845468,
+      "y": -4.96,
+      "width": 9.918,
+      "height": 9.918,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "I",
+      "x": -1.1769361069836553,
+      "y": -2.3538722139673105,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f8693a4b-1cdb-47c6-b8ee-10ff0d5e7487}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 5.950698365527488,
+      "y": -4.04724219910847,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{5173581e-2de8-44a4-905c-5a0d450e21a5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    },
+    {
+      "x": -5.075991084695392,
+      "y": -7.363845468053491,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{76258717-490d-4f1a-9984-4d633ff0ac07}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

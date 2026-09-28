@@ -1,0 +1,240 @@
+<Window x:Class="OperCAD.UI.Views.DiagramPropertiesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Propriedades da folha"
+        Width="880" Height="620" MinWidth="820" MinHeight="560"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="28" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- COLUNA ESQUERDA -->
+            <ScrollViewer Grid.Column="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <StackPanel Margin="0,0,8,0">
+
+                <!-- LEGENDA -->
+                <TextBlock Text="LEGENDA" Style="{StaticResource App.SectionHeader}" />
+                <Grid Margin="0,6,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="130" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Empreendimento" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtCompany" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="1" Text="Descrição do desenho" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtTitle" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="2" Text="Registro / N.º desenho" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtDrawingNumber" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="3" Text="Empresa (OBRA/CAD)" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtObra" Grid.Row="3" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="4" Text="Autor" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtAuthor" Grid.Row="4" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="5" Text="Rev. por" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtReviewedBy" Grid.Row="5" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="6" Text="Aprov. por" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtApprovedBy" Grid.Row="6" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="7" Text="Rev" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtRevision" Grid.Row="7" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" Width="80" HorizontalAlignment="Left" />
+
+                    <TextBlock Grid.Row="8" Text="Escala" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtScale" Grid.Row="8" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" IsReadOnly="True" Width="80" HorizontalAlignment="Left" />
+
+                    <TextBlock Grid.Row="9" Text="Página / Total" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <StackPanel Grid.Row="9" Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
+                        <TextBox x:Name="TxtSheet" Width="50" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" HorizontalAlignment="Left" />
+                        <TextBlock Text="/" Style="{StaticResource App.FieldLabel}" VerticalAlignment="Center" Margin="6,0" />
+                        <TextBox x:Name="TxtTotalSheets" Width="50" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" HorizontalAlignment="Left" />
+                    </StackPanel>
+
+                    <TextBlock Grid.Row="10" Text="Data" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtDate" Grid.Row="10" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" IsReadOnly="True" Width="80" HorizontalAlignment="Left" />
+                </Grid>
+
+                <!-- TAMANHO DO PAPEL -->
+                <TextBlock Text="TAMANHO DO PAPEL" Style="{StaticResource App.SectionHeader}" Margin="0,12,0,0" />
+                <Grid Margin="0,6,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Tamanho" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <ComboBox x:Name="CmbSize" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="1" Text="Orientação" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <ComboBox x:Name="CmbOrientation" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,2">
+                        <ComboBoxItem Content="Retrato" />
+                        <ComboBoxItem Content="Paisagem" />
+                    </ComboBox>
+
+                    <TextBlock Grid.Row="2" Text="Largura (mm)" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtCustomWidth" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" IsEnabled="False" />
+
+                    <TextBlock Grid.Row="3" Text="Altura (mm)" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <TextBox x:Name="TxtCustomHeight" Grid.Row="3" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" IsEnabled="False" />
+                </Grid>
+
+                <Grid Margin="0,6,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Mostrar moldura" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <CheckBox x:Name="ChkFrame" Grid.Column="1" Style="{StaticResource App.CheckBox}" />
+                </Grid>
+
+                </StackPanel>
+            </ScrollViewer>
+
+            <!-- COLUNA DIREITA -->
+            <ScrollViewer Grid.Column="2" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <StackPanel Margin="0,0,0,0">
+
+                <!-- ESCALA DOS ELEMENTOS -->
+                <TextBlock Text="ESCALA DOS ELEMENTOS" Style="{StaticResource App.SectionHeader}" />
+                <Grid Margin="0,6,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80" />
+                        <ColumnDefinition Width="110" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Escala" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" />
+                    <ComboBox x:Name="CmbElementScale" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,2"
+                              SelectionChanged="OnScaleChanged">
+                        <ComboBoxItem Content="1:10" Tag="0.1" />
+                        <ComboBoxItem Content="1:5" Tag="0.2" />
+                        <ComboBoxItem Content="1:2" Tag="0.5" />
+                        <ComboBoxItem Content="4:5 (0.8)" Tag="0.8" />
+                        <ComboBoxItem Content="1:1" Tag="1.0" />
+                        <ComboBoxItem Content="6:5 (1.2)" Tag="1.2" />
+                        <ComboBoxItem Content="2:1" Tag="2.0" />
+                        <ComboBoxItem Content="5:1" Tag="5.0" />
+                        <ComboBoxItem Content="10:1" Tag="10.0" />
+                    </ComboBox>
+                </Grid>
+                <TextBlock Text="Redimensiona símbolos e grid juntos (terminais alinhados à malha)."
+                           Margin="82,2,0,0" TextWrapping="Wrap"
+                           Foreground="{DynamicResource App.Text.Secondary}" />
+
+                <!-- QUADRO -->
+                <TextBlock Text="QUADRO" Style="{StaticResource App.SectionHeader}" Margin="0,12,0,0" />
+                <Grid Margin="0,6,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="8" />
+                        <ColumnDefinition Width="28" />
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="8" />
+                        <ColumnDefinition Width="55" />
+                        <ColumnDefinition Width="55" />
+                        <ColumnDefinition Width="8" />
+                        <ColumnDefinition Width="65" />
+                        <ColumnDefinition Width="55" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <!-- Colunas -->
+                    <CheckBox x:Name="ChkColumns" Content="Colunas" Style="{StaticResource App.CheckBox}" VerticalContentAlignment="Center" />
+                    <TextBlock Grid.Column="2" Text="Nº" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtColumnsCount" Grid.Column="3" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                    <TextBlock Grid.Column="4" />
+                    <TextBlock Grid.Column="5" Text="Largura" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtColumnsWidth" Grid.Column="6" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                    <TextBlock Grid.Column="7" />
+                    <TextBlock Grid.Column="8" Text="Cabeçalho" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtColumnsHeaderHeight" Grid.Column="9" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <!-- Linhas -->
+                    <CheckBox x:Name="ChkRows" Grid.Row="1" Content="Linhas" Style="{StaticResource App.CheckBox}" VerticalContentAlignment="Center" />
+                    <TextBlock Grid.Row="1" Grid.Column="2" Text="Nº" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtRowsCount" Grid.Row="1" Grid.Column="3" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                    <TextBlock Grid.Row="1" Grid.Column="4" />
+                    <TextBlock Grid.Row="1" Grid.Column="5" Text="Altura" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtRowsHeight" Grid.Row="1" Grid.Column="6" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                    <TextBlock Grid.Row="1" Grid.Column="7" />
+                    <TextBlock Grid.Row="1" Grid.Column="8" Text="Cabeçalho" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtRowsHeaderWidth" Grid.Row="1" Grid.Column="9" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                </Grid>
+
+                <!-- MARGENS (mm) -->
+                <TextBlock Text="MARGENS (mm)" Style="{StaticResource App.SectionHeader}" Margin="0,12,0,0" />
+                <Grid Margin="0,6,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="75" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="16" />
+                        <ColumnDefinition Width="75" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Esquerda" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtMarginLeft" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                    <TextBlock Grid.Column="3" Text="Direita" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtMarginRight" Grid.Column="4" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+
+                    <TextBlock Grid.Row="1" Text="Superior" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtMarginTop" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                    <TextBlock Grid.Row="1" Grid.Column="3" Text="Inferior" Style="{StaticResource App.FieldLabel}" TextAlignment="Right" VerticalAlignment="Center" />
+                    <TextBox x:Name="TxtMarginBottom" Grid.Row="1" Grid.Column="4" Style="{StaticResource App.TextBox.Compact}" Margin="0,2" />
+                </Grid>
+
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+        <!-- Botões -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="96" Height="30" />
+            <Button Content="Cancelar" IsCancel="True" Width="96" Height="30" Margin="8,0,0,0"
+                    Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                    FontFamily="{StaticResource App.Font}" BorderBrush="{DynamicResource App.Border}" />
+        </StackPanel>
+    </Grid>
+</Window>

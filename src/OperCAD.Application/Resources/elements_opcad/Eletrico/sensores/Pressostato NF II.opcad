@@ -1,0 +1,197 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nf_8.opcad",
+  "id": "{2e438c5a-2578-8090-a31e-93f08a449068}",
+  "names": {
+    "ar": "راصد ضغط (برسوستات) - NC",
+    "ca": "Presòstat (NC)",
+    "cs": "Tlakový spínač NC",
+    "de": "Druckschalter Öffner",
+    "en": "Presostat (NC)",
+    "es": "Presóstato NC",
+    "fr": "Pressostat NC",
+    "it": "Presostato (NC)",
+    "nl": "Pressostaat 2 (NC)",
+    "pl": "Presostat (zestyk rozwierny)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 18.999,
+  "height": 21.749,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -5.499
+        },
+        {
+          "x": -2.5,
+          "y": 4.499
+        },
+        {
+          "x": -2.5,
+          "y": 9.499
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -5.0,
+      "x2": 0.499,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "P",
+      "x": -12.093,
+      "y": 0.633,
+      "rotation": 0,
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.001,
+      "y1": 0.0,
+      "x2": -11.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "circle",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -10.0,
+      "x2": -2.5,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{020b1081-604f-4a83-924f-0d7fc00652de}",
+      "name": "",
+      "x": -2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{08ba9176-9c84-4d80-bc71-0d35f56b3375}",
+      "name": "",
+      "x": -2.5,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.027,
+      "y": -2.085,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{fd4a1ef5-0e34-4215-87da-0930d1f33d9b}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -6.525,
+      "y": -9.133,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{b97ae059-e657-48e8-8eb6-c70fa76fb5b8}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "label"
+    },
+    {
+      "x": -6.379,
+      "y": 6.434,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a961055d-82b9-46c8-8ef5-58ab800d292e}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "label"
+    }
+  ]
+}

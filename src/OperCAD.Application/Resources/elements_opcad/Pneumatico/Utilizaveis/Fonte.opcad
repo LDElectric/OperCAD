@@ -1,0 +1,100 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte.opcad",
+  "id": "{d2443321-00a4-f1a1-8790-552aeb9c389e}",
+  "names": {
+    "ar": "مصدر طاقة نيوماتية",
+    "ca": "Font d'energia pneumàtica",
+    "cs": "Zdroje vzduchové energie",
+    "de": "Druckluftquelle",
+    "en": "Pneumatic energy source",
+    "fr": "Source d'énergie pneumatique",
+    "it": "Alimentazione motore",
+    "nl": "Toevoer lucht",
+    "pl": "Źródło energii pneumatycznej, symbol ogólny uprzoszczony"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 12.974,
+  "hotspotX": 5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 0.0,
+      "x2": 10.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 2.5
+        },
+        {
+          "x": 5.0,
+          "y": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": -2.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{80922545-03a6-4f12-83c4-e963a497feae}",
+      "name": "",
+      "x": 10.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.545774525808681,
+      "y": -6.578231503613149,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{d4b1ace1-e3dc-486b-b2a5-0bbdb7234b12}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

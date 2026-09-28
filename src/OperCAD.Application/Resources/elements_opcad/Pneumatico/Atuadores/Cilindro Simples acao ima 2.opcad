@@ -1,0 +1,310 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Simples_acao_ima_2.opcad",
+  "id": "{e9bffe68-e50d-4f71-c378-1c5a1786a4dd}",
+  "names": {
+    "ar": "التمثيل الفردي + المغناطيس",
+    "cs": "Jednočinný + magnet",
+    "da": "Enkeltvirkende + magnet",
+    "de": "Einfachwirkend + Magnet",
+    "el": "Μονής δράσης + μαγνήτης",
+    "en": "Single acting + magnet",
+    "es": "Simple efecto + imán",
+    "fr": "Simple effet + aimant",
+    "hr": "Jednostruko djelovanje + magnet",
+    "hu": "Egyszeres működésű + mágnes",
+    "it": "Semplice effetto + magnete",
+    "ja": "単動+磁石",
+    "mn": "Нэг үйлдэлтэй + соронз",
+    "nb": "Enkeltvirkende + magnet",
+    "nl": "Enkelwerkend + magneet",
+    "pl": "Jednostronnego działania + magnes",
+    "pt": "Cilindro Simples acao ima 2",
+    "pt_BR": "Simples ação + ímã",
+    "ro": "Simplu efect + magnet",
+    "ru": "Одностороннего действия + магнит",
+    "sl": "Enostransko delovanje + magnet",
+    "sr": "Једноструко дејство + магнет",
+    "tr": "Tek etkili + mıknatıs"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 50.996,
+  "height": 22.974,
+  "hotspotX": 10.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.0,
+          "y": 0.501
+        },
+        {
+          "x": 6.0,
+          "y": 4.499
+        },
+        {
+          "x": 6.499,
+          "y": 4.499
+        },
+        {
+          "x": 6.499,
+          "y": 0.501
+        },
+        {
+          "x": 6.999,
+          "y": 0.501
+        },
+        {
+          "x": 6.999,
+          "y": 4.499
+        },
+        {
+          "x": 7.5,
+          "y": 4.499
+        },
+        {
+          "x": 7.5,
+          "y": 3.5
+        },
+        {
+          "x": 6.999,
+          "y": 2.999
+        },
+        {
+          "x": 6.999,
+          "y": 1.999
+        },
+        {
+          "x": 7.5,
+          "y": 1.5
+        },
+        {
+          "x": 7.5,
+          "y": 0.501
+        },
+        {
+          "x": 6.499,
+          "y": 0.501
+        },
+        {
+          "x": 6.0,
+          "y": 0.501
+        },
+        {
+          "x": 6.0,
+          "y": 4.499
+        },
+        {
+          "x": 6.999,
+          "y": 4.499
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": 5.0,
+      "y": -2.5,
+      "width": 3.5,
+      "height": 10.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.499,
+          "y": 3.5
+        },
+        {
+          "x": 11.499,
+          "y": 7.5
+        },
+        {
+          "x": -16.499,
+          "y": 7.5
+        },
+        {
+          "x": -16.499,
+          "y": -2.5
+        },
+        {
+          "x": 11.499,
+          "y": -2.5
+        },
+        {
+          "x": 11.499,
+          "y": 1.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 8.999,
+          "y": 7.5
+        },
+        {
+          "x": 11.0,
+          "y": 7.5
+        },
+        {
+          "x": 10.0,
+          "y": 5.499
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -14.113838222142823,
+          "y": 7.557419111071411
+        },
+        {
+          "x": -15.112838222142821,
+          "y": 9.556419111071412
+        },
+        {
+          "x": -16.11283822214282,
+          "y": 7.557419111071411
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 9.942212029200853,
+      "y1": 9.84178564506751,
+      "x2": 9.942212029200853,
+      "y2": 7.531978810000646,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          17.439041604754827,
+          3.349219910846953
+        ],
+        [
+          8.546285289747399,
+          3.349219910846953
+        ],
+        [
+          8.546285289747399,
+          1.5013744427934619
+        ],
+        [
+          17.55453194650817,
+          1.5013744427934619
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{23c888b0-cc9b-402b-827c-177017ce9ce1}",
+      "name": "",
+      "x": 10.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{cf475f04-b001-43f3-95e7-78838a26173a}",
+      "name": "",
+      "x": -15.164384004134634,
+      "y": 10.042638413334194,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.6405334323922744,
+      "y": -6.622031203566123,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{dbd71dbe-d663-477f-9dfd-8725fc661135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

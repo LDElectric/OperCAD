@@ -1,0 +1,199 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "secador_de_ar_comprimido.opcad",
+  "id": "{1ed4e152-e573-e214-c12d-acaca552c3fc}",
+  "names": {
+    "ar": "مجفف الهواء المضغوط",
+    "ca": "assecador d'aire comprimit",
+    "cs": "sušička stlačeného vzduchu",
+    "da": "tryklufttørrer",
+    "de": "Drucklufttrockner",
+    "el": "στεγνωτήριο πεπιεσμένου αέρα",
+    "en": "compressed air dryer",
+    "es": "secador de aire comprimido",
+    "fr": "sécheur d'air comprimé",
+    "hr": "sušilo za komprimirani zrak",
+    "hu": "sűrített levegős szárító",
+    "it": "essiccatore ad aria compressa",
+    "ja": "圧縮空気乾燥機",
+    "mn": "шахсан агаар хатаагч",
+    "nb": "trykklufttørker",
+    "nl": "perslucht droger",
+    "pl": "osuszacz sprężonego powietrza",
+    "pt": "secador de ar comprimido",
+    "ro": "uscător cu aer comprimat",
+    "ru": "осушитель сжатого воздуха",
+    "sl": "sušilnik na stisnjen zrak",
+    "sr": "сушач на компримовани ваздух",
+    "tr": "basınçlı hava kurutucu"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.25,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.9421705893265875,
+          "y": -0.02358626759827609
+        },
+        {
+          "x": 0.28382941067341244,
+          "y": -5.249586267598276
+        },
+        {
+          "x": 5.506829410673412,
+          "y": -0.02358626759827609
+        },
+        {
+          "x": 0.28382941067341244,
+          "y": 5.199413732401723
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5911705893265875,
+      "y1": -2.376586267598276,
+      "x2": 3.1568294106734123,
+      "y2": -2.376586267598276,
+      "end1": "circle",
+      "end2": "circle",
+      "length1": 0.013,
+      "length2": 0.013,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5911705893265875,
+      "y1": 2.3264137324017238,
+      "x2": 3.1568294106734123,
+      "y2": 2.3264137324017238,
+      "end1": "circle",
+      "end2": "circle",
+      "length1": 0.013,
+      "length2": 0.013,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.506829410673412,
+      "y1": -0.02358626759827609,
+      "x2": 7.119829410673413,
+      "y2": -0.02358626759827609,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.554170589326588,
+      "y1": -0.02358626759827609,
+      "x2": -4.9421705893265875,
+      "y2": -0.02358626759827609,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a34349e1-b08a-4d37-bf98-4f32f3852205}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{016f974d-e360-4bf8-ab27-b935e4ffedc5}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -7.828952928080942,
+      "y": -9.251686249046282,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{4750c7c6-fe9a-5668-06cf-f50740851245}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -8.214825518933482,
+      "y": -5.615729429225406,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{fb7e07cf-ee90-8474-4ede-fdc39747dc06}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

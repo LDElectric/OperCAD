@@ -1,0 +1,245 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Self.opcad",
+  "id": "{1736be64-5dbd-510c-0e52-09ac552cfeca}",
+  "names": {
+    "ar": "ملف حثّي بقلب حديدي مع فجوة",
+    "cs": "Tlumivka (indukčnost se vzduchovou mezerou)",
+    "de": "Induktivität mit Kopfspalt",
+    "en": "Self",
+    "fr": "Self avec entrefer",
+    "it": "Autotrasformatore con traferro",
+    "nl": "Inductor met spleet",
+    "pl": "Dławik",
+    "pt": "Indutor com núcleo de magnético - ferrite"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 9.001,
+  "height": 20.0,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 2.2023640416047545,
+      "y1": -2.9998410104011892,
+      "x2": 2.2023640416047545,
+      "y2": -0.18784101040118922,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.826364041604755,
+      "y1": 0.4381589895988108,
+      "x2": 2.826364041604755,
+      "y2": 3.2501589895988108,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.2023640416047545,
+      "y1": 0.4381589895988108,
+      "x2": 2.2023640416047545,
+      "y2": 3.2501589895988108,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.826364041604755,
+      "y1": -2.9998410104011892,
+      "x2": 2.826364041604755,
+      "y2": -0.18784101040118922,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -1.079635958395245,
+      "y": -2.9998410104011892,
+      "width": 2.187,
+      "height": 1.563,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.079635958395245,
+      "y": 0.12515898959881078,
+      "width": 2.187,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.079635958395245,
+      "y": 1.6871589895988108,
+      "width": 2.187,
+      "height": 1.563,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.079635958395245,
+      "y": -1.4368410104011893,
+      "width": 2.187,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.014364041604754907,
+      "y1": 3.2494435364041596,
+      "x2": 0.014364041604754907,
+      "y2": 5.24944353640416,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.014364041604754907,
+      "y1": -5.061705052005944,
+      "x2": 0.014364041604754907,
+      "y2": -3.0617050520059443,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9c9ae990-152e-458b-b956-a8777e0bfa61}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ce561c5f-b58f-4eb1-afd5-5983aba16557}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 7.25,
+      "y": -4.084,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{d5f81a8b-f37c-44d1-9945-ec6283d9145d}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

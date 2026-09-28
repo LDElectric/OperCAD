@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Transformador_15.opcad",
+  "id": "{1af67b15-72c7-028c-f20c-86b3e32e50c6}",
+  "names": {
+    "pt": "Tranformador VII",
+    "en": "Transformer with variable coupling",
+    "hu": ""
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 23.0,
+  "height": 40.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -4.416,
+      "y": -7.743,
+      "width": 9.313,
+      "height": 9.313,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -4.416,
+      "y": -1.535,
+      "width": 9.313,
+      "height": 9.313,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.054,
+      "y1": -12.518,
+      "x2": -0.054,
+      "y2": -7.861,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.021,
+      "y1": 7.696,
+      "x2": 0.021,
+      "y2": 12.536,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.968,
+      "y1": 3.122,
+      "x2": 6.45,
+      "y2": -3.087,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.172,
+          "y": -3.557
+        },
+        {
+          "x": 6.793,
+          "y": -2.315
+        },
+        {
+          "x": 8.345,
+          "y": -4.177
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9b0489f7-de83-477d-a8c5-14844714e370}",
+      "name": "",
+      "x": 0.0,
+      "y": -12.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{be4ae340-592b-4473-a3c7-28cf2ac0cbe6}",
+      "name": "",
+      "x": 0.0,
+      "y": 12.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -13.689,
+      "y": -2.746,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0caf8b6c-9571-419e-982a-f956a15a998e}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ],
+  "freeDrawing": false
+}

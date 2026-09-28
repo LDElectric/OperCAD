@@ -1,0 +1,336 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "tomada_3.opcad",
+  "id": "{25ded22e-dd4a-8d9d-d8b2-10f1e76c0f82}",
+  "names": {
+    "ar": "قاعدة DINب 4 أطراف توصيل",
+    "ca": "Presa DIN de 4 pins",
+    "cs": "Kulatá zástrčka DIN 4 kolíky",
+    "de": "Rundstecker 4-polig",
+    "en": "4-pin DIN socket",
+    "es": "Socket de 4 pines",
+    "fr": "Embase DIN 4 broches",
+    "hu": "4 tűs DIN csatlakozó",
+    "it": "DIN 4 Pin",
+    "nl": "DIN 4 Pin",
+    "pl": "Złącze DIN czterostykowe"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 6.666,
+  "hotspotX": 0.0,
+  "hotspotY": -0.833,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -4.166,
+      "y": -2.944,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "4",
+      "x": 3.667,
+      "y": -2.944,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "5",
+      "x": 3.833,
+      "y": 0.222,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -4.166,
+      "y": 0.555,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.166,
+      "y1": -2.5,
+      "x2": 2.166,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.25,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.166,
+      "y1": -2.5,
+      "x2": -2.166,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.25,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.333,
+      "y": -4.166,
+      "width": 6.666,
+      "height": 6.666,
+      "start": 96,
+      "angle": 348,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 4.166,
+      "y1": 0.834,
+      "x2": 2.166,
+      "y2": 0.834,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.25,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.166,
+      "y1": 0.834,
+      "x2": -2.166,
+      "y2": 0.834,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.25,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.333,
+          "y": -4.166
+        },
+        {
+          "x": -0.333,
+          "y": -3.499
+        },
+        {
+          "x": 0.333,
+          "y": -3.499
+        },
+        {
+          "x": 0.333,
+          "y": -4.166
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.083,
+      "y": -2.916,
+      "width": 0.833,
+      "height": 0.833,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.25,
+      "y": -2.916,
+      "width": 0.833,
+      "height": 0.833,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.25,
+      "y": 0.417,
+      "width": 0.833,
+      "height": 0.833,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.083,
+      "y": 0.417,
+      "width": 0.833,
+      "height": 0.833,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{e7de8c45-09d9-4ff4-a934-b0b621d478a4}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.834,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{30496612-55d1-4763-9466-965a77c4cfca}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.834,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{29859c0c-6a17-4cc9-a625-a2fcd4905093}",
+      "name": "",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6a34f96b-c3c7-48ce-adb2-280bb1ef79e2}",
+      "name": "",
+      "x": 5.0,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 3.0,
+      "y": 0.509,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ebef7c41-fd54-4754-8df3-a86e829675ca}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

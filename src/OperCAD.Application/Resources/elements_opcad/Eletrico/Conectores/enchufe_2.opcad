@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "enchufe_2.opcad",
+  "id": "{20a26759-9f5f-6daf-72b0-af570b182ecf}",
+  "names": {
+    "ar": "قابس ذكري",
+    "ca": "endoll mascle",
+    "cs": "Kontakt zástrčka",
+    "de": "Steckverbindung Stecker",
+    "en": "plug male",
+    "es": "Enchufe macho",
+    "fr": "Contact mâle fiche",
+    "hu": "Apa csatlakozó",
+    "it": "Contatto maschio",
+    "nl": "Steker",
+    "pl": "Wtyk"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 03-03-03",
+  "width": 1.002,
+  "height": 10.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.501,
+      "y1": -4.0,
+      "x2": -0.501,
+      "y2": -0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -4.0,
+      "x2": 0.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.501,
+      "y1": -4.0,
+      "x2": 0.501,
+      "y2": -0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f280fe7a-d33e-45e4-824b-bcb17424b8d4}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.501,
+      "y": -5.0,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{21222ab9-37b3-4875-844c-e51e05f8f357}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Chave_seletora_2.opcad",
+  "id": "{af37215f-59ea-6c85-9b6d-4d724b914e1f}",
+  "names": {
+    "ar": "مُحدّد دوار بوضعين ثابتين محمي بقفل, إخراج المفتاح إلى اليسار",
+    "cs": "Otočný přepínač s 2 pevnými polohami, ovládaný klíčkem, zleva",
+    "de": "Öffner 1-polig 2 Stellungen Schlüssel betätigt rastend",
+    "el": "Διακόπτης επιλογής 2 θέσεων, αφαίρεση κλειδιού στην αριστερή θέση",
+    "en": "Selector switch 2-position stay put, key withdrawal from LH",
+    "es": "Interruptor selector 2 posición fija con llave LH",
+    "fr": "Bouton tournant 2 positions fixes, retrait de la clé à gauche",
+    "it": "Selettore a chiave, 2 posizioni stabili, estrazione chiave a SX",
+    "nl": "2 positie sleutelschakelaar(vergrendelt in stand 2 (NC)",
+    "pl": "Łącznik obrotowy przełączny, uruchamiany kluczykiem",
+    "pt": "Chave seletora 2P II"
+  },
+  "kindInformations": {
+    "type": "commutator"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 24.118,
+  "height": 20.0,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 10.417,
+      "y1": -2.291,
+      "x2": 15.403,
+      "y2": -2.291,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 9.834,
+      "y1": -1.164,
+      "x2": 11.369,
+      "y2": -3.466,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": 6.194,
+      "y": -7.165,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 9.834,
+      "y1": -1.164,
+      "x2": 8.3,
+      "y2": -3.466,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.696,
+          "y": -0.781
+        },
+        {
+          "x": 4.848,
+          "y": -0.781
+        },
+        {
+          "x": 4.848,
+          "y": -3.849
+        },
+        {
+          "x": 5.999,
+          "y": -3.849
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": 9.788,
+      "y": -7.177,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.034,
+      "y1": -2.313,
+      "x2": 9.02,
+      "y2": -2.313,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          17.634,
+          -10.006
+        ],
+        [
+          17.634,
+          -5.792
+        ],
+        [
+          16.053,
+          -5.792
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          12.53,
+          -10.041
+        ],
+        [
+          12.53,
+          -5.897
+        ],
+        [
+          14.357,
+          -5.897
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          16.646,
+          -6.719
+        ],
+        [
+          14.989,
+          -0.535
+        ],
+        [
+          14.989,
+          4.903
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a460546f-64da-4154-bca8-c7ad7e91fdac}",
+      "name": "",
+      "x": 12.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b2163300-e295-4e1d-8a4c-5f8618eb9ef6}",
+      "name": "",
+      "x": 15.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1d5fa28c-cb1e-408a-857e-bb605dd54e27}",
+      "name": "",
+      "x": 17.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.043298573941358054,
+      "y": -4.423078979653339,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{79d48625-52bd-45ef-8339-0d84b846cd0f}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 15.492,
+      "y": 1.758,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{53391552-1c23-4a95-a68f-e72a889bd1e1}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": ""
+    },
+    {
+      "x": 18.277,
+      "y": -9.687,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{eb6c01c4-b6ed-4ee7-b207-2219512f33f5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": ""
+    },
+    {
+      "x": 11.015,
+      "y": -9.62,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{9721ecc2-0678-44b0-ab68-466f25f8ceaa}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": ""
+    }
+  ]
+}

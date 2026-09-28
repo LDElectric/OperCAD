@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fusivel_2.opcad",
+  "id": "{97a2ce07-3208-0f99-4e55-4865feecd733}",
+  "names": {
+    "ca": "Fusible 1p",
+    "cs": "Pojistka 1p",
+    "de": "Sicherung 1p",
+    "en": "Fuse 1p",
+    "fr": "Fusible 1p",
+    "hu": "Olvadóbiztosító 1 pólusú"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 18.997,
+  "height": 22.498,
+  "hotspotX": -10.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.05199498526342694,
+      "y1": 7.475620435051535,
+      "x2": 0.05199498526342694,
+      "y2": 3.314011909999361,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.009205140104987297,
+      "y1": -5.560006268420716,
+      "x2": -0.10228288077467473,
+      "y2": -9.966415294946547,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -1.222398997052685,
+      "y": -5.57191163062438,
+      "width": 2.624,
+      "height": 8.75,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{255ab120-f9d9-482c-95c0-c2eded67105c}",
+      "name": "3",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1d52111f-977c-4031-869d-39e2f7777cdc}",
+      "name": "4",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.546373333009196,
+      "y": -5.261328003464205,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{dd6f5b99-eca8-4928-89f0-eb8204fb8854}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -9.691609597115235,
+      "y": -0.4837074996084314,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ComponentInfo",
+      "uuid": "{84156395-254e-4835-8b30-035d8a71868a}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "value"
+    },
+    {
+      "x": -2.5094140335464523,
+      "y": -9.17809741965799,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{8fc5f5c2-fae5-4136-8946-003478270044}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "tag"
+    },
+    {
+      "x": -2.277658548361834,
+      "y": 4.041170725819082,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{7be7ef11-4d61-4b9d-b1cb-b29f196ad0d9}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": "tag"
+    }
+  ]
+}

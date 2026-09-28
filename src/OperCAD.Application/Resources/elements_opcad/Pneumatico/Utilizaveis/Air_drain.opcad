@@ -1,0 +1,150 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Air_drain.opcad",
+  "id": "{9aba2a74-9004-f13d-14f4-c4da1e4715a2}",
+  "names": {
+    "ar": "صرف هواء",
+    "ca": "Desguàs d'aire",
+    "cs": "Větrací kanál",
+    "de": "Luftablass",
+    "en": "Air drain",
+    "fr": "Reniflard",
+    "it": "Scarico d'aria",
+    "nl": "Smoring",
+    "pl": "Odpowietrznik chwilowy"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.999,
+  "height": 6.025,
+  "hotspotX": 5.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": 3.462,
+      "y": -0.287,
+      "width": 0.575,
+      "height": 0.575,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.75,
+      "y": -5.0,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 315,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 7.499,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.75,
+      "y1": 0.0,
+      "x2": 3.75,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 4.25,
+      "y": -5.0,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 135,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c42cc237-a99e-4610-be02-57314374c9ba}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f6dc1ca5-9ee2-4650-aa0e-8c340d78aa01}",
+      "name": "",
+      "x": 0.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 7.701170705214271,
+      "y": -5.999326284907935,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{abf8a073-b16d-400c-97ba-cff917f9feec}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

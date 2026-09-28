@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "atraso.opcad",
+  "id": "{63d7177d-57b1-5c9b-c710-650670ba484b}",
+  "names": {
+    "ar": "تأخير",
+    "ca": "retard",
+    "cs": "zpoždění",
+    "da": "forsinke",
+    "de": "Verzögerung",
+    "el": "καθυστέρηση",
+    "en": "delay",
+    "es": "demora",
+    "fr": "retard",
+    "hr": "odgoditi",
+    "hu": "késleltetés",
+    "it": "ritardo",
+    "ja": "遅れ",
+    "mn": "саатал",
+    "nb": "forsinkelse",
+    "nl": "vertraging",
+    "pl": "opóźnienie",
+    "pt": "atraso",
+    "ro": "întârziere",
+    "ru": "задерживать",
+    "sl": "zamuda",
+    "sr": "кашњење",
+    "tr": "gecikme"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 42.995,
+  "height": 19.998,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": 0.13791248606466033,
+      "y": -5.0683804696209585,
+      "width": 9.998,
+      "height": 9.996,
+      "start": 271,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.1379124860646606,
+          "y": -5.0683804696209585
+        },
+        {
+          "x": -7.36008751393534,
+          "y": -5.0683804696209585
+        },
+        {
+          "x": -7.36008751393534,
+          "y": 4.927619530379041
+        },
+        {
+          "x": 5.1379124860646606,
+          "y": 4.927619530379041
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{78de70f2-3de2-4a3b-b1ad-d17f87af8273}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -22.999,
+      "y": -6.5,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{42338d17-df88-42aa-945c-2e435c4f5c0a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

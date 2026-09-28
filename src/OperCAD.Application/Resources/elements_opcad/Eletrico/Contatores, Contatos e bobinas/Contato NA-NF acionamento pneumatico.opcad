@@ -1,0 +1,328 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_6.opcad",
+  "id": "{e62b6960-9f00-b9a7-1e97-a2e8dfffcfbf}",
+  "names": {
+    "cs": "Kontakt NC/NO řízený pneumaticky nebo hydraulicky, dvoucestný",
+    "de": "Wechsler Zylinder betätigt 2 Richtungen",
+    "en": "Contact NC/NO pneumatically or hydraulically controlled, two-way",
+    "es": "Contacto NC/NA neumaticamente o hidraulicamente controlado, dos formas",
+    "fr": "Actionné par énergie hydraulique ou\npneumatique, à double effet NO/NC",
+    "it": "Contatto NO/NC a comando pneumatico o idraulico, nei 2 sensi",
+    "nl": "pneumatisch/hydraulisch 2 pos (NC/NO)",
+    "pl": "Zestyk przełączny sterowany pneumatycznie lub hydraulicznie, dwukierunkowy",
+    "pt": "Contato NA-NF acionamento pneumatico"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.248,
+  "height": 10.999,
+  "hotspotX": -2.5,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -2.462,
+      "y1": -3.045,
+      "x2": 2.265,
+      "y2": -3.045,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.0,
+          "y": 7.5
+        },
+        {
+          "x": 5.0,
+          "y": 3.864
+        },
+        {
+          "x": 1.364,
+          "y": -3.409
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -9.544,
+      "y": -1.591,
+      "width": 7.273,
+      "height": 3.636,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.462,
+      "y1": -7.093,
+      "x2": -2.462,
+      "y2": -3.093,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.909,
+      "y1": -1.591,
+      "x2": -5.909,
+      "y2": 2.045,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": -7.045,
+      "x2": 5.0,
+      "y2": -3.409,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.0,
+          "y": -2.682
+        },
+        {
+          "x": -4.453,
+          "y": -3.045
+        },
+        {
+          "x": -4.453,
+          "y": -2.318
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.817,
+          "y": -2.682
+        },
+        {
+          "x": -7.364,
+          "y": -3.045
+        },
+        {
+          "x": -7.364,
+          "y": -2.318
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -7.364,
+      "y1": -2.682,
+      "x2": -4.453,
+      "y2": -2.682,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.909,
+      "y1": 0.227,
+      "x2": 3.182,
+      "y2": 0.227,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{2dd153c7-31bc-4ae7-b196-a06b9a124823}",
+      "name": "",
+      "x": 5.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e65abcc9-ea87-4180-b601-82aa81b5a209}",
+      "name": "",
+      "x": 5.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dcb1b630-ebd2-4e27-bdd4-7b7dc039addc}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -12.908388471543942,
+      "y": -6.551292258973966,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{22e1a0f8-049e-4c38-9c2a-3a8955dea87a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 6.004207823238888,
+      "y": 4.121811536939083,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{3687c246-8bb7-4ac6-adfb-69cbeda6c1e0}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": -5.756376926121835,
+      "y": -6.960942315304586,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e37b5465-d853-45c4-8906-b55bdbbd6d42}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "22",
+      "infoName": "tag"
+    },
+    {
+      "x": 6.15,
+      "y": -6.92,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e904b5d8-9e54-4b8c-a359-723646e76c07}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "24",
+      "infoName": "tag"
+    }
+  ]
+}

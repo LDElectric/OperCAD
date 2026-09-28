@@ -1,0 +1,298 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Integrated_Circuit_8_pins_3.opcad",
+  "id": "{a9599663-8ac2-fcb1-542b-e8c51f64c4d0}",
+  "names": {
+    "ar": "دائرة مُدمجة 8 دبابيس",
+    "cs": "Integrovaný obvod, 8 pinů",
+    "de": "Integrierte Schaltung 8 Anschlüsse",
+    "el": "Ολοκληρωμένο κύκλωμα 8 ακροδεκτών",
+    "en": "Integrated Circuit, 8 pins",
+    "fr": "Circuit integré 8 broches",
+    "it": "Circuito integrato, 8 pin",
+    "nl": "IC 8 pin",
+    "pl": "Układ scalony, 8 nóżek",
+    "pt": "Circuito integrado 8 pinos"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 9.437,
+  "hotspotX": -1.25,
+  "hotspotY": -1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 0.0,
+      "x2": -3.875,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 2.5,
+      "x2": -3.875,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -2.5,
+      "x2": -3.875,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -5.0,
+      "x2": -3.875,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": -5.0,
+      "x2": 2.5,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": -2.5,
+      "x2": 2.5,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 0.0,
+      "x2": 2.5,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 2.5,
+      "x2": 2.5,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -1.562,
+      "y": -5.874,
+      "width": 0.625,
+      "height": 0.625,
+      "start": 180,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -3.75,
+      "y": -5.625,
+      "width": 5.0,
+      "height": 8.749,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{b285c730-e493-418a-a569-f09729b5ae42}",
+      "name": "",
+      "x": 2.5,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f39b4638-6b6f-44c2-a0fa-e07feb35c4d6}",
+      "name": "",
+      "x": 2.5,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e08fbea7-043c-4d14-95b9-e3719e18c2c9}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9a011d2f-dd86-46fc-aa41-ca7d7460a5e7}",
+      "name": "",
+      "x": 2.5,
+      "y": 2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{79526242-5d58-4ce5-b8c3-b6d4fb6c17bd}",
+      "name": "",
+      "x": -5.0,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{63e458d6-0ff6-4422-9a24-8172971e36a5}",
+      "name": "",
+      "x": -5.0,
+      "y": 2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{5b876b0c-c9d3-4607-9a06-42987a7cb5f5}",
+      "name": "",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0f14ee51-f15e-479a-aae3-18880cf2b748}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -4.875,
+      "y": 3.562,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{043ee474-9d74-476b-83ee-11266d52d152}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

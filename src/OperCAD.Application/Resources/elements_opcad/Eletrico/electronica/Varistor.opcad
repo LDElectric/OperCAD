@@ -1,0 +1,144 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Vertical_3.opcad",
+  "id": "{b4effcf4-0a8d-64ba-6eaf-d0624e1fe7ed}",
+  "names": {
+    "ar": "مقاومة مرتبطة بالجهد (فاريستور)",
+    "cs": "Varistor",
+    "de": "Varistor",
+    "en": "Varistor",
+    "es": "Varistor",
+    "fr": "Varistance",
+    "it": "Varistore",
+    "nl": "Varistor VDR",
+    "pl": "Warystor",
+    "pt": "Varistor"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 04-01-04",
+  "width": 7.999,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.0007384843982170541,
+      "y1": 5.124841010401189,
+      "x2": -0.0007384843982170541,
+      "y2": -5.375158989598811,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -1.249738484398217,
+      "y": -3.250158989598811,
+      "width": 2.5,
+      "height": 6.25,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "U",
+      "x": 1.684830609212482,
+      "y": 1.4979331352154537,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.187261515601783,
+          "y": 2.999841010401189
+        },
+        {
+          "x": 2.187261515601783,
+          "y": 1.4368410104011888
+        },
+        {
+          "x": -2.187738484398217,
+          "y": -3.250158989598811
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4410c57c-3796-4696-b63b-d8d5a0c9b788}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{09a3060b-a0fd-41ad-b605-f5c0ae63901e}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.498364041604753,
+      "y": -3.7464561664190192,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{570cd854-578d-4c4b-bd2a-3498353e46b6}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

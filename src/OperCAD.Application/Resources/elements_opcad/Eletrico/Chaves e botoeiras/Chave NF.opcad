@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "posicao_3.opcad",
+  "id": "{e0fbc0a1-b10b-44fa-4d3f-979b647a23a9}",
+  "names": {
+    "ar": "بدّال بوضعين و بمفتاح",
+    "cs": "Otočný spínač 2 polohy (NO)",
+    "de": "Drehschalter ein/aus",
+    "el": "Διακόπτης 2 θέσεων",
+    "en": "2 position switch",
+    "es": "Interruptor de 2 posiciónes",
+    "fr": "Commutateur a 2 positions à clé",
+    "it": "Selettore a 2 posizioni stabili",
+    "nl": "keuzeschakelaar 2 pos (NO)",
+    "pl": "Łącznik obrotowy napędzany kluczykiem",
+    "pt": "Chave NF"
+  },
+  "kindInformations": {
+    "type": "commutator"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 18.247,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 2.49,
+      "y1": -9.96,
+      "x2": 2.49,
+      "y2": -5.834,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.49,
+      "y1": -5.834,
+      "x2": 4.739,
+      "y2": -5.834,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.365,
+          "y": -6.21
+        },
+        {
+          "x": 2.49,
+          "y": 1.29
+        },
+        {
+          "x": 2.49,
+          "y": 5.04
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.445,
+          "y": -4.416
+        },
+        {
+          "x": -2.327,
+          "y": -4.416
+        },
+        {
+          "x": -2.327,
+          "y": -0.653
+        },
+        {
+          "x": -4.207,
+          "y": -0.653
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.319,
+      "y1": -2.535,
+      "x2": -2.327,
+      "y2": -2.535,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{5b8e1cb5-8c5a-4e96-8a14-4c9fdb9acc29}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0eb1cb1e-8f20-43bc-8c11-d4b6d4a4a24a}",
+      "name": "",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -7.926135310132434,
+      "y": -4.514390184276962,
+      "z": 9,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{d8d2e6f5-3795-409c-9c9d-7cb1c7cdc3a2}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 3.5264878225427507,
+      "y": -9.617024354914497,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a9d7060d-3784-4d5c-a587-891241430b20}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": 3.5953170967236687,
+      "y": 1.51,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e8d80bee-b2dc-49a2-acec-ceb4dc946d3e}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "12",
+      "infoName": "tag"
+    }
+  ]
+}

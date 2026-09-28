@@ -1,0 +1,580 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Transformador_10.opcad",
+  "id": "{50eab280-c90c-0d3d-eaf8-bbab75e13d65}",
+  "names": {
+    "cs": "Trafo se dvěma vinutími",
+    "de": "Transformator 1ph.",
+    "fr": "Transformateur à deux enroulements",
+    "pt": "Transformador VI"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 17.0,
+  "height": 10.5,
+  "hotspotX": -2.5,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -5.0,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 270,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -5.0,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 180,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -2.5,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 270,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -2.5,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 180,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 0.0,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 270,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 0.0,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 180,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 2.5,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 270,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 2.5,
+      "y": -3.75,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 180,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -5.0,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 90,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -5.0,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 0,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -2.5,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 90,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -2.5,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 0,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 0.0,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 90,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 0.0,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 0,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 2.5,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 90,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 2.5,
+      "y": 1.25,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 0,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -4.499,
+      "y1": 0.0,
+      "x2": 4.499,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "eleve",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -4.785,
+      "x2": -5.0,
+      "y2": -2.535,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.041,
+      "y1": -4.784,
+      "x2": 5.041,
+      "y2": -2.534,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 2.657,
+      "x2": 5.0,
+      "y2": 4.907,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 2.698,
+      "x2": -5.0,
+      "y2": 4.948,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.013,
+      "y1": -4.784,
+      "x2": -0.013,
+      "y2": -2.534,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9cb09037-535c-4480-a4a7-db3f3bad1151}",
+      "name": "4",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{bb3642bb-ebd5-4bc0-8235-966591fad320}",
+      "name": "1",
+      "x": -5.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d79d49ea-e09d-4686-a7d8-9a8bf99d521e}",
+      "name": "2",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b83a2645-754a-4e05-987b-33180e32a364}",
+      "name": "3",
+      "x": -5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0fd5da4c-50fb-4807-8563-28b66b70f2e4}",
+      "name": "2",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.28,
+      "y": -4.941,
+      "z": 18,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{cf8ce068-aa1f-48d3-b287-0e648121d35a}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "R",
+      "infoName": ""
+    },
+    {
+      "x": 5.37,
+      "y": -4.923,
+      "z": 19,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a89a3e01-8ea3-4c45-a954-f1f49b690cd0}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "T",
+      "infoName": ""
+    },
+    {
+      "x": -6.324,
+      "y": 3.385,
+      "z": 20,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{2b0f9c48-cb72-494e-867c-1a200959d8d2}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": ""
+    },
+    {
+      "x": 5.276,
+      "y": 3.508,
+      "z": 21,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e01ede6a-4b4c-42d4-8ecb-312650f07bc4}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": ""
+    },
+    {
+      "x": -11.171,
+      "y": -1.48,
+      "z": 22,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{a4b3aa7f-d028-4f2d-84ec-23b276264e48}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -1.013,
+      "y": -2.222,
+      "z": 28,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c2a40259-d648-4ade-8a12-3c2d36ceee0e}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "380V",
+      "infoName": ""
+    },
+    {
+      "x": -1.02,
+      "y": 0.674,
+      "z": 28,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{d36b6b57-f71c-4bc2-afb0-bd81d09b5df5}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "220V",
+      "infoName": ""
+    },
+    {
+      "x": 0.521,
+      "y": -5.176,
+      "z": 19,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{0d3f15da-0068-4466-b0fa-91f48ac6d05e}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "S",
+      "infoName": ""
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Separacao_automatica_de_agua.opcad",
+  "id": "{e075fab4-37ab-c003-aee3-21b5e3c3d866}",
+  "names": {
+    "ar": "فصل الماء التلقائي",
+    "ca": "Separació automàtica d'aigua",
+    "cs": "Automatická separace vody",
+    "da": "Automatisk vandseparation",
+    "de": "Automatische Wasserabscheidung",
+    "el": "Αυτόματος διαχωρισμός νερού",
+    "en": "Automatic water separation",
+    "es": "Separación automática de agua",
+    "fr": "Séparation automatique de l'eau",
+    "hr": "Automatsko odvajanje vode",
+    "hu": "Automatikus vízleválasztás",
+    "it": "Separazione automatica dell'acqua",
+    "ja": "自動水分離",
+    "mn": "Усны автомат тусгаарлалт",
+    "nb": "Automatisk vannseparasjon",
+    "nl": "Automatische waterscheiding",
+    "pl": "Automatyczna separacja wody",
+    "pt": "Separação automática de água",
+    "ro": "Separarea automată a apei",
+    "ru": "Автоматическое отделение воды",
+    "sl": "Avtomatsko ločevanje vode",
+    "sr": "Аутоматско одвајање воде",
+    "tr": "Otomatik su ayırma"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 7.25,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.25,
+          "y": 1.125
+        },
+        {
+          "x": -1.25,
+          "y": 3.75
+        },
+        {
+          "x": -0.25,
+          "y": 1.125
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.25,
+      "y1": 2.5,
+      "x2": -1.25,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.75,
+          "y": 0.0
+        },
+        {
+          "x": -1.25,
+          "y": -2.5
+        },
+        {
+          "x": 1.25,
+          "y": 0.0
+        },
+        {
+          "x": -1.25,
+          "y": 2.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.625,
+      "y1": 1.125,
+      "x2": 0.125,
+      "y2": 1.125,
+      "end1": "circle",
+      "end2": "circle",
+      "length1": 0.013,
+      "length2": 0.013,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.25,
+      "y1": 0.0,
+      "x2": 2.5,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 0.0,
+      "x2": -3.75,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9037e13e-9799-4165-a226-2fa2ad4d9c99}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{50c3257b-b464-47dc-9a02-2aa17fe7ba73}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{146f6f15-5509-41f3-9559-2205339e0ce1}",
+      "name": "",
+      "x": -1.25,
+      "y": 3.75,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.5,
+      "y": 1.25,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{cbfdbb48-a972-b479-fab1-599ce31f50e5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -4.75,
+      "y": -3.5,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c9637db4-d125-3495-7857-841dbffeb5fa}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

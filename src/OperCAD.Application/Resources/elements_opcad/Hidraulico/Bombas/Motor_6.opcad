@@ -1,0 +1,275 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Motor_6.opcad",
+  "id": "{1b4974c6-c78e-5fa8-d583-b1d6728268d8}",
+  "names": {
+    "ar": "مضخّة محرّكة هيدروليكية 3",
+    "ca": "Motor hidràulic de la bomba 3",
+    "cs": "Čerpadlo - vodní motor 3",
+    "en": "Pump hydraulic motor 3",
+    "es": "Motor de bomba hidráulica, flujo unidireccional, flujo constante, giro unidirecional",
+    "fr": "Pompe-moteur hydraulique 3",
+    "it": "Pompa idraulica motore 3",
+    "nl": "Pomp motor 3",
+    "pl": "Pompa-silnik hydrauliczny o jednym kierunku przepływu, o stałej objętości roboczej i o jednym kierunku obrotów"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 39.496,
+  "height": 30.973,
+  "hotspotX": 10.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -6.836935829146636,
+      "y": -4.3898657471565015,
+      "width": 8.656,
+      "height": 8.656,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.6629358291466354,
+          "y": -2.0818657471565016
+        },
+        {
+          "x": -1.3549358291466356,
+          "y": -2.0818657471565016
+        },
+        {
+          "x": -2.5079358291466356,
+          "y": -4.3898657471565015
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.6629358291466354,
+          "y": 3.9771342528434985
+        },
+        {
+          "x": -1.3549358291466356,
+          "y": 3.9771342528434985
+        },
+        {
+          "x": -2.5079358291466356,
+          "y": 1.9591342528434983
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.416064170853364,
+          "y": 3.1121342528434983
+        },
+        {
+          "x": 5.2820641708533635,
+          "y": 2.247134252843498
+        },
+        {
+          "x": 6.148064170853363,
+          "y": 3.9771342528434985
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.416064170853364,
+          "y": -3.234865747156502
+        },
+        {
+          "x": 5.2820641708533635,
+          "y": -2.369865747156502
+        },
+        {
+          "x": 6.148064170853363,
+          "y": -4.100865747156502
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 3.839064170853365,
+      "y": -4.3898657471565015,
+      "width": 8.656,
+      "height": 8.656,
+      "start": 135,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5079358291466356,
+      "y1": 4.267134252843498,
+      "x2": -2.5079358291466356,
+      "y2": 7.152134252843498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.8190641708533644,
+      "y1": 0.2271342528434982,
+      "x2": 6.148064170853363,
+      "y2": 0.2271342528434982,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.8190641708533644,
+      "y1": -0.34986574715650187,
+      "x2": 6.148064170853363,
+      "y2": -0.34986574715650187,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5079358291466356,
+      "y1": -7.273865747156503,
+      "x2": -2.5079358291466356,
+      "y2": -4.3898657471565015,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{225cc302-1c58-4254-a4df-4f19fa12fa9f}",
+      "name": "",
+      "x": -2.5572444882306424,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4520da72-88df-4a48-8961-656ebb93f9c2}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.286380711453063,
+      "y": -1.714909841311361,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{17f405cc-67b6-45a1-8980-6160b7e2610b}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

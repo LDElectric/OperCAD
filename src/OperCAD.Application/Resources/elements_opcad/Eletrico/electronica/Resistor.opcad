@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Resistencia.opcad",
+  "id": "{2becfcef-f6f6-6a63-ef49-65f12026c4f8}",
+  "names": {
+    "ar": "مُقاومة",
+    "cs": "Odpor",
+    "de": "Widerstand",
+    "el": "Αντίσταση",
+    "en": "Resistor",
+    "es": "Resistencia",
+    "fr": "Résistance",
+    "it": "Resistore",
+    "nl": "Weerstand",
+    "pl": "Rezystor",
+    "pt": "Resistor",
+    "ru": "Резистор"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 04-01-01",
+  "width": 4.998,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.25,
+      "x2": 0.0,
+      "y2": -5.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -1.249,
+      "y": -3.125,
+      "width": 2.5,
+      "height": 6.25,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{09a3060b-a0fd-41ad-b605-f5c0ae63901e}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4410c57c-3796-4696-b63b-d8d5a0c9b788}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.2480460624071332,
+      "y": -3.0580817236255573,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{570cd854-578d-4c4b-bd2a-3498353e46b6}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

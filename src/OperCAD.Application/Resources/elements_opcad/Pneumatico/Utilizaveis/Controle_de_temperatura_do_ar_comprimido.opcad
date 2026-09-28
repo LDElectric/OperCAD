@@ -1,0 +1,232 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Controle_de_temperatura_do_ar_comprimido.opcad",
+  "id": "{35bf27a5-6836-9ead-4c9f-1c0736311f00}",
+  "names": {
+    "ar": "التحكم في درجة حرارة الهواء المضغوط",
+    "ca": "Control de temperatura de l'aire comprimit",
+    "cs": "Regulace teploty stlačeného vzduchu",
+    "da": "Trykluft temperaturkontrol",
+    "de": "Druckluft Temperaturregelung",
+    "el": "Έλεγχος θερμοκρασίας πεπιεσμένου αέρα",
+    "en": "Compressed air temperature control",
+    "es": "Control de temperatura del aire comprimido",
+    "fr": "Contrôle de la température de l'air comprimé",
+    "hr": "Regulacija temperature komprimiranog zraka",
+    "hu": "Sűrített levegő hőmérséklet szabályozás",
+    "it": "Controllo della temperatura dell'aria compressa",
+    "ja": "圧縮空気温度制御",
+    "mn": "Шахсан агаарын температурын хяналт",
+    "nb": "Trykkluft temperaturkontroll",
+    "nl": "Persluchttemperatuurregeling",
+    "pl": "Kontrola temperatury sprężonego powietrza",
+    "pt": "Controle de temperatura do ar comprimido",
+    "ro": "Controlul temperaturii aerului comprimat",
+    "ru": "Контроль температуры сжатого воздуха",
+    "sl": "Regulacija temperature stisnjenega zraka",
+    "sr": "Контрола температуре компримованог ваздуха",
+    "tr": "Basınçlı hava sıcaklık kontrolü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.25,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.7100822040655865,
+          "y": 2.3742562146642374
+        },
+        {
+          "x": -2.044082204065586,
+          "y": 2.3742562146642374
+        },
+        {
+          "x": -2.3770822040655863,
+          "y": 3.2072562146642376
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.7100822040655865,
+          "y": -0.04174378533576251
+        },
+        {
+          "x": -2.3770822040655863,
+          "y": -3.3747437853357627
+        },
+        {
+          "x": 0.9559177959344138,
+          "y": -0.04174378533576251
+        },
+        {
+          "x": -2.3770822040655863,
+          "y": 3.2912562146642377
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.3770822040655863,
+      "y1": 0.1252562146642375,
+      "x2": -2.3770822040655863,
+      "y2": 2.4582562146642375,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.3770822040655863,
+      "y1": -0.8747437853357625,
+      "x2": -2.3770822040655863,
+      "y2": -3.2087437853357623,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.377082204065586,
+      "y1": -0.04174378533576251,
+      "x2": 2.6229177959344137,
+      "y2": -0.04174378533576251,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.7100822040655865,
+          "y": -0.9587437853357625
+        },
+        {
+          "x": -2.044082204065586,
+          "y": -0.9587437853357625
+        },
+        {
+          "x": -2.3770822040655863,
+          "y": -0.12574378533576253
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a23a3e28-64b5-4023-b63e-e2d243aceb1d}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ca7dbd71-3f07-4e0e-b60b-b73f23208beb}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.960957910780836,
+      "y": -5.543982769437785,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8d43f2fa-a288-8f34-5ee6-4282f57d3da4}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -0.41628107332118747,
+      "y": -5.5553937897657155,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{366a3fd5-8836-131e-4862-2e49965057f3}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

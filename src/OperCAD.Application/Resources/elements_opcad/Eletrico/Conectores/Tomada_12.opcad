@@ -1,0 +1,158 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Tomada_12.opcad",
+  "id": "{ccdae081-d58f-0ba2-2a2b-63b0d647faae}",
+  "names": {
+    "ar": "قابس و مقبس",
+    "ca": "Endoll i endoll",
+    "cs": "Spojený pin",
+    "de": "Steckverbindung Buchse + Stecker",
+    "en": "Plug and socket",
+    "es": "Enchufe y socket",
+    "fr": "Fiche et prise",
+    "hu": "Csatlakozó dugó + aljzat",
+    "it": "Spina e presa",
+    "nl": "Steker en contact",
+    "pl": "Złącze wtykowe"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 03-03-05",
+  "width": 3.0,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.501,
+      "y1": 1.0,
+      "x2": -0.501,
+      "y2": 4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 1.0,
+      "x2": 0.0,
+      "y2": 10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -0.501,
+      "x2": 0.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.501,
+      "y1": 1.0,
+      "x2": 0.501,
+      "y2": 4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -1.5,
+      "y": 0.0,
+      "width": 2.999,
+      "height": 2.999,
+      "start": 0,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ecb180ab-4e59-4b98-b929-7d6b4dd2bec7}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7d2a89d8-444d-407f-8112-59b42fe0ff30}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.5,
+      "y": -3.5,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{164228ee-e62e-4fb7-b0be-af31bffa1b13}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

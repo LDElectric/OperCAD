@@ -1,0 +1,262 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_3.opcad",
+  "id": "{80a14582-984c-e978-9dd4-ba611e5d7d34}",
+  "names": {
+    "ar": "صمّام بثلاث مسارات - تحكّم يدوي",
+    "ca": "Vàlvula de tres vies - manual",
+    "cs": "Trojcestná klapka řízená ručně",
+    "en": "Three-way valve - manual",
+    "fr": "Vanne trois voies - commande manuelle",
+    "it": "Valvola manuale 3vie",
+    "nl": "Klep drieweg hand",
+    "pl": "Zawór trójdrogowy sterowany ręcznie"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 9.74,
+  "hotspotX": 1.25,
+  "hotspotY": -1.875,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -2.4791141761449915,
+      "y1": 3.6051783469983563,
+      "x2": -2.4791141761449915,
+      "y2": 7.2161783469983565,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.283114176144991,
+          "y": 3.6051783469983563
+        },
+        {
+          "x": -0.6751141761449917,
+          "y": 3.6051783469983563
+        },
+        {
+          "x": -2.4791141761449915,
+          "y": -0.005821653001643945
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.9231141761449915,
+      "y1": -4.338821653001644,
+      "x2": -1.0341141761449917,
+      "y2": -4.338821653001644,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.8421141761449915,
+      "y1": -0.36882165300164393,
+      "x2": -2.8421141761449915,
+      "y2": -4.338821653001644,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.1191141761449916,
+      "y1": -0.36882165300164393,
+      "x2": -2.1191141761449916,
+      "y2": -4.338821653001644,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.70111417614499,
+      "y1": -0.005821653001643945,
+      "x2": -6.090114176144992,
+      "y2": -0.005821653001643945,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.1318858238550087,
+      "y1": -0.005821653001643945,
+      "x2": 4.741885823855009,
+      "y2": -0.005821653001643945,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.1318858238550087,
+          "y": 2.161178346998356
+        },
+        {
+          "x": -2.4791141761449915,
+          "y": -0.005821653001643945
+        },
+        {
+          "x": 1.1318858238550087,
+          "y": -2.1728216530016438
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -6.090114176144992,
+          "y": -2.1728216530016438
+        },
+        {
+          "x": -6.090114176144992,
+          "y": 2.161178346998356
+        },
+        {
+          "x": -2.4791141761449915,
+          "y": -0.005821653001643945
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c9d1d755-ea22-4cd0-bfd5-9bcd662d79a4}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4d9e0971-4381-4064-bd7c-8aeae4615de8}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9eabc8b8-b365-42e7-b089-65bb67f28e95}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -4.233827564138416,
+      "y": -8.737735435070853,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{346336a9-743e-4e82-9563-8cf97a149932}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

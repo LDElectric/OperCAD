@@ -1,0 +1,242 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Motor_gira_no_sentido_horario.opcad",
+  "id": "{ad0df603-79bd-9d74-2c68-1ed70fd20a7c}",
+  "names": {
+    "ar": "يدور المحرك في اتجاه عقارب الساعة",
+    "ca": "El motor gira en sentit horari",
+    "cs": "Motor se otáčí ve směru hodinových ručiček",
+    "da": "Motoren drejer med uret",
+    "de": "Motor rechtsdrehend",
+    "el": "Ο κινητήρας γυρίζει δεξιόστροφα",
+    "en": "Motor turns clockwise",
+    "es": "El motor gira en el sentido de las agujas del reloj",
+    "fr": "Le moteur tourne dans le sens des aiguilles d'une montre",
+    "hr": "Motor se okreće u smjeru kazaljke na satu",
+    "hu": "A motor az óramutató járásával megegyezően forog",
+    "it": "Il motore gira in senso orario",
+    "ja": "モーターが時計回りに回転する",
+    "mn": "Мотор цагийн зүүний дагуу эргэдэг",
+    "nb": "Motoren går med klokken",
+    "nl": "Motor draait met de klok mee",
+    "pl": "Silnik obraca się zgodnie z ruchem wskazówek zegara",
+    "pt": "Motor gira no sentido horário",
+    "pt_BR": "Motor gira no sentido horário",
+    "ro": "Motorul se rotește în sensul acelor de ceasornic",
+    "ru": "Мотор вращается по часовой стрелке",
+    "sl": "Motor se vrti v smeri urinega kazalca",
+    "sr": "Мотор се окреће у смеру казаљке на сату",
+    "tr": "Motor saat yönünde döner"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 35.208,
+  "height": 28.277,
+  "hotspotX": 10.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.5,
+      "x2": 0.0,
+      "y2": 10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 7.71,
+      "y": -6.22,
+      "width": 17.498,
+      "height": 17.498,
+      "start": 145,
+      "angle": 67,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 3.5,
+      "x2": 11.0,
+      "y2": 3.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -2.5,
+      "x2": 0.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -2.5,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.0,
+          "y": -4.499
+        },
+        {
+          "x": 8.82,
+          "y": -3.03
+        },
+        {
+          "x": 10.0,
+          "y": -2.16
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 1.5,
+      "x2": 11.0,
+      "y2": 1.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.43,
+          "y": 7.314
+        },
+        {
+          "x": 1.299,
+          "y": 7.339
+        },
+        {
+          "x": 0.0,
+          "y": 4.435
+        },
+        {
+          "x": -1.404,
+          "y": 7.26
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8c314fc9-c749-4ab9-93f4-1c85f676afdd}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f0a1fc5a-6fb4-4b6d-95fd-4f48ff1a80b1}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.081575037147101,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.96058692421991,
+      "y": 1.7104353640416037,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{386a23c2-0051-4fac-9fee-f1d46ed7364d}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

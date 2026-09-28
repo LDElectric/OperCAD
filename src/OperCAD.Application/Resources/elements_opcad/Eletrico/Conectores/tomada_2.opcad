@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "tomada_2.opcad",
+  "id": "{134eb520-5fe2-a793-f1a6-0ff13b5cdcb3}",
+  "names": {
+    "ar": "قاعدة توصيل ب3  أطراف 180 درجة",
+    "ca": "Presa DIN de 3 pins 180 graus",
+    "cs": "Kulatá zástrčka DIN 3 kolíky 180 stupňů",
+    "de": "Rundstecker 3-polig 180°",
+    "en": "3-pin DIN socket 180 degrees",
+    "es": "Socket DIN de 3 pines a 180 grados",
+    "fr": "Embase DIN 3 broches 180 degrés",
+    "hu": "3 tűs DIN csatlakozó 180 fok",
+    "it": "DIN 3 Pin 180°",
+    "nl": "DIN 3 Pin 180°",
+    "pl": "Złącze DIN, trójstykowe"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.25,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -3.75,
+      "y": -2.5,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 96,
+      "angle": 348,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": -4.5,
+      "y": -0.209,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -1.125,
+      "y": 3.666,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": 1.625,
+      "y": -0.209,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.25,
+      "y1": 3.75,
+      "x2": -1.25,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 0.0,
+      "x2": -4.375,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.562,
+      "y": 1.562,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.5,
+          "y": -2.5
+        },
+        {
+          "x": -1.5,
+          "y": -2.0
+        },
+        {
+          "x": -1.0,
+          "y": -2.0
+        },
+        {
+          "x": -1.0,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.875,
+      "y1": 0.0,
+      "x2": 1.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.438,
+      "y": -0.312,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 0.312,
+      "y": -0.312,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9a1c26ab-2886-4ffd-bde8-cc3ab3e8abf3}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{71a61e09-1dda-433c-a173-8ca07647d48f}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{07b4ec02-1377-430f-806a-1ca15002e567}",
+      "name": "",
+      "x": -1.25,
+      "y": 3.75,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.0,
+      "y": 0.381,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{4eb97614-5e6d-4c49-8927-c1053ac38a26}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

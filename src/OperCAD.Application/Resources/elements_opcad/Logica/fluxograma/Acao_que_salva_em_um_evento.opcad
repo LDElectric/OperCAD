@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Acao_que_salva_em_um_evento.opcad",
+  "id": "{a696839a-13ce-71f1-a68f-37b0516e541e}",
+  "names": {
+    "ar": "الإجراء الذي يحفظ في حدث",
+    "ca": "Acció que guarda en un esdeveniment",
+    "cs": "Akce, která ukládá na události",
+    "da": "Handling, der gemmer ved en begivenhed",
+    "de": "Speichernd wirkende Aktion bei Event",
+    "el": "Ενέργεια που αποθηκεύει σε μια εκδήλωση",
+    "en": "Action that saves at an event",
+    "es": "Acción que ahorra en un evento",
+    "fr": "Action qui sauve lors d'un événement",
+    "hr": "Radnja koja sprema na događaj",
+    "hu": "Olyan művelet, amely egy eseményen ment",
+    "it": "Azione che salva in occasione di un evento",
+    "ja": "イベントで保存するアクション",
+    "mn": "Үйл явдал дээр хэмнэдэг үйлдэл",
+    "nb": "Handling som lagrer ved et arrangement",
+    "nl": "Actie die bespaart bij een evenement",
+    "pl": "Akcja, która zapisuje na wydarzeniu",
+    "pt": "Ação que salva em um evento",
+    "ro": "Acțiune care salvează la un eveniment",
+    "ru": "Действие, которое сохраняется на событии",
+    "sl": "Dejanje, ki shrani na dogodek",
+    "sr": "Радња која чува на догађају",
+    "tr": "Bir etkinlikte kaydedilen eylem"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 54.297,
+  "height": 19.998,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -14.994771077201785,
+          "y": -7.974521878483835
+        },
+        {
+          "x": -16.479771077201782,
+          "y": -7.301521878483835
+        },
+        {
+          "x": -14.994771077201785,
+          "y": -6.627521878483835
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -14.969771077201786,
+      "y1": 0.1174781215161651,
+      "x2": -14.969771077201786,
+      "y2": -7.974521878483835,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -15.096147610089186,
+          -0.0766301909141583
+        ],
+        [
+          7.586388900501672,
+          -0.0766301909141583
+        ],
+        [
+          7.586388900501672,
+          -5.0575926003344485
+        ],
+        [
+          -14.866257037346712,
+          -5.0575926003344485
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d7cd8b41-bab6-4e7f-8f49-2603eee3d629}",
+      "name": "",
+      "x": -15.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

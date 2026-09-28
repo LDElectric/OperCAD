@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Luz_intermitente.opcad",
+  "id": "{4050a19c-b40c-edd4-7925-ca179a35aa28}",
+  "names": {
+    "ar": "مصباح رفّاف",
+    "ca": "Llum intermitent",
+    "cs": "Blikající světlo",
+    "de": "Blinkleuchte",
+    "el": "Λυχνία με παλλόμενο φως",
+    "en": "Flashing light",
+    "es": "Luz intermitente",
+    "fr": "Lampe clignotante",
+    "it": "Luce intermittente",
+    "nl": "Knipperlamp",
+    "pl": "Lampa sygnalizacyjna o świetle migowym",
+    "pt": "Luz intermitente",
+    "ru": "Проблесковый маяк"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.5,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.571,
+          "y": 5.081
+        },
+        {
+          "x": 2.196,
+          "y": 5.081
+        },
+        {
+          "x": 2.196,
+          "y": 3.518
+        },
+        {
+          "x": 3.758,
+          "y": 3.518
+        },
+        {
+          "x": 3.758,
+          "y": 5.081
+        },
+        {
+          "x": 4.383,
+          "y": 5.081
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.117,
+      "y": -4.294,
+      "width": 6.25,
+      "height": 6.25,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.196,
+      "y1": -3.356,
+      "x2": -2.179,
+      "y2": 1.018,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.179,
+      "y1": -3.356,
+      "x2": 2.196,
+      "y2": 1.018,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.008,
+      "y1": -7.419,
+      "x2": 0.008,
+      "y2": -4.294,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.008,
+      "y1": 1.956,
+      "x2": 0.008,
+      "y2": 5.081,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{213d43e9-fb31-4a79-8a69-359e6da294a5}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{cfa2ea9f-9cd0-4824-83e1-2401302b2efc}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.962,
+      "y": -2.147,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{80776b1d-b05a-45df-a036-9c2a5f62e3fa}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Cilindro.opcad",
+  "id": "{f8de5344-1f93-b5f9-3ad3-cc73580b1326}",
+  "names": {
+    "pt": "",
+    "en": "Double acting cylinders left",
+    "hu": ""
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 14.4,
+  "height": 10.39,
+  "hotspotX": 0.0,
+  "hotspotY": -1.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.999,
+          "y": -8.5
+        },
+        {
+          "x": 5.999,
+          "y": -8.5
+        },
+        {
+          "x": 5.999,
+          "y": -4.5
+        },
+        {
+          "x": -5.999,
+          "y": -4.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.999,
+      "y1": -4.5,
+      "x2": 4.999,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -4.5,
+      "x2": -5.0,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.599,
+      "y1": -8.5,
+      "x2": 3.599,
+      "y2": -4.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.399,
+      "y1": -6.5,
+      "x2": 3.599,
+      "y2": -6.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4c83ee9e-a6f5-47e3-aec8-c2ddde5f7499}",
+      "name": "",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b829c4dd-0bc0-4853-8f32-15f5d4535ae5}",
+      "name": "",
+      "x": 5.0,
+      "y": -2.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.710594353640416,
+      "y": -12.813368499257058,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c0257284-6e8c-4e70-be94-b00bf90372d3}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ],
+  "freeDrawing": false
+}

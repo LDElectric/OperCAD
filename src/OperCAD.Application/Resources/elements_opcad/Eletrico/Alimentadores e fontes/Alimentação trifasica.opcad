@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_tripolar.opcad",
+  "id": "{33e6721a-835a-40ef-1124-a118e45b72c5}",
+  "names": {
+    "ar": "مصدر ثلاثي القطبيّة",
+    "cs": "Přípojnice 3f",
+    "de": "Drehstrom",
+    "el": "Τριφασικό",
+    "en": "Three-pole source",
+    "es": "Fuente tripolar",
+    "fr": "Source tripolaire",
+    "hu": "3F",
+    "it": "Sorgente tripolare",
+    "nl": "3fasen",
+    "pl": "Linia trójfazowa (trójprzewodowa)",
+    "pt": "Alimentação trifasica",
+    "ru": "Трёхполюсный"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.0,
+  "height": 34.972,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 5.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L3",
+      "x": -1.3277500471246855,
+      "y": -0.6628542098642951,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L2",
+      "x": -1.3726458843850757,
+      "y": -5.722229233426637,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L1",
+      "x": -1.3284375589058568,
+      "y": -10.815125070687028,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -10.0,
+      "x2": 5.0,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4cc635ae-94c9-4c7b-8651-761927e3d8ac}",
+      "name": "L1",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f5d0482f-6b6e-4005-bb82-65de7d02c6c9}",
+      "name": "L2",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{362176a0-0262-4761-a4f7-3f4ce364209e}",
+      "name": "L3",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.054643657017368064,
+      "y": -14.319671268596526,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ed455d12-2580-42c2-b1d9-110a5f44c563}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

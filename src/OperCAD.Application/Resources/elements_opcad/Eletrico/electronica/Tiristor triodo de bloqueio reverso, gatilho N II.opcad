@@ -1,0 +1,224 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal_8.opcad",
+  "id": "{e1f14017-ccb1-d6e0-9934-ffec78f6f9f0}",
+  "names": {
+    "ar": "ترياك , بوابة N",
+    "cs": "Triodový tyristor blokující obráceně, brána N",
+    "de": "rückwärts sperrende Thyristortriode, N-Gate",
+    "en": "Reverse blocking Thyristortriode, N-Gate",
+    "fr": "Thyristor triode bloqué en inverse, gâchette N",
+    "it": "Tiristore triodo bloccato nel senso inverso di conduzione, porta N (controllato sull’anodo)",
+    "nl": "Triac N gate",
+    "pl": "Tyrystor triodowy dwukierunkowy. Triak",
+    "pt": "Tiristor triodo de bloqueio reverso, gatilho N II"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-04-11",
+  "width": 8.749,
+  "height": 7.5,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 7.983,
+          "y": -4.024
+        },
+        {
+          "x": 5.163,
+          "y": 1.619
+        },
+        {
+          "x": 10.804,
+          "y": 1.619
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.48,
+          "y": -4.024
+        },
+        {
+          "x": 5.163,
+          "y": -4.024
+        },
+        {
+          "x": 2.341,
+          "y": 1.619
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.2,
+      "y1": -4.045,
+      "x2": 10.021,
+      "y2": -4.045,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 10.388,
+      "y1": 1.609,
+      "x2": -0.071,
+      "y2": 1.609,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.049,
+      "y1": -7.627,
+      "x2": 5.049,
+      "y2": -4.297,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.049,
+      "y1": 4.941,
+      "x2": 5.049,
+      "y2": 1.772,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -2.524,
+          -7.52
+        ],
+        [
+          0.322,
+          -7.52
+        ],
+        [
+          2.97,
+          -4.364
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4fb8f8b9-6a85-4154-a1e6-c1f13820ad31}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c475d10a-e532-44e9-8d20-e52b05fd71c1}",
+      "name": "",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dabfa28f-0b67-4eec-94d6-2d400cd9db7f}",
+      "name": "",
+      "x": 5.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 6.975,
+      "y": -8.585,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{69ecc79c-54f8-4203-95bc-13e7dc73b7ed}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

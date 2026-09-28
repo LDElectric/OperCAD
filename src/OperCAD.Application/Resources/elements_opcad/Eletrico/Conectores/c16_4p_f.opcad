@@ -1,0 +1,411 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "c16_4p_f.elmt",
+  "id": "{5d36d23d-e2f8-486b-397a-b5f1831c9833}",
+  "names": {
+    "ca": "Connector C16 femella de 4 polzades",
+    "cs": "C16 4p fem",
+    "hu": "C16 4p anya csatlakozó"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 34.873,
+  "height": 6.749,
+  "hotspotX": -2.5,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 12.499,
+      "y1": 3.75,
+      "x2": 11.375,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 3.75,
+      "x2": 3.875,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 3.75,
+      "x2": -3.624,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": -1.875,
+      "x2": -9.999,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 12.499,
+      "y1": 3.75,
+      "x2": 13.624,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 3.75,
+      "x2": -1.375,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 3.75,
+      "x2": 6.124,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -1.875,
+      "x2": -2.5,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": -1.875,
+      "x2": 5.0,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 12.499,
+      "y1": -1.875,
+      "x2": 12.499,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 1.875,
+      "x2": 12.499,
+      "y2": 1.875,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 3.0,
+      "x2": 12.499,
+      "y2": 3.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 3.75,
+      "x2": -11.124,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 3.75,
+      "x2": -8.875,
+      "y2": 4.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -9.249,
+      "y": -0.376,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -1.75,
+      "y": -0.376,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": 5.75,
+      "y": -0.376,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "PE",
+      "x": 13.248,
+      "y": -0.376,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{19fcf3cc-b890-4ef4-8bf7-ffc574299c52}",
+      "name": "",
+      "x": -2.5,
+      "y": 0.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b7d9e9c1-7560-4a9c-8561-801fd378eae4}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4b1570ce-eade-464d-8777-2a9174aeddbf}",
+      "name": "",
+      "x": 12.5,
+      "y": 0.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{01c0f052-f456-4704-8ace-b6a4e0c909b6}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -21.248,
+      "y": -1.875,
+      "z": 19,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{dffe6cad-58c7-478b-9e86-5bce11c771f8}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

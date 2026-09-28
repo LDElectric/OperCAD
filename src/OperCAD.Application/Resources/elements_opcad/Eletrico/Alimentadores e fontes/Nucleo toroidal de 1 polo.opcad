@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nucleo_toroidal_de_1_polo.opcad",
+  "id": "{02475302-0ba7-2d4c-0bbc-8edf8b3f7a5a}",
+  "names": {
+    "ar": "ملف حلقي قطب 1",
+    "cs": "Jednopólový proudový transformátor",
+    "de": "Stromwandler 1-polig",
+    "el": "Τοροειδές πηνίο 1 πόλου",
+    "en": "1-pole toroidal core",
+    "es": "Núcleo toroide 1 polo",
+    "fr": "Tore 1 pôle",
+    "it": "Toroide a 1 polo",
+    "nl": "Stroomtransformator ringkern 1AC",
+    "pl": "Przekładnik prądowy jednotorowy",
+    "pt": "Nucleo toroidal de 1 polo"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.999,
+  "height": 16.749,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 3.482,
+      "y1": 0.16,
+      "x2": 3.482,
+      "y2": -7.16,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 10.07,
+      "y1": -7.395,
+      "x2": 3.482,
+      "y2": -7.395,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 9.754,
+      "y1": -0.033,
+      "x2": 6.826,
+      "y2": -0.033,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -7.342,
+      "y": -1.435,
+      "width": 14.641,
+      "height": 3.66,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.01,
+      "y1": -10.299,
+      "x2": -0.01,
+      "y2": 8.002,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{57303211-0d5c-4f10-80ce-f53db2d6658a}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{16942a72-ab4c-4818-ab2d-f72ee649a771}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{15aa7447-61e2-4557-8a52-a389ee10aba2}",
+      "name": "",
+      "x": 10.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d504ea96-5616-4871-b721-281fdd30cfea}",
+      "name": "",
+      "x": 10.0,
+      "y": -7.5,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.81510442679848,
+      "y": -5.5367827215699705,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{fbd1c429-321d-42d4-aa6a-fb7ef69bb503}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -2.526842353069081,
+      "y": -8.944210588267271,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{452c7cd9-c06d-4a5a-8129-0b25eee4bef1}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "tag"
+    },
+    {
+      "x": -2.4527554325334755,
+      "y": 3.950433425599894,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{ddd47f62-c958-4308-b5e2-4754bf000c5b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": "tag"
+    },
+    {
+      "x": 7.2891331488002145,
+      "y": -10.672755432533474,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{4f5e7689-6b7d-406e-b8d3-b774e4bcf592}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": "tag"
+    },
+    {
+      "x": 7.216811141866632,
+      "y": -3.533188858133369,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{fd7555a9-19cd-4b30-9909-84afd072fc81}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "5",
+      "infoName": "tag"
+    }
+  ]
+}

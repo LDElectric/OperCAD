@@ -1,0 +1,514 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Integrated_Circuit_16_pins.opcad",
+  "id": "{4b757555-00ba-e815-0894-f18deda4d885}",
+  "names": {
+    "ar": "دائرة مدمجة 16 دبوس",
+    "cs": "Integrovaný obvod, 16 pinů",
+    "de": "Integrierte Schaltung 16 Anschlüsse",
+    "el": "Ολοκληρωμένο κύκλωμα 16 ακροδεκτών",
+    "en": "Integrated Circuit, 16 pins",
+    "fr": "Circuit integré 16 broches",
+    "it": "Circuito integrato, 16 pin",
+    "nl": "IC 16 pin",
+    "pl": "Układ scalony, 16 nóżek",
+    "pt": "Circuito integrado 16 pinos"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.687,
+  "height": 19.436,
+  "hotspotX": -1.25,
+  "hotspotY": 3.75,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 0.0,
+      "x2": -3.875,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 9.999,
+      "x2": -3.875,
+      "y2": 9.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 12.499,
+      "x2": -3.875,
+      "y2": 12.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 5.0,
+      "x2": 2.5,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 7.5,
+      "x2": 2.5,
+      "y2": 7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 7.5,
+      "x2": -3.875,
+      "y2": 7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 9.999,
+      "x2": 2.5,
+      "y2": 9.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 5.0,
+      "x2": -3.875,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 12.499,
+      "x2": 2.5,
+      "y2": 12.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 2.5,
+      "x2": -3.875,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -2.5,
+      "x2": -3.875,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -5.0,
+      "x2": -3.875,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": -5.0,
+      "x2": 2.5,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": -2.5,
+      "x2": 2.5,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 0.0,
+      "x2": 2.5,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.375,
+      "y1": 2.5,
+      "x2": 2.5,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -1.562,
+      "y": -5.874,
+      "width": 0.625,
+      "height": 0.625,
+      "start": 180,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -3.75,
+      "y": -5.625,
+      "width": 5.0,
+      "height": 18.749,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{2e19848a-e019-4c64-a1dc-13d84ed9719a}",
+      "name": "",
+      "x": 2.5,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{18fb96cf-4591-4b32-975b-d4bfd152d046}",
+      "name": "",
+      "x": 2.5,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dd8b58e7-f8d4-4537-9cfa-12f94c6c7a52}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{af03f77a-4271-412e-ac19-f241667dfc5d}",
+      "name": "",
+      "x": 2.5,
+      "y": 2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{076a26be-438a-4dd5-8f5d-ade0af8cfe52}",
+      "name": "",
+      "x": -5.0,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9ce4e34d-aef4-4dd5-b279-4f4e87703494}",
+      "name": "",
+      "x": -5.0,
+      "y": 2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8dead877-8a9c-4776-bc07-ef6c6116c86f}",
+      "name": "",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4c6db3a1-fbcd-4637-9f3c-a2da1b3c4923}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{80c66db3-f10f-4184-b211-73bb893b7bcd}",
+      "name": "",
+      "x": 2.5,
+      "y": 7.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a01398c1-2881-4066-a93a-5ddb6f6794fa}",
+      "name": "",
+      "x": 2.5,
+      "y": 10.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1db1ba82-944e-4f13-a64b-450b1d8bc410}",
+      "name": "",
+      "x": 2.5,
+      "y": 12.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b463f680-fe6c-435c-b47b-92272e457736}",
+      "name": "",
+      "x": -5.0,
+      "y": 5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{32560334-2db6-4044-8ed6-9aa873b19a0a}",
+      "name": "",
+      "x": -5.0,
+      "y": 12.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{64d29541-8918-4390-983a-65ecef27a768}",
+      "name": "",
+      "x": -5.0,
+      "y": 7.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{789fbf99-2e7b-45b1-a57a-f4e836f106d8}",
+      "name": "",
+      "x": -5.0,
+      "y": 10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6a9eab80-5144-4d17-9619-cb5b5d0ec4b5}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.469,
+      "y": -10.206,
+      "z": 18,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ebb91caf-f7a7-41c4-a17e-441b9bc93ae3}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

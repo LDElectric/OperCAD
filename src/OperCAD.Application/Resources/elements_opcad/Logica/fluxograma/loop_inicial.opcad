@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "loop_inicial.opcad",
+  "id": "{5923426d-2f89-78cc-b278-81ac5638678f}",
+  "names": {
+    "ar": "حلقة البداية",
+    "ca": "bucle inicial",
+    "cs": "počáteční smyčka",
+    "da": "begyndende sløjfe",
+    "de": "Anfang Schleife",
+    "el": "βρόχος έναρξης",
+    "en": "beginning loop",
+    "es": "ciclo inicial",
+    "fr": "boucle de début",
+    "hr": "početna petlja",
+    "hu": "kezdő hurok",
+    "it": "ciclo iniziale",
+    "ja": "ループの開始",
+    "mn": "эхлэл гогцоо",
+    "nb": "begynnelsesløkke",
+    "nl": "beginnende lus",
+    "pl": "początek pętli",
+    "pt": "loop inicial",
+    "ro": "buclă de început",
+    "ru": "начальная петля",
+    "sl": "začetna zanka",
+    "sr": "почетна петља",
+    "tr": "başlangıç ​​döngüsü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 52.496,
+  "height": 30.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.0017396181716833603,
+      "y1": 6.182,
+      "x2": -0.0017396181716833603,
+      "y2": 4.932,
+      "end1": "triangle",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.0017396181716833603,
+      "y1": -7.541,
+      "x2": -0.0017396181716833603,
+      "y2": -5.093,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.0017396181716833603,
+      "y1": 4.932,
+      "x2": -0.0017396181716833603,
+      "y2": 7.431,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -12.499739618171684,
+          "y": 4.932
+        },
+        {
+          "x": -12.499739618171684,
+          "y": -2.567
+        },
+        {
+          "x": -9.999739618171684,
+          "y": -5.067
+        },
+        {
+          "x": 9.996260381828316,
+          "y": -5.067
+        },
+        {
+          "x": 12.496260381828316,
+          "y": -2.567
+        },
+        {
+          "x": 12.496260381828316,
+          "y": 4.932
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{77c6dacf-52dc-4304-b6b2-39678276cf9e}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{46cdd697-bf65-435c-8c8a-4dd9774046b4}",
+      "name": "",
+      "x": -0.06663494862100719,
+      "y": -7.463114245552806,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

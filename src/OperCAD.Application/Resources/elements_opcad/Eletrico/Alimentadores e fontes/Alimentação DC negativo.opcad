@@ -1,0 +1,102 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "",
+  "id": "{477f7cfa-09ae-4244-972f-2610c28b06ec}",
+  "names": {
+    "pt": "Novo simbolo",
+    "en": "New symbol",
+    "hu": "Uj szimbolum"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Created with OperCAD Symbol Editor",
+  "width": 60.0,
+  "height": 40.0,
+  "hotspotX": 7.5,
+  "hotspotY": -7.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "-",
+      "x": 2.082961943527327,
+      "y": -9.149179719304392,
+      "rotation": 0,
+      "font": "Liberation Sans,10,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -7.5,
+      "x2": 7.5,
+      "y2": -7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{16e710ba-2fac-4b19-a0de-4966f7af3c35}",
+      "name": "L",
+      "x": 7.5,
+      "y": -7.5,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.116111906816288,
+      "y": -12.43940645937526,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{760c7dbf-a0b0-4beb-a8c9-a02939b25918}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 6.695457517614654,
+      "y": -11.68359266359168,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{9d05feb2-50a5-44e6-8051-a10c4a0423d2}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "0V",
+      "infoName": ""
+    }
+  ]
+}

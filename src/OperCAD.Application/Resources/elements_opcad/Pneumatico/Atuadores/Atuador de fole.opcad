@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Atuadores_de_fole.opcad",
+  "id": "{844eaf63-c2aa-95c2-10c0-d10b86b5c5ca}",
+  "names": {
+    "ar": "المحركات الخوار",
+    "cs": "Vlnovcové pohony",
+    "da": "Bælgeaktuatorer",
+    "de": "Faltenbalg-Aktuatoren",
+    "el": "Παρακάτω ενεργοποιητές",
+    "en": "Bellow actuators",
+    "es": "Actuadores de fuelle",
+    "fr": "Actionneurs à soufflet",
+    "hr": "Pogoni sa mijehom",
+    "hu": "Fújtatók",
+    "it": "Attuatori a soffietto",
+    "ja": "ベローアクチュエータ",
+    "mn": "Доорх идэвхжүүлэгч",
+    "nb": "Belgaktuatorer",
+    "nl": "Balgaandrijvingen",
+    "pl": "Siłowniki mieszkowe",
+    "pt": "Atuador de fole",
+    "pt_BR": "Atuadores de fole",
+    "ro": "Actuatoare cu burduf",
+    "ru": "Сильфонные приводы",
+    "sl": "Mehanski aktuatorji",
+    "sr": "Механички актуатори",
+    "tr": "Körük aktüatörleri"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 27.498,
+  "height": 27.498,
+  "hotspotX": 0.0,
+  "hotspotY": -15.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.745,
+          "y": -3.118
+        },
+        {
+          "x": 0.848,
+          "y": -3.118
+        },
+        {
+          "x": 0.051,
+          "y": -4.708
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 2.04,
+      "y": -11.075,
+      "width": 7.96,
+      "height": 7.957,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -9.101,
+      "y": -11.075,
+      "width": 7.96,
+      "height": 7.957,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -9.499,
+      "y1": -11.075,
+      "x2": 9.6,
+      "y2": -11.075,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.499,
+      "y1": -3.118,
+      "x2": 9.6,
+      "y2": -3.118,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -3.081320950965824,
+      "x2": 0.0,
+      "y2": -0.44018870728083204,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{2b4a98f1-bd99-4f08-b33f-5462192e6421}",
+      "name": "",
+      "x": 0.0,
+      "y": 0.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.477918276374444,
+      "y": -14.669643387815753,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{a5d5036f-1b11-472a-82f0-a9e2ef1e7443}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

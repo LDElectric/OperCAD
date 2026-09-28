@@ -1,0 +1,175 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Potentiometer_trimmer.opcad",
+  "id": "{19db4ab7-54b5-04a6-c15d-3eb1daed9368}",
+  "names": {
+    "ca": "Potenciòmetre trimmer",
+    "cs": "Odporový trimr",
+    "de": "Trimm-Potentiometer",
+    "en": "Potentiometer trimmer",
+    "es": "Potenciómetro reducido \"Trimpot\"",
+    "fr": "Potentiometre ajustable",
+    "it": "Potenzionetro",
+    "pl": "Rezystor regulacyjny",
+    "ro": "Potențiometru trimer"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.999,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -1.2699435364041605,
+      "y": -3.1875794947994054,
+      "width": 2.5,
+      "height": 6.25,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.769466567607727,
+          "y": -0.06257949479940539
+        },
+        {
+          "x": -0.9570460624071322,
+          "y": -0.06257949479940539
+        },
+        {
+          "x": 1.5419539375928677,
+          "y": 1.1864205052005947
+        },
+        {
+          "x": 2.1669539375928677,
+          "y": 1.1864205052005947
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.3106255572065377,
+      "y1": 2.1228870728083216,
+      "x2": 2.3106255572065377,
+      "y2": 0.12388707280832145,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.12515898959881128,
+      "y1": -4.943780089153045,
+      "x2": 0.12515898959881128,
+      "y2": -3.44187221396731,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 4.943780089153045,
+      "x2": 0.0,
+      "y2": 3.0663952451708765,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{09a3060b-a0fd-41ad-b605-f5c0ae63901e}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{cb8610b2-6da7-403e-9493-5893f95a1e84}",
+      "name": "S",
+      "x": -2.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4410c57c-3796-4696-b63b-d8d5a0c9b788}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.9977280832095072,
+      "y": -4.434830609212481,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{570cd854-578d-4c4b-bd2a-3498353e46b6}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

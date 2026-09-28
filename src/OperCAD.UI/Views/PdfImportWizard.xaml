@@ -1,0 +1,72 @@
+<Window x:Class="OperCAD.UI.Views.PdfImportWizard"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:controls="clr-namespace:OperCAD.UI.Controls"
+        Title="Importar PDF"
+        Width="1080" Height="750" MinWidth="900" MinHeight="600"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="CanResize"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Cabeçalho / navegação de páginas -->
+        <DockPanel Grid.Row="0" Margin="0,0,0,8">
+            <TextBlock x:Name="TxtFile" DockPanel.Dock="Left" FontWeight="Bold" VerticalAlignment="Center" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                <Button x:Name="BtnPrevPage" Content="‹ Anterior" Width="90" Margin="0,0,6,0"
+                        Click="OnPrevPage" />
+                <TextBlock Text="Página:" VerticalAlignment="Center" Margin="0,0,6,0" />
+                <ComboBox x:Name="PageSelector" Width="120" SelectionChanged="OnPageChanged" />
+                <TextBlock x:Name="TxtPageCount" Text="de 1" VerticalAlignment="Center" Margin="6,0,6,0" />
+                <Button x:Name="BtnNextPage" Content="Próxima ›" Width="90" Margin="0,0,6,0"
+                        Click="OnNextPage" />
+            </StackPanel>
+        </DockPanel>
+
+        <!-- Instrução + folha de destino -->
+        <StackPanel Grid.Row="1" Margin="0,0,0,6">
+            <TextBlock TextWrapping="Wrap" Foreground="#555555">
+                Selecione <Run FontWeight="Bold">TODA a área útil de desenho, DENTRO da moldura do PDF</Run> —
+                sem incluir as bordas da moldura nem o carimbo/legenda. O conteúdo é importado em
+                <Run FontWeight="Bold">escala 1:1</Run> (medidas do PDF preservadas) na menor folha
+                ABNT que o comporte; o zoom desta janela é apenas visual e não altera o resultado.
+            </TextBlock>
+            <DockPanel Margin="0,8,0,0">
+                <TextBlock DockPanel.Dock="Left" Text="Folha de destino:" VerticalAlignment="Center" Margin="0,0,6,0" />
+                <ComboBox x:Name="SheetMode" DockPanel.Dock="Left" Width="270"
+                          SelectionChanged="OnSheetModeChanged" />
+                <CheckBox x:Name="ChkPdfLineWidths" DockPanel.Dock="Right" IsChecked="True"
+                          VerticalAlignment="Center" Margin="12,0,0,0"
+                          Content="Linhas com a espessura original do PDF"
+                          ToolTip="Marcado: cada linha importada mantém a largura real do PDF (fidelidade). Desmarcado: todas as linhas usam a espessura padrão do OperCAD (0,29 mm)."
+                          Checked="OnPdfLineWidthsChanged" Unchecked="OnPdfLineWidthsChanged" />
+                <TextBlock x:Name="TxtSheet" Margin="12,0,0,0" VerticalAlignment="Center"
+                           TextWrapping="Wrap" Foreground="#1565C0" />
+            </DockPanel>
+        </StackPanel>
+
+        <!-- Crop -->
+        <Border Grid.Row="2" BorderBrush="#CCCCCC" BorderThickness="1">
+            <controls:CropView x:Name="Crop" />
+        </Border>
+
+        <!-- Ações -->
+        <Grid Grid.Row="3" Margin="0,10,0,0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock x:Name="TxtStatus" VerticalAlignment="Center" Foreground="#555555" FontStyle="Italic" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Cancelar" Width="100" Margin="0,0,8,0" Click="OnCancel" />
+                <Button x:Name="BtnImport" Content="Importar" Width="120" Click="OnImport"
+                        FontWeight="Bold" Background="#2196F3" Foreground="White" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

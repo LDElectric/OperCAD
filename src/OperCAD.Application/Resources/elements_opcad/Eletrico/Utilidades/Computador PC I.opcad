@@ -1,0 +1,307 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Computer_PC.opcad",
+  "id": "{59c70beb-c699-8e1d-ef8e-6c205cb9e190}",
+  "names": {
+    "cs": "Počítač PC",
+    "de": "Rechner",
+    "en": "Computer PC",
+    "fr": "Ordinateur PC couleur",
+    "it": "Computer PC",
+    "nl": "Computer PC",
+    "pl": "Komputer PC",
+    "pt": "Computador PC I"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 50.0,
+  "height": 60.224,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -25.0,
+      "y": -25.0,
+      "width": 49.996,
+      "height": 34.996,
+      "rx": 1.0,
+      "ry": 1.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "HTMLBlueCornflowerBlue",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -25.0,
+      "y": 14.996,
+      "width": 49.996,
+      "height": 10.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "gray",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -20.25,
+      "y": 16.246,
+      "width": 0.501,
+      "height": 0.501,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -18.75,
+      "y": 16.246,
+      "width": 0.501,
+      "height": 0.501,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.502,
+          "y": 9.996
+        },
+        {
+          "x": 1.499,
+          "y": 9.996
+        },
+        {
+          "x": 1.499,
+          "y": 13.997
+        },
+        {
+          "x": 6.497,
+          "y": 13.997
+        },
+        {
+          "x": 6.497,
+          "y": 14.996
+        },
+        {
+          "x": -6.001,
+          "y": 14.996
+        },
+        {
+          "x": -6.001,
+          "y": 13.997
+        },
+        {
+          "x": -1.502,
+          "y": 13.997
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": 8.498,
+      "y": 16.996,
+      "width": 12.498,
+      "height": 2.5,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -22.25,
+      "y": 19.247,
+      "width": 1.5,
+      "height": 1.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -19.0,
+      "y": 19.496,
+      "width": 1.0,
+      "height": 1.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -21.751,
+      "y": 16.246,
+      "width": 0.501,
+      "height": 0.501,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -23.5,
+      "y": -23.5,
+      "width": 46.996,
+      "height": 31.998,
+      "rx": 1.0,
+      "ry": 1.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{90be23ab-7aae-4bdb-9082-7122a9af8d97}",
+      "name": "",
+      "x": 10.0,
+      "y": 25.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{fa16fb1f-4534-441d-9df9-4c6582546ad6}",
+      "name": "",
+      "x": 0.0,
+      "y": 25.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{73c79a1d-1091-4a06-b37d-707b1287aec1}",
+      "name": "",
+      "x": 5.0,
+      "y": 25.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4c269034-e465-4572-a4ff-0cb639a6b45b}",
+      "name": "",
+      "x": -5.0,
+      "y": 25.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a595c179-7f78-4867-8008-d94161135130}",
+      "name": "",
+      "x": -25.0,
+      "y": 20.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d79ad10e-ef34-434d-859c-d3ec3445521e}",
+      "name": "",
+      "x": 25.0,
+      "y": 20.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b77e1735-cb7e-44db-8081-a8dace166c70}",
+      "name": "",
+      "x": -10.0,
+      "y": 25.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -23.5,
+      "y": -35.224,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0c9d986a-69c1-4e58-bac7-41a50693e4e4}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -15.0,
+      "y": -17.5,
+      "z": 19,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{1b4efefa-c4ea-460f-9c90-01d7705dddfd}",
+      "font": "Liberation Sans,11,-1,5,50,0,0,0,0,0,Regular",
+      "text": "_",
+      "infoName": ""
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Retorno_de_mola_controlado_por_valvula.opcad",
+  "id": "{8a7c75d5-0ed9-8061-27c2-d9061a2e584b}",
+  "names": {
+    "ar": "عودة الزنبرك المتحكم فيه بالصمام",
+    "ca": "Retorn de molla controlat per vàlvula",
+    "cs": "Vratná pružina ovládaná ventilem",
+    "da": "Ventilstyret fjederretur",
+    "de": "Ventilgesteuerter Federrückzug",
+    "el": "Επιστροφή ελατηρίου ελεγχόμενη από βαλβίδα",
+    "en": "Valve-controlled spring return",
+    "es": "Retorno por resorte controlado por válvula",
+    "fr": "Rappel par ressort commandé par soupape",
+    "hr": "Povrat opruge kontroliran ventilom",
+    "hu": "Szelepvezérelt rugóvisszatérítés",
+    "it": "Ritorno a molla controllato da valvola",
+    "ja": "バルブ制御のスプリングリターン",
+    "mn": "Хавхлагын удирдлагатай пүрш буцах",
+    "nb": "Ventilstyrt fjærretur",
+    "nl": "Klepgestuurde veerretour",
+    "pl": "Sprężyna powrotna sterowana zaworem",
+    "pt": "Retorno de mola controlado por válvula",
+    "pt_BR": "Retorno de mola controlado por válvula",
+    "ro": "Retur cu arc controlat de supapă",
+    "ru": "Пружинный возврат, управляемый клапаном",
+    "sl": "Ventilsko krmiljen povratni vzmet",
+    "sr": "Повратак опруге контролисани вентилом",
+    "tr": "Valf kontrollü yay dönüşü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 11.249,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -5.0,
+      "y": -2.5,
+      "width": 9.999,
+      "height": 5.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 6.499,
+      "y1": 0.0,
+      "x2": 2.25,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.265,
+          "y": 0.047
+        },
+        {
+          "x": -0.5,
+          "y": 1.0
+        },
+        {
+          "x": -1.0,
+          "y": -1.0
+        },
+        {
+          "x": -1.499,
+          "y": 1.0
+        },
+        {
+          "x": -2.0,
+          "y": -1.0
+        },
+        {
+          "x": -2.5,
+          "y": 1.0
+        },
+        {
+          "x": -2.782,
+          "y": 0.047
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.25,
+      "y1": 0.0,
+      "x2": -6.499,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.0,
+          "y": 1.25
+        },
+        {
+          "x": 2.25,
+          "y": 0.0
+        },
+        {
+          "x": 1.0,
+          "y": -1.25
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 0.0,
+      "y": -0.75,
+      "width": 1.5,
+      "height": 1.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.0,
+          "y": -1.499
+        },
+        {
+          "x": 7.499,
+          "y": -1.499
+        },
+        {
+          "x": 7.499,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{75413f83-0b22-495d-973b-610695678788}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e65fcf08-d88f-4764-b30e-566c3b656f90}",
+      "name": "",
+      "x": 7.5,
+      "y": -2.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a1507e24-68c5-4f47-b67d-bee703ecf4cb}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.0,
+      "y": -8.749,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{9af06fb5-5c6a-4380-b5ef-9b4364f8bd04}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

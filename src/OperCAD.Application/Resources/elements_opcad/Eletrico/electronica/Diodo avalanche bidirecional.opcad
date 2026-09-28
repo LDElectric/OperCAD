@@ -1,0 +1,164 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nf.opcad",
+  "id": "{dc1a4097-17de-7aed-c909-7255321d8726}",
+  "names": {
+    "ar": "دايود بانهيار في الإتجاهين",
+    "ca": "Díode d'allau bidireccional",
+    "cs": "Lavinová dvojsměrná dioda",
+    "de": "Bidirektionale Avalanchediode",
+    "en": "Avalanche diode bidirectional",
+    "fr": "Diode à avalanche bidirectionnelle",
+    "it": "Diodo a valanga bidirezionale",
+    "nl": "Diode avalanche 2 richting",
+    "pl": "Dioda lawinowa dwukierunkowa"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 6.5,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.562,
+          "y": 4.295
+        },
+        {
+          "x": -1.562,
+          "y": 4.295
+        },
+        {
+          "x": 0.0,
+          "y": 1.17
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.42,
+      "x2": 0.0,
+      "y2": -5.08,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.562,
+          "y": -1.955
+        },
+        {
+          "x": 1.562,
+          "y": -1.955
+        },
+        {
+          "x": 0.0,
+          "y": 1.17
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.562,
+          "y": 2.108
+        },
+        {
+          "x": -1.562,
+          "y": 1.17
+        },
+        {
+          "x": 1.562,
+          "y": 1.17
+        },
+        {
+          "x": 1.562,
+          "y": 0.232
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4b61f1c6-0dcf-40a0-9b2f-161954745d98}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8cbb465b-9cac-47f3-b5fa-cf5a3c298064}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.916,
+      "y": -6.579,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{cd0b5d49-a77a-4363-9387-2ded610ed1ab}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

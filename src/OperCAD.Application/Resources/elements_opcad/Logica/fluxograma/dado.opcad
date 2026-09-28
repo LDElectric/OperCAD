@@ -1,0 +1,154 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Documento.opcad",
+  "id": "{3a5fb578-0b53-8441-1031-f675e91c489a}",
+  "names": {
+    "ar": "وثيقة",
+    "ca": "Document",
+    "cs": "Dokument",
+    "da": "Dokument",
+    "de": "Dokumentieren",
+    "el": "Εγγραφο",
+    "en": "Document",
+    "es": "Documento",
+    "fr": "Document",
+    "hr": "Dokument",
+    "hu": "Dokumentum",
+    "it": "Documento",
+    "ja": "書類",
+    "mn": "Баримт бичиг",
+    "nb": "Dokument",
+    "nl": "Document",
+    "pl": "Dokument",
+    "pt": "Documento",
+    "ro": "Document",
+    "ru": "Документ",
+    "sl": "Dokument",
+    "sr": "Документ",
+    "tr": "belge"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 29.998,
+  "height": 34.998,
+  "hotspotX": 10.0,
+  "hotspotY": 5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": 1.654709711720227,
+      "y": 4.182670757900734,
+      "width": 6.604,
+      "height": 6.606,
+      "start": 45,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -5.130282817725753,
+      "y": 11.688663287346712,
+      "width": 6.604,
+      "height": 6.605,
+      "start": 230,
+      "angle": 80,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.3537171822742478,
+      "y1": 10.040663287346712,
+      "x2": 0.3737171822742478,
+      "y2": 12.461663287346713,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -3.9215048046628866,
+          12.428153688623917
+        ],
+        [
+          -5.069737880802829,
+          12.528611065871662
+        ],
+        [
+          -5.069737880802829,
+          2.4735645690950516
+        ],
+        [
+          7.481024550433815,
+          2.4735645690950516
+        ],
+        [
+          7.481024550433815,
+          9.833927433231546
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{fa941091-3b7f-4e21-80dd-b0a9a4f9f219}",
+      "name": "",
+      "x": 2.5,
+      "y": 2.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{565f9b2d-a120-41f0-a8b6-e2b2c328bebc}",
+      "name": "",
+      "x": -5.0,
+      "y": 7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ed1b2cad-0e03-42dc-a02d-1856a67faa2b}",
+      "name": "",
+      "x": 7.5,
+      "y": 7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

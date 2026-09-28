@@ -1,0 +1,339 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Dupla_acao_freio_de_fim_de_curso_de_um_lado_ima.opcad",
+  "id": "{a843da3d-8467-205d-b761-93c5af5a1503}",
+  "names": {
+    "ar": "مزدوج الفعل + فرامل نهاية الشوط على جانب واحد + مغناطيس",
+    "cs": "Dvojčinná + brzda konce zdvihu na jedné straně + magnet",
+    "da": "Dobbeltvirkende + afslutningsbremse på den ene side + magnet",
+    "de": "Doppeltwirkend + Endlagenbremse einseitig + Magnet",
+    "el": "Διπλής δράσης + φρένο στο τέλος της διαδρομής στη μία πλευρά + μαγνήτης",
+    "en": "Double-acting + end-of-stroke brake on one side + magnet",
+    "es": "Doble efecto + freno de final de carrera en un lado + imán",
+    "fr": "Double effet + frein de fin de course d'un côté + aimant",
+    "hr": "Dvostruko djelovanje + kočnica na kraju hoda s jedne strane + magnet",
+    "hu": "Kettős működésű + löketvégi fék az egyik oldalon + mágnes",
+    "it": "Doppio effetto + freno di fine corsa su un lato + magnete",
+    "ja": "複動式+片側のストロークエンドブレーキ+マグネット",
+    "mn": "Давхар үйлдэлтэй + нэг талдаа харвалтын төгсгөлийн тоормос + соронз",
+    "nb": "Dobbeltvirkende + sluttbrems på den ene siden + magnet",
+    "nl": "Dubbelwerkend + eindeslagrem eenzijdig + magneet",
+    "pl": "Dwustronnego działania + hamulec krańcowy po jednej stronie + magnes",
+    "pt": "Cilindro Dupla acao freio de fim de curso de um lado ima",
+    "pt_BR": "Dupla ação + freio de fim de curso de um lado + ímã",
+    "ro": "Frână cu dublă acțiune + capăt de cursă pe o parte + magnet",
+    "ru": "Двустороннего действия + тормоз в конце хода с одной стороны + магнит",
+    "sl": "Dvostransko delovanje + zavora na koncu hoda na eni strani + magnet",
+    "sr": "Двоструко дејство + кочница на крају хода на једној страни + магнет",
+    "tr": "Bir tarafta çift etkili + strok sonu freni + mıknatıs"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 14.999,
+  "height": 11.487,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.484989227340267,
+          "y": -3.3564316493313515
+        },
+        {
+          "x": -5.484989227340267,
+          "y": -0.09843164933135173
+        },
+        {
+          "x": -5.484989227340267,
+          "y": -3.3564316493313515
+        },
+        {
+          "x": -5.078989227340267,
+          "y": -3.3564316493313515
+        },
+        {
+          "x": -5.078989227340267,
+          "y": -0.09843164933135173
+        },
+        {
+          "x": -4.669989227340267,
+          "y": -0.09843164933135173
+        },
+        {
+          "x": -4.669989227340267,
+          "y": -0.9134316493313517
+        },
+        {
+          "x": -5.078989227340267,
+          "y": -1.3224316493313517
+        },
+        {
+          "x": -5.078989227340267,
+          "y": -2.1344316493313515
+        },
+        {
+          "x": -4.669989227340267,
+          "y": -2.542431649331352
+        },
+        {
+          "x": -4.669989227340267,
+          "y": -3.3564316493313515
+        },
+        {
+          "x": -5.484989227340267,
+          "y": -3.3564316493313515
+        },
+        {
+          "x": -5.484989227340267,
+          "y": -0.09843164933135173
+        },
+        {
+          "x": -5.078989227340267,
+          "y": -0.09843164933135173
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -7.520989227340268,
+      "y": -3.3564316493313515,
+      "width": 1.222,
+      "height": 3.258,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.630223447897153,
+          "y": 2.3455683506686484
+        },
+        {
+          "x": 13.260223447897152,
+          "y": 2.3455683506686484
+        },
+        {
+          "x": 12.447223447897153,
+          "y": 0.7145683506686482
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -6.300989227340267,
+      "y": -5.801431649331351,
+      "width": 2.443,
+      "height": 8.147,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 14.065010772659733,
+          "y": -0.9134316493313517
+        },
+        {
+          "x": 14.065010772659733,
+          "y": 2.3455683506686484
+        },
+        {
+          "x": -8.743989227340267,
+          "y": 2.3455683506686484
+        },
+        {
+          "x": -8.743989227340267,
+          "y": -5.801431649331351
+        },
+        {
+          "x": 14.065010772659733,
+          "y": -5.801431649331351
+        },
+        {
+          "x": 14.065010772659733,
+          "y": -2.542431649331352
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.336989227340267,
+          "y": 2.3455683506686484
+        },
+        {
+          "x": -6.706989227340268,
+          "y": 2.3455683506686484
+        },
+        {
+          "x": -7.520989227340268,
+          "y": 0.7145683506686482
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 15.696010772659733,
+          "y": -2.542431649331352
+        },
+        {
+          "x": -3.8549892273402664,
+          "y": -2.542431649331352
+        },
+        {
+          "x": -3.8549892273402664,
+          "y": -0.9134316493313517
+        },
+        {
+          "x": 15.696010772659733,
+          "y": -0.9134316493313517
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.55795917048905,
+      "y1": 2.320426061115059,
+      "x2": -7.55795917048905,
+      "y2": 4.839745784611409,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 12.46400284256089,
+      "y1": 2.51931972349635,
+      "x2": 12.46400284256089,
+      "y2": 4.9723415595322695,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{23c888b0-cc9b-402b-827c-177017ce9ce1}",
+      "name": "",
+      "x": -7.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{216a971f-60fa-46f5-994b-b0908eebb6fd}",
+      "name": "",
+      "x": 12.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.4706991714932145,
+      "y": -9.590142857613907,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{dbd71dbe-d663-477f-9dfd-8725fc661135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

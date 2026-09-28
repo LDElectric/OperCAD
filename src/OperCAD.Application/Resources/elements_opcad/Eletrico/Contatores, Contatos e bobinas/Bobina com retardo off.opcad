@@ -1,0 +1,174 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Bobina_5.opcad",
+  "id": "{631fcf2b-2cfd-827d-2752-6b449a82fe02}",
+  "names": {
+    "ar": "ملف مُؤقت مع تأخير الإعتاق",
+    "ca": "Bobina amb retard d'apagada",
+    "cs": "Relé se zpožděným vypnutím",
+    "de": "Relais rückfallverzögert",
+    "el": "Πηνίο χρονικού, καθυστέρηση απενεργοποίησης",
+    "en": "Coil with off delay",
+    "es": "Bobina de reposo temporizado",
+    "fr": "Bobine tempo repos",
+    "hu": "Tekercs ki késleltetéssel",
+    "it": "Bobina di relè temporizzato",
+    "nl": "mechanisch met afvalvertraging",
+    "nl_BE": "Spoel met uitschakel vertraging",
+    "pl": "Cewka przekaźnika działająca z opóźnieniem przy odwzbudzeniu",
+    "ru": "Обмотка"
+  },
+  "kindInformations": {
+    "type": "coil"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 19.497,
+  "height": 22.334,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": 2.415,
+      "y": -2.105,
+      "width": 1.059,
+      "height": 4.239,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -3.944,
+      "y": -2.105,
+      "width": 7.418,
+      "height": 4.239,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.015,
+      "y1": -5.167,
+      "x2": 0.015,
+      "y2": -2.233,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.047,
+      "y1": 4.698,
+      "x2": -0.047,
+      "y2": 2.138,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4111e0ed-c1d1-4996-bb2a-627e92d8c96b}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{685f0bf8-c3b8-4124-ba27-0640fa670e36}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.821,
+      "y": 2.745,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{75c9d389-5ac1-4787-8ada-14af5effb73f}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "A2",
+      "infoName": ""
+    },
+    {
+      "x": 1.212,
+      "y": -5.454,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c5243d94-8b47-4d6d-a233-d3a9afdf169a}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "A1",
+      "infoName": ""
+    },
+    {
+      "x": 4.281,
+      "y": -1.8027762438011576,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c8853df7-7a58-4b37-a81d-0593782fda96}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

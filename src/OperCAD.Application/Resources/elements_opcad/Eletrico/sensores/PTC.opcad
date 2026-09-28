@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Temperatura.opcad",
+  "id": "{97ef1380-e022-975c-e6f6-5e4dfaf3c266}",
+  "names": {
+    "ca": "Sensor de temperatura",
+    "cs": "Snímač teploty 2 vodiče",
+    "de": "Temperaturfühler",
+    "el": "Αισθητήρας θερμοκρασίας",
+    "en": "Temperature sensor",
+    "es": "Sensor de temperatura",
+    "fr": "Sonde de temperature",
+    "it": "Sonda di temperatura",
+    "nl": "Temperatuur sensor",
+    "pl": "Czujnik temperatury"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 9.624,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -2.5,
+      "x2": 5.0,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -2.5,
+      "y": -3.75,
+      "width": 5.0,
+      "height": 2.5,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.5,
+          "y": 0.0
+        },
+        {
+          "x": -1.25,
+          "y": 0.0
+        },
+        {
+          "x": 1.25,
+          "y": -5.0
+        },
+        {
+          "x": 2.5,
+          "y": -5.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f7f478a5-097b-43e9-8539-efcc9548e0ec}",
+      "name": "1",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ae9ff55e-33a9-45e2-9460-4f427d8b15c5}",
+      "name": "2",
+      "x": 5.0,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.991777034559643,
+      "y": -9.503095875139355,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{1927b85f-c493-42a2-affd-b42db99c8cce}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 3.570606465997769,
+      "y": -9.31691192865106,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "UserText",
+      "uuid": "{6b7f33ab-3e1f-492b-b851-13869e399530}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "S_",
+      "infoName": ""
+    }
+  ]
+}

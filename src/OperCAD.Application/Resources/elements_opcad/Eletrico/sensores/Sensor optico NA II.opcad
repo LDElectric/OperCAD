@@ -1,0 +1,380 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Sensor_optico_4.opcad",
+  "id": "{779898f6-be78-7105-d0e2-5e2720799de6}",
+  "names": {
+    "ar": "حسّاس بصري (NO)",
+    "cs": "Optický snímač NO 3 vodiče",
+    "de": "Lichtsensor 3-Leiter Schliesser",
+    "en": "Optic sensor (NO)",
+    "es": "Sensor óptico 3 terminales NA",
+    "fr": "Capteur optique  (NO)",
+    "it": "Sensore ottico (NC)",
+    "nl": "Fotocel 2 (NC)",
+    "pl": "Czujnik optyczny trójprzewodowy, zwierny",
+    "pt": "Sensor optico NA II"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.624,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": 1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": 3.5,
+      "x2": 1.75,
+      "y2": 2.75,
+      "end1": "none",
+      "end2": "triangle",
+      "length1": 0.374,
+      "length2": 0.05,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.0,
+      "y1": 3.75,
+      "x2": 1.25,
+      "y2": 3.0,
+      "end1": "none",
+      "end2": "triangle",
+      "length1": 0.374,
+      "length2": 0.05,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.0,
+          "y": 5.249
+        },
+        {
+          "x": 3.0,
+          "y": 3.75
+        },
+        {
+          "x": 1.25,
+          "y": 4.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.25,
+      "y1": 4.5,
+      "x2": 1.25,
+      "y2": 4.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.0,
+      "y1": 4.5,
+      "x2": 4.499,
+      "y2": 4.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.25,
+      "y1": 3.75,
+      "x2": 1.25,
+      "y2": 5.249,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 9.999,
+      "x2": 0.0,
+      "y2": 6.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.499,
+      "y1": -0.249,
+      "x2": -1.499,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -0.249,
+      "x2": -2.5,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -1.499,
+      "x2": 2.5,
+      "y2": -4.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -1.499,
+      "x2": -2.5,
+      "y2": -4.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -4.882,
+      "y": -1.25,
+      "width": 9.999,
+      "height": 7.75,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.499,
+          "y": 0.75
+        },
+        {
+          "x": 3.249,
+          "y": 0.0
+        },
+        {
+          "x": 4.499,
+          "y": 0.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.75,
+      "y1": 0.0,
+      "x2": 1.499,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.0,
+          "y": -0.749
+        },
+        {
+          "x": -4.499,
+          "y": 1.75
+        },
+        {
+          "x": -2.0,
+          "y": 4.25
+        },
+        {
+          "x": 0.5,
+          "y": 1.75
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9f53dfac-7dcb-4016-8a85-5562e3b9a3e4}",
+      "name": "",
+      "x": 2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{75d22a8d-5918-44c4-a531-06b7fe27f909}",
+      "name": "",
+      "x": -2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3379062b-b753-4117-9ac9-6f113fb4e0e9}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 5.624,
+      "y": -0.237,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{58be9163-9e98-495e-9a66-812d4c99ff02}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

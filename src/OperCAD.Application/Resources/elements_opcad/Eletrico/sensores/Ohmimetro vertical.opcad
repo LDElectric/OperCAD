@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Ohmimetro_vertical.opcad",
+  "id": "{5ec5ec86-a8ba-995e-a5a8-497fff794cba}",
+  "names": {
+    "ar": "أوميتر عمودي",
+    "cs": "Ohmmetr, svislý",
+    "de": "Ohmmeter senkrecht",
+    "el": "Ωμόμετρο κατακόρυφο",
+    "en": "Vertical ohmmeter",
+    "es": "Óhmetro vertical",
+    "fr": "Ohmmètre vertical",
+    "it": "Ohmmetro verticale",
+    "nl": "Ohmmeter",
+    "pl": "Omomierz (pionowo)",
+    "pt": "Ohmimetro vertical",
+    "ru": "Омметр (вертикальный)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 22.999,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": 0.010980824972129266,
+      "y": -7.647132887402453,
+      "width": 5.0,
+      "height": 5.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.5109808249721293,
+      "y1": -10.147132887402453,
+      "x2": 2.5109808249721293,
+      "y2": -7.647132887402453,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.31848115942029,
+      "y1": -4.161828428093646,
+      "x2": 3.75648115942029,
+      "y2": -4.161828428093646,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.31848115942029,
+      "y1": -4.661828428093646,
+      "x2": 3.31848115942029,
+      "y2": -4.161828428093646,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.2564811594202898,
+      "y1": -4.161828428093646,
+      "x2": 1.6944811594202898,
+      "y2": -4.161828428093646,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5109808249721293,
+      "y1": -2.647132887402453,
+      "x2": 2.5109808249721293,
+      "y2": -0.14713288740245245,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 1.2564811594202898,
+      "y": -6.910828428093645,
+      "width": 2.5,
+      "height": 2.5,
+      "start": 315.0,
+      "angle": 270,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.6944811594202898,
+      "y1": -4.161828428093646,
+      "x2": 1.6944811594202898,
+      "y2": -4.661828428093646,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d2518dc1-f884-4369-a528-21ca158b2e1e}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{81df63f3-8eba-4daf-b58c-795541365316}",
+      "name": "",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 6.291886287625416,
+      "y": -6.636323299888517,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8672b9dd-dd49-456b-ba17-99580cd02a08}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

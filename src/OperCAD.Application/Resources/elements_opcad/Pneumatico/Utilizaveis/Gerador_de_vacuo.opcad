@@ -1,0 +1,274 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Gerador_de_vacuo.opcad",
+  "id": "{da4b45f7-0ed4-fea7-12a6-6dd7da6ad37f}",
+  "names": {
+    "ar": "مولد الفراغ",
+    "ca": "Generador de buit",
+    "cs": "Vakuový generátor",
+    "da": "Vakuum generator",
+    "de": "Vacuum generator",
+    "el": "Γεννήτρια κενού",
+    "en": "Vacuum generator",
+    "es": "Generador de vacío",
+    "fr": "Générateur de vide",
+    "hr": "Generator vakuuma",
+    "hu": "Vákuum generátor",
+    "it": "Generatore di vuoto",
+    "ja": "真空発生器",
+    "mn": "Вакуум генератор",
+    "nb": "Vakuum generator",
+    "nl": "Vacuümgenerator",
+    "pl": "Generator podciśnienia",
+    "pt": "Gerador de vácuo",
+    "pt_BR": "Gerador de vácuo",
+    "ro": "Generator de vid",
+    "ru": "Генератор вакуума",
+    "sl": "Vakuumski generator",
+    "sr": "Генератор вакуума",
+    "tr": "Vakum jeneratörü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 37.496,
+  "height": 29.998,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 14.921,
+          "y": 1.2272719453005738
+        },
+        {
+          "x": 14.921,
+          "y": -1.3507280546994263
+        },
+        {
+          "x": 17.498,
+          "y": -0.06172805469942633
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": 0.655,
+      "y": 5.6412719453005735,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": 11.778,
+      "y": -0.5337280546994263,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.983,
+      "y": -4.786728054699426,
+      "width": 8.593,
+      "height": 3.866,
+      "start": 200,
+      "angle": 140,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.983,
+      "y": 0.7972719453005737,
+      "width": 8.593,
+      "height": 3.866,
+      "start": 20,
+      "angle": 140,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -10.426,
+      "y1": -0.06172805469942633,
+      "x2": 14.921,
+      "y2": -0.06172805469942633,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.016839931625716842,
+      "y1": 7.531271945300576,
+      "x2": 0.016839931625716842,
+      "y2": 1.7972719453005759,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -10.426,
+      "y": -6.506728054699426,
+      "width": 21.481,
+      "height": 12.888,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -13.038,
+      "y": -0.4997280546994263,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -10.389,
+      "y1": -0.10672805469942631,
+      "x2": -12.387,
+      "y2": -0.10672805469942631,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ac0aa1cb-43af-4013-850b-7df99c9d7ac8}",
+      "name": "",
+      "x": -12.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{63fc137e-3382-484b-bab3-d53cd10d7f6d}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b6fe2c94-35fc-4cc9-beb1-bdab9c722746}",
+      "name": "",
+      "x": 17.47301202040785,
+      "y": -0.059432013674856635,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.8034346188917016,
+      "y": -9.745977641087233,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c76bdc44-7f6b-40d2-91e9-c2ebb6ad0556}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Na_14.opcad",
+  "id": "{2761a9bf-20d3-f82e-4442-28b5b0fd6ebe}",
+  "names": {
+    "ar": "راصد ضغط (برسوستات) - NO",
+    "cs": "Tlakový spínač NO",
+    "de": "Druckschalter Schliesser",
+    "en": "Presostat (NO)",
+    "es": "Presóstato NA",
+    "fr": "Pressostat (NO)",
+    "it": "Presostato (NO)",
+    "nl": "Pressostaat 2 (NO)",
+    "pl": "Presostat (zestyk zwierny)",
+    "pt": "Pressostato NA II"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.5,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -3.764004459308807,
+      "y1": 0.19515719063545145,
+      "x2": -1.1390044593088071,
+      "y2": 0.19515719063545145,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.014004459308807116,
+          "y": 7.6951571906354514
+        },
+        {
+          "x": -0.014004459308807116,
+          "y": 3.9451571906354514
+        },
+        {
+          "x": -2.2630044593088074,
+          "y": -3.5548428093645486
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -7.514004459308807,
+      "y": -1.6798428093645486,
+      "width": 3.75,
+      "height": 3.75,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "P",
+      "x": -7.243109253065776,
+      "y": -2.1691962095875135,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.014004459308807116,
+      "y1": -7.3048428093645486,
+      "x2": -0.014004459308807116,
+      "y2": -3.1788428093645487,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{0bab16c0-19c1-4249-a0c3-fd560d89c8a7}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d9bc8cbc-a839-489e-b840-7e2c5af1f8ed}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.4455808249721291,
+      "y": -1.7683712374581941,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{25c74494-7396-48a0-82cc-0dfd1b54fc71}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 0.7433534002229667,
+      "y": -6.659327759197325,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a00e78c2-77d1-4ca6-aba2-14a0f0c0a733}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "label"
+    },
+    {
+      "x": 1.1436677814938676,
+      "y": 4.176637681159422,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{6aef8911-1edb-45e3-b700-8486226d8364}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "label"
+    }
+  ]
+}

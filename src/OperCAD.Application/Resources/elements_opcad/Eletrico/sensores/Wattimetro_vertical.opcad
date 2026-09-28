@@ -1,0 +1,294 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Wattimetro_vertical.opcad",
+  "id": "{57020207-59e0-39ca-640b-cd2aafae77f8}",
+  "names": {
+    "ar": "واتميتر عمودي",
+    "ca": "Wattmetre vertical",
+    "cs": "Wattmetr, svislý",
+    "de": "Wattmeter senkrecht",
+    "el": "Βατόμετρο κατακόρυφο",
+    "en": "Vertical wattmeter",
+    "es": "Vatímetro vertical",
+    "fr": "Wattmètre vertical",
+    "it": "Wattmetro verticale",
+    "nl": "Wattmeter",
+    "pl": "Watomierz (pionowo)",
+    "pt": "Wattímetro vertical",
+    "ru": "Ватметр (вертикальный)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 26.499,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -1.25
+        },
+        {
+          "x": 5.0,
+          "y": 0.0
+        },
+        {
+          "x": 7.5,
+          "y": 0.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -8.75
+        },
+        {
+          "x": 5.0,
+          "y": -10.0
+        },
+        {
+          "x": 7.5,
+          "y": -10.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.0,
+          "y": -7.999
+        },
+        {
+          "x": -3.75,
+          "y": -2.001
+        },
+        {
+          "x": -2.5,
+          "y": -5.0
+        },
+        {
+          "x": -1.25,
+          "y": -2.001
+        },
+        {
+          "x": 0.0,
+          "y": -7.999
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 0.0,
+      "x2": -2.5,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -15.0,
+      "x2": -2.5,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -7.5,
+      "y": -10.0,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -3.036,
+      "y": -15.288,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -2.858,
+      "y": 0.803,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": 4.115,
+      "y": -10.461,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "4",
+      "x": 3.936,
+      "y": -4.561,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{10383c98-9b7b-4bdb-8ea4-c62b7b4949ba}",
+      "name": "V2",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c194a0ee-7153-4e3f-a4c6-10de4c039537}",
+      "name": "I_out",
+      "x": -2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{39b7d702-0fae-48dd-9d7e-d243c28dce20}",
+      "name": "V1",
+      "x": 7.5,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f90a45af-eb28-4185-baa9-f1fde1507a2e}",
+      "name": "I_in",
+      "x": -2.5,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -15.088,
+      "y": -12.917,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c0674afe-c8af-492b-aa11-3c97dace2994}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+<Window x:Class="OperCAD.UI.Views.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sobre o OperCAD"
+        Width="500" Height="400"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="0" Background="Transparent" BorderThickness="0">
+
+            <!-- Aba Autor -->
+            <TabItem Header="Autor">
+                <StackPanel Margin="12,10">
+                    <TextBlock Text="AUTORIA" Style="{StaticResource App.SectionHeader}" />
+                    <TextBlock Text="Desenvolvido por Leonam Dias" Margin="0,8,0,0"
+                               Foreground="{DynamicResource App.Text.Primary}" FontSize="13" />
+                    <TextBlock Text="Operacional CAD — Programa para desenhos de esquemas técnicos" Margin="0,6,0,0"
+                               Foreground="{DynamicResource App.Text.Muted}" FontSize="11" TextWrapping="Wrap" />
+                    <TextBlock Margin="0,12,0,0" Foreground="{DynamicResource App.Text.Primary}" FontSize="11">
+                        <Run Text="GitHub: " />
+                        <Hyperlink NavigateUri="https://github.com/LDElectric" RequestNavigate="OnGitHubNavigate">
+                            github.com/LDElectric
+                        </Hyperlink>
+                    </TextBlock>
+                </StackPanel>
+            </TabItem>
+
+            <!-- Aba Licença -->
+            <TabItem Header="Licença">
+                <ScrollViewer VerticalScrollBarVisibility="Auto" Margin="12,10">
+                    <TextBlock TextWrapping="Wrap" Foreground="{DynamicResource App.Text.Primary}">
+                        <Run FontWeight="Bold" Text="Uso e atribuição do software" />
+                        <LineBreak /><LineBreak />
+                        <Run Text="Este software é disponibilizado como código aberto para fins de avaliação, teste e desenvolvimento colaborativo, com a finalidade de promover transparência técnica e revisão da solução." />
+                        <LineBreak /><LineBreak />
+                        <Run Text="A autoria do desenvolvimento desta aplicação deve ser respeitada. Qualquer cópia, adaptação, fork, distribuição, reutilização parcial ou comercialização da solução deve manter a identificação da origem e os devidos créditos ao projeto original." />
+                        <LineBreak /><LineBreak />
+                        <Run Text="Não é permitido remover os elementos de autoria, apresentar versões derivadas como se fossem originais, ou utilizar a aplicação para fins comerciais sem o reconhecimento adequado da origem e da criação intelectual do software." />
+                        <LineBreak /><LineBreak />
+                        <Run Text="A utilização deste software em contextos comerciais, institucionais ou de distribuição deve respeitar os direitos sobre a criação e a identidade da solução, preservando a origem e a devida atribuição do desenvolvimento." />
+                    </TextBlock>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- Aba Versão -->
+            <TabItem Header="Versão">
+                <StackPanel Margin="12,10">
+                    <TextBlock Text="INFORMAÇÕES DA VERSÃO" Style="{StaticResource App.SectionHeader}" />
+                    <Grid Margin="0,12,0,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="160" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Nome do produto:" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="OperCAD" Margin="0,3"
+                                   Foreground="{DynamicResource App.Text.Primary}" />
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Versão:" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <TextBlock Grid.Row="1" Grid.Column="1" x:Name="TxtVersion" Margin="0,3"
+                                   Foreground="{DynamicResource App.Text.Primary}" />
+
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Framework:" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <TextBlock Grid.Row="2" Grid.Column="1" Text=".NET (WPF)" Margin="0,3"
+                                   Foreground="{DynamicResource App.Text.Primary}" />
+
+                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Plataforma:" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <TextBlock Grid.Row="3" Grid.Column="1" Text="Windows" Margin="0,3"
+                                   Foreground="{DynamicResource App.Text.Primary}" />
+
+                        <TextBlock Grid.Row="4" Grid.Column="0" Text="Idioma:" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <TextBlock Grid.Row="4" Grid.Column="1" Text="Português (Brasil)" Margin="0,3"
+                                   Foreground="{DynamicResource App.Text.Primary}" />
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+        <Button Grid.Row="1" Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="88" Height="30"
+                HorizontalAlignment="Right" Margin="0,12,0,0"
+                Background="{DynamicResource App.Accent}" Foreground="White"
+                FontFamily="{StaticResource App.Font}" BorderThickness="0" />
+    </Grid>
+</Window>

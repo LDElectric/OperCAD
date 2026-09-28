@@ -1,0 +1,339 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal_5.opcad",
+  "id": "{6848bcdb-a7e6-8045-2082-734dbfac3949}",
+  "names": {
+    "ar": "عدّاد طاقة فعّالة - وات ساعة متر -",
+    "ca": "Mesurador de watt hora",
+    "cs": "Činný elektroměr",
+    "de": "Wattstundenzähler 3ph.",
+    "el": "Μετρητής βατ/ώρα",
+    "en": "Watt hour meter",
+    "fr": "Compteur d'énergie active Wattheuremètre",
+    "it": "Misuratore di Wh",
+    "nl": "Watt uur meter",
+    "pl": "Licznik watogodzin"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "width": 15.0,
+  "height": 20.749,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "Wh",
+      "x": -3.292523968784838,
+      "y": -3.352576365663322,
+      "rotation": 0,
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -7.546078037904124,
+          -10.148173913043479
+        ],
+        [
+          -4.943982162764771,
+          -7.546078037904126
+        ],
+        [
+          -4.943982162764771,
+          -4.943982162764772
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5370434782608693,
+      "y1": -10.083121516164994,
+      "x2": -2.5370434782608693,
+      "y2": -5.074086956521739,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5370434782608693,
+      "y1": -10.018069119286508,
+      "x2": 2.5370434782608693,
+      "y2": -5.2041917502787065,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          7.611130434782607,
+          -10.083121516164994
+        ],
+        [
+          5.009034559643254,
+          -7.48102564102564
+        ],
+        [
+          5.009034559643254,
+          -4.943982162764771
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -7.546078037904124,
+          7.546078037904124
+        ],
+        [
+          -4.878929765886287,
+          4.878929765886287
+        ],
+        [
+          -4.878929765886287,
+          2.4719910813823853
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5370434782608693,
+      "y1": 2.341886287625418,
+      "x2": -2.5370434782608693,
+      "y2": 7.3509208472686725,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5370434782608693,
+      "y1": 2.6020958751393533,
+      "x2": 2.5370434782608693,
+      "y2": 7.285868450390188,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          7.48102564102564,
+          7.415973244147156
+        ],
+        [
+          5.009034559643254,
+          4.94398216276477
+        ],
+        [
+          5.009034559643254,
+          2.5370434782608693
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -5.4644013377926415,
+      "y": -4.943982162764771,
+      "width": 11.514274247491638,
+      "height": 7.350920847268672,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.4644013377926415,
+      "y1": -2.8623054626532882,
+      "x2": 5.919768115942028,
+      "y2": -2.8623054626532882,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{33064eff-e1af-48fe-887b-ab577ad81ca0}",
+      "name": "L2",
+      "x": -2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c5518603-6161-4a2b-be7d-9d45f8157319}",
+      "name": "L2.1",
+      "x": 2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a5a22122-75a8-4814-b3d2-5d3247066c46}",
+      "name": "L1",
+      "x": -7.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a1f83453-2a04-444f-a6f1-190c10eb5fec}",
+      "name": "L1.1",
+      "x": -7.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{43ba7e78-26a4-4cb8-9c95-7fd02fa9daa2}",
+      "name": "L3.1",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{afeb6676-ad4b-4f6a-936b-084dad546edd}",
+      "name": "L3",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6ce99a63-094a-4eed-a207-754ee9696a3f}",
+      "name": "N",
+      "x": 7.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{65e81e88-b24a-40b7-bd25-034b6e9a8232}",
+      "name": "N.1",
+      "x": 7.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 7.5036421404682265,
+      "y": -3.118205128205128,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c6273b25-dae0-4113-8bf7-29bb12749b73}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Cilindro_oscilante_com_posicao_central.opcad",
+  "id": "{ee0e584d-b7ab-86a6-5fc4-6b79a74ba8e0}",
+  "names": {
+    "ar": "اسطوانة التأرجح مع الوضع الأوسط",
+    "ca": "Cilindre basculant amb posició mitjana",
+    "cs": "Kyvný válec se střední polohou",
+    "da": "Svingcylinder med midterstilling",
+    "de": "Schwenkzylinder mit Mittelposition",
+    "el": "Κύλινδρος περιστροφής με μεσαία θέση",
+    "en": "Swing cylinder with middle position",
+    "es": "Cilindro de giro con posición media",
+    "fr": "Vérin oscillant avec position médiane",
+    "hr": "Okretni cilindar sa srednjim položajem",
+    "hu": "Lengőhenger középső helyzettel",
+    "it": "Cilindro oscillante con posizione centrale",
+    "ja": "中位置のスイングシリンダー",
+    "mn": "Дунд байрлалтай дүүжин цилиндр",
+    "nb": "Svingsylinder med midtstilling",
+    "nl": "Zwenkcilinder met middenstand",
+    "pl": "Cylinder wychylny z pozycją środkową",
+    "pt": "Cilindro oscilante com posição central",
+    "pt_BR": "Cilindro oscilante com posição central",
+    "ro": "Cilindru de balansare cu poziție de mijloc",
+    "ru": "Поворотный цилиндр со средним положением",
+    "sl": "Nihajni cilinder s srednjim položajem",
+    "sr": "Окретни цилиндар са средњим положајем",
+    "tr": "Orta konumlu döner silindir"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.0,
+  "height": 22.248,
+  "hotspotX": 5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -1.5,
+      "y": -2.75,
+      "width": 10.0,
+      "height": 10.0,
+      "start": 6,
+      "angle": 29,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.5,
+      "y": -2.75,
+      "width": 10.0,
+      "height": 10.0,
+      "start": 328,
+      "angle": 20,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 2.999,
+      "x2": 11.0,
+      "y2": 2.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 4.0
+        },
+        {
+          "x": 1.999,
+          "y": 5.0
+        },
+        {
+          "x": 0.0,
+          "y": 6.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -2.5,
+      "x2": 0.0,
+      "y2": 6.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -1.0
+        },
+        {
+          "x": 1.999,
+          "y": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 1.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -5.0,
+      "y": -2.75,
+      "width": 10.0,
+      "height": 10.0,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.32,
+          "y": -1.915
+        },
+        {
+          "x": 7.344,
+          "y": 0.1
+        },
+        {
+          "x": 8.414,
+          "y": -0.765
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.185,
+          "y": 6.644
+        },
+        {
+          "x": 7.139,
+          "y": 4.59
+        },
+        {
+          "x": 8.314,
+          "y": 5.459
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.06288410104011888,
+      "y1": 0.0,
+      "x2": -4.937115898959881,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 1.999,
+      "x2": 11.0,
+      "y2": 1.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.20401634472511132,
+      "y1": 4.983208023774145,
+      "x2": -5.204016344725112,
+      "y2": 4.983208023774145,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{63e09396-664d-4857-a0ca-c2015cc06ced}",
+      "name": "",
+      "x": -5.0,
+      "y": 5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{01c15fbf-0182-4ed5-8e1d-6919c422cf91}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.47234472511144165,
+      "y": -6.571530460624073,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{b02d570c-9419-476f-95e6-dc0900d156cd}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

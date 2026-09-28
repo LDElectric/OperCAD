@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Decisao.opcad",
+  "id": "{3f567d4f-cbc7-dea0-b8af-7d4d864036d3}",
+  "names": {
+    "ar": "قرار",
+    "ca": "Decisió",
+    "cs": "Rozhodnutí",
+    "da": "Afgørelse",
+    "de": "Entscheidung",
+    "el": "Απόφαση",
+    "en": "Decision",
+    "es": "Decisión",
+    "fr": "Décision",
+    "hr": "Odluka",
+    "hu": "Döntés",
+    "it": "Decisione",
+    "ja": "決断",
+    "mn": "Шийдвэр",
+    "nb": "Beslutning",
+    "nl": "Beslissing",
+    "pl": "Decyzja",
+    "pt": "Decisão",
+    "pt_BR": "Decisão",
+    "ro": "Decizie",
+    "ru": "Решение",
+    "sl": "Odločitev",
+    "sr": "Одлука",
+    "tr": "Karar"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 34.998,
+  "height": 40.0,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          0.033,
+          8.787
+        ],
+        [
+          6.244,
+          2.576
+        ],
+        [
+          -0.053,
+          -3.722
+        ],
+        [
+          -6.264,
+          2.49
+        ],
+        [
+          0.033,
+          8.787
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -6.418545940983175,
+      "y1": 2.480778039471521,
+      "x2": -7.320492046055638,
+      "y2": 2.480778039471521,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.01691886688299371,
+      "y1": 8.758858039123796,
+      "x2": 0.01691886688299371,
+      "y2": 9.868945553059135,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 6.174861796265328,
+      "y1": 2.5146157732375087,
+      "x2": 7.562471188684503,
+      "y2": 2.5146157732375087,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.05246160273796502,
+      "y1": -3.7247737943955177,
+      "x2": -0.05246160273796502,
+      "y2": -5.088775465582609,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8f7ca23e-bb77-413c-bd2c-86e325c787d3}",
+      "name": "",
+      "x": 7.5,
+      "y": 2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dc3495e2-0e2a-45db-ae26-00df406932e7}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{85f38d96-dbc2-4d5f-ab05-99460c2c4a6b}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{15406dbb-d472-4ba7-a31a-22de969458cb}",
+      "name": "",
+      "x": -7.5,
+      "y": 2.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

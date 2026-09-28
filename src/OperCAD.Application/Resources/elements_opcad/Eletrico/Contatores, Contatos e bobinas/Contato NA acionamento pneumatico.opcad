@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_5.opcad",
+  "id": "{bbe0551a-0905-3284-edc8-f0e0126c9e00}",
+  "names": {
+    "cs": "Kontakt NO řízený pneumaticky nebo hydraulicky, dvoucestný",
+    "de": "Schliesser Zylinder betätigt 2 Richtungen",
+    "en": "Contact NO pneumatically or hydraulically controlled, two-way",
+    "es": "Contacto NA neumaticamente o hidraulicamente controlado, dos formas",
+    "fr": "Actionné par énergie hydraulique ou\npneumatique, à double effet",
+    "it": "Contatto NO a comando pneumatico o idraulico, nei 2 sensi",
+    "nl": "pneumatisch/hydraulisch 2 pos (NO)",
+    "pl": "Zestyk zwierny sterowany pneumatycznie lub hydraulicznie, dwukierunkowy",
+    "pt": "Contato NA acionamento pneumatico"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.499,
+  "height": 21.999,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -13.724,
+      "y": -2.064,
+      "width": 7.5,
+      "height": 3.75,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.35,
+          "y": -3.939
+        },
+        {
+          "x": -2.475,
+          "y": 3.561
+        },
+        {
+          "x": -2.475,
+          "y": 7.311
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.475,
+      "y1": -7.405,
+      "x2": -2.475,
+      "y2": -3.655,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.975,
+      "y1": -2.064,
+      "x2": -9.975,
+      "y2": 1.686,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.975,
+      "y1": -0.189,
+      "x2": -3.601,
+      "y2": -0.189,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -6.975,
+          "y": -2.906
+        },
+        {
+          "x": -8.475,
+          "y": -3.28
+        },
+        {
+          "x": -8.475,
+          "y": -2.53
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -12.311,
+          "y": -3.0
+        },
+        {
+          "x": -10.812,
+          "y": -3.374
+        },
+        {
+          "x": -10.812,
+          "y": -2.625
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -10.812,
+      "y1": -3.0,
+      "x2": -7.811,
+      "y2": -3.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{7d3da86e-f61e-42d5-8bbc-5b9d275a7db3}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1539a5df-5d24-4999-aa7c-da01086f339d}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -17.865794932820922,
+      "y": -1.909223756198843,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ac3b100c-ee5a-4142-9cac-7287282790fc}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -1.65,
+      "y": -6.97,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e8df1739-62b1-4a47-bcd3-0857e7cd8d95}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "tag"
+    },
+    {
+      "x": -1.75,
+      "y": 4.02,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{61907abc-189f-45d2-ba77-b4915a35a272}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "tag"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Acao_condicional_continua.opcad",
+  "id": "{ee2f4d69-f32d-508d-bf56-455a9d364988}",
+  "names": {
+    "ar": "العمل الشرطي المستمر",
+    "ca": "Acció condicional contínua",
+    "cs": "Nepřetržitá podmíněná akce",
+    "da": "Kontinuerlig betinget handling",
+    "de": "Kontinuierliche Aktion mit Bedingung",
+    "el": "Συνεχής υπό όρους δράση",
+    "en": "Continuous conditional action",
+    "es": "Acción condicional continua",
+    "fr": "Action conditionnelle continue",
+    "hr": "Kontinuirano uvjetno djelovanje",
+    "hu": "Folyamatos feltételes cselekvés",
+    "it": "Azione condizionale continua",
+    "ja": "継続的な条件付きアクション",
+    "mn": "Тасралтгүй нөхцөлт үйлдэл",
+    "nb": "Kontinuerlig betinget handling",
+    "nl": "Continue voorwaardelijke actie",
+    "pl": "Ciągłe działanie warunkowe",
+    "pt": "Ação condicional contínua",
+    "ro": "Acțiune condiționată continuă",
+    "ru": "Непрерывное условное действие",
+    "sl": "Neprekinjeno pogojno dejanje",
+    "sr": "Континуирано условно дејство",
+    "tr": "Sürekli koşullu eylem"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 53.999,
+  "height": 19.998,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -2.225619530379041,
+          -3.7076195303790414
+        ],
+        [
+          12.597380469620958,
+          -3.7076195303790414
+        ],
+        [
+          12.597380469620958,
+          3.7713804696209587
+        ],
+        [
+          -15.027619530379042,
+          3.7713804696209587
+        ],
+        [
+          -15.027619530379042,
+          -3.641619530379041
+        ],
+        [
+          -2.2926195303790413,
+          -3.641619530379041
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{82eeb2f7-67a3-4f88-90da-dafe5d2f7e22}",
+      "name": "",
+      "x": -15.0,
+      "y": 0.06938046962095878,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{63f4cdcd-0746-489d-a9c8-bbed0fe5fab9}",
+      "name": "",
+      "x": -2.5,
+      "y": -4.930619530379041,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e3a05793-670e-4df0-8226-80066f816a15}",
+      "name": "",
+      "x": 12.5,
+      "y": 0.06938046962095878,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ec192785-266b-4057-afc1-a466df26f9c1}",
+      "name": "",
+      "x": -2.5,
+      "y": 5.069380469620959,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

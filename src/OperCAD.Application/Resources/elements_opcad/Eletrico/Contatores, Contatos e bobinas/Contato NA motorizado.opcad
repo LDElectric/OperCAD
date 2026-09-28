@@ -1,0 +1,192 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_15.opcad",
+  "id": "{ce9b677c-e1e1-4341-c7f7-82fc21931704}",
+  "names": {
+    "cs": "Kontakt NO řízený motorem",
+    "de": "Schliesser Motor betätigt",
+    "en": "Contact Motorized NO",
+    "es": "Contacto motorizado NA",
+    "fr": "Commande par moteur électrique NO",
+    "it": "Contatto NO motorizzato",
+    "nl": "Motor contact (NO)",
+    "pl": "Zestyk zwierny sterowany silnikiem",
+    "pt": "Contato NA motorizado"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.501,
+  "height": 21.999,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "M",
+      "x": -7.573,
+      "y": -7.329,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -7.517,
+      "y": -6.875,
+      "width": 3.75,
+      "height": 3.75,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.767,
+      "y1": -5.0,
+      "x2": -1.142,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.892,
+          "y": -8.75
+        },
+        {
+          "x": -0.017,
+          "y": -1.25
+        },
+        {
+          "x": -0.017,
+          "y": 2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.017,
+      "y1": -12.311,
+      "x2": -0.017,
+      "y2": -8.563,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{e7010432-6b38-49dc-80e6-4a19fa371be9}",
+      "name": "",
+      "x": 0.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2399461a-972a-492c-9ee5-1dd24fd7b838}",
+      "name": "",
+      "x": 0.0,
+      "y": -12.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -10.798925728168495,
+      "y": -10.377048468411392,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{d0e0bad5-0a16-401b-87b4-f638ec2350f5}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 1.011733771394646,
+      "y": -11.729566557151339,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{267f39d9-3d9c-45df-b36b-b4ec0921a339}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "tag"
+    },
+    {
+      "x": 0.8058680536659096,
+      "y": -1.0465936475461652,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{8868f1a9-aa29-442a-9fd0-91cf5576685d}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "tag"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Torquimetro.opcad",
+  "id": "{c632ccf3-1326-8864-210d-35626eb0cec5}",
+  "names": {
+    "ar": "متر عزم الدوران",
+    "ca": "Mesurador de parell",
+    "cs": "Měřič točivého momentu",
+    "da": "Momentmåler",
+    "de": "Drehmomentmesser",
+    "el": "Ροπόμετρο",
+    "en": "Torque meter",
+    "es": "Medidor de par",
+    "fr": "Compteur de couple",
+    "hr": "Mjerač momenta",
+    "hu": "Nyomatékmérő",
+    "it": "Misuratore di coppia",
+    "ja": "トルクメーター",
+    "mn": "Момент хэмжигч",
+    "nb": "Momentmåler",
+    "nl": "Koppelmeter",
+    "pl": "Miernik momentu obrotowego",
+    "pt": "Torquímetro",
+    "pt_BR": "Torquímetro",
+    "ro": "Contor de cuplu",
+    "ru": "измеритель крутящего момента",
+    "sl": "Merilnik navora",
+    "sr": "Мерач обртног момента",
+    "tr": "Tork ölçer"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 9.999,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -3.999,
+      "y1": 0.0,
+      "x2": -2.25,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.25,
+      "y1": -2.5,
+      "x2": 3.999,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -3.0,
+      "x2": 0.0,
+      "y2": 0.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.499,
+          "y": 0.25
+        },
+        {
+          "x": -1.0,
+          "y": -0.25
+        },
+        {
+          "x": -2.0,
+          "y": -1.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.0,
+          "y": -2.25
+        },
+        {
+          "x": 1.499,
+          "y": -2.749
+        },
+        {
+          "x": 2.0,
+          "y": -1.499
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.75,
+      "y": -3.0,
+      "width": 3.499,
+      "height": 3.499,
+      "start": 225,
+      "angle": 45,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.5,
+      "y": -3.75,
+      "width": 5.0,
+      "height": 5.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.75,
+      "y": -3.0,
+      "width": 3.499,
+      "height": 3.499,
+      "start": 45,
+      "angle": 45,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.25,
+      "y1": 0.0,
+      "x2": 3.999,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.999,
+      "y1": -2.5,
+      "x2": -2.25,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{73862bae-47fd-49f7-a4c3-8e354a7147b0}",
+      "name": "",
+      "x": 5.0,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{300e3877-374f-4935-9bd7-11c798008f33}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4e44d906-dfed-4dc9-a7cc-cb4376a4f976}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1e8b152e-e5d6-480e-824d-04c6d71a846f}",
+      "name": "",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.0,
+      "y": -8.749,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{cefa536b-0b3a-406d-b898-3bbce145fbee}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

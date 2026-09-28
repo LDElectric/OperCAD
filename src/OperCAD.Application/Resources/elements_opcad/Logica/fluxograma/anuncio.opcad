@@ -1,0 +1,162 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "anuncio.opcad",
+  "id": "{6f6da0de-8d7e-9e83-c5b9-dc3c706d33bf}",
+  "names": {
+    "ar": "الإعلانات",
+    "ca": "anunci",
+    "cs": "reklama",
+    "da": "reklame",
+    "de": "Anzeige",
+    "el": "διαφήμιση",
+    "en": "advertisement",
+    "es": "anuncio",
+    "fr": "publicité",
+    "hr": "oglas",
+    "hu": "hirdetés",
+    "it": "annuncio pubblicitario",
+    "ja": "広告",
+    "mn": "сурталчилгаа",
+    "nb": "annonse",
+    "nl": "advertentie",
+    "pl": "Reklama",
+    "pt": "anúncio",
+    "ro": "publicitate",
+    "ru": "реклама",
+    "sl": "oglas",
+    "sr": "реклама",
+    "tr": "İlan"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 41.998,
+  "height": 19.998,
+  "hotspotX": 0.0,
+  "hotspotY": 5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -9.173478121516164,
+      "y": 2.3777609392419174,
+      "width": 8.388,
+      "height": 8.389,
+      "start": 90,
+      "angle": 73,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.954478121516165,
+          "y": -0.4542390607580824
+        },
+        {
+          "x": -4.954478121516165,
+          "y": -0.4542390607580824
+        },
+        {
+          "x": 9.025521878483834,
+          "y": -0.4542390607580824
+        },
+        {
+          "x": 9.025521878483834,
+          "y": 10.729760939241917
+        },
+        {
+          "x": -0.7614781215161648,
+          "y": 10.729760939241917
+        },
+        {
+          "x": -4.954478121516165,
+          "y": 10.729760939241917
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -8.917478121516165,
+      "y": -0.49123906075808244,
+      "width": 8.39,
+      "height": 8.389,
+      "start": 204,
+      "angle": 62,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -9.988478121516165,
+      "y1": 5.138760939241918,
+      "x2": -8.870478121516165,
+      "y2": 8.072760939241917,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.599478121516164,
+      "y1": 2.0687609392419173,
+      "x2": -10.032478121516165,
+      "y2": 5.140760939241917,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ed075017-1a14-403f-929d-5379d8736fa1}",
+      "name": "",
+      "x": -10.0,
+      "y": 5.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

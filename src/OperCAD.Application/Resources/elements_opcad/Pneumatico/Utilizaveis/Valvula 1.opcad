@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_4.opcad",
+  "id": "{9e00ad88-544c-c329-06e6-76af9ae33732}",
+  "names": {
+    "ar": "صمّام توقيف",
+    "cs": "Uzavírací šoupátko",
+    "de": "Stoppventil",
+    "en": "Gate valve shut-off",
+    "fr": "Vanne d'arrêt",
+    "it": "Valvola d'intercettazione",
+    "nl": "Klep stop",
+    "pl": "Zawór zasuwowy odcinający",
+    "pt": "Valvula 1"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.125,
+  "height": 3.499,
+  "hotspotX": 0.0,
+  "hotspotY": -1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.691,
+          "y": 1.476
+        },
+        {
+          "x": 3.691,
+          "y": -1.476
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 3.691,
+      "y1": 0.0,
+      "x2": 5.277,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.691,
+          "y": -1.476
+        },
+        {
+          "x": -3.691,
+          "y": 1.476
+        },
+        {
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.031749351792289,
+      "y1": 0.0,
+      "x2": -3.788611276643606,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1975b362-1d1d-4930-8ddc-62c512c32ff0}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3bd6ee30-bf80-4b1d-8abc-cd7fec42efc7}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.7135272168309053,
+      "y": -5.184223196561835,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{19b80909-554d-48d4-b27e-70d4c365860c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

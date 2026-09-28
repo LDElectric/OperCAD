@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nivel.opcad",
+  "id": "{d6b1c221-3119-8857-238f-e0bc39e665f5}",
+  "names": {
+    "cs": "Hladinový spínač NC",
+    "de": "Niveauschalter Öffner",
+    "en": "NF Actuated by the level of a liquid",
+    "es": "Accionado por el nivel de un liquido NC",
+    "fr": "Actionné par le niveau d'un liquide NF",
+    "it": "Azionato dal livello di un liquido NC",
+    "nl": "vloeistofniveau 2 (NC)",
+    "pl": "Zestyk rozwierny sterowany poziomem cieczy",
+    "pt": "Sensor de nivel NF I"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 21.999,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -11.0,
+      "y": -2.25,
+      "width": 6.0,
+      "height": 3.5,
+      "start": 200,
+      "angle": 140,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -11.0,
+      "y": -1.25,
+      "width": 6.0,
+      "height": 3.5,
+      "start": 20,
+      "angle": 140,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -7.999,
+      "y1": -2.999,
+      "x2": -7.999,
+      "y2": -1.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": 10.0
+        },
+        {
+          "x": 0.0,
+          "y": 5.0
+        },
+        {
+          "x": 2.999,
+          "y": -5.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -4.499,
+      "x2": 3.5,
+      "y2": -4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -10.0,
+      "x2": 0.0,
+      "y2": -4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 0.0,
+      "x2": 1.5,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ad8f7c84-5ee6-4e94-828a-b1739562eb64}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dd9df587-aaf8-467d-a31d-330f4ece1616}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.343,
+      "y": 6.071,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{33b82d48-da45-4dab-ba77-3a7727676276}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": ""
+    },
+    {
+      "x": -3.343,
+      "y": -8.961,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{2415820a-dc19-44a0-bf8f-916e45d2cdd0}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": ""
+    },
+    {
+      "x": 3.448,
+      "y": -2.134,
+      "z": 9,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{92034333-b2c1-447f-9820-3ac62f0f2aa1}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

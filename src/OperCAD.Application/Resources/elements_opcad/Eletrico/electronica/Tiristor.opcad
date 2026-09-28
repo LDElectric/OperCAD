@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Tiristor.opcad",
+  "id": "{aef60b7b-75ce-9706-521b-48eca02543d2}",
+  "names": {
+    "ar": "ثايريستور",
+    "ca": "Tiristor",
+    "cs": "Tyristor",
+    "de": "Thyristor",
+    "el": "Θυρίστορ",
+    "en": "Thyristor",
+    "es": "Tiristor",
+    "fr": "Thyristor",
+    "it": "Tiristore",
+    "nl": "Thyristor",
+    "pl": "Tyrystor",
+    "pt": "Tiristor",
+    "ru": "Тиристор"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 8.874,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.145261515601783,
+          "y": 2.4992050520059435
+        },
+        {
+          "x": -1.2702615156017831,
+          "y": 2.4992050520059435
+        },
+        {
+          "x": -0.6452615156017831,
+          "y": 1.0922050520059432
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.5842615156017832,
+      "y1": 0.9362050520059433,
+      "x2": 1.5407384843982168,
+      "y2": 0.9362050520059433,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.5842615156017832,
+          "y": -2.187794947994057
+        },
+        {
+          "x": 1.5407384843982168,
+          "y": -2.187794947994057
+        },
+        {
+          "x": -0.02026151560178316,
+          "y": 0.9362050520059433
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.068939078751857,
+      "x2": 0.0,
+      "y2": -2.44060029717682,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.131518573551262,
+      "x2": 0.0,
+      "y2": 1.0638514115898958,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{6737544f-cf5c-4668-a622-ed576b77e344}",
+      "name": "G",
+      "x": -2.5,
+      "y": 2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{fb2a5471-ae89-4797-b248-4fd0d7a8d3b0}",
+      "name": "A",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d6d5a9da-b770-402e-9d66-4dec9bda5a9b}",
+      "name": "K",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.9978870728083216,
+      "y": -4.061261515601783,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{4d6f66e2-ace8-43a1-b597-bb5123554a16}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

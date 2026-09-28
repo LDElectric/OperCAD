@@ -1,0 +1,240 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal_2.opcad",
+  "id": "{c997c6ea-75d6-38d8-311d-1da2c6b39e8b}",
+  "names": {
+    "ar": "خليّة كهرو ضوئية - لاقط",
+    "ca": "Receptor de sensor fotoelèctric",
+    "cs": "Optická závora – přijímač",
+    "de": "Photozelle Empfänger 2-Leiter",
+    "en": "Photo-electric sensor receptor",
+    "es": "Sensor foto-eléctrico receptor",
+    "fr": "Cellule photo-électrique - Récepteur",
+    "it": "Sensore foto-elettrico - Ricevitore",
+    "nl": "Fotocel Ontvanger",
+    "pl": "Komórka fotoelektryczna - odbiornik"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 29.996,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -7.354,
+      "y": -4.806,
+      "width": 14.998,
+      "height": 10.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.958,
+      "y1": -0.304,
+      "x2": 2.46,
+      "y2": 1.197,
+      "end1": "none",
+      "end2": "triangle",
+      "length1": 0.749,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 4.958,
+      "y1": -1.802,
+      "x2": 2.46,
+      "y2": -0.304,
+      "end1": "none",
+      "end2": "triangle",
+      "length1": 0.749,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.04,
+      "y1": -2.303,
+      "x2": -0.04,
+      "y2": -3.803,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.012,
+      "y1": -9.185,
+      "x2": -0.012,
+      "y2": -4.686,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.04,
+      "y1": 4.197,
+      "x2": -0.04,
+      "y2": 2.697,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.54,
+          "y": -2.303
+        },
+        {
+          "x": 2.46,
+          "y": -2.303
+        },
+        {
+          "x": -0.04,
+          "y": 2.697
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.012,
+      "y1": 5.314,
+      "x2": -0.012,
+      "y2": 9.814,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.54,
+      "y1": 2.697,
+      "x2": 2.46,
+      "y2": 2.697,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d3f5fc6e-f776-47ca-b785-53e385035fb4}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{bb0cce91-0c3f-4953-ac03-d81a7b20a078}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -16.941,
+      "y": -2.167,
+      "z": 14,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8392d7b5-c84f-474c-b526-50f9fd6fd1c4}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Seccionador_8.opcad",
+  "id": "{f92e23ab-6324-3fba-2191-b02fbfc26853}",
+  "names": {
+    "ar": "مفتاح عزل",
+    "cs": "Odpojovač",
+    "de": "Lasttrenner 1-polig",
+    "en": "break isolator",
+    "es": "Seccionador",
+    "fr": "Sectionneur",
+    "it": "Sezionatore 1P",
+    "nl": "Lastschakelaar",
+    "pl": "Odłącznik",
+    "pt": "Seccionador I",
+    "ru": "Разъеденитель"
+  },
+  "kindInformations": {
+    "type": "protection"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 3.874,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.8534664440181228,
+          "y": -3.8430777406696865
+        },
+        {
+          "x": 0.021533555981877117,
+          "y": 3.6569222593303135
+        },
+        {
+          "x": 0.021533555981877117,
+          "y": 7.4069222593303135
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.021533555981877117,
+      "y1": -7.5930777406696865,
+      "x2": 0.021533555981877117,
+      "y2": -3.8430777406696865,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.7715335559818772,
+      "y1": -3.8430777406696865,
+      "x2": -0.7284664440181229,
+      "y2": -3.8430777406696865,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{0893b585-f622-4b91-8123-43d2b66bae28}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0a3bea67-3612-4d4e-8c3b-9208004f10fa}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.794238104804875,
+      "y": -2.317942060054121,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b7a3eb88-7133-4a74-9b94-f9349c602196}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -3.3066337106121315,
+      "y": -7.358829274180917,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{f83644b5-fcca-429f-8bc9-a2e26f06aa2c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": -3.0696093556976347,
+      "y": 3.9876585483618348,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{162ed19a-72d1-484c-bbfa-dcd604d936d9}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "12",
+      "infoName": "tag"
+    }
+  ]
+}

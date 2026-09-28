@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "",
+  "id": "{7a00bb58-804e-4ec3-baee-afdf76950faf}",
+  "names": {
+    "pt": "Novo simbolo",
+    "en": "New symbol",
+    "hu": "Uj szimbolum"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Created with OperCAD Symbol Editor",
+  "width": 60.0,
+  "height": 40.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -2.421,
+          -9.761000000000001
+        ],
+        [
+          -2.497,
+          -5.706
+        ],
+        [
+          -5.556,
+          2.699
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -7.341,
+          5.0
+        ],
+        [
+          -7.516,
+          1.385
+        ],
+        [
+          -4.807,
+          1.385
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.421,
+      "y1": 4.840999999999999,
+      "x2": -2.497,
+      "y2": 2.42,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{da338d3c-3f93-4f00-9009-d07e731996f6}",
+      "name": "",
+      "x": -2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f5302e54-7ef4-4fe5-bfca-d18725e7e3ba}",
+      "name": "",
+      "x": -7.5,
+      "y": 5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6d5a620d-bf59-4c1f-b54d-9e7dd5fb7a56}",
+      "name": "",
+      "x": -2.5,
+      "y": 5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -10.60016976014867,
+      "y": -5.162853629095414,
+      "z": 8,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{6c91450f-ef39-41ce-84b8-0ff73976d859}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -1.46,
+      "y": -9.23,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{9ce20e14-f609-4078-803c-5aee3ba8f73b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": -10.67,
+      "y": 1.42,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{6f41d235-51a8-4717-b8ce-f5a1744f3705}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "24",
+      "infoName": "tag"
+    },
+    {
+      "x": -1.6081884630609173,
+      "y": 1.4218115369390827,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{cf7e1a0e-0937-4490-bde5-71641d494aaa}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "22",
+      "infoName": "tag"
+    }
+  ]
+}

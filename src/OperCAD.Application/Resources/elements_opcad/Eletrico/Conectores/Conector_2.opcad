@@ -1,0 +1,178 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Conector_2.opcad",
+  "id": "{56ed899d-2a7c-422c-1a97-3ca2c969881c}",
+  "names": {
+    "ar": "موصل",
+    "ca": "Connector",
+    "cs": "Spojený pin",
+    "de": "Steckverbindung Buchse + Stecker",
+    "el": "Σύνδεσμος",
+    "en": "Connector",
+    "es": "Conector",
+    "fr": "Connecteur",
+    "hu": "Anya + apa csatlakozó",
+    "it": "Connettori M/F",
+    "nl": "Stopcontact",
+    "pl": "Złącze wtykowe",
+    "pt": "Conector",
+    "ru": "Соединение (нов.)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 3.499,
+  "height": 18.75,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.501,
+      "y1": 1.0,
+      "x2": -0.501,
+      "y2": 4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.501,
+      "y1": 1.0,
+      "x2": 0.501,
+      "y2": 4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 1.0,
+      "x2": 0.0,
+      "y2": 10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 0.0,
+      "y2": -0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -1.5,
+      "y": 0.0,
+      "width": 2.999,
+      "height": 2.999,
+      "start": 96,
+      "angle": 84,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.5,
+      "y": 0.0,
+      "width": 2.999,
+      "height": 2.999,
+      "start": 359,
+      "angle": 84,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ce80f945-d2f4-4a04-8011-341fbdd19927}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{05d9891d-1da1-4d1a-a2d8-49ca27ce5685}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.999,
+      "y": -8.75,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{96643334-e132-47af-bc77-f9021ac31ec7}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

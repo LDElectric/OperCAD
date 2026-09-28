@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fuso_giratorio_com_3_cabos.opcad",
+  "id": "{b303b046-2896-46e0-752b-2361d6608abb}",
+  "names": {
+    "ar": "محور دوران مع 3 كابلات",
+    "ca": "Eix giratori amb 3 cables",
+    "cs": "Otočné vřeteno se 3 kabely",
+    "da": "Roterende spindel med 3 kabler",
+    "de": "Drehspindel mit 3 Kabeln",
+    "el": "Περιστρεφόμενος άξονας με 3 καλώδια",
+    "en": "Rotating spindle with 3 cables",
+    "es": "Husillo giratorio con 3 cables",
+    "fr": "Broche rotative avec 3 cables",
+    "hr": "Rotirajuće vreteno s 3 kabela",
+    "hu": "Forgó orsó 3 kábellel",
+    "it": "Mandrino rotante con 3 cavi",
+    "ja": "3本のケーブルで回転するスピンドル",
+    "mn": "3 кабель бүхий эргэдэг гол",
+    "nb": "Roterende spindel med 3 kabler",
+    "nl": "Roterende spindel met 3 kabels",
+    "pl": "Obrotowe wrzeciono z 3 kablami",
+    "pt": "Fuso giratório com 3 cabos",
+    "ro": "Ax rotativ cu 3 cabluri",
+    "ru": "Вращающийся шпиндель с 3 кабелями",
+    "sl": "Vrtljivo vreteno s 3 kabli",
+    "sr": "Ротирајуће вретено са 3 кабла",
+    "tr": "3 kablolu döner mil"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 22.5,
+  "height": 21.148,
+  "hotspotX": 7.5,
+  "hotspotY": -10.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -10.0,
+      "x2": 17.498,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.674,
+      "length2": 0.674,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -1.0,
+      "x2": 17.498,
+      "y2": -1.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.674,
+      "length2": 0.674,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.349,
+          "y": -13.15
+        },
+        {
+          "x": 5.349,
+          "y": -11.349
+        },
+        {
+          "x": 7.599,
+          "y": -12.248
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -5.5,
+      "x2": 17.498,
+      "y2": -5.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.674,
+      "length2": 0.674,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.098,
+      "y": -12.248,
+      "width": 13.498,
+      "height": 13.498,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{6c105f6c-56c6-4e98-8d01-7be9cf539cbd}",
+      "name": "",
+      "x": -5.0,
+      "y": -5.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1bb83afb-5954-4348-8830-747809e765ec}",
+      "name": "",
+      "x": 17.5,
+      "y": -5.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b8f3b9a6-f730-41dd-8c28-9be9c821b08c}",
+      "name": "",
+      "x": -5.0,
+      "y": -1.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6593f83a-ef15-44b7-866b-91bf7c522690}",
+      "name": "",
+      "x": 17.5,
+      "y": -1.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ae336ab6-8337-4db2-bf4e-6805cd1c1b5e}",
+      "name": "",
+      "x": -5.0,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{60035776-b8e6-4c3e-b4d3-89c9a51cca5e}",
+      "name": "",
+      "x": 17.5,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.75,
+      "y": -19.898,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{f094c6d8-3c43-4670-a2b4-f18f61ff1085}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

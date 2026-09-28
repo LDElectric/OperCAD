@@ -1,0 +1,151 @@
+<Window x:Class="OperCAD.UI.Views.ConfigurationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configurar OperCAD"
+        Width="620" Height="520"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="14">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TabControl Grid.Row="0" Background="Transparent" BorderThickness="0">
+
+            <!-- ===== Geral ===== -->
+            <TabItem Header="Geral">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="8">
+                        <TextBlock Text="APARÊNCIA" Style="{StaticResource App.SectionHeader}" />
+                        <Grid Margin="0,6,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="190" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Estilo da grade" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <ComboBox x:Name="CmbGridStyle" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,3">
+                                <ComboBoxItem Content="Linhas" />
+                                <ComboBoxItem Content="Pontos" />
+                            </ComboBox>
+                            <TextBlock Grid.Row="1" Text="Espaçamento da grade (mm)" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <TextBox x:Name="TxtGridSpacing" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" Width="90"
+                                     HorizontalAlignment="Left" />
+                            <TextBlock Grid.Row="2" Text="Ajustar elementos à grade (snap)" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <CheckBox x:Name="ChkSnapGrid" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.CheckBox}" Margin="0,3"
+                                      VerticalAlignment="Center" />
+                        </Grid>
+
+                        <TextBlock Text="BIBLIOTECA DE ELEMENTOS" Style="{StaticResource App.SectionHeader}" Margin="0,16,0,0" />
+                        <Grid Margin="0,6,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="190" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Text="Máximo de itens na lista" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <TextBox x:Name="TxtMaxElements" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" Width="90"
+                                     HorizontalAlignment="Left" />
+                        </Grid>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- ===== Nova folha ===== -->
+            <TabItem Header="Nova folha">
+                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                    <StackPanel Margin="8">
+                        <TextBlock Text="FOLHA CRIADA AO ABRIR UM NOVO PROJETO" Style="{StaticResource App.SectionHeader}" />
+                        <Grid Margin="0,6,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="190" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                                <RowDefinition />
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Tamanho do papel" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <ComboBox x:Name="CmbNewSize" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,3" />
+                            <TextBlock Grid.Row="1" Text="Número de colunas" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <TextBox x:Name="TxtNewColumns" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" Width="90"
+                                     HorizontalAlignment="Left" />
+                            <TextBlock Grid.Row="2" Text="Número de linhas" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <TextBox x:Name="TxtNewRows" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" Width="90"
+                                     HorizontalAlignment="Left" />
+                            <TextBlock Grid.Row="3" Text="Mostrar moldura" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                            <CheckBox x:Name="ChkNewFrame" Grid.Row="3" Grid.Column="1" Style="{StaticResource App.CheckBox}" />
+                        </Grid>
+                    </StackPanel>
+                </ScrollViewer>
+            </TabItem>
+
+            <!-- ===== Exportação ===== -->
+            <TabItem Header="Exportação">
+                <StackPanel Margin="8">
+                    <TextBlock Text="EXPORTAÇÃO DE IMAGENS" Style="{StaticResource App.SectionHeader}" />
+                    <Grid Margin="0,6,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="190" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Formato" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <ComboBox x:Name="CmbExportFormat" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,3" />
+                        <TextBlock Grid.Row="1" Text="Resolução (px/mm)" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <TextBox x:Name="TxtExportResolution" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" Width="90"
+                                 HorizontalAlignment="Left" />
+                        <TextBlock Grid.Row="2" Text="Pasta padrão" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                        <Grid Grid.Row="2" Grid.Column="1" Margin="0,3">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+                            <TextBox x:Name="TxtExportFolder" Grid.Column="0" Style="{StaticResource App.TextBox}" />
+                            <Button Grid.Column="1" Content="..." Width="30" Margin="4,0,0,0"
+                                    Click="OnBrowseExportFolder"
+                                    Style="{StaticResource App.ToolButton}"
+                                    ToolTip="Selecionar pasta" />
+                        </Grid>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+
+            <!-- ===== Impressão ===== -->
+            <TabItem Header="Impressão">
+                <StackPanel Margin="8">
+                    <TextBlock Text="OPÇÕES DE RENDER" Style="{StaticResource App.SectionHeader}" />
+                    <StackPanel Margin="0,6,0,0">
+                        <CheckBox x:Name="ChkPrintFrame" Style="{StaticResource App.CheckBox}" Content="Desenhar a moldura" />
+                        <CheckBox x:Name="ChkPrintTitleBlock" Style="{StaticResource App.CheckBox}" Content="Desenhar o carimbo" />
+                        <CheckBox x:Name="ChkPrintColors" Style="{StaticResource App.CheckBox}" Content="Conservar as cores dos condutores" />
+                        <CheckBox x:Name="ChkPrintTerminals" Style="{StaticResource App.CheckBox}" Content="Desenhar os terminais" />
+                    </StackPanel>
+                    <TextBlock Text="OPÇÕES DE IMPRESSÃO" Style="{StaticResource App.SectionHeader}" Margin="0,16,0,0" />
+                    <CheckBox x:Name="ChkPrintFit" Style="{StaticResource App.CheckBox}" Content="Adaptar a folha à página" Margin="0,6,0,0" />
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="88" Height="30"
+                    Background="{DynamicResource App.Accent}" Foreground="White"
+                    FontFamily="{StaticResource App.Font}" BorderThickness="0" />
+            <Button Content="Cancelar" IsCancel="True" Width="88" Height="30" Margin="8,0,0,0"
+                    Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                    FontFamily="{StaticResource App.Font}" BorderBrush="{DynamicResource App.Border}" />
+        </StackPanel>
+    </Grid>
+</Window>

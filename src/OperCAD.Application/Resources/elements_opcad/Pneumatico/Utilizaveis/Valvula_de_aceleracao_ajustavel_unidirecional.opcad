@@ -1,0 +1,324 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_de_aceleracao_ajustavel_unidirecional.opcad",
+  "id": "{1f9108de-783e-223c-cad2-c6ae152f2c28}",
+  "names": {
+    "ar": "صمام خانق قابل للتعديل في اتجاه واحد",
+    "ca": "Vàlvula d'acceleració ajustable unidireccional",
+    "cs": "Jednosměrně nastavitelný škrticí ventil",
+    "da": "Justerbar gasspjæld envejs",
+    "de": "Einstellbare Drosselklappe in eine Richtung",
+    "el": "Ρυθμιζόμενη βαλβίδα πεταλούδας μονής κατεύθυνσης",
+    "en": "Adjustable throttle valve oneway",
+    "es": "Válvula de mariposa ajustable unidireccional",
+    "fr": "Papillon des gaz réglable unidirectionnel",
+    "hr": "Podesiv prigušni ventil u jednom smjeru",
+    "hu": "Egy irányba állítható fojtószelep",
+    "it": "Valvola a farfalla regolabile unidirezionale",
+    "ja": "一方向に調整可能なスロットルバルブ",
+    "mn": "Нэг талын тохируулагч тохируулагч хавхлаг",
+    "nb": "Justerbar gassventil enveis",
+    "nl": "Verstelbare gasklep eenrichtingsverkeer",
+    "pl": "Regulowany zawór dławiący w jedną stronę",
+    "pt": "Válvula de aceleração ajustável unidirecional",
+    "pt_BR": "Válvula de aceleração ajustável unidirecional",
+    "ro": "Supapă de accelerație reglabilă într-un singur sens",
+    "ru": "Регулируемый дроссельный клапан в одну сторону",
+    "sl": "Nastavljiv dušilni ventil v eno smer",
+    "sr": "Подесив пригушни вентил у једном правцу",
+    "tr": "Tek yönlü ayarlanabilir gaz kelebeği"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 9.75,
+  "height": 5.5,
+  "hotspotX": 2.5,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.417,
+          "y": -1.0
+        },
+        {
+          "x": 4.75,
+          "y": -0.667
+        },
+        {
+          "x": 5.083,
+          "y": -1.333
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 0.417,
+      "y": 0.333,
+      "width": 6.666,
+      "height": 3.334,
+      "start": 60,
+      "angle": 60,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.25,
+      "y1": 0.0,
+      "x2": 8.75,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.917,
+          "y": 1.5
+        },
+        {
+          "x": 4.583,
+          "y": 2.167
+        },
+        {
+          "x": 3.917,
+          "y": 2.833
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 3.583,
+      "y": 1.833,
+      "width": 0.667,
+      "height": 0.667,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.417,
+      "y1": 1.333,
+      "x2": 4.583,
+      "y2": -0.833,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 0.417,
+      "y": -3.667,
+      "width": 6.666,
+      "height": 3.334,
+      "start": 240,
+      "angle": 60,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -0.417,
+      "y": -1.667,
+      "width": 8.334,
+      "height": 4.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.583,
+          "y": 2.167
+        },
+        {
+          "x": 6.915,
+          "y": 2.167
+        },
+        {
+          "x": 6.915,
+          "y": 0.167
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.583,
+          "y": 2.167
+        },
+        {
+          "x": 0.583,
+          "y": 2.167
+        },
+        {
+          "x": 0.583,
+          "y": 0.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 8.449737140085782,
+      "y1": 0.0,
+      "x2": 10.022826501271965,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.9438536167117096,
+      "y1": 0.0,
+      "x2": -2.471997567578287,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{35f2596d-3002-4456-a47c-dfb451ceb01d}",
+      "name": "",
+      "x": 10.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2b9f9709-0a83-4f57-9fed-9665adf02831}",
+      "name": "",
+      "x": -2.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.3115265478656024,
+      "y": -9.31232598455284,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{205f4869-dc34-45e6-9cb4-4328574de719}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

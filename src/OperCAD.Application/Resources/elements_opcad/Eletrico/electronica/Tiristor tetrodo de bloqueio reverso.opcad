@@ -1,0 +1,195 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Pe_7.opcad",
+  "id": "{8561612a-ee6d-a57e-d69e-40f6b851408a}",
+  "names": {
+    "ar": "ثايريستور رباعي الأطراف مكبوح في الإنحياز العكسي",
+    "ca": "Tiristor de bloqueig invers tipus tetrode",
+    "cs": "Tetrodový tyristor, blokující obráceně",
+    "de": "rückwärts sperrende Thyristortetriode",
+    "en": "Reverse blocking thyristor tetrode type",
+    "fr": "Thyristor tétrode bloqué en inverse",
+    "it": "Tiristore tetrodo bloccato nel sen-so inverso di conduzione",
+    "nl": "Thyristor tetrode",
+    "pl": "Tyrystor tetrodowy blokujący wstecznie"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-04-10",
+  "width": 10.0,
+  "height": 11.999,
+  "hotspotX": 5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 10.0,
+          "y": 0.0
+        },
+        {
+          "x": 7.999,
+          "y": 0.0
+        },
+        {
+          "x": 6.0,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -10.0
+        },
+        {
+          "x": 1.999,
+          "y": -10.0
+        },
+        {
+          "x": 4.0,
+          "y": -7.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": -10.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5,
+          "y": -7.5
+        },
+        {
+          "x": 7.5,
+          "y": -7.5
+        },
+        {
+          "x": 5.0,
+          "y": -2.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -2.5,
+      "x2": 7.5,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{230590db-4662-461c-be59-a1f225af360e}",
+      "name": "",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b2ec7a05-db8d-4887-bc45-710fd04d4c5c}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{82b6b5c4-07d7-4942-90b5-e0893a0556a6}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9ea592c9-555c-42ae-abe7-30bb373ba6ad}",
+      "name": "",
+      "x": 10.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 6.5596716196136695,
+      "y": -12.061579494799405,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{426b0c8c-9fc8-4003-9bfb-f754c258fdd5}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

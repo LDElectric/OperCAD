@@ -1,0 +1,258 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Disjuntor_15.opcad",
+  "id": "{fb584aa9-2af6-6bbb-b4f1-8d0486c07670}",
+  "names": {
+    "ar": "قاطع",
+    "ca": "Interruptor",
+    "cs": "Vypínač",
+    "de": "Lastschalter 1P",
+    "en": "Circuit-breaker",
+    "es": "Disyuntor",
+    "fr": "Disjoncteur",
+    "it": "Sezionatore 1P",
+    "nl": "Lastscheider 1",
+    "pl": "Wyłącznik",
+    "pt": "Disjuntor",
+    "ru": "Выключатель"
+  },
+  "kindInformations": {
+    "type": "protection"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 4.0,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "1",
+      "x": 5.838682903276331,
+      "y": -10.381829274180916,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": 6.666048709828995,
+      "y": 0.8839512901710054,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.998,
+          "y": 2.183
+        },
+        {
+          "x": 4.998,
+          "y": 1.437
+        },
+        {
+          "x": 6.492,
+          "y": 1.437
+        },
+        {
+          "x": 6.492,
+          "y": -0.058
+        },
+        {
+          "x": 4.998,
+          "y": -0.058
+        },
+        {
+          "x": 4.998,
+          "y": -0.954
+        },
+        {
+          "x": 3.505,
+          "y": -6.93
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 4.998,
+      "y1": -9.917,
+      "x2": 4.998,
+      "y2": -6.93,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.4,
+      "y1": -8.721,
+      "x2": 5.596,
+      "y2": -7.526,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 3.803,
+      "y": 2.183,
+      "width": 2.39,
+      "height": 1.494,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 4.998,
+      "y1": 3.676,
+      "x2": 4.998,
+      "y2": 5.022,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.596,
+      "y1": -8.721,
+      "x2": 4.4,
+      "y2": -7.526,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 4.4,
+      "y1": -6.93,
+      "x2": 5.596,
+      "y2": -6.93,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{593b1249-f077-4fbd-a5c8-79a4fc197eef}",
+      "name": "IN.7",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2ecfca29-3d9d-4c11-bba5-9d26e51baa0f}",
+      "name": "OUT.8",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.47075917748251,
+      "y": -4.989909000901111,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b5acbe58-4754-4302-9694-1a7ea0ccad06}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

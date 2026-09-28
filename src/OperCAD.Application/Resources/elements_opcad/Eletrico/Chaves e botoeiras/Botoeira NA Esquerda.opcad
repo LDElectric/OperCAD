@@ -1,0 +1,194 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Botao_de_pressao_NA.opcad",
+  "id": "{0d256453-ab42-30c1-1d91-b3ec0fb1298c}",
+  "names": {
+    "ar": "زرّ ضاغط",
+    "cs": "Tlačítko",
+    "de": "Drucktaster Schliesser",
+    "el": "Μπουτόν, ανοικτή επαφή",
+    "en": "Push-button",
+    "es": "Pulsador",
+    "fr": "Bouton poussoir",
+    "it": "Pulsante (NA)",
+    "nl": "Drukknop (NO)",
+    "pl": "Łącznik przyciskowy z powrotem samoczynnym",
+    "pt": "Botoeira NA Esquerda",
+    "ru": "Кнопка (НР)"
+  },
+  "kindInformations": {
+    "type": "commutator"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 6.374,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.852,
+          "y": -3.75
+        },
+        {
+          "x": 0.023,
+          "y": 3.75
+        },
+        {
+          "x": 0.023,
+          "y": 7.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.017,
+      "y1": -7.46,
+      "x2": -0.017,
+      "y2": -3.71,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.727,
+      "y1": 0.0,
+      "x2": -1.102,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.601,
+          "y": -1.875
+        },
+        {
+          "x": -3.727,
+          "y": -1.875
+        },
+        {
+          "x": -3.727,
+          "y": 1.875
+        },
+        {
+          "x": -2.601,
+          "y": 1.875
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1db4e4bd-ec1e-4fdb-84cb-2d7d0b7cac74}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2c393aa3-238f-446c-bc5d-022946342bb8}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -7.830243274725427,
+      "y": -1.8589287744699021,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{3ac3e811-49e9-45f5-bf98-2082cf23b2f9}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 0.7075657248226195,
+      "y": -6.88769740844314,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{0c590487-b8d0-4caf-a9b6-3ffc9e601c51}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": ""
+    },
+    {
+      "x": 0.7933551246198989,
+      "y": 4.0413490551844955,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{ec7e47e1-370b-4674-a103-fd2cf5536a97}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": ""
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_18.opcad",
+  "id": "{4cb31d50-2393-0d5d-02be-929d8f9bd16a}",
+  "names": {
+    "ar": "مُلامس طردي (NO)",
+    "cs": "Odstředivý spínač (NO)",
+    "de": "Schliesser Fliehkraft betätigt",
+    "el": "Φυγοκεντρική επαφή, ανοικτή",
+    "en": "Centrifugal contact (No)",
+    "es": "Contacto centrífugo NA",
+    "fr": "Contact centrifuge (No)",
+    "it": "Contatto a comando centrifugo (NO)",
+    "nl": "Rotatie contact (NO)",
+    "pl": "Zestyk zwierny łącznika odśrodkowego",
+    "pt": "Contato NA acionado por força centrifuga"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 13.872,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -10.464,
+      "y": -4.776,
+      "width": 1.677,
+      "height": 1.677,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.374,
+          "y": -3.937
+        },
+        {
+          "x": -2.499,
+          "y": 3.563
+        },
+        {
+          "x": -2.499,
+          "y": 7.313
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -9.25,
+          "y": -3.0
+        },
+        {
+          "x": -11.123,
+          "y": 0.0
+        },
+        {
+          "x": -9.25,
+          "y": 2.625
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -9.714,
+      "y": 2.534,
+      "width": 1.677,
+      "height": 1.677,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.499,
+      "y1": -7.687,
+      "x2": -2.499,
+      "y2": -3.937,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -11.873,
+      "y1": -0.187,
+      "x2": -3.624,
+      "y2": -0.187,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{685c159f-a3f3-4d06-a69e-962ad44eb814}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ca77a223-1429-4254-b9d0-3033b9d3753b}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -15.683329124266244,
+      "y": -4.892045041930085,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{cbd4eb0e-4eb9-455f-be57-4f5fb57ead48}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -1.69,
+      "y": -7.02,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{44bd89ec-6dbb-4cff-8741-3b461339124b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "tag"
+    },
+    {
+      "x": -1.89,
+      "y": 4.11,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{87e043d8-7f8a-4dad-a982-44b9382f5d06}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "tag"
+    }
+  ]
+}

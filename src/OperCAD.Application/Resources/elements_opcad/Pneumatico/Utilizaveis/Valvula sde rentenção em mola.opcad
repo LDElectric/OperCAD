@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_sem_mola.opcad",
+  "id": "{f013adb6-02c1-0169-c381-81dce47aae83}",
+  "names": {
+    "ar": "صمام بدون زنبرك",
+    "cs": "Ventil bez pružiny",
+    "da": "Ventil uden fjeder",
+    "de": "Ventil ohne Feder",
+    "el": "Βαλβίδα χωρίς ελατήριο",
+    "en": "Valve without spring",
+    "es": "Válvula sin resorte",
+    "fr": "Soupape sans ressort",
+    "hr": "Ventil bez opruge",
+    "hu": "Szelep rugó nélkül",
+    "it": "Valvola senza molla",
+    "ja": "スプリングなしのバルブ",
+    "mn": "Пүршгүй хавхлаг",
+    "nb": "Ventil uten fjær",
+    "nl": "Klep zonder veer",
+    "pl": "Zawór bez sprężyny",
+    "pt": "Valvula sde rentenção em mola",
+    "pt_BR": "Válvula sem mola",
+    "ro": "Supapă fără arc",
+    "ru": "Клапан без пружины",
+    "sl": "Ventil brez vzmeti",
+    "sr": "Вентил без опруге",
+    "tr": "Yaysız valf"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.0,
+  "height": 2.095,
+  "hotspotX": 0.0,
+  "hotspotY": -1.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 7.662537249809256,
+      "y1": 0.0,
+      "x2": 2.7405372498092566,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.15,
+      "length2": 0.15,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.5394627501907434,
+      "y1": 0.0,
+      "x2": -4.790462750190743,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.15,
+      "length2": 0.15,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.1005372498092565,
+          "y": 1.64
+        },
+        {
+          "x": 2.7405372498092566,
+          "y": 0.0
+        },
+        {
+          "x": 1.1005372498092565,
+          "y": -1.64
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -0.21146275019074356,
+      "y": -0.985,
+      "width": 1.968,
+      "height": 1.97,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{04f8fe9e-5759-4afd-ae3d-f4655e7a5f61}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6fa36735-5600-4f32-a918-6d3e35153eb1}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.351804512999128,
+      "y": -6.35601984156613,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{d205177c-5c7f-4725-ae66-f6b52304fd15}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

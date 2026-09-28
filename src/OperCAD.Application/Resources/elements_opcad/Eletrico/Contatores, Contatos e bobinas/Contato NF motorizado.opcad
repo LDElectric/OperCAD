@@ -1,0 +1,211 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_14.opcad",
+  "id": "{59f23ede-d24e-476d-16e4-5b8974491c14}",
+  "names": {
+    "cs": "Kontakt NC řízený motorem",
+    "de": "Öffner Motor betätigt",
+    "en": "Contact Motorized NC",
+    "es": "Contacto motorizado NC",
+    "fr": "Commande par moteur électrique NF",
+    "it": "Contatto NC motorizzato",
+    "nl": "Motor contact (NC)",
+    "pl": "Zestyk rozwierny sterowany silnikiem",
+    "pt": "Contato NF motorizado"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 14.0,
+  "height": 21.999,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "M",
+      "x": -7.655,
+      "y": -2.493,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -7.61,
+      "y": -2.062,
+      "width": 3.75,
+      "height": 3.75,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.813,
+      "y1": -0.094,
+      "x2": 1.062,
+      "y2": -0.094,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.016,
+          "y": 7.875
+        },
+        {
+          "x": -0.016,
+          "y": 4.125
+        },
+        {
+          "x": 2.233,
+          "y": -3.375
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.016,
+      "y1": -3.0,
+      "x2": 2.608,
+      "y2": -3.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.016,
+      "y1": -7.125,
+      "x2": -0.016,
+      "y2": -3.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{085f630c-65f6-4476-8f06-b0650a1ebadd}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6ba9522e-a06e-4e3f-97c5-bc68abc68b45}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -10.957045145547225,
+      "y": -6.0046691850958,
+      "z": 9,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c2572c76-cd7c-42c0-a06d-e0b9c8a5bace}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 1.3069537730759695,
+      "y": 3.7002923746803615,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{fee71f1a-2157-417e-b636-c253e869e59a}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "12",
+      "infoName": "tag"
+    },
+    {
+      "x": 1.316011457771383,
+      "y": -6.810503753284045,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{b205ad52-07ba-4915-a8b3-428348e48100}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    }
+  ]
+}

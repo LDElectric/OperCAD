@@ -1,0 +1,240 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal.opcad",
+  "id": "{ac5d0fa6-dba5-79d5-ef30-8fd768afc7da}",
+  "names": {
+    "ar": "خليّة كهرو ضوئي - باعث",
+    "cs": "Optická závora – vysílač",
+    "de": "Photozelle Sender 2-Leiter",
+    "en": "Photo-electric sensor -transmitter",
+    "es": "Sensor foto-eléctrico emisor",
+    "fr": "Cellule photo-électrique - Emetteur",
+    "it": "Sensore foto-elettrico - Trasmettitore",
+    "nl": "Fotocel Zender",
+    "pl": "Komórka fotoelektryczna - nadajnik",
+    "pt": "Transmissor fotoeletrico"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.748,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -12.935,
+      "y": -4.921,
+      "width": 14.998,
+      "height": 10.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.024,
+      "y1": -0.304,
+      "x2": -10.523,
+      "y2": -1.803,
+      "end1": "none",
+      "end2": "triangle",
+      "length1": 0.749,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.024,
+      "y1": -2.303,
+      "x2": -5.024,
+      "y2": -3.804,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.965,
+      "y1": -9.42,
+      "x2": -4.965,
+      "y2": -4.921,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.024,
+      "y1": 1.196,
+      "x2": -10.523,
+      "y2": -0.304,
+      "end1": "none",
+      "end2": "triangle",
+      "length1": 0.749,
+      "length2": 0.25,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.024,
+      "y1": 4.197,
+      "x2": -5.024,
+      "y2": 2.697,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -7.524,
+          "y": -2.303
+        },
+        {
+          "x": -2.524,
+          "y": -2.303
+        },
+        {
+          "x": -5.024,
+          "y": 2.697
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -4.965,
+      "y1": 5.314,
+      "x2": -4.965,
+      "y2": 9.813,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.524,
+      "y1": 2.697,
+      "x2": -2.524,
+      "y2": 2.697,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4a95d782-eb35-4a21-accd-4c061fccd5ce}",
+      "name": "",
+      "x": -5.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b5603669-9b5b-44d3-817c-ba447e0ef8c2}",
+      "name": "",
+      "x": -5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 3.552,
+      "y": -1.803,
+      "z": 14,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0ff9a420-3b7b-4c0a-8681-496fef2b27d6}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

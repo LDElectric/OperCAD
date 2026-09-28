@@ -1,0 +1,128 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "processamento_manual.opcad",
+  "id": "{12f7cecc-c675-ec18-150b-d08d0156e9b1}",
+  "names": {
+    "ar": "المعالجة اليدوية",
+    "ca": "processament manual",
+    "cs": "ruční zpracování",
+    "da": "manuel behandling",
+    "de": "manuelle Verarbeitung",
+    "el": "χειρωνακτική επεξεργασία",
+    "en": "manual processing",
+    "es": "procesamiento manual",
+    "fr": "traitement manuel",
+    "hr": "ručna obrada",
+    "hu": "kézi feldolgozás",
+    "it": "elaborazione manuale",
+    "ja": "手動処理",
+    "mn": "гар аргаар боловсруулах",
+    "nb": "manuell behandling",
+    "nl": "handmatige verwerking",
+    "pl": "obróbka ręczna",
+    "pt": "processamento manual",
+    "ro": "prelucrare manuală",
+    "ru": "ручная обработка",
+    "sl": "ročna obdelava",
+    "sr": "ручна обрада",
+    "tr": "manuel işleme"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 45.495,
+  "height": 30.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -10.695,
+          "y": 5.342698090858416
+        },
+        {
+          "x": -13.75,
+          "y": -6.8773019091415835
+        },
+        {
+          "x": 13.746,
+          "y": -6.8773019091415835
+        },
+        {
+          "x": 10.691,
+          "y": 5.342698090858416
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.05594343358348455,
+      "y1": -9.583641307640677,
+      "x2": 0.05594343358348455,
+      "y2": -6.834641307640679,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.4747029322695075,
+      "x2": 0.0,
+      "y2": 5.388739323264064,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{78de70f2-3de2-4a3b-b1ad-d17f87af8273}",
+      "name": "",
+      "x": 0.0766301909141583,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c5708bb2-171d-44a7-a5c5-54e0d12d35a8}",
+      "name": "",
+      "x": 0.0766301909141583,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

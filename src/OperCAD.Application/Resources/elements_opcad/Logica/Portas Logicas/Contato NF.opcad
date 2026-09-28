@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "sinal_normal_fechado.opcad",
+  "id": "{b508a935-4e99-3838-5531-696a85fc1529}",
+  "names": {
+    "ar": "إشارة إغلاق طبيعية",
+    "ca": "senyal normal tancat",
+    "cs": "signál normální zavřeno",
+    "da": "signal normal lukket",
+    "de": "Signal normal geschlossen",
+    "el": "σήμα κανονικό κλειστό",
+    "en": "signal normal closed",
+    "es": "señal normal cerrado",
+    "fr": "signal normal fermé",
+    "hr": "signal normalno zatvoren",
+    "hu": "jel normál zárva",
+    "it": "segnale normalmente chiuso",
+    "ja": "シグナルノーマルクローズ",
+    "mn": "дохио хэвийн хаалттай",
+    "nb": "signal normal lukket",
+    "nl": "signaal normaal gesloten",
+    "pl": "sygnał normalnie zamknięty",
+    "pt": "sinal normal fechado",
+    "ro": "semnal normal închis",
+    "ru": "сигнал нормально закрытый",
+    "sl": "signal normalno zaprt",
+    "sr": "сигнал нормално затворен",
+    "tr": "sinyal normal kapalı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.25,
+  "height": 3.875,
+  "hotspotX": 0.0,
+  "hotspotY": -1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": -2.5,
+      "x2": 11.999,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": 1.0,
+      "x2": 7.5,
+      "y2": -6.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -6.0,
+      "x2": -2.5,
+      "y2": 1.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -6.9990000000000006,
+      "y1": -2.5,
+      "x2": -2.5,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.4546412687708454,
+      "y1": 0.11541031170453309,
+      "x2": 6.207544686304279,
+      "y2": -4.991862020471251,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1b642839-ae38-4234-a11f-5ca09637f382}",
+      "name": "",
+      "x": -7.5,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ae32df91-878d-4b64-82d8-d0b15508cbf3}",
+      "name": "",
+      "x": 12.5,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.15518722139673,
+      "y": -9.142573551263,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{918324d0-eb89-4f21-bd23-b8458e2d091e}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

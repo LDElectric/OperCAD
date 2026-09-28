@@ -1,0 +1,39 @@
+# Build output and local IDE state
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.venv/
+__pycache__/
+*.user
+*.suo
+*.log
+*_wpftmp.csproj
+
+# Local application data and generated files
+/data/
+/crash_log.txt
+/publish-portable/
+/artifacts/
+/elements_opcad/
+/titleblocks/
+/*.pdf
+/test_*.txt
+/trecho_*.png
+/frame_crop_output/
+
+# Development-only material kept locally, not part of the app repository
+/tools/
+/tests/
+/OperCAD Elements.opcad/
+/OperCAD Elements.opcad_new/
+/*.py
+/*.ps1
+/plano_*.md
+/session_*.md
+/template.html
+/traducoes_pt_br.txt
+/opcad_catalog.svg
+/src/OperCAD.Application/Resources/examples/
+/src/OperCAD.Application/Resources/titleblocks/*
+!/src/OperCAD.Application/Resources/titleblocks/default.titleblock

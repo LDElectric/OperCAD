@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Rele_termico_5.opcad",
+  "id": "{d476e638-0dbd-99aa-1b37-52c94fb16404}",
+  "names": {
+    "ar": "مرحل حراري",
+    "cs": "Tepelné relé 3P",
+    "de": "Überstromrelais 3P",
+    "el": "Θερμικό",
+    "en": "Thermal relay",
+    "es": "Relé térmico",
+    "fr": "Relais thermique",
+    "hu": "Hőkioldó 3 pólusú",
+    "it": "Relè termico",
+    "nl": "Thermisch blok breed",
+    "pl": "Przekaźnik termiczny",
+    "pt": "Rele termico I"
+  },
+  "kindInformations": {
+    "type": "protection"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.498,
+  "height": 10.0,
+  "hotspotX": 7.5,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -2.677344286877025,
+      "y1": -0.9272917747980569,
+      "x2": -2.677344286877025,
+      "y2": 3.392708225201943,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.928912711008635,
+      "y1": -7.46057292089018,
+      "x2": -5.021990451678322,
+      "y2": -0.984572920890181,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.928912711008635,
+      "y1": 3.4285048197795067,
+      "x2": -2.7709127110086347,
+      "y2": 3.4285048197795067,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.928912711008635,
+      "y1": 3.4285048197795067,
+      "x2": -4.928912711008635,
+      "y2": 9.904504819779506,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.928912711008635,
+      "y1": -0.8914951802204936,
+      "x2": -2.7709127110086347,
+      "y2": -0.8914951802204936,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -7.823669950837749,
+      "y": -2.235978868269506,
+      "width": 6.2843449219755145,
+      "height": 7.25559091157225,
+      "type": "rect",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{7c0357c5-9347-41ed-a750-a3fed68ba74b}",
+      "name": "",
+      "x": -5.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{bce202d1-ac6b-4e3b-8b9a-d60fbaed6b33}",
+      "name": "",
+      "x": -5.0,
+      "y": 10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -12.70898413861054,
+      "y": -1.8466545873033693,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{48e6b261-dc2f-4139-85e1-d6266a429653}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -7.36,
+      "y": -6.73,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a78c5c47-8a16-48ba-b20b-2f25deb49162}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "tag"
+    },
+    {
+      "x": -7.36,
+      "y": 6.32,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{69971f7a-e24a-4d81-83a6-d5edf8374c8b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": "tag"
+    },
+    {
+      "x": -16.603901614671596,
+      "y": 3.125365323717457,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ComponentInfo",
+      "uuid": "{2eb0e00b-a1e7-43fb-a8e8-947b96d7e86c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "value"
+    }
+  ]
+}

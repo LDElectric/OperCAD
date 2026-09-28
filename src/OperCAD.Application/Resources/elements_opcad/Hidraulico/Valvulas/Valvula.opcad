@@ -1,0 +1,280 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula.opcad",
+  "id": "{1b4b2501-36b8-7c1c-9d7f-548f7f065786}",
+  "names": {
+    "ar": "صمّام بثلاث مسارات - تحكّم كهرومغناطيسي",
+    "ca": "Vàlvula de tres vies de control electromagnètic",
+    "cs": "Trojcestná klapka řízená elektromagnetem",
+    "el": "Τρίοδη Βαλβίδα - Ηλεκτρομαγνητικός έλεγχος",
+    "en": "Three-way valve-control electromagnetic",
+    "fr": "Vanne trois voies- commande électromagnétique",
+    "it": "Elettrovalvola 3vie",
+    "nl": "Klep drieweg elektrisch",
+    "pl": "Zawór trójdrogowy sterowany elektromagnetycznie"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 9.74,
+  "hotspotX": 1.25,
+  "hotspotY": 0.625,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.2581362232224205,
+          "y": 3.469775588467864
+        },
+        {
+          "x": -0.7981362232224205,
+          "y": 3.469775588467864
+        },
+        {
+          "x": -2.5281362232224205,
+          "y": 0.008775588467864193
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -4.2581362232224205,
+      "y": -8.987224411532136,
+      "width": 3.461,
+      "height": 4.844,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.2581362232224205,
+      "y1": -8.295224411532136,
+      "x2": -0.7981362232224205,
+      "y2": -4.835224411532136,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.8731362232224207,
+      "y1": -0.3382244115321358,
+      "x2": -2.8731362232224207,
+      "y2": -4.1432244115321355,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.1841362232224206,
+      "y1": -0.3382244115321358,
+      "x2": -2.1841362232224206,
+      "y2": -4.1432244115321355,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.9298637767775797,
+          "y": 2.083775588467864
+        },
+        {
+          "x": -2.5281362232224205,
+          "y": 0.008775588467864193
+        },
+        {
+          "x": 0.9298637767775797,
+          "y": -2.0682244115321358
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.98613622322242,
+          "y": -2.0682244115321358
+        },
+        {
+          "x": -5.98613622322242,
+          "y": 2.083775588467864
+        },
+        {
+          "x": -2.5281362232224205,
+          "y": 0.008775588467864193
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -6.010671264217487,
+      "y1": -0.05724448823064274,
+      "x2": -9.674318510978622,
+      "y2": -0.05724448823064274,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.8586673234596405,
+      "y1": -0.05724448823064274,
+      "x2": 4.751292523143347,
+      "y2": -0.05724448823064274,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5187574821482803,
+      "y1": 3.6064027585304923,
+      "x2": -2.5187574821482803,
+      "y2": 7.270050005291628,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4dc844f2-2a8b-422c-b470-9e9d35a869ed}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a770ef72-d981-4c98-b398-4df508b3c29b}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{74feb035-043c-44b1-9d89-d5f88895d504}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -4.363583075907771,
+      "y": -13.794007881515693,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8ef95b37-8410-41ec-befe-5b96c400bf79}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_6.opcad",
+  "id": "{ac60712e-c6f5-7223-28be-019ae22f8dd6}",
+  "names": {
+    "ar": "صمّام بثلاث مسارات",
+    "ca": "Vàlvula de tres vies",
+    "cs": "Trojcestná klapka",
+    "el": "Τρίοδη βαλβίδα",
+    "en": "Three-way valve",
+    "fr": "Vanne trois voies",
+    "it": "Valvola 3vie",
+    "nl": "Klep Drieweg",
+    "pl": "Zawór trójdrogowy"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 10.986,
+  "hotspotX": 2.5,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.029108265008221945,
+      "y1": 1.345839759321227,
+      "x2": 0.029108265008221945,
+      "y2": 5.122839759321226,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.525891734991777,
+      "y1": -2.4864047289094158,
+      "x2": -3.747891734991778,
+      "y2": -2.4864047289094158,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.806108265008222,
+      "y1": -2.4864047289094158,
+      "x2": 7.582108265008223,
+      "y2": -2.4864047289094158,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.806108265008222,
+          "y": -0.22040472890941576
+        },
+        {
+          "x": 0.029108265008221945,
+          "y": -2.4864047289094158
+        },
+        {
+          "x": 3.806108265008222,
+          "y": -4.753404728909416
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.747891734991778,
+          "y": -4.753404728909416
+        },
+        {
+          "x": -3.747891734991778,
+          "y": -0.22040472890941576
+        },
+        {
+          "x": 0.029108265008221945,
+          "y": -2.4864047289094158
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.857891734991778,
+          "y": 1.2885952710905846
+        },
+        {
+          "x": 1.9161082650082224,
+          "y": 1.2885952710905846
+        },
+        {
+          "x": 0.029108265008221945,
+          "y": -2.4864047289094158
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{7141b7af-f356-4a30-af32-bfcc7efd3006}",
+      "name": "",
+      "x": -7.5,
+      "y": -2.499999999999999,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a4fb7e09-b0cc-4d17-b212-fce4b1998da5}",
+      "name": "",
+      "x": 7.442755511769358,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2cb31895-c024-4d92-8fb1-9587bfeab7d6}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.6193385876771285,
+      "y": -8.543244488230645,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{3cbd7da3-d7ed-4d01-bf63-7f5af9602803}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

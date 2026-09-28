@@ -1,0 +1,168 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "inversao_de_saida_de_sinal.opcad",
+  "id": "{21b9ba66-1087-f2c3-11d6-53e97c6c6d0d}",
+  "names": {
+    "ar": "عكس خرج إشارة",
+    "cs": "invertovat výstup signálu",
+    "da": "signaludgang inverteres",
+    "de": "Signalausgang invertieren",
+    "el": "αναστροφή εξόδου σήματος",
+    "en": "signal output invert",
+    "es": "inversión de salida de señal",
+    "fr": "inversion de sortie de signal",
+    "hr": "izlazni signal invertirati",
+    "hu": "jelkimenet invertál",
+    "it": "inversione dell'uscita del segnale",
+    "ja": "信号出力反転",
+    "mn": "дохионы гаралтыг эргүүлэх",
+    "nb": "inverter signalutgang",
+    "nl": "signaaluitgang omkeren",
+    "pl": "odwrócenie sygnału wyjściowego",
+    "pt": "Bobina inversa",
+    "pt_BR": "inversão de saída de sinal",
+    "ro": "inversarea semnalului de ieșire",
+    "ru": "инвертированный выходной сигнал",
+    "sl": "izhodni signal invert",
+    "sr": "сигнал излаз инверт",
+    "tr": "sinyal çıkışı ters"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 20.0,
+  "height": 13.999,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -3.707544686304278,
+      "y1": 0.14444448703885748,
+      "x2": 3.954641268770846,
+      "y2": -4.9628278451369265,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -12.479303177357094,
+      "y1": -2.4876557458114323,
+      "x2": -5.604303177357094,
+      "y2": -2.4876557458114323,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.645696822642906,
+      "y1": -2.4876557458114323,
+      "x2": 12.520696822642906,
+      "y2": -2.4876557458114323,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 2.8946968226429055,
+      "y": -5.925655745811433,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 280,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -5.604303177357094,
+      "y": -5.925655745811433,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 100,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8eb54a5a-d331-4808-9b78-ac644f08c97d}",
+      "name": "",
+      "x": 12.342203900665236,
+      "y": -2.549172127094284,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{67deb96d-3588-41c0-9999-ca073da29e81}",
+      "name": "",
+      "x": -12.5,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.9865583884397084,
+      "y": -9.239638726305458,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{36ced4e7-b9a3-49f6-af62-8bc0d0340a25}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "E_NAO_NAND.opcad",
+  "id": "{011fbc27-abbb-bc30-11a8-9150e4d9da91}",
+  "names": {
+    "ar": "و لا (NAND)",
+    "cs": "A NE (NAND)",
+    "da": "OG IKKE (NAND)",
+    "de": "UND NICHT (NAND)",
+    "el": "ΚΑΙ ΟΧΙ (NAND)",
+    "en": "AND NOT (NAND)",
+    "es": "Y NO (NAND)",
+    "fr": "ET PAS (NAND)",
+    "hr": "I NE (NAND)",
+    "hu": "ÉS NEM (NAND)",
+    "it": "E NON (NAND)",
+    "ja": "AND NOT (NAND)",
+    "mn": "БАС ҮГҮЙ (NAND)",
+    "nb": "OG IKKE (NAND)",
+    "nl": "EN NIET (NAND)",
+    "pl": "I NIE (NAND)",
+    "pt": "Porta logica NAND",
+    "ro": "SI NU (NAND)",
+    "ru": "И НЕТ (NAND)",
+    "sl": "IN NE (NAND)",
+    "sr": "И НЕ (NAND)",
+    "tr": "VE YOK (NAND)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.0,
+  "height": 25.499,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -10.102800768139701,
+      "y": -4.621529185841265,
+      "width": 8.607,
+      "height": 8.605,
+      "start": 271,
+      "angle": 179,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -10.032189093803197,
+      "y1": 2.538587557523792,
+      "x2": -8.095189093803196,
+      "y2": 2.538587557523792,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.934800768139702,
+      "y1": -2.470529185841265,
+      "x2": -7.998800768139702,
+      "y2": -2.470529185841265,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.798800768139702,
+          "y": -4.621529185841265
+        },
+        {
+          "x": -7.951800768139702,
+          "y": -4.621529185841265
+        },
+        {
+          "x": -7.951800768139702,
+          "y": 3.9854708141587354
+        },
+        {
+          "x": -5.798800768139702,
+          "y": 3.9854708141587354
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.055,
+      "y1": -2.642,
+      "x2": 5.055,
+      "y2": -2.642,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.419303978562351,
+      "y": -0.35445702462475936,
+      "width": 0.7089140492495157,
+      "height": 0.7089140492495157,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.7285794947994056,
+      "y1": -0.0560445765230312,
+      "x2": -0.0560445765230312,
+      "y2": -0.0560445765230312,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{0002ffed-7fc6-4af7-b954-86595d94fae3}",
+      "name": "",
+      "x": 0.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{316db94b-3a59-46a2-b6ad-f43772b0328e}",
+      "name": "",
+      "x": -10.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2b3b0294-12ec-4995-ab14-43546ff2a119}",
+      "name": "",
+      "x": -10.0,
+      "y": 2.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.551752534514279,
+      "y": -0.9944708141587357,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{d4195a87-285a-4072-831b-078e5a46f135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    },
+    {
+      "x": -0.6629834798538187,
+      "y": -4.047614215727076,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e9bda3a6-11f0-4408-a024-4b9a391e9588}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    },
+    {
+      "x": -6.544535483199857,
+      "y": -8.210211826577485,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ba129561-08bc-4518-bf82-49b1b811550e}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -11.552996159301491,
+      "y": -6.026923808863353,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{9074d2c7-b0f8-4e95-b261-4786cc234327}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    }
+  ]
+}

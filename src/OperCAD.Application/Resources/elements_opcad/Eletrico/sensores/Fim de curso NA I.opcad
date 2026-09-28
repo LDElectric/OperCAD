@@ -1,0 +1,222 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fim_de_curso.opcad",
+  "id": "{c34d553a-5746-261c-922a-00936d65f752}",
+  "names": {
+    "cs": "Kapacitní snímač NO 2 vodiče",
+    "de": "Näherungsschalter Schliesser",
+    "en": "Limit switch NO",
+    "es": "Final de carrera",
+    "fr": "Capteur de proximité NO",
+    "it": "Sensore di prossimità",
+    "pl": "Czujnik zbliżeniowy",
+    "pt": "Fim de curso NA I"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 19.373,
+  "height": 20.0,
+  "hotspotX": -10.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -4.767086956521739,
+      "y1": 0.24126086956521714,
+      "x2": -3.640086956521739,
+      "y2": 0.24126086956521714,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -6.648086956521739,
+      "y1": 0.24126086956521714,
+      "x2": -5.521086956521739,
+      "y2": 0.24126086956521714,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.530086956521739,
+      "y1": 0.24126086956521714,
+      "x2": -7.778086956521739,
+      "y2": 0.24126086956521714,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -12.29208695652174,
+          "y": -3.520739130434783
+        },
+        {
+          "x": -16.05508695652174,
+          "y": 0.24126086956521714
+        },
+        {
+          "x": -12.29208695652174,
+          "y": 4.004260869565217
+        },
+        {
+          "x": -8.530086956521739,
+          "y": 0.24126086956521714
+        },
+        {
+          "x": -12.29208695652174,
+          "y": -3.520739130434783
+        },
+        {
+          "x": -13.04508695652174,
+          "y": -2.768739130434783
+        },
+        {
+          "x": -13.04508695652174,
+          "y": 2.875260869565217
+        },
+        {
+          "x": -13.04508695652174,
+          "y": 3.2522608695652173
+        },
+        {
+          "x": -12.29208695652174,
+          "y": 4.004260869565217
+        },
+        {
+          "x": -11.540086956521739,
+          "y": 3.2522608695652173
+        },
+        {
+          "x": -11.540086956521739,
+          "y": -2.768739130434783
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.392086956521739,
+          "y": -3.520739130434783
+        },
+        {
+          "x": -2.510086956521739,
+          "y": 4.004260869565217
+        },
+        {
+          "x": -2.510086956521739,
+          "y": 7.766260869565217
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.577086956521739,
+      "y1": -7.283739130434783,
+      "x2": -2.577086956521739,
+      "y2": -3.520739130434783,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{069dc0e3-c232-4865-b3eb-90f985049e7d}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{68ba2b45-1a17-42bf-b390-689e55d414a3}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.4354347826086957,
+      "y": -1.6032608695652173,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{edb4224e-7ae4-4e55-af2b-03af8e6e17dc}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

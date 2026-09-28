@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "ramo_paralelo.opcad",
+  "id": "{3642e3d7-7371-556f-e07a-b6a9d1d2bdcf}",
+  "names": {
+    "ar": "فرع مواز",
+    "ca": "branca paral·lela",
+    "cs": "paralelní větev",
+    "da": "parallel gren",
+    "de": "Parallelverzweigung",
+    "el": "παράλληλος κλάδος",
+    "en": "parallel branch",
+    "es": "rama paralela",
+    "fr": "branche parallèle",
+    "hr": "paralelna grana",
+    "hu": "párhuzamos ág",
+    "it": "ramo parallelo",
+    "ja": "並列分岐",
+    "mn": "зэрэгцээ салбар",
+    "nb": "parallell gren",
+    "nl": "parallelle tak",
+    "pl": "gałąź równoległa",
+    "pt": "ramo paralelo",
+    "ro": "ramură paralelă",
+    "ru": "параллельная ветвь",
+    "sl": "vzporedna veja",
+    "sr": "паралелна грана",
+    "tr": "paralel dal"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 37.581,
+  "height": 14.667,
+  "hotspotX": 0.0,
+  "hotspotY": -4.583,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 20.081,
+      "y1": 0.459,
+      "x2": -17.04,
+      "y2": 0.459,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 20.081,
+      "y1": -0.459,
+      "x2": -17.04,
+      "y2": -0.459,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 17.492947254738016,
+      "y1": 0.30573961817168355,
+      "x2": 17.492947254738016,
+      "y2": 4.429739618171684,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -14.984015154682272,
+      "y1": 0.459,
+      "x2": -14.984015154682272,
+      "y2": 4.583,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8e33c1eb-7d94-477d-9d2d-12b85ffd6dde}",
+      "name": "",
+      "x": -15.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{adaedd18-3058-44ab-a96d-a7da6204a774}",
+      "name": "",
+      "x": 17.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{87615fac-d610-4f22-b474-4c67f1f70f54}",
+      "name": "",
+      "x": 20.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{fac5ebcb-3d3e-4434-af6e-9a329e73af89}",
+      "name": "",
+      "x": -17.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

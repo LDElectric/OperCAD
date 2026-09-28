@@ -1,0 +1,105 @@
+<Window x:Class="OperCAD.UI.Views.TextItemWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Adicionar texto"
+        Width="460" Height="340"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Texto (ocupa toda a largura) -->
+        <TextBlock Text="TEXTO" Style="{StaticResource App.SectionHeader}" />
+        <TextBox x:Name="TxtText" Grid.Row="1" Margin="0,4,0,0" Style="{StaticResource App.TextBox}"
+                 TextWrapping="Wrap" AcceptsReturn="True" MinHeight="60"
+                 VerticalScrollBarVisibility="Auto" />
+
+        <!-- Linha inferior: aparência + formatação lado a lado -->
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="16" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Aparência -->
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="APARÊNCIA" Style="{StaticResource App.SectionHeader}" />
+                <Grid Margin="0,4,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="12" />
+                        <ColumnDefinition Width="50" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition /><RowDefinition /><RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Fonte" Style="{StaticResource App.FieldLabel}" Margin="0,2,4,2" />
+                    <TextBox x:Name="TxtFontFamily" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2"
+                             Text="Segoe UI" />
+                    <TextBlock Grid.Column="3" Text="Tamanho" Style="{StaticResource App.FieldLabel}" Margin="0,2,4,2" />
+                    <TextBox x:Name="TxtSize" Grid.Column="4" Style="{StaticResource App.TextBox}" Margin="0,2"
+                             Text="9" Width="50" HorizontalAlignment="Left" />
+
+                    <TextBlock Grid.Row="1" Text="Cor" Style="{StaticResource App.FieldLabel}" Margin="0,2,4,2" />
+                    <Grid Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="TxtColor" Style="{StaticResource App.TextBox}" Text="#000000" />
+                        <Button x:Name="BtnPickColor" Grid.Column="1" Content="..." Width="26" Height="22" Margin="4,0,0,0"
+                                Click="OnPickColor"
+                                Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                                BorderBrush="{DynamicResource App.Border}" FontFamily="{StaticResource App.Font}" />
+                    </Grid>
+
+                    <TextBlock Grid.Row="2" Text="Rotação" Style="{StaticResource App.FieldLabel}" Margin="0,2,4,2" />
+                    <TextBox x:Name="TxtRotation" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2"
+                             Text="0" Width="50" HorizontalAlignment="Left" />
+                </Grid>
+            </StackPanel>
+
+            <GridSplitter Grid.Column="1" Width="2" HorizontalAlignment="Center" VerticalAlignment="Stretch"
+                          Background="{DynamicResource App.Divider}" />
+
+            <!-- Formatação + Alinhamento -->
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="FORMATAÇÃO" Style="{StaticResource App.SectionHeader}" />
+                <StackPanel Margin="0,4,0,0">
+                    <CheckBox x:Name="ChkBold" Content="Negrito" Style="{StaticResource App.CheckBox}" />
+                    <CheckBox x:Name="ChkItalic" Content="Itálico" Style="{StaticResource App.CheckBox}" Margin="0,2,0,0" />
+                    <CheckBox x:Name="ChkUnderline" Content="Sublinhado" Style="{StaticResource App.CheckBox}" Margin="0,2,0,0" />
+                    <CheckBox x:Name="ChkStrikethrough" Content="Tachado" Style="{StaticResource App.CheckBox}" Margin="0,2,0,0" />
+                </StackPanel>
+
+                <TextBlock Text="ALINHAMENTO" Style="{StaticResource App.SectionHeader}" Margin="0,10,0,0" />
+                <StackPanel Margin="0,4,0,0">
+                    <RadioButton x:Name="RdoAlignLeft" Content="Esquerda"
+                                 GroupName="Align" IsChecked="True" />
+                    <RadioButton x:Name="RdoAlignCenter" Content="Centro"
+                                 GroupName="Align" Margin="0,2,0,0" />
+                    <RadioButton x:Name="RdoAlignRight" Content="Direita"
+                                 GroupName="Align" Margin="0,2,0,0" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <!-- Botões -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="88" Height="28" />
+            <Button Content="Cancelar" IsCancel="True" Width="88" Height="28" Margin="8,0,0,0"
+                    Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                    BorderBrush="{DynamicResource App.Border}" />
+        </StackPanel>
+    </Grid>
+</Window>

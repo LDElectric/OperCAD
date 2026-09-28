@@ -1,0 +1,293 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_2.opcad",
+  "id": "{08d85d13-1166-bce0-90a8-5589f32fa840}",
+  "names": {
+    "ar": "صمّام بفتح سريع و بارتداد خلفي ميكانيكي",
+    "ca": "Vàlvules d'obertura ràpida amb retroalimentació mecànica",
+    "cs": "Rychle se otevírající klapky s mechanickým zpětným působením",
+    "de": "Schnellkupplung offen",
+    "en": "Quick opening valves with mechanical feedback",
+    "fr": "Vannes à ouverture rapide avec rétroaction mécanique",
+    "it": "Valvola ad apertura rapida con feedback meccanico",
+    "nl": "Snelkoppeling met kleppen",
+    "pl": "Szybkozłączka z mechanicznie otwieranymi zaworami zwrotnymi - rozłączona"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 17.5,
+  "height": 9.999,
+  "hotspotX": 5.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 3.75,
+      "y1": 0.0,
+      "x2": 5.749,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 6.75,
+      "y1": 0.0,
+      "x2": 15.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": 7.499,
+      "y": -2.5,
+      "width": 5.0,
+      "height": 5.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.499,
+      "y": -0.75,
+      "width": 1.5,
+      "height": 1.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 9.499,
+      "y": -0.75,
+      "width": 1.5,
+      "height": 1.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 6.75,
+      "y1": -0.5,
+      "x2": 6.75,
+      "y2": 0.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.75,
+      "y1": 0.0,
+      "x2": 1.25,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": 0.0,
+      "y": -2.5,
+      "width": 5.0,
+      "height": 5.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 10.999,
+      "y1": 0.0,
+      "x2": 13.999,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5,
+          "y": -1.25
+        },
+        {
+          "x": 3.75,
+          "y": 0.0
+        },
+        {
+          "x": 2.5,
+          "y": 1.25
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 9.999,
+          "y": 1.25
+        },
+        {
+          "x": 15.0,
+          "y": 0.0
+        },
+        {
+          "x": 9.999,
+          "y": -1.25
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.749,
+      "y1": -0.5,
+      "x2": 5.749,
+      "y2": 0.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{71f7a3d8-65e9-4944-8ae3-71ec2b4f40a0}",
+      "name": "",
+      "x": 15.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6a2e6428-d35b-4cd7-840f-2d0f4c4bcdce}",
+      "name": "",
+      "x": -2.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.853862212943632,
+      "y": -6.324678496868476,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8665ce5b-e16c-454a-bf4d-311e4cdbebd5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Topo.opcad",
+  "id": "{fe0ee26a-da57-7bb0-e131-213a202bef1a}",
+  "names": {
+    "ar": "زرّ توقف طارئ - فتح بالدوران",
+    "cs": "Nouzové zastavení – uvolnění otočením",
+    "de": "Pilzdrucktaster Öffner mit Drehentriegelung",
+    "en": "Emergency turn stop deverouiller",
+    "es": "Paro de emergencia liberación con giro",
+    "fr": "Arrêt d'urgence - Tourner déverrouiller",
+    "it": "Arresto d'emergenza con sblocco a rotazione",
+    "nl": "Noodstop drukknop met draaireset",
+    "pl": "Łącznik przyciskowy (przycisk bezpieczeństwa)",
+    "pt": "Botoeira de emergencia II"
+  },
+  "kindInformations": {
+    "type": "commutator"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 17.248,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.055,
+          "y": -0.069
+        },
+        {
+          "x": -0.82,
+          "y": -0.069
+        },
+        {
+          "x": -1.57,
+          "y": 1.056
+        },
+        {
+          "x": -2.32,
+          "y": -0.069
+        },
+        {
+          "x": -3.821,
+          "y": -0.069
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.945,
+      "y1": -0.069,
+      "x2": -8.32,
+      "y2": -0.069,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -4.945,
+      "y": -1.195,
+      "width": 1.125,
+      "height": 2.249,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.945,
+          "y": -1.944
+        },
+        {
+          "x": -6.07,
+          "y": -1.944
+        },
+        {
+          "x": -6.07,
+          "y": 1.806
+        },
+        {
+          "x": -7.195,
+          "y": 1.806
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.32,
+      "y1": -1.944,
+      "x2": -8.32,
+      "y2": 1.806,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.804,
+          "y": -3.819
+        },
+        {
+          "x": -0.071,
+          "y": 3.681
+        },
+        {
+          "x": -0.071,
+          "y": 7.431
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -9.82,
+      "y": -1.944,
+      "width": 3.0,
+      "height": 3.75,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.071,
+      "y1": -3.444,
+      "x2": 2.179,
+      "y2": -3.444,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.071,
+      "y1": -7.569,
+      "x2": -0.071,
+      "y2": -3.444,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{3ea4f315-8c21-4cd5-866b-f00cef8ee97d}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{db04c68c-fc47-4873-be13-69678e5bed5b}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -14.18850417600893,
+      "y": -2.1075896623153647,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ed837279-8ec7-43e2-9e3a-daf249912389}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 0.73,
+      "y": -7.22,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{41af317a-3145-479f-9306-2abaf2fac0f4}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": 0.67,
+      "y": 4.132975645085502,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{50e75966-8cd0-4b81-9e7f-f2343acbd199}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "12",
+      "infoName": "tag"
+    }
+  ]
+}

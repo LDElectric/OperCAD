@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contacto_simples_NO.opcad",
+  "id": "{9d34fad7-8a48-2a3e-df68-74d26a8f1012}",
+  "names": {
+    "ar": "مُلامس بسيط (NO)",
+    "ca": "Contacte senzill",
+    "cs": "Spínací kontakt",
+    "de": "Schliesser",
+    "el": "Απλή επαφή, ανοικτή",
+    "en": "Simple contact",
+    "es": "Contactor simple",
+    "fr": "Contact simple",
+    "it": "Contatto semplice (NO)",
+    "nl": "contact enkel",
+    "pl": "Zestyk zwierny",
+    "pt": "Contacto simples (NO)",
+    "ru": "Проктой контакт (НР)"
+  },
+  "kindInformations": {
+    "type": "simple",
+    "state": "NO",
+    "number": "1"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 3.874,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "slave",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.874,
+          "y": -3.593
+        },
+        {
+          "x": 0.001,
+          "y": 3.907
+        },
+        {
+          "x": 0.001,
+          "y": 7.657
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.001,
+      "y1": -7.343,
+      "x2": 0.001,
+      "y2": -3.593,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{b3b3dc63-1c98-409b-ab79-3dbaea3556cb}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b9683546-f0a2-4386-b114-ef1d46b2df3d}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.977732229022739,
+      "y": -2.43803227596996,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{a4a5addc-2580-413c-828c-6e93cfe494ef}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 0.72,
+      "y": -6.78,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{d0afdc7e-a7f8-41aa-b339-3d7fa513370c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "tag"
+    },
+    {
+      "x": 0.75,
+      "y": 4.03,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c32ce7b8-4bec-497b-b71a-ddde0e77b0fe}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "tag"
+    }
+  ]
+}

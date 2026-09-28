@@ -1,0 +1,189 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Pe.opcad",
+  "id": "{82567217-bb26-a711-93ac-7084f154a6a7}",
+  "names": {
+    "cs": "Operační zesilovač (3 piny)",
+    "de": "Operaționsverstärker 3 Anschlüsse",
+    "en": "Operațional amplifier 3 pins",
+    "fr": "Amplificateur opérationnel",
+    "it": "Amplificatore operazionale",
+    "pl": "Wzmacniacz operacyjny (3 nóżki)",
+    "ro": "Amplificator operațional",
+    "pt": "Amplificador operacional"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 45.0,
+  "height": 40.971,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.07827191679049,
+          "y": -6.366579494799406
+        },
+        {
+          "x": 5.07827191679049,
+          "y": 6.385420505200595
+        },
+        {
+          "x": -7.67472808320951,
+          "y": 0.009420505200594356
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "+",
+      "x": 1.3581023967956585,
+      "y": -5.320576070805607,
+      "rotation": 0,
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "-",
+      "x": 2.031685444796175,
+      "y": -0.43092195878286743,
+      "rotation": 0,
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.67572808320951,
+      "y1": -0.012579494799405636,
+      "x2": -10.07672808320951,
+      "y2": -0.012579494799405636,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.231780735189612,
+      "y1": -2.48221545319465,
+      "x2": 5.162780735189612,
+      "y2": -2.48221545319465,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.242851411589895,
+      "y1": 2.5391946508172367,
+      "x2": 5.1738514115898955,
+      "y2": 2.5391946508172367,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{0ee9a38f-80ba-4ec1-9498-fdc02e5659be}",
+      "name": "",
+      "x": 7.5,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{59234c53-ed51-4421-9095-9b0bd6e4054d}",
+      "name": "",
+      "x": 7.5,
+      "y": 2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f30221e3-819e-4de1-ac99-25e4d95d9673}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.9528076749144,
+      "y": -7.74968066412559,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ba9271d6-65c4-43d7-bf04-89386a7e6381}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

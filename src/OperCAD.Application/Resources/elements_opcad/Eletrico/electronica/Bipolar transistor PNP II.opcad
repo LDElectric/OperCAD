@@ -1,0 +1,217 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Bipolar_transistor_PNP_2.opcad",
+  "id": "{2262a9a0-f2c8-6770-e4b1-acccdb3bad26}",
+  "names": {
+    "ar": "ترنزيستور ثنائي القطبيّة PNP",
+    "cs": "Bipolární tranzistor PNP",
+    "en": "Bipolar transistor PNP",
+    "fr": "Transistor bipolaire PNP",
+    "it": "Transistor bipolare PNP",
+    "nl": "Transistor bipolare PNP",
+    "pl": "Tranzystor biopolarny PNP",
+    "ro": "Tranzistor PNP cu radiator",
+    "pt": "Bipolar transistor PNP II"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.999,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.665,
+          "y": 0.734
+        },
+        {
+          "x": 4.993,
+          "y": 2.971
+        },
+        {
+          "x": 4.993,
+          "y": 4.535
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.665,
+      "y1": -0.011,
+      "x2": -2.062,
+      "y2": -0.011,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.665,
+          "y": -1.13
+        },
+        {
+          "x": 4.953,
+          "y": -3.048
+        },
+        {
+          "x": 4.953,
+          "y": -4.391
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.665,
+      "y1": -1.875,
+      "x2": 1.665,
+      "y2": 1.852,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.317,
+      "y": -4.111,
+      "width": 8.2,
+      "height": 8.2,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.062,
+      "y": -4.856,
+      "width": 9.69,
+      "height": 9.69,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "dotted",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.156,
+          "y": -2.993
+        },
+        {
+          "x": 3.901,
+          "y": -1.875
+        },
+        {
+          "x": 2.41,
+          "y": -1.502
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{e512a896-c6b4-43af-be70-efdd2530ad20}",
+      "name": "",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f62724ad-35b4-4e9c-9c3d-743cd31caf08}",
+      "name": "",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4c3f5f62-681e-4ad9-8e47-a314bf62c12d}",
+      "name": "",
+      "x": -2.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.96,
+      "y": -7.731,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{490db9a6-86ec-48db-96f0-5a747a7529f3}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

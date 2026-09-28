@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Etapa.opcad",
+  "id": "{27b733f0-b52d-8a3e-d209-8dd2a654c7bd}",
+  "names": {
+    "ar": "خطوة",
+    "ca": "Pas",
+    "cs": "Krok",
+    "da": "Trin",
+    "de": "Schritt",
+    "el": "Βήμα",
+    "en": "Step",
+    "es": "Paso",
+    "fr": "Étape",
+    "hr": "Korak",
+    "hu": "Lépés",
+    "it": "Fare un passo",
+    "ja": "ステップ",
+    "mn": "Алхам",
+    "nb": "Steg",
+    "nl": "Stap",
+    "pl": "Krok",
+    "pt": "Etapa",
+    "pt_BR": "Etapa",
+    "ro": "Etapa",
+    "ru": "Шаг",
+    "sl": "korak",
+    "sr": "Корак",
+    "tr": "Adım"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 17.5,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -7.423369809085841,
+      "y": -7.5,
+      "width": 14.998,
+      "height": 14.998,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{3bf2a658-fdf1-4a41-a1e4-ee8488bd2832}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{af048eba-fa01-4a94-82ca-45d8d9f8f1b3}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7948ab13-acb4-42b8-9900-d9448cadae4b}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

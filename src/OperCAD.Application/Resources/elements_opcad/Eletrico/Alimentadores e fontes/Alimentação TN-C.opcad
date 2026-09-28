@@ -1,0 +1,231 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte.opcad",
+  "id": "{249b62f5-d813-7fbb-1cc1-c7020cbf43d0}",
+  "names": {
+    "ar": "مصدر ثلاثي القطبيّة + PEN",
+    "ca": "Font tripolar + PEN",
+    "cs": "Přípojnice 3f+PEN pravá",
+    "de": "Drehstrom + PEN",
+    "el": "Τριφασικό + PEN",
+    "en": "Three-pole source + PEN",
+    "es": "Fuente tripolar + PEN",
+    "fr": "Source tripolaire + PEN",
+    "hu": "3F + PEN",
+    "it": "Sorgente tripolare + PEN",
+    "nl": "driefasen + aardenul",
+    "pl": "Linia trójfazowa (PEN)",
+    "ru": "Трёхполюсный + PEN"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 8.5,
+  "height": 46.721,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "PEN",
+      "x": -6.225920084477421,
+      "y": -0.7751987328386908,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L3",
+      "x": -6.262519450896765,
+      "y": -5.690958986270953,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L2",
+      "x": -6.176239746567738,
+      "y": -10.73931860612256,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L1",
+      "x": -6.236359619851608,
+      "y": -15.717599366419346,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -14.998,
+      "x2": 0.0,
+      "y2": -14.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -10.0,
+      "x2": 0.0,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": -5.0,
+      "x2": 0.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.028,
+      "y1": -0.002,
+      "x2": 0.471,
+      "y2": -0.002,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{16ce45be-7e97-4409-b179-fdd188972351}",
+      "name": "L1",
+      "x": 0.0,
+      "y": -15.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c8ea3eaf-15d6-47e7-8987-7afdf9ae4c1a}",
+      "name": "L2",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{aa438bb4-35e4-475d-87bb-f4e1f6896ed8}",
+      "name": "PEN",
+      "x": 0.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c1bcd2f0-42d9-4ddb-9d71-da86a3b76b7f}",
+      "name": "L3",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.217685074386106,
+      "y": -19.392891573347974,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{7c68cf51-b979-4e89-97b2-a93b5ad61f95}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

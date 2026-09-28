@@ -1,0 +1,190 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Outlet_3_poles_2.opcad",
+  "id": "{a36a30e0-319b-e459-2d45-6d0c5c17b142}",
+  "names": {
+    "ar": "مقبس أحادي الوجه",
+    "ca": "Sortida 3 pols",
+    "cs": "Zásuvka jednofázová",
+    "de": "Steckdose 3-polig",
+    "en": "Outlet 3 poles",
+    "es": "Toma corriente 3P",
+    "fr": "PC mono",
+    "hu": "F + N + PE csatlakozó aljzat",
+    "it": "Presa monofase",
+    "nl": "Contact AC + aarde",
+    "pl": "Gniazdo wtyczkowe"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.762,
+  "height": 10.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 1.75,
+      "x2": 0.0,
+      "y2": 3.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.512,
+      "y": -2.512,
+      "width": 5.024,
+      "height": 5.024,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.499,
+      "y1": -2.0,
+      "x2": -1.499,
+      "y2": -3.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.499,
+      "y": -1.499,
+      "width": 1.0,
+      "height": 1.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -0.5,
+      "y": 0.75,
+      "width": 1.0,
+      "height": 1.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.499,
+      "y1": -2.0,
+      "x2": 1.499,
+      "y2": -3.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 0.5,
+      "y": -1.499,
+      "width": 1.0,
+      "height": 1.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a678e055-e8e7-4241-8267-8426f1d8497f}",
+      "name": "",
+      "x": -2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f9814f9c-9e57-4a8e-bce5-7d721bdb44c3}",
+      "name": "",
+      "x": 2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e82e2c68-8aee-4b06-8ac4-68f5abc1a99b}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 3.249,
+      "y": -4.487,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{2b88f4ae-f822-4c12-bb99-6b61a8822fbd}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

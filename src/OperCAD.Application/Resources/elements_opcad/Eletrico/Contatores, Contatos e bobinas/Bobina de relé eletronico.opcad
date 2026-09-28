@@ -1,0 +1,223 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Rele_5.opcad",
+  "id": "{a0157e1e-8c70-46f7-b4f3-fbbb588aad30}",
+  "names": {
+    "ca": "Relé electrònic",
+    "cs": "Elektronické relé",
+    "de": "Relais elektronisch",
+    "el": "Ηλεκτρονικό ρελέ",
+    "en": "Electronic relay",
+    "es": "Relé electrónico",
+    "fr": "Relais électronique",
+    "hu": "Tranzisztoros működtetés",
+    "it": "Relè a comando elettronico",
+    "nl": "relais electronisch",
+    "nl_BE": "Electronisch relais",
+    "pl": "Przekaźnik elektroniczny"
+  },
+  "kindInformations": {
+    "type": "coil"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.499,
+  "height": 22.498,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -3.751,
+      "y": -2.5,
+      "width": 7.499,
+      "height": 5.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.75,
+      "y1": 0.0,
+      "x2": -0.001,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.08,
+      "y1": -2.071,
+      "x2": -0.08,
+      "y2": 2.137,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.001,
+      "y1": 5.0,
+      "x2": -0.001,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.001,
+      "y1": -5.0,
+      "x2": -0.001,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.749,
+          "y": -2.0
+        },
+        {
+          "x": -0.001,
+          "y": -0.5
+        },
+        {
+          "x": -0.001,
+          "y": 0.5
+        },
+        {
+          "x": 1.749,
+          "y": 2.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{00010eac-39b1-4e53-9763-92e2e05e01e1}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1040d11a-d254-4623-b48d-acede7ce1975}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.89,
+      "y": 2.93,
+      "z": 8,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{89969859-879e-43c2-9a52-a48bf7e3bc3b}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "A2",
+      "infoName": "tag"
+    },
+    {
+      "x": 0.89,
+      "y": -5.57,
+      "z": 9,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{96ec5abe-9642-4b22-b49b-7e97522dfbb9}",
+      "font": "Liberation Sans,7,-1,5,25,0,0,0,0,0,Regular",
+      "text": "A1",
+      "infoName": "tag"
+    },
+    {
+      "x": 4.401671268596528,
+      "y": -1.7903287314034735,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{88dc4499-ea44-436b-b57e-5419557a816b}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

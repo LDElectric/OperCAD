@@ -1,0 +1,199 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Medidor_de_vazao_integral.opcad",
+  "id": "{7733072b-5766-3d6d-e3df-dd04c5432da3}",
+  "names": {
+    "ar": "مقياس الجريان لا يتجزأ",
+    "ca": "Caudalímetre integral",
+    "cs": "Integrální průtokoměr",
+    "da": "Integreret flowmåler",
+    "de": "Durchflussmesser",
+    "el": "Ενσωματωμένο ροόμετρο",
+    "en": "Integral Flowmeter",
+    "es": "Medidor de flujo integral",
+    "fr": "Débitmètre intégré",
+    "hr": "Integralni mjerač protoka",
+    "hu": "Integrált áramlásmérő",
+    "it": "Flussometro integrale",
+    "ja": "一体型流量計",
+    "mn": "Интеграл урсгал хэмжигч",
+    "nb": "Integrert strømningsmåler",
+    "nl": "Integrale debietmeter",
+    "pl": "Przepływomierz integralny",
+    "pt": "Medidor de vazão integral",
+    "pt_BR": "Medidor de vazão integral",
+    "ro": "Debitmetru integral",
+    "ru": "Встроенный расходомер",
+    "sl": "Integralni merilnik pretoka",
+    "sr": "Интегрални мерач протока",
+    "tr": "Entegre Debimetre"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.875,
+  "height": 10.5,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.875,
+          "y": -0.563
+        },
+        {
+          "x": -1.625,
+          "y": -0.563
+        },
+        {
+          "x": -1.062,
+          "y": 0.0
+        },
+        {
+          "x": -1.625,
+          "y": 0.563
+        },
+        {
+          "x": -0.875,
+          "y": 0.563
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.625,
+      "y1": 0.0,
+      "x2": 1.75,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.062,
+      "y1": 0.0,
+      "x2": -3.125,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.125,
+      "y": 0.938,
+      "width": 3.75,
+      "height": 3.75,
+      "start": 50,
+      "angle": 80,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.125,
+      "y": -1.875,
+      "width": 3.75,
+      "height": 3.75,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.125,
+      "y": -4.687,
+      "width": 3.75,
+      "height": 3.75,
+      "start": 230,
+      "angle": 80,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c161c6ec-64e3-456a-a502-bf479aa983c3}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b5a29e53-6119-42d1-8488-058bc16b6290}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.231046476600085,
+      "y": -8.545872629043405,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8c32a245-f165-4a5e-907a-851368cea050}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

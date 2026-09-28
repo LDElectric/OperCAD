@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Unipolar_transistor_MOSFET_2.opcad",
+  "id": "{262a2d89-b46d-b6a4-d21b-b3e3f026dab3}",
+  "names": {
+    "ar": "ترنزيستور أحادي القطبية موسفت قناة MOSFET P",
+    "cs": "Unipolární tranzistor MOSFET",
+    "de": "Unipolar Transistor MOSFET",
+    "en": "Unipolar transistor MOSFET",
+    "fr": "Transistor unipolaire MOSFET",
+    "it": "transistor unipolare MOSFET",
+    "nl": "transistor unipolare MOSFET",
+    "pl": "Tranzystor unipolarny MOSFET",
+    "pt": "MOSFET Unipolar II"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.0,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.4992050520059435,
+          "y": 0.06257949479940539
+        },
+        {
+          "x": 1.2482050520059436,
+          "y": -0.5624205052005946
+        },
+        {
+          "x": 1.2482050520059436,
+          "y": 0.6875794947994054
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.0007949479940565496,
+      "y1": 0.06257949479940539,
+      "x2": -2.7507949479940565,
+      "y2": 0.06257949479940539,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.6232050520059436,
+      "y1": 1.3115794947994055,
+      "x2": 2.4992050520059435,
+      "y2": 1.3115794947994055,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.6232050520059436,
+      "y1": 1.0005794947994053,
+      "x2": 0.6232050520059436,
+      "y2": 1.6245794947994054,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.6232050520059436,
+      "y1": -0.2504205052005946,
+      "x2": 0.6232050520059436,
+      "y2": 0.3755794947994054,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.6232050520059436,
+      "y1": -1.4994205052005947,
+      "x2": 0.6232050520059436,
+      "y2": -0.8754205052005946,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.0007949479940565496,
+      "y1": -1.4994205052005947,
+      "x2": -0.0007949479940565496,
+      "y2": 1.6245794947994054,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          0.6257949479940563,
+          0.06257949479940564
+        ],
+        [
+          2.5031797919762253,
+          0.06257949479940564
+        ],
+        [
+          2.5031797919762253,
+          4.693462109955423
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          0.688374442793462,
+          -1.2515898959881127
+        ],
+        [
+          2.44060029717682,
+          -1.2515898959881127
+        ],
+        [
+          2.44060029717682,
+          -4.88120059435364
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1b2a4802-5361-48ec-8bfd-c3dd9a85fc41}",
+      "name": "",
+      "x": 2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{156c55dd-2c7b-47de-a5f6-f48cc8b0ff56}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{80787241-2d66-4f3c-8a0a-a3050f9c936b}",
+      "name": "",
+      "x": -2.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.185194650817234,
+      "y": -2.4750356612184254,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{e55f3191-3cff-43c5-b704-61ab584cc958}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

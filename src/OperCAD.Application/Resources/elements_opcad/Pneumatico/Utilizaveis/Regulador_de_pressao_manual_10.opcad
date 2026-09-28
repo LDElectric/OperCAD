@@ -1,0 +1,399 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Regulador_de_pressao_manual_10.opcad",
+  "id": "{0be93925-54f1-f4bf-2d53-645a965ec309}",
+  "names": {
+    "ar": "منظم ضغط يدوي",
+    "ca": "Regulador manual de pressió",
+    "cs": "Manuální regulátor tlaku",
+    "da": "Manuel trykregulator",
+    "de": "Druckregler manuell",
+    "el": "Χειροκίνητος ρυθμιστής πίεσης",
+    "en": "Manual pressure regulator",
+    "es": "Regulador de presión manual",
+    "fr": "Régulateur de pression manuel",
+    "hr": "Ručni regulator tlaka",
+    "hu": "Manuális nyomásszabályozó",
+    "it": "Regolatore di pressione manuale",
+    "ja": "手動圧力調整器",
+    "mn": "Гарын авлагын даралт зохицуулагч",
+    "nb": "Manuell trykkregulator",
+    "nl": "Handmatige drukregelaar",
+    "pl": "Ręczny regulator ciśnienia",
+    "pt": "Regulador de pressão manual",
+    "pt_BR": "Regulador de pressão manual",
+    "ro": "Regulator manual de presiune",
+    "ru": "Ручной регулятор давления",
+    "sl": "Ročni regulator tlaka",
+    "sr": "Ручни регулатор притиска",
+    "tr": "Manuel basınç regülatörü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 30.0,
+  "height": 30.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -12.498,
+      "y1": -5.0,
+      "x2": -7.5,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dotted",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": 5.0,
+      "x2": 12.498,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dotted",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 6.999,
+      "y1": -1.999,
+      "x2": 12.999,
+      "y2": -7.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 13.344,
+          "y": -7.085
+        },
+        {
+          "x": 12.258,
+          "y": -8.239
+        },
+        {
+          "x": 14.473,
+          "y": -9.379
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 7.554,
+          "y": -6.35
+        },
+        {
+          "x": 8.5,
+          "y": -3.5
+        },
+        {
+          "x": 8.999,
+          "y": -6.499
+        },
+        {
+          "x": 10.0,
+          "y": -3.5
+        },
+        {
+          "x": 10.499,
+          "y": -6.499
+        },
+        {
+          "x": 11.499,
+          "y": -3.5
+        },
+        {
+          "x": 12.083,
+          "y": -6.29
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 6.999,
+      "x2": -5.0,
+      "y2": -5.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -7.5,
+      "y": -7.5,
+      "width": 14.998,
+      "height": 14.998,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -14.998,
+      "x2": 0.0,
+      "y2": -7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.0,
+          "y": -4.75
+        },
+        {
+          "x": -6.0,
+          "y": -4.75
+        },
+        {
+          "x": -5.0,
+          "y": -7.25
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.5,
+      "x2": 0.0,
+      "y2": 14.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{9cdf5999-9fa2-4013-bfe6-f30c2648910f}",
+      "name": "",
+      "x": 15.0,
+      "y": 5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{d5ff4a09-864f-40d5-961a-c637a98e74d8}",
+      "name": "",
+      "x": 0.0,
+      "y": 15.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{49467864-0711-4c34-91d8-b9e9a9503f02}",
+      "name": "",
+      "x": -15.0,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{82f67b50-2f71-42c4-8ba6-a890cf9b525d}",
+      "name": "",
+      "x": 0.0,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.0,
+      "y": -12.999,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{ffd7b79d-b788-2436-f5f6-c5f9aefbfd4b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": "label"
+    },
+    {
+      "x": 6.999,
+      "y": -0.501,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{22ddbabc-5d29-2d52-8d05-526990ee6ff7}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": "label"
+    },
+    {
+      "x": -1.5,
+      "y": 5.499,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{5f77413e-1b0c-ef99-72c6-ac9f8e7f093b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "label"
+    },
+    {
+      "x": -11.499,
+      "y": -6.999,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{78e6497d-798e-8a26-5158-ba8e0387d0f9}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": "label"
+    },
+    {
+      "x": 10.0,
+      "y": -2.5,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{bfe59f45-5c4e-503e-5eec-53d3b6e2e9c5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 13.999,
+      "y": -6.499,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{f869fa09-43cd-f1a1-23df-f6e669da29af}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

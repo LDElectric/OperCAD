@@ -1,0 +1,178 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Na_13.opcad",
+  "id": "{ed98bded-3605-9afd-0e5a-015b6fc0aee0}",
+  "names": {
+    "ar": "راصد ضغط (مفتوح)",
+    "cs": "Tlakový spínač NO",
+    "de": "Druckschalter Schliesser",
+    "en": "Presostat (NO)",
+    "es": "Presóstato NA",
+    "fr": "Pressostat (NO)",
+    "it": "Presostato (NO)",
+    "nl": "Pressostaat 2 (NO)",
+    "pl": "Presostat (zestyk zwierny)",
+    "pt": "Pressostato NA I"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 18.999,
+  "height": 21.749,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "P",
+      "x": -10.074995540691193,
+      "y": 0.2019476031215165,
+      "rotation": 0,
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.6239955406911926,
+      "y1": -0.06505239687848352,
+      "x2": -8.873995540691192,
+      "y2": -0.06505239687848352,
+      "end1": "none",
+      "end2": "circle",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.373995540691192,
+          "y": -3.8150523968784835
+        },
+        {
+          "x": -2.4989955406911926,
+          "y": 3.6849476031215165
+        },
+        {
+          "x": -2.4989955406911926,
+          "y": 7.4349476031215165
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.4989955406911926,
+      "y1": -7.5650523968784835,
+      "x2": -2.4989955406911926,
+      "y2": -3.8150523968784835,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{6b0b8c68-3607-4c0e-8858-ed9651d9f49c}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7641a099-655e-4098-a560-8c286240154e}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.8805105908584161,
+      "y": -1.255314381270903,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{8ea0224a-30a1-45ba-ab53-845bd4e6c80f}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -1.1478517279821623,
+      "y": -7.041947603121517,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{4830e850-cfff-43f5-a1e2-b6ba85869137}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "label"
+    },
+    {
+      "x": -1.4670089186176156,
+      "y": 4.699314381270902,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{25ffbc53-dd25-4784-8286-571f2e955916}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "label"
+    }
+  ]
+}

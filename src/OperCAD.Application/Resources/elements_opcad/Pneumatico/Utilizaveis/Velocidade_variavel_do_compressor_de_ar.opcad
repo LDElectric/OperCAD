@@ -1,0 +1,255 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Velocidade_variavel_do_compressor_de_ar.opcad",
+  "id": "{9dacd4e0-41cb-ce2f-2783-a4ced3ef6864}",
+  "names": {
+    "ar": "ضاغط هواء متغير السرعة",
+    "ca": "Compressor d'aire de velocitat variable",
+    "cs": "Proměnná rychlost vzduchového kompresoru",
+    "da": "Luftkompressor variabel hastighed",
+    "de": "Druckluftkompressor variable Drehzahl",
+    "el": "Μεταβλητή ταχύτητα αεροσυμπιεστή",
+    "en": "Air compressor variable speed",
+    "es": "Compresor de aire de velocidad variable",
+    "fr": "Vitesse variable du compresseur d'air",
+    "hr": "Promjenjiva brzina zračnog kompresora",
+    "hu": "Változtatható fordulatszámú légkompresszor",
+    "it": "Compressore d'aria a velocità variabile",
+    "ja": "エアコンプレッサー可変速",
+    "mn": "Агаарын компрессорын хувьсах хурд",
+    "nb": "Luftkompressor variabel hastighet",
+    "nl": "Luchtcompressor variabele snelheid",
+    "pl": "Zmienna prędkość sprężarki powietrza",
+    "pt": "Velocidade variável do compressor de ar",
+    "ro": "Viteza variabila a compresorului de aer",
+    "ru": "Регулируемая скорость воздушного компрессора",
+    "sl": "Spremenljiva hitrost zračnega kompresorja",
+    "sr": "Променљива брзина ваздушног компресора",
+    "tr": "Hava kompresörü değişken hız"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.499,
+  "height": 24.499,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 5.0,
+      "x2": 5.0,
+      "y2": -4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.5,
+      "y1": 0.501,
+      "x2": -5.0,
+      "y2": 0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.0,
+          "y": -4.499
+        },
+        {
+          "x": 5.0,
+          "y": -3.5
+        },
+        {
+          "x": 6.0,
+          "y": -5.499
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 0.0,
+      "y2": -7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -5.0,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -8.5,
+      "y1": -0.501,
+      "x2": -5.0,
+      "y2": -0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.5,
+          "y": -1.999
+        },
+        {
+          "x": 1.5,
+          "y": -1.999
+        },
+        {
+          "x": 0.0,
+          "y": -5.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.5,
+      "x2": 0.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8c314fc9-c749-4ab9-93f4-1c85f676afdd}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{881784bb-eb27-450e-bce6-8225d99fde59}",
+      "name": "",
+      "x": 0.0797756269156528,
+      "y": 7.339357676240058,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -9.302365596265208,
+      "y": -9.34053981609733,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{7860bbe5-e983-c70f-e506-1cb2e6612b02}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -8.962916850096514,
+      "y": -4.796119664263573,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{16224831-b8d9-356d-cb67-219862401e57}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

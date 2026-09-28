@@ -1,0 +1,200 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "",
+  "id": "{3505d8c2-40bf-4f34-9a11-3eb3d49efa6d}",
+  "names": {
+    "pt": "Novo simbolo",
+    "en": "New symbol",
+    "hu": "Uj szimbolum"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Created with OperCAD Symbol Editor",
+  "width": 60.0,
+  "height": 40.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -2.4289127110086346,
+      "y1": 0.9285048197795067,
+      "x2": -2.4289127110086346,
+      "y2": 7.404504819779506,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.4289127110086346,
+      "y1": -9.96057292089018,
+      "x2": -2.521990451678322,
+      "y2": -3.484572920890181,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.17734428687702497,
+      "y1": -3.427291774798057,
+      "x2": -0.17734428687702497,
+      "y2": 0.8927082252019432,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.4289127110086346,
+      "y1": 0.9285048197795067,
+      "x2": -0.2709127110086347,
+      "y2": 0.9285048197795067,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.4289127110086346,
+      "y1": -3.3914951802204936,
+      "x2": -0.2709127110086347,
+      "y2": -3.3914951802204936,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{0c9226ce-9c75-4fe6-a3b6-6d4b57191051}",
+      "name": "",
+      "x": -2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0d83ff3d-e293-49ea-aeee-9bf32e7f2e10}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.522435591549554,
+      "y": -4.1580840389799505,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{98630c75-9488-4fad-a1e7-ed5c2bbb9f6f}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -4.9035616115390495,
+      "y": -9.248071996633477,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{ffd1c631-4ebf-40b0-be74-74996a930601}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": ""
+    },
+    {
+      "x": -4.9688292741809175,
+      "y": 3.9611707258190827,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a12ab31a-f3d5-4bda-86c4-7bb30674fa9b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": ""
+    },
+    {
+      "x": -12.62780443643121,
+      "y": 0.8620484684113912,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ComponentInfo",
+      "uuid": "{402b7148-065e-480d-8f00-c08166c0a0c2}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "value"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+<Window x:Class="OperCAD.UI.Views.ElementPropertiesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Propriedades do elemento"
+        Width="500" Height="600"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Cabeçalho -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,8">
+            <TextBlock x:Name="ElementName" Style="{StaticResource App.SectionHeader}"
+                       FontSize="14" Foreground="{DynamicResource App.Text.Primary}" TextWrapping="Wrap" />
+            <TextBlock x:Name="ElementSubInfo" FontSize="10"
+                       Foreground="{DynamicResource App.Text.Muted}" Margin="0,2,0,0" TextWrapping="Wrap" />
+        </StackPanel>
+
+        <!-- Identificação: etiqueta + textos dinâmicos do elemento -->
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Text="IDENTIFICAÇÃO" Style="{StaticResource App.SectionHeader}" />
+                <TextBlock Text="Textos dinâmicos do elemento (etiqueta, tags e informações). As tags são sobrescritas apenas nesta instância."
+                           FontSize="9" Foreground="{DynamicResource App.Text.Muted}" TextWrapping="Wrap" Margin="0,2,0,4" />
+
+                <Grid Margin="0,4,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Etiqueta" Style="{StaticResource App.FieldLabel}" Margin="0,2,4,2" />
+                    <TextBox x:Name="TxtLabel" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2" />
+                </Grid>
+
+                <StackPanel x:Name="FieldsPanel" />
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Botões -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="88" Height="28"
+                    Background="{DynamicResource App.Accent}" Foreground="White"
+                    FontFamily="{StaticResource App.Font}" BorderThickness="0" />
+            <Button Content="Cancelar" IsCancel="True" Width="88" Height="28" Margin="8,0,0,0"
+                    Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                    FontFamily="{StaticResource App.Font}" BorderBrush="{DynamicResource App.Border}" />
+        </StackPanel>
+    </Grid>
+</Window>

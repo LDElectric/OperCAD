@@ -1,0 +1,182 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "atraso_de_desligamento_do_temporizador.opcad",
+  "id": "{3b3ea068-e920-48f3-435b-276f59c5db12}",
+  "names": {
+    "ar": "تأخير إيقاف تشغيل الموقت",
+    "cs": "zpoždění vypnutí časovače",
+    "da": "timers slukningsforsinkelse",
+    "de": "Timer-Ausschaltverzögerung",
+    "el": "καθυστέρηση απενεργοποίησης χρονοδιακόπτη",
+    "en": "timer switch-off delay",
+    "es": "retardo de apagado del temporizador",
+    "fr": "temporisation d'extinction",
+    "hr": "odgoda isključivanja timera",
+    "hu": "időzítő kikapcsolási késleltetés",
+    "it": "ritardo spegnimento timer",
+    "ja": "タイマースイッチオフ遅延",
+    "mn": "таймер унтрах саатал",
+    "nb": "timer utkoblingsforsinkelse",
+    "nl": "timer uitschakelvertraging",
+    "pl": "opóźnienie wyłączenia timera",
+    "pt": "Delay do temporizador OFF",
+    "ro": "întârziere la oprirea temporizatorului",
+    "ru": "задержка выключения по таймеру",
+    "sl": "zakasnitev izklopa časovnika",
+    "sr": "кашњење искључивања тајмера",
+    "tr": "zamanlayıcı kapatma gecikmesi"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.0,
+  "height": 3.5,
+  "hotspotX": 0.0,
+  "hotspotY": -1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "TOF",
+      "x": -0.8952592321109991,
+      "y": 5.164102774478573,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.104303177357094,
+      "y": -0.925655745811433,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 100,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 5.3946968226429055,
+      "y": -0.925655745811433,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 280,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 8.145696822642906,
+      "y1": 2.5123442541885677,
+      "x2": 15.020696822642904,
+      "y2": 2.5123442541885677,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.979303177357094,
+      "y1": 2.5123442541885677,
+      "x2": -3.104303177357094,
+      "y2": 2.5123442541885677,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{4b7621b7-3238-4764-b397-03887df79bec}",
+      "name": "",
+      "x": -10.0,
+      "y": 2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1048bb3d-3efa-4490-8531-2a79c1dc8a66}",
+      "name": "",
+      "x": 14.842203900665236,
+      "y": 2.450827872905716,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.678802461896268,
+      "y": -5.498284144274875,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c94923d3-c7ef-4f0f-ae44-e5c784a95cd2}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 2.4271852286224016,
+      "y": -5.320020760136561,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{48db1728-eae9-46fa-8569-d9c0026da7b1}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

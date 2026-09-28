@@ -1,0 +1,179 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_de_corrente_antigo.opcad",
+  "id": "{004a9bff-369c-9e44-a697-b2d9320322d0}",
+  "names": {
+    "ar": "مصدر تيّار (قديم)",
+    "cs": "Zdroj proudu (starý)",
+    "de": "Stromquelle (alt)",
+    "el": "Παροχή έντασης (παλιό)",
+    "en": "Current source (old)",
+    "es": "Fuente de corriente (antiguo)",
+    "fr": "Source de courant (vieux)",
+    "it": "Generatore di corrente (vecchio)",
+    "nl": "Stroombron oud",
+    "pl": "Źródło prądu (stary)",
+    "pt": "Fonte de corrente",
+    "ru": "Источник тока (старый)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.374,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -6.25,
+      "y": -10.625,
+      "width": 7.5,
+      "height": 7.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.625,
+          "y": -8.0
+        },
+        {
+          "x": -2.5,
+          "y": -12.5
+        },
+        {
+          "x": -1.375,
+          "y": -8.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -8.374,
+      "x2": -2.5,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.25,
+      "y": -6.875,
+      "width": 7.5,
+      "height": 7.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 2.5,
+      "x2": -2.5,
+      "y2": 0.625,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -12.5,
+      "x2": -2.5,
+      "y2": -10.625,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d5adaba2-c24e-47c1-9d48-f626f3fc18c5}",
+      "name": "",
+      "x": -2.5,
+      "y": -12.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2ae0a234-d592-4b2d-9003-b8221320f48c}",
+      "name": "",
+      "x": -2.5,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.55569415901425,
+      "y": -7.351406704342111,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{5100c76d-087d-4363-980c-426367949312}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

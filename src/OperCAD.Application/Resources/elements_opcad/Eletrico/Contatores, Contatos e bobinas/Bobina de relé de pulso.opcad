@@ -1,0 +1,183 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Bobina_7.opcad",
+  "id": "{8db9e0ef-6d18-afcd-9ccb-2242b42753bb}",
+  "names": {
+    "ar": "مُرحّل ثنائي الإستقرار",
+    "ca": "Bobina",
+    "cs": "Bistabilní relé",
+    "de": "Relais bistabil",
+    "en": "Coil",
+    "es": "Relé biestable",
+    "fr": "Relais bistable",
+    "it": "Relè bistabile",
+    "pl": "Cewka",
+    "ru": "Обмотка"
+  },
+  "kindInformations": {
+    "type": "coil"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.999,
+  "height": 25.499,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -4.374,
+      "y": -2.5,
+      "width": 8.749,
+      "height": 4.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.5,
+          "y": -1.25
+        },
+        {
+          "x": -2.5,
+          "y": 0.0
+        },
+        {
+          "x": 2.5,
+          "y": 0.0
+        },
+        {
+          "x": 2.5,
+          "y": 1.25
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -4.774,
+      "x2": 0.0,
+      "y2": -2.504,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.008,
+      "x2": 0.0,
+      "y2": 2.504,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{da127123-030e-40ef-bc9d-6450a7d3c501}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{77404da6-f0ba-4f78-b108-bdb3a304ed6e}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.86,
+      "y": 2.73,
+      "z": 7,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{35e96436-b756-490c-95e4-87ddfc82d137}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "A2",
+      "infoName": ""
+    },
+    {
+      "x": 0.9,
+      "y": -5.64,
+      "z": 7,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{6f5de7cf-5691-4dd4-b659-0dde11e9f9ca}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "A1",
+      "infoName": ""
+    },
+    {
+      "x": 4.913,
+      "y": -1.661,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{801ccb33-f4f0-4d97-929d-c9b2a1725bb2}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

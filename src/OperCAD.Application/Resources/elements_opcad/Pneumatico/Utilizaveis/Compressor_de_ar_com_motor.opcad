@@ -1,0 +1,243 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Compressor_de_ar_com_motor.opcad",
+  "id": "{fceb7872-bb59-c663-eafc-bce0c779cf7d}",
+  "names": {
+    "ar": "ضاغط هواء بمحرك",
+    "ca": "Compressor d'aire amb motor",
+    "cs": "Vzduchový kompresor s motorem",
+    "da": "Luftkompressor med motor",
+    "de": "Druckluftkompressor mit Motor",
+    "el": "Συμπιεστής αέρα με κινητήρα",
+    "en": "Air compressor with motor",
+    "es": "compresor de aire con motor",
+    "fr": "Compresseur d'air avec moteur",
+    "hr": "Zračni kompresor s motorom",
+    "hu": "Légkompresszor motorral",
+    "it": "Compressore d'aria con motore",
+    "ja": "モーター付きエアコンプレッサー",
+    "mn": "Мотортой агаарын компрессор",
+    "nb": "Luftkompressor med motor",
+    "nl": "Luchtcompressor met motor",
+    "pl": "Sprężarka powietrza z silnikiem",
+    "pt": "Compressor de ar com motor",
+    "ro": "Compresor de aer cu motor",
+    "ru": "Воздушный компрессор с двигателем",
+    "sl": "Zračni kompresor z motorjem",
+    "sr": "Ваздушни компресор са мотором",
+    "tr": "Motorlu hava kompresörü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 21.248,
+  "height": 22.498,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -16.248,
+      "y": -3.75,
+      "width": 7.5,
+      "height": 7.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 0.0,
+      "y2": -7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -5.0,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.5,
+          "y": -1.999
+        },
+        {
+          "x": 1.5,
+          "y": -1.999
+        },
+        {
+          "x": 0.0,
+          "y": -5.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -8.5,
+      "y1": 0.501,
+      "x2": -5.0,
+      "y2": 0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.5,
+      "y1": -0.501,
+      "x2": -5.0,
+      "y2": -0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.5,
+      "x2": 0.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "M",
+      "x": -14.351202898550724,
+      "y": -2.268826086956522,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8c314fc9-c749-4ab9-93f4-1c85f676afdd}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ad0ef097-ddb7-4c7a-b189-f708700ec858}",
+      "name": "",
+      "x": -0.12990518381468175,
+      "y": 7.404595477436859,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -20.572742131768994,
+      "y": -4.215869743381415,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b2ae3e13-a4b2-b692-44de-24c6089af245}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -20.83255249939836,
+      "y": -0.006069558363450689,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{8a04233d-f9b2-9627-7730-e795c9537271}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

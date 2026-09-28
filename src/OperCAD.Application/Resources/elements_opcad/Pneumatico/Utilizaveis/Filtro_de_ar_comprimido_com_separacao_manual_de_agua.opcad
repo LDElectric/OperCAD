@@ -1,0 +1,283 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Filtro_de_ar_comprimido_com_separacao_manual_de_agua.opcad",
+  "id": "{03a0434a-3b5c-d8d6-24a4-85a86414a0f1}",
+  "names": {
+    "ar": "فلتر هواء مضغوط مع فصل ماء يدوي",
+    "ca": "Filtre d'aire comprimit amb separació manual d'aigua",
+    "cs": "Filtr stlačeného vzduchu s ručním odlučováním vody",
+    "da": "Trykluftfilter med manuel vandseparation",
+    "de": "Druckluftfilter mit manueller Wasserabscheidung",
+    "el": "Φίλτρο πεπιεσμένου αέρα με χειροκίνητο διαχωρισμό νερού",
+    "en": "Compressed air filter with manual water separation",
+    "es": "Filtro de aire comprimido con separación manual de agua",
+    "fr": "Filtre à air comprimé avec séparation manuelle de l'eau",
+    "hr": "Filter komprimiranog zraka s ručnim odvajanjem vode",
+    "hu": "Sűrített levegő szűrő kézi vízleválasztással",
+    "it": "Filtro aria compressa con separazione manuale dell'acqua",
+    "ja": "手動水分離を備えた圧縮空気フィルター",
+    "mn": "Усны гараар тусгаарлах шахсан агаар шүүгч",
+    "nb": "Trykkluftfilter med manuell vannutskilling",
+    "nl": "Persluchtfilter met handmatige waterafscheiding",
+    "pl": "Filtr sprężonego powietrza z ręczną separacją wody",
+    "pt": "Filtro de ar comprimido com separação manual de água",
+    "ro": "Filtru de aer comprimat cu separare manuală a apei",
+    "ru": "Фильтр сжатого воздуха с ручным отделением воды",
+    "sl": "Filter za stisnjen zrak z ročnim ločevanjem vode",
+    "sr": "Филтер за компримовани ваздух са ручним одвајањем воде",
+    "tr": "Manuel su ayırmalı basınçlı hava filtresi"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 7.5,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.025644257747814425,
+      "y1": 0.4473903730944493,
+      "x2": -0.025644257747814425,
+      "y2": 1.6353903730944492,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.025644257747814425,
+      "y1": -1.2176096269055507,
+      "x2": -0.025644257747814425,
+      "y2": -0.027609626905550688,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.025644257747814425,
+      "y1": -2.879609626905551,
+      "x2": -0.025644257747814425,
+      "y2": -1.6926096269055506,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.025644257747814425,
+      "y1": -4.5436096269055515,
+      "x2": -0.025644257747814425,
+      "y2": -3.355609626905551,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.778644257747814,
+          "y": -0.027609626905550688
+        },
+        {
+          "x": -0.025644257747814425,
+          "y": -4.781609626905551
+        },
+        {
+          "x": 4.728355742252186,
+          "y": -0.027609626905550688
+        },
+        {
+          "x": -0.025644257747814425,
+          "y": 4.724390373094449
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.6386442577478144,
+      "y1": 2.111390373094449,
+      "x2": 2.5883557422521855,
+      "y2": 2.111390373094449,
+      "end1": "circle",
+      "end2": "circle",
+      "length1": 0.013,
+      "length2": 0.013,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.908645687416591,
+      "y1": 0.0,
+      "x2": -7.542553129445006,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.70910724483868,
+      "y1": -0.07981537703116408,
+      "x2": 7.422830063898259,
+      "y2": -0.07981537703116408,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.03990768851558204,
+      "y1": 4.749014933354263,
+      "x2": -0.03990768851558204,
+      "y2": 7.223291621320349,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{77a42095-8010-440e-bbce-b178100e8b0e}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7b979264-a278-4826-a994-ea0e49237e6a}",
+      "name": "",
+      "x": -7.539907688515582,
+      "y": -0.06979879663680633,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ac31a42f-2206-43b0-ab40-a91cac08844a}",
+      "name": "",
+      "x": 7.5,
+      "y": -0.06979879663680633,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.737459771380751,
+      "y": -10.169378859153225,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{5cba8708-b7fa-21f6-2e8d-b3aa05f55e22}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -7.11216362761489,
+      "y": -6.317543121143164,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{4a505d67-7c4e-4378-3e0c-03f13000bc24}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

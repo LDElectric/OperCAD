@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>OperCAD.UI</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OperCAD.Core\OperCAD.Core.csproj" />
+    <ProjectReference Include="..\OperCAD.Application\OperCAD.Application.csproj" />
+    <ProjectReference Include="..\OperCAD.Drawing\OperCAD.Drawing.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="SkiaSharp.Views.WPF" Version="2.88.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Ícone do aplicativo embutido no assembly para suportar SingleFilePublish -->
+    <Resource Include="Resources\app.ico" />
+  </ItemGroup>
+
+</Project>

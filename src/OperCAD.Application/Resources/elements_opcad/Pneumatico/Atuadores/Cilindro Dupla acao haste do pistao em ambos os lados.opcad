@@ -1,0 +1,336 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Dupla_acao_haste_do_pistao_em_ambos_os_lados.opcad",
+  "id": "{55c95e0f-675d-98bb-1327-a2c0e2388cd6}",
+  "names": {
+    "ar": "قضيب مكبس مزدوج الفعل على كلا الجانبين",
+    "cs": "Dvojčinné + pístnice na obou stranách",
+    "da": "Dobbeltvirkende + stempelstang på begge sider",
+    "de": "Doppeltwirkend + beidseitige Kolbenstange",
+    "el": "Διπλής δράσης + ράβδος εμβόλου και στις δύο πλευρές",
+    "en": "Double-acting + piston rod on both sides",
+    "es": "Doble efecto + vástago en ambos lados",
+    "fr": "Double effet + tige de piston des deux côtés",
+    "hr": "Dvostrano djelovanje + klipnjača s obje strane",
+    "hu": "Kettős működésű + dugattyúrúd mindkét oldalon",
+    "it": "Doppio effetto + stelo pistone su entrambi i lati",
+    "ja": "両側に複動式+ピストンロッド",
+    "mn": "Хоёр талдаа давхар үйлдэлтэй + поршений саваа",
+    "nb": "Dobbeltvirkende + stempelstang på begge sider",
+    "nl": "Dubbelwerkend + zuigerstang aan beide zijden",
+    "pl": "Dwustronnego działania + tłoczysko po obu stronach",
+    "pt": "Cilindro Dupla acao haste do pistao em ambos os lados",
+    "pt_BR": "Dupla ação + haste do pistão em ambos os lados",
+    "ro": "Dubla actiune + tija piston pe ambele parti",
+    "ru": "Двустороннего действия + поршневой шток с обеих сторон",
+    "sl": "Dvostransko delovanje + batnica na obeh straneh",
+    "sr": "Двострано дејство + клипњача са обе стране",
+    "tr": "Her iki tarafta çift etkili + piston kolu"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.498,
+  "height": 12.249,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -0.02444281552409666,
+      "y": 21.541061909386208,
+      "width": 2.414,
+      "height": 6.898,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -16.234442815524098,
+          "y": 24.30006190938621
+        },
+        {
+          "x": -0.02444281552409666,
+          "y": 24.30006190938621
+        },
+        {
+          "x": -0.02444281552409666,
+          "y": 25.67906190938621
+        },
+        {
+          "x": -16.234442815524098,
+          "y": 25.67906190938621
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 9.287557184475903,
+          "y": 28.439061909386208
+        },
+        {
+          "x": 10.668557184475903,
+          "y": 28.439061909386208
+        },
+        {
+          "x": 9.978557184475903,
+          "y": 27.058061909386208
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 18.946557184475903,
+          "y": 24.30006190938621
+        },
+        {
+          "x": 2.389557184475903,
+          "y": 24.30006190938621
+        },
+        {
+          "x": 2.389557184475903,
+          "y": 25.67906190938621
+        },
+        {
+          "x": 18.946557184475903,
+          "y": 25.67906190938621
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.012557184475902,
+          "y": 25.67906190938621
+        },
+        {
+          "x": 11.012557184475902,
+          "y": 28.439061909386208
+        },
+        {
+          "x": 2.389557184475903,
+          "y": 28.439061909386208
+        },
+        {
+          "x": 2.389557184475903,
+          "y": 21.541061909386208
+        },
+        {
+          "x": 11.012557184475902,
+          "y": 21.541061909386208
+        },
+        {
+          "x": 11.012557184475902,
+          "y": 24.30006190938621
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -8.19619517797925,
+          "y": 28.439061909386208
+        },
+        {
+          "x": -6.8161951779792505,
+          "y": 28.439061909386208
+        },
+        {
+          "x": -7.506195177979251,
+          "y": 27.058061909386208
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 10.009661132502684,
+      "y1": 29.969045306894262,
+      "x2": 10.009661132502684,
+      "y2": 28.41065495093576,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -0.059938090613788526,
+          28.350716860321974
+        ],
+        [
+          -0.059938090613788526,
+          21.457836439736294
+        ],
+        [
+          -8.990713592068278,
+          21.457836439736294
+        ],
+        [
+          -8.990713592068278,
+          24.334864789198143
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -0.11987618122757705,
+          28.41065495093576
+        ],
+        [
+          -8.930775501454491,
+          28.41065495093576
+        ],
+        [
+          -8.930775501454491,
+          25.713440873315278
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -7.492261326723566,
+      "y1": 30.028983397508053,
+      "x2": -7.492261326723566,
+      "y2": 28.53053113216334,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8f3be32e-851a-427c-a68d-b241257f983c}",
+      "name": "",
+      "x": 10.0,
+      "y": 30.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{23c888b0-cc9b-402b-827c-177017ce9ce1}",
+      "name": "",
+      "x": -7.5,
+      "y": 30.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.5948761812275769,
+      "y": 17.71345226534471,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{dbd71dbe-d663-477f-9dfd-8725fc661135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

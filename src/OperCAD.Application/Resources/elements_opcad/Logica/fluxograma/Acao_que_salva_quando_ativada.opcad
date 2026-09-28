@@ -1,0 +1,114 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Acao_que_salva_quando_ativada.opcad",
+  "id": "{c8a6a5c3-2005-c545-9fa1-540f32e74d2d}",
+  "names": {
+    "ar": "الإجراء الذي يحفظ عند تنشيطه",
+    "ca": "Acció que desa quan s'activa",
+    "cs": "Akce, která se při aktivaci uloží",
+    "da": "Handling, der gemmer, når den aktiveres",
+    "de": "Speichernd wirkende Aktion bei Aktivierung",
+    "el": "Ενέργεια που αποθηκεύει όταν ενεργοποιηθεί",
+    "en": "Action that saves when activated",
+    "es": "Acción que guarda cuando se activa",
+    "fr": "Action qui enregistre lorsqu'elle est activée",
+    "hr": "Akcija koja sprema kada se aktivira",
+    "hu": "Művelet, amely aktiváláskor ment",
+    "it": "Azione che salva quando attivata",
+    "ja": "起動時に保存するアクション",
+    "mn": "Идэвхжүүлсэн үед хадгалдаг үйлдэл",
+    "nb": "Handling som lagrer når den er aktivert",
+    "nl": "Actie die wordt opgeslagen wanneer geactiveerd",
+    "pl": "Akcja, która zapisuje się po aktywacji",
+    "pt": "Ação que salva quando ativada",
+    "ro": "Acțiune care salvează atunci când este activată",
+    "ru": "Действие, которое сохраняется при активации",
+    "sl": "Dejanje, ki shrani, ko je aktivirano",
+    "sr": "Радња која се чува када се активира",
+    "tr": "Etkinleştirildiğinde kaydeden eylem"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 53.999,
+  "height": 18.999,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -11.85564994425864,
+          "y": 0.8344813266443696
+        },
+        {
+          "x": -12.560649944258643,
+          "y": -0.7175186733556309
+        },
+        {
+          "x": -13.266649944258642,
+          "y": 0.8344813266443696
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -12.539649944258642,
+      "y": 2.1684813266443697,
+      "width": 28.228,
+      "height": 5.646,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -12.539649944258642,
+      "y1": 7.814481326644369,
+      "x2": -12.539649944258642,
+      "y2": -0.6535186733556309,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d7cd8b41-bab6-4e7f-8f49-2603eee3d629}",
+      "name": "",
+      "x": -12.5,
+      "y": 5.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

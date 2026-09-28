@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Processo.opcad",
+  "id": "{0e17de34-56fc-acd1-93c9-2ef85da9275a}",
+  "names": {
+    "ar": "معالجة",
+    "ca": "Procés",
+    "cs": "Proces",
+    "da": "Behandle",
+    "de": "Prozess",
+    "el": "Επεξεργάζομαι, διαδικασία",
+    "en": "Process",
+    "es": "Proceso",
+    "fr": "Processus",
+    "hr": "Postupak",
+    "hu": "Folyamat",
+    "it": "Processi",
+    "ja": "プロセス",
+    "mn": "Үйл явц",
+    "nb": "Prosess",
+    "nl": "Werkwijze",
+    "pl": "Proces",
+    "pt": "Processo",
+    "ro": "Proces",
+    "ru": "Процесс",
+    "sl": "Proces",
+    "sr": "Процес",
+    "tr": "İşlem"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 52.496,
+  "height": 30.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -0.1532603818283166,
+          4.9043322185061315
+        ],
+        [
+          17.548313719342254,
+          4.9043322185061315
+        ],
+        [
+          17.548313719342254,
+          -4.98096240942029
+        ],
+        [
+          -17.318423146599777,
+          -4.98096240942029
+        ],
+        [
+          -17.318423146599777,
+          4.98096240942029
+        ],
+        [
+          0.0,
+          4.98096240942029
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{57b7e209-a46c-4ed7-9efb-4fafe6573315}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{77c6dacf-52dc-4304-b6b2-39678276cf9e}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

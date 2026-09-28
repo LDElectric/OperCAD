@@ -1,0 +1,306 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "tomada_4.opcad",
+  "id": "{dcc186bb-791b-268e-2883-21737899ba26}",
+  "names": {
+    "ar": "قاعدة DIN ب5 نقاط توصيل",
+    "ca": "Presa DIN de 5 pins",
+    "cs": "Kulatá zástrčka DIN 5 kolíků",
+    "de": "Rundstecker 5-polig",
+    "en": "5-pin DIN socket",
+    "es": "Socket DIN de 5 pines",
+    "fr": "Embase DIN 5 broches",
+    "hu": "5 tűs DIN csatlakozó",
+    "it": "DIN 5 Pin",
+    "nl": "DIN 5 Pin",
+    "pl": "Złącze DIN, pięciostykowe"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 6.25,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -1.25,
+      "y1": 3.75,
+      "x2": -1.25,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.875,
+      "y1": 1.25,
+      "x2": 0.375,
+      "y2": 1.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.375,
+      "y1": 1.25,
+      "x2": -2.875,
+      "y2": 1.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.5,
+      "y1": 0.0,
+      "x2": -4.375,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.562,
+      "y": 1.562,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.5,
+          "y": -2.5
+        },
+        {
+          "x": -1.5,
+          "y": -2.0
+        },
+        {
+          "x": -1.0,
+          "y": -2.0
+        },
+        {
+          "x": -1.0,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.75,
+      "y": -2.5,
+      "width": 5.0,
+      "height": 5.0,
+      "start": 96,
+      "angle": 348,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.875,
+      "y1": 0.0,
+      "x2": 1.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.438,
+      "y": -0.312,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": 0.312,
+      "y": -0.312,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -0.312,
+      "y": 0.938,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.812,
+      "y": 0.938,
+      "width": 0.625,
+      "height": 0.625,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{df5dee63-1ec9-45fa-b3b4-2a9f70f363a8}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dda046d7-38fe-48af-a25a-46d0bcf2321e}",
+      "name": "",
+      "x": -1.25,
+      "y": 3.75,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{eb19e97a-ff09-4b79-88fc-d44801c4b878}",
+      "name": "",
+      "x": -5.0,
+      "y": 1.25,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2d7009ce-57bf-4d55-8ac3-cd20afd0ba30}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2700e505-efef-4e30-9169-0c44e6937855}",
+      "name": "",
+      "x": 2.5,
+      "y": 1.25,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.375,
+      "y": 1.006,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{7f4f0a2d-7620-408d-9953-b9037d7b29ed}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

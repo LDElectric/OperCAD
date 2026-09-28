@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Tunnel_diode.opcad",
+  "id": "{2ad4bc44-d301-aea8-2feb-8ab7c9fced7b}",
+  "names": {
+    "ar": "دايود نفقي",
+    "ca": "Díode de túnel",
+    "cs": "Tunelová/Esakiho dioda",
+    "de": "Tunneldiode",
+    "en": "Tunnel diode",
+    "fr": "Diode tunnel",
+    "it": "Diodo tunnel",
+    "nl": "Diode tunnel",
+    "pl": "Dioda tunelowa"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-03-05",
+  "width": 6.5,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -7.75,
+      "x2": 0.0,
+      "y2": 2.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -0.417
+        },
+        {
+          "x": -2.083,
+          "y": -4.583
+        },
+        {
+          "x": 2.083,
+          "y": -4.583
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -2.083,
+          "y": -1.667
+        },
+        {
+          "x": -2.083,
+          "y": -0.417
+        },
+        {
+          "x": 2.083,
+          "y": -0.417
+        },
+        {
+          "x": 2.083,
+          "y": -1.667
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a6366073-5106-4ab8-843e-294d19658730}",
+      "name": "K",
+      "x": 0.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{cc260186-c7aa-4320-9469-c9b8e9ec4b78}",
+      "name": "A",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 3.436784546805349,
+      "y": -6.975,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b5c39bd4-b103-4b1e-be0b-05e6421c6196}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

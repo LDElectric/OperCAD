@@ -1,0 +1,202 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "temporizador_como_impulsos.opcad",
+  "id": "{20a2578f-a5e3-ea95-7d08-4a5c75b1f2e7}",
+  "names": {
+    "ar": "الموقت كنبضات",
+    "ca": "temporitzador com a impuls",
+    "cs": "časovač jako impuls",
+    "da": "timer som impuls",
+    "de": "Timer als Impuls",
+    "el": "χρονόμετρο ως παρορμήσεις",
+    "en": "timer as impuls",
+    "es": "temporizador como impulso",
+    "fr": "minuterie comme impulsion",
+    "hr": "mjerač vremena kao impuls",
+    "hu": "időzítő impulzusként",
+    "it": "timer come impulsi",
+    "ja": "インパルスとしてのタイマー",
+    "mn": "таймерыг импульс болгон ашигладаг",
+    "nb": "timer som impuls",
+    "nl": "timer als impuls",
+    "pl": "timer jako impuls",
+    "pt": "temporizador como impulsos",
+    "ro": "cronometru ca impuls",
+    "ru": "таймер как импульс",
+    "sl": "časovnik kot impulz",
+    "sr": "тајмер као импулс",
+    "tr": "dürtü olarak zamanlayıcı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.0,
+  "height": 3.5,
+  "hotspotX": 0.0,
+  "hotspotY": -1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "TP",
+      "x": -0.43967756315007556,
+      "y": -2.4666106983655274,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.2075446863042778,
+      "y1": -2.3555555129611427,
+      "x2": 6.454641268770846,
+      "y2": -7.4628278451369265,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -9.979303177357094,
+      "y1": -4.987655745811432,
+      "x2": -3.104303177357094,
+      "y2": -4.987655745811432,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.104303177357094,
+      "y": -8.425655745811433,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 100,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 8.145696822642906,
+      "y1": -4.987655745811432,
+      "x2": 15.020696822642906,
+      "y2": -4.987655745811432,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 5.3946968226429055,
+      "y": -8.425655745811433,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 280,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{6aec9cd5-817b-481d-9e3e-03194c6b465d}",
+      "name": "",
+      "x": -10.0,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{98bc415f-f7f3-455d-bb84-30741ea287e4}",
+      "name": "",
+      "x": 14.842203900665236,
+      "y": -5.049172127094284,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.423570824657399,
+      "y": -11.930703843586262,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{63ba2f4f-0cc1-25d3-4a09-58326f04cc28}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 2.9381125031266526,
+      "y": -11.92135356090385,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{1edae9b9-8374-2c5b-9ed4-7857e1ff85fb}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

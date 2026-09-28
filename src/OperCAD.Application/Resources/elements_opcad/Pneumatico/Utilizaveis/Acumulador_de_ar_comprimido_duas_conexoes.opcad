@@ -1,0 +1,203 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Acumulador_de_ar_comprimido_duas_conexoes.opcad",
+  "id": "{e87ff99b-8ea0-9c67-f575-d42ba82c4148}",
+  "names": {
+    "ar": "مجمع الهواء المضغوط وصلتين",
+    "ca": "Acumulador d'aire comprimit dues connexions",
+    "cs": "Akumulátor stlačeného vzduchu dvě připojení",
+    "da": "Trykluftakkumulator to tilslutninger",
+    "de": "Druckluftspeicher zwei Anschlüsse",
+    "el": "Συσσωρευτής πεπιεσμένου αέρα δύο συνδέσεων",
+    "en": "Compressed air accumulator two connections",
+    "es": "Acumulador de aire comprimido dos conexiones",
+    "fr": "Accumulateur d'air comprimé deux connexions",
+    "hr": "Akumulator komprimiranog zraka dva priključka",
+    "hu": "Sűrített levegős akkumulátor két csatlakozással",
+    "it": "Accumulatore ad aria compressa due connessioni",
+    "ja": "圧縮空気アキュムレータの2つの接続",
+    "mn": "Шахсан агаарын аккумлятор хоёр холболттой",
+    "nb": "Trykkluftakkumulator to koblinger",
+    "nl": "Persluchtaccumulator twee aansluitingen",
+    "pl": "Zasobnik sprężonego powietrza dwa przyłącza",
+    "pt": "Acumulador de ar comprimido duas conexões",
+    "ro": "Acumulator de aer comprimat doua racorduri",
+    "ru": "Аккумулятор сжатого воздуха два соединения",
+    "sl": "Akumulator stisnjenega zraka dva priključka",
+    "sr": "Акумулатор компримованог ваздуха два прикључка",
+    "tr": "Basınçlı hava akümülatörü iki bağlantı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 20.0,
+  "height": 9.999,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -7.9777827899145874,
+      "y1": -2.4701174852168206,
+      "x2": -9.852782789914588,
+      "y2": -2.4701174852168206,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 12.645217210085413,
+      "y1": -2.4701174852168206,
+      "x2": 10.770217210085413,
+      "y2": -2.4701174852168206,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.853782789914587,
+      "y1": 0.6548825147831796,
+      "x2": 7.646217210085413,
+      "y2": 0.6548825147831796,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.853782789914587,
+      "y1": -5.595117485216821,
+      "x2": 7.646217210085413,
+      "y2": -5.595117485216821,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 4.490217210085413,
+      "y": -5.595117485216821,
+      "width": 6.25,
+      "height": 6.25,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -7.9777827899145874,
+      "y": -5.595117485216821,
+      "width": 6.25,
+      "height": 6.25,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{68f5868f-b30c-41c2-a3d5-3b88a0f6fbd3}",
+      "name": "",
+      "x": -10.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9e6da623-508d-46d3-9527-0f71e1512900}",
+      "name": "",
+      "x": 12.5,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.950569665735872,
+      "y": -9.567476778088043,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{644a4b2f-f258-2662-aa4a-6c3636063c9d}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 5.771560077201043,
+      "y": -9.11403552069645,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e25ff889-af43-48b2-57c1-dd390d511379}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

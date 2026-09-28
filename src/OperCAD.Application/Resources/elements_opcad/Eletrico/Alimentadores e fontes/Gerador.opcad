@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Gerador.opcad",
+  "id": "{57c81b10-2f04-c7e9-0e07-e616b20c3d34}",
+  "names": {
+    "ar": "مُولد",
+    "ca": "Generador",
+    "cs": "Generátor",
+    "de": "Generator",
+    "el": "Γεννήτρια",
+    "en": "Generator",
+    "es": "Generador",
+    "fr": "Génératrice",
+    "it": "Generatore",
+    "nl": "Generator AC1",
+    "nl_BE": "Generator AC1",
+    "pl": "Generator",
+    "pt": "Gerador",
+    "ru": "Генератор"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.498,
+  "height": 16.5,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -5.25,
+      "y": -5.25,
+      "width": 10.499,
+      "height": 10.499,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.499,
+      "y": -6.499,
+      "width": 12.999,
+      "height": 12.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -6.499,
+      "x2": 0.0,
+      "y2": -10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "G",
+      "x": -1.832,
+      "y": -3.17,
+      "rotation": 0,
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ca666b59-2a9c-431e-bc3d-747ee353040a}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.209241858193764,
+      "y": -2.3562806042872038,
+      "z": 7,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{9aa71ea3-95c2-48ff-96d8-4c586e0bc44e}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "G_",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Simples_acao_mola_2.opcad",
+  "id": "{7e70e59e-93c0-3280-4476-2f5d3f252f27}",
+  "names": {
+    "ar": "التمثيل المفرد + الربيع",
+    "cs": "Jednočinné + pružina",
+    "da": "Enkeltvirkende + fjeder",
+    "de": "Einfachwirkend + Feder",
+    "el": "Μονοπραξία + ελατήριο",
+    "en": "Single acting + spring",
+    "es": "Simple efecto + muelle",
+    "fr": "Simple effet + ressort",
+    "hr": "Jednostruko djelovanje + opruga",
+    "hu": "Egyszereplős + rugó",
+    "it": "Semplice effetto + molla",
+    "ja": "単動+スプリング",
+    "mn": "Ганц үйлдэл + пүрш",
+    "nb": "Enkeltvirkende + vår",
+    "nl": "Enkelwerkend + veer",
+    "pl": "Jednostronnego działania + sprężyna",
+    "pt": "Cilindro Simples acao mola 2",
+    "pt_BR": "Simples ação + mola",
+    "ro": "Simpla actiune + arc",
+    "ru": "Одностороннего действия + пружина",
+    "sl": "Enojno delovanje + vzmet",
+    "sr": "Једноструко дејство + опруга",
+    "tr": "Tek etkili + yay"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 50.996,
+  "height": 22.974,
+  "hotspotX": 10.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": 7.074936774391941,
+      "y": -2.4240632256080588,
+      "width": 1.5,
+      "height": 10.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.574936774391942,
+          "y": 3.5759367743919412
+        },
+        {
+          "x": 11.574936774391942,
+          "y": 7.575936774391941
+        },
+        {
+          "x": -16.423063225608058,
+          "y": 7.575936774391941
+        },
+        {
+          "x": -16.423063225608058,
+          "y": -2.4240632256080588
+        },
+        {
+          "x": 11.574936774391942,
+          "y": -2.4240632256080588
+        },
+        {
+          "x": 11.574936774391942,
+          "y": 1.5759367743919412
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 9.074936774391942,
+          "y": 7.575936774391941
+        },
+        {
+          "x": 11.075936774391941,
+          "y": 7.575936774391941
+        },
+        {
+          "x": 10.075936774391941,
+          "y": 5.574936774391941
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -14.055127181072304,
+          "y": 7.575936774391941
+        },
+        {
+          "x": -15.054127181072303,
+          "y": 9.574936774391942
+        },
+        {
+          "x": -16.054127181072303,
+          "y": 7.575936774391941
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          17.585001598604656,
+          3.5070070145648873
+        ],
+        [
+          8.692245283597227,
+          3.5070070145648873
+        ],
+        [
+          8.692245283597227,
+          1.659161546511396
+        ],
+        [
+          17.700491940358,
+          1.659161546511396
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -16.32640649426731,
+          1.0631148414871736
+        ],
+        [
+          -14.91872974079255,
+          -1.955657698179876
+        ],
+        [
+          -12.561440718695149,
+          6.841864700411979
+        ],
+        [
+          -9.557617647026667,
+          -1.4110713610339927
+        ],
+        [
+          -7.425759289874433,
+          6.545132342398463
+        ],
+        [
+          -4.548195909022372,
+          -1.36090806954207
+        ],
+        [
+          -2.324968251580361,
+          6.93629050482385
+        ],
+        [
+          0.6362388928893981,
+          -1.1995592589345083
+        ],
+        [
+          2.8441382283369743,
+          7.040433238953407
+        ],
+        [
+          6.345699814173187,
+          -0.46868981446277314
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 9.90479665981839,
+      "y1": 9.838764682086264,
+      "x2": 9.90479665981839,
+      "y2": 7.593677439194096,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ecf2e04c-5cea-4b73-aa68-b465b59260c1}",
+      "name": "",
+      "x": 9.838764682086266,
+      "y": 9.838764682086266,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.5954720085752303,
+      "y": -6.083706671430685,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{dbd71dbe-d663-477f-9dfd-8725fc661135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

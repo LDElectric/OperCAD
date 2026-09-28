@@ -1,0 +1,389 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Cilindro_sem_haste_freio_de_limite_em_ambos_os_lados_ajustavel_ima_2.opcad",
+  "id": "{1a1caf92-512b-9529-c132-ccb61db8e7ee}",
+  "names": {
+    "ar": "اسطوانة رودليس + فرامل محدودة على كلا الجانبين + قابل للتعديل + مغناطيس",
+    "ca": "Cilindre sense vara + fre de límit a ambdós costats + ajustable + imant",
+    "cs": "Bezpístnicový válec + limitní brzda na obou stranách + nastavitelná + magnet",
+    "da": "Stangløs cylinder + grænsebremse på begge sider + justerbar + magnet",
+    "de": "Kolbenstangenloser Zylinder + Endlagenbremse beidseitig + einstellbar + Magnet",
+    "el": "Κύλινδρος χωρίς ράβδο + οριακό φρένο και στις δύο πλευρές + ρυθμιζόμενο + μαγνήτης",
+    "en": "Rodless cylinder + limit brake on both sides + adjustable + magnet",
+    "es": "Cilindro sin vástago + freno de límite en ambos lados + ajustable + imán",
+    "fr": "Vérin sans tige + frein de fin de course des deux côtés + réglable + aimant",
+    "hr": "Cilindar bez šipke + granična kočnica s obje strane + podesivi + magnet",
+    "hu": "Rúd nélküli henger + végfék mindkét oldalon + állítható + mágnes",
+    "it": "Cilindro senza stelo + freno di fine corsa su entrambi i lati + regolabile + magnete",
+    "ja": "ロッドレスシリンダー+両側のリミットブレーキ+調整可能+マグネット",
+    "mn": "Саваагүй цилиндр + хоёр талдаа хязгаарлах тоормос + тохируулгатай + соронз",
+    "nb": "Stangløs sylinder + grensebrems på begge sider + justerbar + magnet",
+    "nl": "Stangloze cilinder + eindrem aan beide kanten + verstelbaar + magneet",
+    "pl": "Cylinder beztłoczyskowy + hamulec krańcowy po obu stronach + regulowany + magnes",
+    "pt": "Cilindro sem haste + freio de limite em ambos os lados + ajustável + ímã",
+    "pt_BR": "Cilindro sem haste + freio de limite em ambos os lados + ajustável + ímã",
+    "ro": "Cilindru fara tija + frana limita pe ambele parti + reglabil + magnet",
+    "ru": "Бесштоковый цилиндр + концевой тормоз с обеих сторон + регулируемый + магнит",
+    "sl": "Cilinder brez droga + mejna zavora na obeh straneh + nastavljiv + magnet",
+    "sr": "Цилиндар без шипке + гранична кочница са обе стране + подесиви + магнет",
+    "tr": "Milsiz silindir + her iki tarafta limit freni + ayarlanabilir + mıknatıs"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.199,
+  "height": 9.19,
+  "hotspotX": 0.0,
+  "hotspotY": 1.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.568644021029284,
+          "y": 7.237495111677006
+        },
+        {
+          "x": -3.834644021029284,
+          "y": 7.970495111677007
+        },
+        {
+          "x": -3.102644021029284,
+          "y": 6.504495111677008
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -5.3036440210292835,
+      "y": 7.970495111677007,
+      "width": 0.735,
+      "height": 2.933,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -7.501644021029284,
+      "y": 5.771495111677007,
+      "width": 2.198,
+      "height": 7.333,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 9.362355978970717,
+          "y": 8.337495111677008
+        },
+        {
+          "x": 9.362355978970717,
+          "y": 13.104495111677007
+        },
+        {
+          "x": -11.167644021029284,
+          "y": 13.104495111677007
+        },
+        {
+          "x": -11.167644021029284,
+          "y": 5.771495111677007
+        },
+        {
+          "x": 9.362355978970717,
+          "y": 5.771495111677007
+        },
+        {
+          "x": 9.362355978970717,
+          "y": 10.536495111677008
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -9.335644021029283,
+      "y1": 11.636495111677007,
+      "x2": -4.202644021029284,
+      "y2": 7.604495111677007,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.225,
+      "length2": 0.225,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.990715216823427,
+      "y1": 13.155495111677007,
+      "x2": -9.990715216823427,
+      "y2": 14.983495111677009,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -10.798644021029284,
+          "y": 13.104495111677007
+        },
+        {
+          "x": -9.335644021029283,
+          "y": 13.104495111677007
+        },
+        {
+          "x": -10.066644021029283,
+          "y": 11.636495111677007
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": 2.989355978970716,
+      "y": 4.505495111677007,
+      "width": 3.667,
+      "height": 1.1,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.804216846264424,
+          "y": 13.062281524294578
+        },
+        {
+          "x": 8.270216846264423,
+          "y": 13.062281524294578
+        },
+        {
+          "x": 7.5362168462644235,
+          "y": 11.593281524294577
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -8.233644021029285,
+      "y": 7.970495111677007,
+      "width": 0.733,
+      "height": 2.933,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -6.7696440210292845,
+          "y": 7.970495111677007
+        },
+        {
+          "x": -6.7696440210292845,
+          "y": 10.903495111677007
+        },
+        {
+          "x": -6.7696440210292845,
+          "y": 7.970495111677007
+        },
+        {
+          "x": -6.402644021029284,
+          "y": 7.970495111677007
+        },
+        {
+          "x": -6.402644021029284,
+          "y": 10.903495111677007
+        },
+        {
+          "x": -6.0356440210292845,
+          "y": 10.903495111677007
+        },
+        {
+          "x": -6.0356440210292845,
+          "y": 10.170495111677008
+        },
+        {
+          "x": -6.402644021029284,
+          "y": 9.803495111677007
+        },
+        {
+          "x": -6.402644021029284,
+          "y": 9.070495111677008
+        },
+        {
+          "x": -6.0356440210292845,
+          "y": 8.703495111677007
+        },
+        {
+          "x": -6.0356440210292845,
+          "y": 7.970495111677007
+        },
+        {
+          "x": -6.7696440210292845,
+          "y": 7.970495111677007
+        },
+        {
+          "x": -6.7696440210292845,
+          "y": 10.903495111677007
+        },
+        {
+          "x": -6.402644021029284,
+          "y": 10.903495111677007
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.505216846264425,
+      "y1": 13.102352720088719,
+      "x2": 7.505216846264425,
+      "y2": 15.18135272008872,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{e5b96935-cb5d-4263-8c76-8e9fbd1826c4}",
+      "name": "",
+      "x": -10.0,
+      "y": 15.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4af838a1-7490-4ae3-8289-4e4ec47946b1}",
+      "name": "",
+      "x": 7.5,
+      "y": 15.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.2108543495297184,
+      "y": 1.7009255453238612,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{814bc138-1e90-4802-928f-32b8320f781c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

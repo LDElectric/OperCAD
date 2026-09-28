@@ -1,0 +1,161 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Horizontal_10.opcad",
+  "id": "{67b0d145-a0bc-a0c4-09fe-8054d365939f}",
+  "names": {
+    "ar": "ثايريستور بوابة N",
+    "cs": "Triodový tyristor blokující obráceně, brána N (řízeno na straně anody)",
+    "de": "rückwärts sperrende Thyristortriode, N-Gate\n(Anode gesteuert)",
+    "en": "Reverse blocking triode thyristor,\n N-gate",
+    "fr": "Thyristor triode bloqué en inverse, gâchette N\n(commandé côté anode)",
+    "it": "Tiristore triodo bloccato nel senso inverso di conduzione, porta N (controllato sull’anodo)",
+    "nl": "Thyristor N gate",
+    "pl": "Tyrystor triodowy blokujący wstecznie z bramką N",
+    "pt": "Tiristor triodo de bloqueio reverso, gatilho N"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-04-05",
+  "width": 8.999,
+  "height": 11.975,
+  "hotspotX": 5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -10.0
+        },
+        {
+          "x": 1.999,
+          "y": -10.0
+        },
+        {
+          "x": 4.0,
+          "y": -7.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": -10.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5,
+          "y": -7.5
+        },
+        {
+          "x": 7.5,
+          "y": -7.5
+        },
+        {
+          "x": 5.0,
+          "y": -2.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": -2.5,
+      "x2": 7.5,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{b394e9b9-f10d-4f1d-b06e-fbfbf32ea9a8}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e6ce18e6-f10e-4f9a-bae9-697c4e0ff6dd}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e8d7b967-52fd-43e6-9ee4-ef5a79014828}",
+      "name": "",
+      "x": 5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 8.999,
+      "y": -11.975,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{4288f427-f476-440b-8eaa-5e9f47125756}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nf_2.opcad",
+  "id": "{5eb6e728-3e57-ab38-a85f-825a14bc254f}",
+  "names": {
+    "ar": "دايود بانهيار أحادي الإتجاه",
+    "cs": "Lavinová jednosměrná dioda",
+    "de": "Avalanchediode",
+    "en": "Avalanche diode unidirectional",
+    "fr": "Diode à avalanche unidirectionelle",
+    "it": "Diodo a valanga unidirezionale",
+    "nl": "Diode avalange",
+    "pl": "Dioda lawinowa jednokierunkowa",
+    "pt": "Diodo avalanche unidirecional"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 6.374,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -1.562,
+      "y1": 1.562,
+      "x2": -1.562,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.562,
+      "y1": 1.562,
+      "x2": 1.562,
+      "y2": 1.562,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.562,
+          "y": -0.212
+        },
+        {
+          "x": 1.562,
+          "y": -0.212
+        },
+        {
+          "x": 0.0,
+          "y": 2.913
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -4.9,
+      "x2": 0.0,
+      "y2": 7.6,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{53a26b04-4415-47e2-8fc8-1547c648914b}",
+      "name": "K",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{68e84655-8229-47f4-ac85-f6d5cbcb9c18}",
+      "name": "A",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.812,
+      "y": -5.082,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{d95cbbfe-aa75-43d4-99ca-e42fd7930b00}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

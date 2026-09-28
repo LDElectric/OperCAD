@@ -1,0 +1,224 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_check.opcad",
+  "id": "{4142fcbb-a59a-643e-4fb5-28a31f788a01}",
+  "names": {
+    "ar": "رابط سريع بصمّام ضدّ الرجع",
+    "ca": "Acoblament ràpid amb vàlvula de retenció",
+    "cs": "Rychlé spojení s pojistným ventilem",
+    "de": "Schnellkupplung geschlossen",
+    "el": "Ταχυσύνδεσμος με ανεπίστροφη βαλβίδα",
+    "en": "Quick coupling with check valve",
+    "fr": "Raccord rapide avec un clapet anti-retour",
+    "it": "Raccordo rapido con valvola ritegno",
+    "nl": "Snelkoppeling met klep",
+    "pl": "Szybkozłączka z mechanicznie otwieranymi zaworami zwrotnymi - połączona"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.0,
+  "height": 19.998,
+  "hotspotX": 10.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 9.499,
+      "y1": 0.0,
+      "x2": 17.498,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 0.0,
+      "x2": 0.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -0.5,
+      "y": -4.0,
+      "width": 15.998999999999999,
+      "height": 8.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 0.439,
+      "y": -1.5,
+      "width": 2.999,
+      "height": 2.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5,
+          "y": -2.5
+        },
+        {
+          "x": 5.0,
+          "y": 0.0
+        },
+        {
+          "x": 2.5,
+          "y": 2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 12.498,
+          "y": 2.5
+        },
+        {
+          "x": 10.0,
+          "y": 0.0
+        },
+        {
+          "x": 12.498,
+          "y": -2.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": -1.0,
+      "x2": 7.5,
+      "y2": 1.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 0.0,
+      "x2": 10.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{2a344783-d807-4789-b1f1-0f6df991f58d}",
+      "name": "",
+      "x": 17.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{140a41ed-f53b-45cb-b095-07050f7fba11}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 7.378599741623402,
+      "y": -8.047496518319154,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b546b611-91f8-45f3-a46d-375f8e2e5032}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Galvanometro_horizontal.opcad",
+  "id": "{a449cde0-69c1-24b9-3410-b81e4fa7964a}",
+  "names": {
+    "ar": "جلفانومتر أفقي",
+    "ca": "Galvàmetre h",
+    "cs": "Galvanometr, vodorovný",
+    "de": "Galvanometer waagerecht",
+    "el": "Γαλβανόμετρο οριζόντιο",
+    "en": "Galvanometer h",
+    "es": "Galvanómetro horizontal",
+    "fr": "Galvanomètre horizontal",
+    "it": "Galvanometro orizzontale",
+    "nl": "Galvanometer",
+    "pl": "Galwanomert (poziomo)",
+    "pt": "Galvanómetro horizontal"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.499,
+  "height": 8.749,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -2.5,
+      "y": -2.5,
+      "width": 5.0,
+      "height": 5.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 1.75,
+      "x2": 0.0,
+      "y2": -2.0,
+      "end1": "none",
+      "end2": "simple",
+      "length1": 0.374,
+      "length2": 0.75,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": 0.0,
+      "x2": 5.249,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.249,
+      "y1": 0.0,
+      "x2": -2.5,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{670884e8-82a4-4cff-a23c-73cd5843da65}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{dc4874ff-8018-46f7-956f-0c431d79d69f}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.328217391304348,
+      "y": -7.161565217391304,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{12bc7412-6d77-4e67-9442-150dd9d2e930}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

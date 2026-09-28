@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "passo_macro.opcad",
+  "id": "{da29c185-a74a-e115-4fc6-b0e6ec82b5c1}",
+  "names": {
+    "ar": "خطوة ماكرو",
+    "ca": "macro pas",
+    "cs": "makro krok",
+    "da": "makro trin",
+    "de": "Makro Schritt",
+    "el": "μακροοικονομικό βήμα",
+    "en": "macro step",
+    "es": "macro paso",
+    "fr": "macro-étape",
+    "hr": "makro korak",
+    "hu": "makró lépés",
+    "it": "macro passo",
+    "ja": "マクロステップ",
+    "mn": "макро алхам",
+    "nb": "makro trinn",
+    "nl": "macro stap",
+    "pl": "krok makro",
+    "pt": "passo macro",
+    "ro": "pas macro",
+    "ru": "шаг макроса",
+    "sl": "makro korak",
+    "sr": "макро корак",
+    "tr": "makro adım"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.499,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -7.5,
+      "y": -6.0,
+      "width": 14.998,
+      "height": 11.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -7.5,
+      "y": -7.5,
+      "width": 14.998,
+      "height": 14.998,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{3bf2a658-fdf1-4a41-a1e4-ee8488bd2832}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7948ab13-acb4-42b8-9900-d9448cadae4b}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{bca178b2-8fd1-4767-b111-bd2c9a1ff805}",
+      "name": "",
+      "x": -7.586388900501672,
+      "y": 0.0766301909141583,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1d2db71a-6d04-42c8-91ed-5efda1cade31}",
+      "name": "",
+      "x": 7.586388900501672,
+      "y": 0.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

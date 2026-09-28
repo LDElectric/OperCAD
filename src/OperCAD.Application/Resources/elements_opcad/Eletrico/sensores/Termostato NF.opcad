@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Temperatura_4.opcad",
+  "id": "{f4f972bb-bd7a-d675-6151-83f02364801c}",
+  "names": {
+    "ar": "مجس حرارة",
+    "cs": "Spínač teploty NC",
+    "de": "Temperaturschalter Öffner",
+    "el": "Αισθητήρας θερμοκρασίας",
+    "en": "Temperature switch NC",
+    "es": "Sonda de temperatura",
+    "fr": "Thermostat NC",
+    "it": "Sensore di temperatura",
+    "nl": "contact temperatuur",
+    "pl": "Czujnik temperatury",
+    "pt": "Termostato NF"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 35.495,
+  "height": 30.748,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 4.499,
+          "y": -5.499
+        },
+        {
+          "x": 2.5,
+          "y": 1.0
+        },
+        {
+          "x": 2.5,
+          "y": 7.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5,
+          "y": -10.0
+        },
+        {
+          "x": 2.5,
+          "y": -5.0
+        },
+        {
+          "x": 5.0,
+          "y": -5.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.002,
+      "y": -1.734,
+      "width": 1.999,
+      "height": 2.999,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.248,
+      "y1": 0.016,
+      "x2": -1.751,
+      "y2": 0.016,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -6.252,
+      "y": -2.484,
+      "width": 4.499,
+      "height": 4.499,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -5.002,
+      "y": -0.733,
+      "width": 1.0,
+      "height": 1.0,
+      "start": 0,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -4.0,
+      "y": -0.733,
+      "width": 1.0,
+      "height": 1.0,
+      "start": 180,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": 7.426,
+      "x2": 2.567,
+      "y2": 9.846,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c2aa163a-b7ae-4eba-96aa-5f071a428de0}",
+      "name": "",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ecb85a70-7e87-4da6-a3ce-a1cd17f9085c}",
+      "name": "",
+      "x": 2.5,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 6.45,
+      "y": -1.616,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{6193519d-b017-4b59-bbc1-2701e68eb607}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

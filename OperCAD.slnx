@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="src/OperCAD.App/OperCAD.App.csproj" />
+  <Project Path="src/OperCAD.Application/OperCAD.Application.csproj" />
+  <Project Path="src/OperCAD.Core/OperCAD.Core.csproj" />
+  <Project Path="src/OperCAD.Drawing/OperCAD.Drawing.csproj" />
+  <Project Path="src/OperCAD.UI/OperCAD.UI.csproj" />
+</Solution>

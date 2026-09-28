@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "NAO_NOT.opcad",
+  "id": "{01f6a5e7-0ebc-3d13-4558-4dd3d92d2516}",
+  "names": {
+    "ar": "ليس (NOT)",
+    "cs": "NE (NOT)",
+    "da": "IKKE (NOT)",
+    "de": "NICHT (NOT)",
+    "el": "ΔΕΝ (NOT)",
+    "en": "NOT (NOT)",
+    "es": "NO (NOT)",
+    "fr": "NE PAS (NOT)",
+    "hr": "NE (NOT)",
+    "hu": "NEM (NOT)",
+    "it": "NON (NOT)",
+    "ja": "いいえ (NOT)",
+    "mn": "ҮГҮЙ (NOT)",
+    "nb": "IKKE (NOT)",
+    "nl": "NIET (NOT)",
+    "pl": "NIE (NOT)",
+    "pt": "Porta logica NOT",
+    "ro": "NU (NOT)",
+    "ru": "НЕТ (NOT)",
+    "sl": "NE (NOT)",
+    "sr": "НЕ (NOT)",
+    "tr": "OLUMSUZLUK (NOT)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 7.687,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": 0.1851530460624069,
+      "y": -0.5,
+      "width": 1.0,
+      "height": 1.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -6.25,
+      "y1": 0.0,
+      "x2": -6.25,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.434153046062407,
+      "y1": 0.0,
+      "x2": 1.185153046062407,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.814846953937593,
+          "y": -5.0
+        },
+        {
+          "x": -4.814846953937593,
+          "y": 5.0
+        },
+        {
+          "x": 0.1851530460624069,
+          "y": 0.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.987967310549777,
+      "y1": 1.3877787807814457e-17,
+      "x2": -7.285794947994056,
+      "y2": 1.3877787807814457e-17,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{cb42047f-9888-4457-bb5a-a85eec17bdfe}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0002ffed-7fc6-4af7-b954-86595d94fae3}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.979164933135216,
+      "y": -3.717808320950966,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{5484c280-e3f6-98f3-e2c7-f2a6ae2c133e}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    },
+    {
+      "x": -0.2890252600297192,
+      "y": -3.605719167904903,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{f9dadfcd-c9e9-5046-f234-11df9b78a615}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    },
+    {
+      "x": -4.082744427934621,
+      "y": -7.973087667161962,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{739c6d28-fadb-0463-a443-ea445d21b41a}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

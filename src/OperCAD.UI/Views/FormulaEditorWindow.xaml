@@ -1,0 +1,117 @@
+<Window x:Class="OperCAD.UI.Views.FormulaEditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Editor de fórmulas"
+        Width="600" Height="400"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="FÓRMULA" Style="{StaticResource App.SectionHeader}" />
+
+        <TextBox x:Name="TxtFormula" Grid.Row="1" Margin="0,6,0,0"
+                 Style="{StaticResource App.TextBox}"
+                 TextWrapping="Wrap" AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Auto"
+                 MinHeight="80" />
+
+        <Grid Grid.Row="2" Margin="0,10,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Text="Variáveis disponíveis" Style="{StaticResource App.SectionHeader}" Grid.ColumnSpan="2" />
+
+                <ListBox x:Name="LstVariables" Grid.Row="1" Grid.Column="0" Margin="0,6,8,0"
+                         Height="120" SelectionMode="Single"
+                         Background="{DynamicResource App.Panel.Card}"
+                         BorderBrush="{DynamicResource App.Border}"
+                         Foreground="{DynamicResource App.Text.Primary}"
+                         FontFamily="{StaticResource App.Font}"
+                         MouseDoubleClick="OnVariableDoubleClick" />
+
+                <Button Grid.Row="1" Grid.Column="1" Content="Inserir" Width="70" Height="26"
+                        Click="OnInsertClick" VerticalAlignment="Top" Margin="0,6,0,0"
+                        Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                        BorderBrush="{DynamicResource App.Border}" />
+
+                <WrapPanel Grid.Row="2" Grid.ColumnSpan="2" Margin="0,6,0,0">
+                    <Button Content="+" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="-" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="*" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="/" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="(" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content=")" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="&quot;text&quot;" Click="OnOperatorClick" Width="46" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="if(" Click="OnOperatorClick" Width="46" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="=" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="!=" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="&lt;" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="&gt;" Click="OnOperatorClick" Width="36" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="AND" Click="OnOperatorClick" Width="46" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="OR" Click="OnOperatorClick" Width="40" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                    <Button Content="NOT" Click="OnOperatorClick" Width="46" Height="24" Margin="0,0,4,4"
+                            Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                            BorderBrush="{DynamicResource App.Border}" />
+                </WrapPanel>
+            </Grid>
+
+            <StackPanel Grid.Column="1" VerticalAlignment="Bottom">
+                <Button Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="88" Height="30"
+                        Background="{DynamicResource App.Accent}" Foreground="White"
+                        FontFamily="{StaticResource App.Font}" BorderThickness="0" />
+                <Button Content="Cancelar" IsCancel="True" Width="88" Height="30" Margin="0,6,0,0"
+                        Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                        FontFamily="{StaticResource App.Font}" BorderBrush="{DynamicResource App.Border}" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

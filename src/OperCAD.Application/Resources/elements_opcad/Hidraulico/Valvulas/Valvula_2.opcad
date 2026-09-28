@@ -1,0 +1,210 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_2.opcad",
+  "id": "{0d5f460a-3037-80b8-6f57-c2b2cecd83f8}",
+  "names": {
+    "ar": "صمّام  - تحكّم يدوي",
+    "ca": "Vàlvula - manual",
+    "cs": "Klapka řízená ručně",
+    "el": "Βαλβίδα - Χειροκίνητη",
+    "en": "Valve - manual",
+    "fr": "Vanne - commande manuelle",
+    "it": "Valvola manuale",
+    "nl": "Klep hand",
+    "pl": "Zawór zasuwowy odcinający sterowany ręcznie"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.5,
+  "height": 10.936,
+  "hotspotX": 3.75,
+  "hotspotY": -3.125,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -3.876160240678773,
+      "y1": -4.4837334646919285,
+      "x2": -0.8751602406787731,
+      "y2": -4.4837334646919285,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.751160240678773,
+      "y1": -0.35973346469192863,
+      "x2": -2.751160240678773,
+      "y2": -4.4837334646919285,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.0011602406787734,
+      "y1": -0.35973346469192863,
+      "x2": -2.0011602406787734,
+      "y2": -4.4837334646919285,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.875160240678774,
+      "y1": 0.016266535308071373,
+      "x2": -6.125160240678773,
+      "y2": 0.016266535308071373,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.374839759321227,
+      "y1": 0.016266535308071373,
+      "x2": 5.1238397593212275,
+      "y2": 0.016266535308071373,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.374839759321227,
+          "y": 2.2642665353080713
+        },
+        {
+          "x": -2.375160240678773,
+          "y": 0.016266535308071373
+        },
+        {
+          "x": 1.374839759321227,
+          "y": -2.2327334646919286
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -6.125160240678773,
+          "y": -2.2327334646919286
+        },
+        {
+          "x": -6.125160240678773,
+          "y": 2.2642665353080713
+        },
+        {
+          "x": -2.375160240678773,
+          "y": 0.016266535308071373
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{39b92d3b-b639-4a69-82ec-73c0f90f1ddc}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{15c4639a-83d7-414f-9e7c-8a6d8301db11}",
+      "name": "",
+      "x": -10.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.788873628672194,
+      "y": -8.718533070616143,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0ebb7432-985f-4266-9189-ebc11391d09a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

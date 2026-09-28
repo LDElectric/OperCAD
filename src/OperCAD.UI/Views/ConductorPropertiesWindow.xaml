@@ -1,0 +1,111 @@
+<Window x:Class="OperCAD.UI.Views.ConductorPropertiesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Propriedades do condutor"
+        Width="560" Height="360"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="12" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Coluna esquerda: Identificação + Texto -->
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="IDENTIFICAÇÃO" Style="{StaticResource App.SectionHeader}" />
+                <Grid Margin="0,4,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition /><RowDefinition /><RowDefinition />
+                        <RowDefinition /><RowDefinition /><RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Número" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtText" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2" />
+                    <TextBlock Grid.Row="1" Text="Fórmula" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtFormula" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2"
+                             ToolTip="Fórmula de autonumeração (ex.: %prefix%autonum)" />
+                    <TextBlock Grid.Row="2" Text="Cor" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <ComboBox x:Name="CmbColor" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,2" />
+                    <TextBlock Grid.Row="3" Text="Espessura" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <ComboBox x:Name="CmbWidth" Grid.Row="3" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,2" Width="120" HorizontalAlignment="Left" />
+                    <TextBlock Grid.Row="4" Text="Cor do texto" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <Grid Grid.Row="4" Grid.Column="1" Margin="0,2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBox x:Name="TxtTextColor" Style="{StaticResource App.TextBox}" Text="#000000" />
+                        <Button x:Name="BtnPickTextColor" Grid.Column="1" Content="..." Width="26" Height="22" Margin="4,0,0,0"
+                                Click="OnPickTextColor"
+                                Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                                BorderBrush="{DynamicResource App.Border}" FontFamily="{StaticResource App.Font}" />
+                    </Grid>
+                    <TextBlock Grid.Row="5" Text="Tamanho nº" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtNumSize" Grid.Row="5" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2" Width="50" HorizontalAlignment="Left" />
+                </Grid>
+                <CheckBox x:Name="ChkDisplayText" Content="Exibir número no condutor"
+                          Style="{StaticResource App.CheckBox}" Margin="0,6,0,0" />
+            </StackPanel>
+
+            <GridSplitter Grid.Column="1" Width="2" HorizontalAlignment="Center" VerticalAlignment="Stretch"
+                          Background="{DynamicResource App.Divider}" />
+
+            <!-- Coluna direita: Propriedades elétricas -->
+            <StackPanel Grid.Column="2">
+                <TextBlock Text="PROPRIEDADES" Style="{StaticResource App.SectionHeader}" />
+                <Grid Margin="0,4,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition /><RowDefinition /><RowDefinition />
+                        <RowDefinition /><RowDefinition /><RowDefinition />
+                    </Grid.RowDefinitions>
+                    <TextBlock Text="Seção" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtSection" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2"
+                             ToolTip="Seção do condutor (ex.: 1.5mm²)" />
+                    <TextBlock Grid.Row="1" Text="Cabo" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtCable" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2" />
+                    <TextBlock Grid.Row="2" Text="Tipo de fio" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <ComboBox x:Name="CmbWireType" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,2">
+                        <ComboBoxItem Content="" />
+                        <ComboBoxItem Content="Flexível" />
+                        <ComboBoxItem Content="Rígido" />
+                        <ComboBoxItem Content="Trancado" />
+                        <ComboBoxItem Content="Coaxial" />
+                        <ComboBoxItem Content="Fibra óptica" />
+                    </ComboBox>
+                    <TextBlock Grid.Row="3" Text="Barramento" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtBus" Grid.Row="3" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2" />
+                    <TextBlock Grid.Row="4" Text="Função" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtFunction" Grid.Row="4" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2" />
+                    <TextBlock Grid.Row="5" Text="Protocolo tensão" Style="{StaticResource App.FieldLabel}" Margin="0,2,6,2" />
+                    <TextBox x:Name="TxtTension" Grid.Row="5" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,2" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="88" Height="28"
+                    Background="{DynamicResource App.Accent}" Foreground="White"
+                    FontFamily="{StaticResource App.Font}" BorderThickness="0" />
+            <Button Content="Cancelar" IsCancel="True" Width="88" Height="28" Margin="8,0,0,0"
+                    Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                    FontFamily="{StaticResource App.Font}" BorderBrush="{DynamicResource App.Border}" />
+        </StackPanel>
+    </Grid>
+</Window>

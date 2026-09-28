@@ -1,0 +1,164 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_de_tensao_antigo.opcad",
+  "id": "{8e52e445-647d-94cf-45e7-8ceb5c289c50}",
+  "names": {
+    "ar": "مصدر جهد (قديم)",
+    "cs": "Zdroj napětí (starý)",
+    "de": "Spannungsquelle (alt)",
+    "el": "Παροχή τάσης (παλιό)",
+    "en": "Voltage source (old)",
+    "es": "Fuente de tensión (antiguo)",
+    "fr": "Source de tension (vieux)",
+    "it": "Generatore di tensione (vecchio)",
+    "nl": "Spanningsbron oud",
+    "pl": "Źródło napięcia (stary)",
+    "pt": "Fonte de tensao",
+    "ru": "Источник напряжения (старый)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.374,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.625,
+          "y": -6.125
+        },
+        {
+          "x": -2.5,
+          "y": -7.625
+        },
+        {
+          "x": -1.375,
+          "y": -6.125
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -6.499,
+      "x2": -2.5,
+      "y2": -2.375,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.25,
+      "y": -8.75,
+      "width": 7.5,
+      "height": 7.5,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 2.5,
+      "x2": -2.5,
+      "y2": -1.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -12.5,
+      "x2": -2.5,
+      "y2": -8.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a538b099-bb2d-41c2-acac-8d5882b40888}",
+      "name": "",
+      "x": -2.5,
+      "y": -12.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{41fb89d2-f109-4201-a0bf-d84d3edf1b0e}",
+      "name": "",
+      "x": -2.5,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.459129018720628,
+      "y": -7.149521847024539,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{7717d05e-0a51-4504-b615-b160537532dd}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

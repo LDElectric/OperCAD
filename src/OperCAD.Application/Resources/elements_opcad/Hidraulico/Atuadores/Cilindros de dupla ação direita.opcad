@@ -1,0 +1,170 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Cilindro_2.opcad",
+  "id": "{01be3c3f-e8e6-cd6d-cfd3-41ef78055c66}",
+  "names": {
+    "ar": "اسطوانة غير متماثلة مزدوج الفعل مع قضيب مُوجّه لليمين",
+    "cs": "Dvojčinný nesouměrný válec, osa natočená vpravo",
+    "el": "Έμβολο διπλής ενεργείας, δεξιά",
+    "en": "Double acting cylinders right",
+    "es": "Piston derecho de accionamiento doble",
+    "fr": "Vérin assymétrique double effet tige orientée à droite",
+    "it": "Pistone a doppia azione Dx",
+    "nl": "Cilinder dubbelwerkend",
+    "pl": "Siłownik asymetryczny podwójnego działania",
+    "pt": "Cilindros de dupla ação direita"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 13.998,
+  "height": 10.389,
+  "hotspotX": 0.0,
+  "hotspotY": -1.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.999,
+          "y": -1.0
+        },
+        {
+          "x": 5.999,
+          "y": -1.0
+        },
+        {
+          "x": 5.999,
+          "y": 3.0
+        },
+        {
+          "x": -5.999,
+          "y": 3.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 3.0,
+      "x2": 5.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.999,
+      "y1": 3.0,
+      "x2": -4.999,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.999,
+      "y1": -1.0,
+      "x2": -3.999,
+      "y2": 3.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.999,
+      "y1": 1.0,
+      "x2": 7.999,
+      "y2": 1.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.3,
+      "length2": 0.3,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f0d2671c-2a87-4776-917e-06f35aa7439b}",
+      "name": "",
+      "x": -5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ee153d17-2321-4740-a6c1-05c9fdf0fe5e}",
+      "name": "",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.755032689450223,
+      "y": -5.601124814264489,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{34e9000b-be93-45c8-b9f3-0843c58dcbfc}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

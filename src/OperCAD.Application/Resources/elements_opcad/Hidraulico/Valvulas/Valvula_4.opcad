@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_4.opcad",
+  "id": "{f9d7bb65-a863-0b24-2789-47936e3d64f3}",
+  "names": {
+    "ar": "صمّام  يدوي",
+    "ca": "Vàlvula manual",
+    "cs": "Ruční klapka",
+    "en": "Manual valve",
+    "fr": "vanne manuelle",
+    "it": "Valvola manuale",
+    "nl": "Klep hand",
+    "pl": "Zawór (symbol ogólny)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.5,
+  "height": 13.698,
+  "hotspotX": 1.25,
+  "hotspotY": -3.125,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 0.0,
+      "x2": -4.844,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": 0.0,
+      "x2": 7.33,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.89,
+          "y": -3.14
+        },
+        {
+          "x": -1.89,
+          "y": 3.09
+        },
+        {
+          "x": 4.34,
+          "y": -3.14
+        },
+        {
+          "x": 4.34,
+          "y": 3.066
+        },
+        {
+          "x": -1.816,
+          "y": -3.14
+        },
+        {
+          "x": -1.74,
+          "y": -3.066
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.8890681116112102,
+      "y1": 0.0,
+      "x2": -4.694048034912704,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.556272446444841,
+      "y1": 0.0,
+      "x2": 4.40782559375949,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{635e382f-d873-473d-88a8-0f422f88c3fe}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{618b2723-1073-4553-8214-968e927e89c2}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.4650039407578461,
+      "y": -7.974753541390434,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{36018a21-f368-4f6d-9f06-72e6341c32c1}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Motor.opcad",
+  "id": "{d5b469d8-1b77-749c-f4f9-fb3cb80ba22e}",
+  "names": {
+    "ar": "محرك ساعة",
+    "cs": "Motohodiny",
+    "de": "Motor Uhr",
+    "en": "Clock motor",
+    "es": "Motor temporizado",
+    "fr": "Moteur horloge",
+    "it": "Motore orologio",
+    "nl": "Tijdmotor",
+    "pl": "Zegar",
+    "pt": "Motor Sinoptico"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 43.997,
+  "height": 30.0,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": 4.944,
+      "x2": 2.5,
+      "y2": -10.054,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.249,
+      "y": -6.305,
+      "width": 7.499,
+      "height": 7.499,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.751,
+          "y": -0.555
+        },
+        {
+          "x": 0.751,
+          "y": -4.555
+        },
+        {
+          "x": 2.5,
+          "y": -2.555
+        },
+        {
+          "x": 4.251,
+          "y": -4.555
+        },
+        {
+          "x": 4.251,
+          "y": -0.555
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{5778823a-28b8-4ee1-b207-aea2614c9e0d}",
+      "name": "A1",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{5c7d10a5-da46-4541-983f-79a243485407}",
+      "name": "A2",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -12.599,
+      "y": -4.414,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{6b99a513-f4e9-4a80-b2b5-1e99e665a958}",
+      "font": "Liberation Sans,12,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

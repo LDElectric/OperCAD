@@ -1,0 +1,163 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_20.opcad",
+  "id": "{999b240e-0957-fa49-d88f-4eceeeff4ed8}",
+  "names": {
+    "cs": "Zrcadlový kontakt NC",
+    "de": "Öffner",
+    "en": "Mirror contact NC",
+    "es": "Contacto NC",
+    "fr": "Contact miroir NC",
+    "it": "Contatto NC",
+    "nl": "Normaal gesloten (NC)",
+    "pl": "Zestyk lustrzany rozwierny",
+    "pt": "Contato NF II"
+  },
+  "kindInformations": {
+    "type": "simple",
+    "state": "NC",
+    "number": "1"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.499,
+  "height": 21.999,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "slave",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.087,
+          "y": 7.5
+        },
+        {
+          "x": 0.087,
+          "y": 3.75
+        },
+        {
+          "x": 2.336,
+          "y": -3.75
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.087,
+      "y1": -3.374,
+      "x2": 2.712,
+      "y2": -3.374,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.087,
+      "y1": -7.5,
+      "x2": 0.087,
+      "y2": -3.374,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{60b44398-c11f-40c1-82cb-08d42ed40b39}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b854cb03-33a1-4f29-9952-5df07019d4d3}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.877925969586099,
+      "y": -2.084365806552663,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ef60dc74-0a46-4f02-a811-0aa68e837ec5}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 1.2818115369390828,
+      "y": -7.35,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{38d342b5-d378-4784-a0b0-15901d1533e7}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": 0.985434610817248,
+      "y": 4.02,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{6c3ab1ca-a0c3-4e06-8afb-f37cf0d7b95e}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "12",
+      "infoName": "tag"
+    }
+  ]
+}

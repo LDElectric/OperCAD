@@ -1,0 +1,346 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Transformador_23.opcad",
+  "id": "{79f07ffc-75d2-2f43-9a9a-4de98de3a424}",
+  "names": {
+    "ar": "مُحوّل ثلاثي الأوجه بملفات ثانوية مزدوجة نجمي-نجمي-مثلثي",
+    "ca": "Transformador 2 secundaris étoile-étoile-triangle",
+    "cs": "Třífázový transformátor Yyd",
+    "de": "Transformator Stern/Stern/Dreieck",
+    "el": "Μετασχηματιστής με 2 δευτερεύοντα αστέρας-αστέρας-τρίγωνο",
+    "en": "Transformateur 2 secondaires étoile-étoile-triangle",
+    "es": "Transformador 2 secundarios estrella-estrella-triangulo",
+    "fr": "Transformateur 2 secondaires étoile-étoile-triangle",
+    "it": "Trasformatore trifase a tre avvolgi- menti, collegamento stella-stel- la-triangolo",
+    "nl": "driefasen transformator Ster-Ster Driehoek",
+    "pl": "Transformator trójuzwojeniowy"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 20.317,
+  "height": 31.26,
+  "hotspotX": -0.793,
+  "hotspotY": -0.295,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -3.714,
+      "y1": -6.93,
+      "x2": -1.287,
+      "y2": -7.901,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -7.911,
+      "y1": 7.963,
+      "x2": -5.484,
+      "y2": 6.993,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.033,
+      "y1": 8.111,
+      "x2": 2.393,
+      "y2": 7.141,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -8.565,
+      "y": -1.593,
+      "width": 7.278,
+      "height": 7.278,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.14,
+      "y": -6.445,
+      "width": 7.278,
+      "height": 7.278,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -7.911,
+      "y1": 6.993,
+      "x2": -5.484,
+      "y2": 6.023,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.033,
+      "y1": 7.141,
+      "x2": 2.393,
+      "y2": 6.171,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.714,
+      "y1": -7.901,
+      "x2": -1.287,
+      "y2": -8.871,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -7.911,
+      "y1": 7.478,
+      "x2": -5.484,
+      "y2": 6.508,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.714,
+      "y1": -7.416,
+      "x2": -1.287,
+      "y2": -8.386,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -3.714,
+      "y": -1.593,
+      "width": 7.278,
+      "height": 7.278,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.033,
+      "y1": 7.626,
+      "x2": 2.393,
+      "y2": 6.656,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 1.18,
+      "y1": 9.324,
+      "x2": 1.18,
+      "y2": 5.685,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -6.698,
+      "y1": 5.537,
+      "x2": -6.698,
+      "y2": 9.177,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -10.084,
+      "x2": -2.5,
+      "y2": -6.445,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.585,
+      "length2": 0.585,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f594745d-89f2-4f53-b7bb-5fe50c939aef}",
+      "name": "",
+      "x": -2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9aaea221-b5e4-41d6-93ed-6e49529850e3}",
+      "name": "",
+      "x": -5.0,
+      "y": 9.41,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{eae0f3ca-72fa-4bde-a698-7fbf0be91e19}",
+      "name": "",
+      "x": -0.0,
+      "y": 9.41,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -13.41,
+      "y": -4.301,
+      "z": 21,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{af76ab1a-6516-4081-abea-b65b13cb85e2}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

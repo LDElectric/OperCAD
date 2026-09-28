@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Motor_gira_no_sentido_anti-horario.opcad",
+  "id": "{504ef5b9-ff26-391c-a9d0-de7feb9964b8}",
+  "names": {
+    "ar": "يدور المحرك عكس اتجاه عقارب الساعة",
+    "ca": "El motor gira en sentit contrari a les agulles del rellotge",
+    "cs": "Motor se otáčí proti směru hodinových ručiček",
+    "da": "Motoren roterer mod uret",
+    "de": "Motor linksdrehend",
+    "el": "Ο κινητήρας περιστρέφεται αριστερόστροφα",
+    "en": "Motor rotates counterclockwise",
+    "es": "El motor gira en sentido contrario a las agujas del reloj",
+    "fr": "Le moteur tourne dans le sens antihoraire",
+    "hr": "Motor se okreće suprotno od kazaljke na satu",
+    "hu": "A motor az óramutató járásával ellentétes irányban forog",
+    "it": "Il motore ruota in senso antiorario",
+    "ja": "モーターは反時計回りに回転します",
+    "mn": "Мотор цагийн зүүний эсрэг эргэлддэг",
+    "nb": "Motoren roterer mot klokken",
+    "nl": "Motor draait tegen de klok in",
+    "pl": "Silnik obraca się w kierunku przeciwnym do ruchu wskazówek zegara",
+    "pt": "Motor gira no sentido anti-horário",
+    "pt_BR": "Motor gira no sentido anti-horário",
+    "ro": "Motorul se rotește în sens invers acelor de ceasornic",
+    "ru": "Мотор вращается против часовой стрелки",
+    "sl": "Motor se vrti v nasprotni smeri urinega kazalca",
+    "sr": "Мотор се окреће супротно од казаљке на сату",
+    "tr": "Motor saat yönünün tersine döner"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 36.497,
+  "height": 23.497,
+  "hotspotX": 10.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.02419470220834269,
+      "y1": -10.02216635734999,
+      "x2": 0.02419470220834269,
+      "y2": -7.49716635734999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.02419470220834269,
+      "y1": 2.6048336426500107,
+      "x2": 0.02419470220834269,
+      "y2": 5.12983364265001,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 9.114194702208342,
+      "y": -11.03316635734999,
+      "width": 17.676,
+      "height": 17.677,
+      "start": 143,
+      "angle": 70,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.4881947022083428,
+          "y": -7.233166357349989
+        },
+        {
+          "x": -1.2688052977916573,
+          "y": -7.259166357349989
+        },
+        {
+          "x": 0.02419470220834269,
+          "y": -4.31916635734999
+        },
+        {
+          "x": 1.4631947022083427,
+          "y": -7.179166357349989
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0741947022083425,
+      "y1": -1.4361663573499894,
+      "x2": 11.135194702208343,
+      "y2": -1.4361663573499894,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 12.281194702208342,
+          "y": 4.087833642650011
+        },
+        {
+          "x": 9.948194702208342,
+          "y": 3.0538336426500106
+        },
+        {
+          "x": 11.029194702208343,
+          "y": 2.1808336426500103
+        },
+        {
+          "x": 12.281194702208342,
+          "y": 3.9328336426500106
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0741947022083425,
+      "y1": -3.4561663573499892,
+      "x2": 11.135194702208343,
+      "y2": -3.4561663573499892,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.027805297791657,
+      "y": -7.49716635734999,
+      "width": 10.102,
+      "height": 10.102,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{7450114d-3dbd-433b-924b-496b74d25710}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{31d1f4d1-f8c7-4629-8c69-1926d54f663c}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.907334570600046,
+      "y": -3.8521287329912965,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{386a23c2-0051-4fac-9fee-f1d46ed7364d}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

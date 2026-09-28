@@ -1,0 +1,252 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "dupla_acao.opcad",
+  "id": "{10ae0ca0-05be-bfb1-fc07-9c070f14f6cd}",
+  "names": {
+    "ar": "التمثيل المزدوج",
+    "cs": "dvojí působení",
+    "da": "dobbeltvirkende",
+    "de": "Doppeltwirkend",
+    "el": "διπλής ενέργειας",
+    "en": "double acting",
+    "es": "doble efecto",
+    "fr": "double jeu",
+    "hr": "dvostrukog djelovanja",
+    "hu": "kettős szereplés",
+    "it": "doppio effetto",
+    "ja": "複動式",
+    "mn": "давхар жүжиглэлт",
+    "nb": "dobbeltvirkende",
+    "nl": "dubbelwerkende",
+    "pl": "dwustronnego działania",
+    "pt": "Cilindro dupla acao",
+    "pt_BR": "dupla açao",
+    "ro": "cu dublă acțiune",
+    "ru": "двойного действия",
+    "sl": "dvojnega delovanja",
+    "sr": "двоструког дејства",
+    "tr": "çift ​​oyunculuk"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.248,
+  "height": 11.487,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -8.741100192551405,
+      "y": 25.122489938278292,
+      "width": 1.24,
+      "height": 8.278,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 9.108869785200902,
+          "y": 33.335904103090975
+        },
+        {
+          "x": 10.765869785200902,
+          "y": 33.335904103090975
+        },
+        {
+          "x": 9.939869785200901,
+          "y": 31.67890410309098
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 14.023899807448599,
+          "y": 28.434489938278297
+        },
+        {
+          "x": -7.501100192551405,
+          "y": 28.434489938278297
+        },
+        {
+          "x": -7.501100192551405,
+          "y": 30.090489938278296
+        },
+        {
+          "x": 14.023899807448599,
+          "y": 30.090489938278296
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.953899807448595,
+          "y": 30.090489938278296
+        },
+        {
+          "x": 11.953899807448595,
+          "y": 33.40048993827829
+        },
+        {
+          "x": -11.224100192551406,
+          "y": 33.40048993827829
+        },
+        {
+          "x": -11.224100192551406,
+          "y": 25.122489938278292
+        },
+        {
+          "x": 11.953899807448595,
+          "y": 25.122489938278292
+        },
+        {
+          "x": 11.953899807448595,
+          "y": 28.434489938278297
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -10.810100192551404,
+          "y": 33.40048993827829
+        },
+        {
+          "x": -9.154100192551406,
+          "y": 33.40048993827829
+        },
+        {
+          "x": -9.982100192551405,
+          "y": 31.743489938278294
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -10.010804454032696,
+      "y1": 33.3908767918381,
+      "x2": -10.010804454032696,
+      "y2": 34.940936836333485,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 9.946218618845391,
+      "y1": 34.940936836333485,
+      "x2": 9.946218618845391,
+      "y2": 33.390876791838096,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{23c888b0-cc9b-402b-827c-177017ce9ce1}",
+      "name": "",
+      "x": -10.0,
+      "y": 35.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8f3be32e-851a-427c-a68d-b241257f983c}",
+      "name": "",
+      "x": 10.0,
+      "y": 35.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 0.36174561551122353,
+      "y": 20.998171371792154,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{dbd71dbe-d663-477f-9dfd-8725fc661135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

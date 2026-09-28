@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_check.opcad",
+  "id": "{187bb642-b0f7-c0f8-2eea-c6c2e7cd155e}",
+  "names": {
+    "ar": "صمّام بسيط",
+    "ca": "Vàlvula de retenció",
+    "cs": "Pojistný ventil",
+    "el": "Ανεπίστροφη βαλβίδα",
+    "en": "Check valve",
+    "fr": "Clapet simple",
+    "it": "Valvola di ritegno",
+    "nl": "Klep terugslag",
+    "pl": "Zawór zwrotny"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.503,
+  "height": 12.749,
+  "hotspotX": 0.833,
+  "hotspotY": -3.333,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": 0.0,
+      "x2": 0.907,
+      "y2": -3.109,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.499,
+      "length2": 0.499,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": 0.0,
+      "x2": 0.933,
+      "y2": 3.084,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.499,
+      "length2": 0.499,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.283,
+      "y": -2.48,
+      "width": 4.959,
+      "height": 4.959,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 4.08,
+      "y1": 0.0,
+      "x2": 5.652,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.499,
+      "length2": 0.499,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.347024017456352,
+      "y1": 0.0,
+      "x2": -5.037514964296561,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 9.846051975670552,
+      "y1": 0.0,
+      "x2": 7.270050005291628,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{008911ad-06fc-4454-8742-7093c48fa7e9}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4c7f75f4-b08d-48d1-b48c-4847191fb746}",
+      "name": "",
+      "x": 10.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.15418031737727889,
+      "y": -7.4907094472355755,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{4712ebf2-6676-440a-ac81-dfd32f9d2055}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

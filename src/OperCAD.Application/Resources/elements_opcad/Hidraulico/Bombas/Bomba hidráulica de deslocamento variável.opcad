@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Bomba_2.opcad",
+  "id": "{389c17e1-1bfc-81b6-5e1f-b0d4dc5721a2}",
+  "names": {
+    "ar": "مضخّة بتدفق مُتغيّر",
+    "cs": "Vodní čerpadlo s proměnlivým výkonem",
+    "en": "Variable displacement hydraulic pump",
+    "es": "Bomba de desplazamiento variable",
+    "fr": "Pompe debit variable",
+    "it": "Pompa a portata variabile",
+    "nl": "Pomp variabel",
+    "pl": "Pompa o zmiennej wydajności i jednym kiekunku tłoczenia",
+    "pt": "Bomba hidráulica de deslocamento variável"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.249,
+  "height": 26.749,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 13.188365371751996,
+      "y1": -5.897,
+      "x2": 12.189365371751993,
+      "y2": -5.243,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 13.188365371751996,
+      "y1": -5.868,
+      "x2": 12.531365371751995,
+      "y2": -4.838,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.402365371751995,
+      "y1": 5.918,
+      "x2": 13.188365371751996,
+      "y2": -5.868,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": 1.402365371751995,
+      "y": -5.918,
+      "width": 11.836,
+      "height": 11.835,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 7.532557154617959,
+      "y1": 5.918,
+      "x2": 7.532557154617959,
+      "y2": 7.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.532557154617958,
+      "y1": -6.036,
+      "x2": 7.532557154617958,
+      "y2": -7.25,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.2553653717519948,
+      "y1": 0.0,
+      "x2": 0.0703653717519952,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.3218265603293045,
+          "y": -3.4277305942886542
+        },
+        {
+          "x": 8.687826560329306,
+          "y": -3.4277305942886542
+        },
+        {
+          "x": 7.504826560329304,
+          "y": -5.793730594288654
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{32c4136d-0f6d-4af2-8aba-795f8a48d79e}",
+      "name": "",
+      "x": 7.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{eb044016-2967-4e11-b8a5-fdec3ae2e630}",
+      "name": "",
+      "x": 7.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f0e6c85b-f13b-483f-b970-1f62d71722e9}",
+      "name": "",
+      "x": 8.881784197001252e-16,
+      "y": -0.07073059428865491,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 14.089038304481763,
+      "y": -0.8754120786522521,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{5c37e2c1-e44d-4ad3-8cd3-fbcc30abf228}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

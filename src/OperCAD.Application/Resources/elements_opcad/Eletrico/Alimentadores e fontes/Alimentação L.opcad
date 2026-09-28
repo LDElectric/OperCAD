@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_de_fase.opcad",
+  "id": "{20e67e0d-8a95-a16e-1fde-1c87973dfe57}",
+  "names": {
+    "ar": "مصدر وجه",
+    "ca": "Font de la fase",
+    "cs": "Přípojnice L",
+    "de": "Aussenleiter",
+    "el": "Φάση",
+    "en": "Phase source",
+    "es": "Fuente fase",
+    "fr": "Source phase",
+    "hu": "F",
+    "it": "Sorgente fase",
+    "nl": "Fase",
+    "pl": "Przewód liniowy",
+    "pt": "Fonte de fase",
+    "ru": "Фаза"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.0,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "L",
+      "x": -1.2281188173161115,
+      "y": -0.9114384794064292,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{408c67e7-d136-41fd-8491-6729e384123d}",
+      "name": "L",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.03213258678378983,
+      "y": -4.336115329546816,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{bee1abc2-d28e-468a-9cd3-e17af4e72e47}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

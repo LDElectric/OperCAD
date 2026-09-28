@@ -1,0 +1,225 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "single_acting.opcad",
+  "id": "{7cdad6b9-c4f8-f506-555d-dd842ea8fbd9}",
+  "names": {
+    "ar": "اسطوانة بفعل وحيد",
+    "cs": "jednočinné válce",
+    "da": "single acting",
+    "de": "Einfachwirkend",
+    "el": "single acting",
+    "en": "single acting",
+    "es": "single acting",
+    "fr": "simple effet",
+    "hr": "single acting",
+    "hu": "single acting",
+    "it": "effetto singolo",
+    "ja": "single acting",
+    "mn": "single acting",
+    "nb": "single acting",
+    "nl": "1 richting zonder veer",
+    "nl_BE": "single acting",
+    "pl": "jednostronnego działania pchający",
+    "pt": "Cilindro de ação simples",
+    "ro": "single acting",
+    "ru": "single acting",
+    "sl": "single acting",
+    "sr": "single acting",
+    "tr": "single acting"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 30.497,
+  "height": 22.974,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -13.5,
+      "y": -2.5,
+      "width": 1.5,
+      "height": 10.0,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 13.999,
+          "y": 1.5
+        },
+        {
+          "x": -11.999,
+          "y": 1.5
+        },
+        {
+          "x": -11.999,
+          "y": 3.5
+        },
+        {
+          "x": 13.999,
+          "y": 3.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.499,
+          "y": 3.5
+        },
+        {
+          "x": 11.499,
+          "y": 7.5
+        },
+        {
+          "x": -16.499,
+          "y": 7.5
+        },
+        {
+          "x": -16.499,
+          "y": -2.5
+        },
+        {
+          "x": 11.499,
+          "y": -2.5
+        },
+        {
+          "x": 11.499,
+          "y": 1.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -15.998,
+          "y": 7.5
+        },
+        {
+          "x": -13.999,
+          "y": 7.5
+        },
+        {
+          "x": -14.998,
+          "y": 5.499
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 11.0,
+          "y": 7.5
+        },
+        {
+          "x": 10.0,
+          "y": 9.499
+        },
+        {
+          "x": 8.999,
+          "y": 7.5
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -15.069001322503082,
+      "y1": 10.002699153730495,
+      "x2": -15.069001322503082,
+      "y2": 7.404595477436859,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{23c888b0-cc9b-402b-827c-177017ce9ce1}",
+      "name": "",
+      "x": -15.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.786912721419915,
+      "y": -6.3488356254512315,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{dbd71dbe-d663-477f-9dfd-8725fc661135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

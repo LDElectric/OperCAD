@@ -1,0 +1,145 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Temperatura.opcad",
+  "id": "{92eedf0f-8faf-22f3-2743-c4425458091b}",
+  "names": {
+    "ar": "دايود بارتباط حراري",
+    "ca": "Díode sensor de temperatura",
+    "cs": "Teplotní dioda",
+    "de": "Temperaturdiode",
+    "en": "Temperature sensing diode",
+    "fr": "Diode à dépendance thermique",
+    "it": "Diodo sensibile alla temperatura",
+    "nl": "Diode temperatuur",
+    "pl": "Dioda o zależności temperaturowej."
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-03-03",
+  "width": 7.999,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "Θ",
+      "x": 0.372,
+      "y": -1.374,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -7.5,
+      "x2": 0.0,
+      "y2": 2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.667,
+          "y": -4.167
+        },
+        {
+          "x": 1.667,
+          "y": -4.167
+        },
+        {
+          "x": 0.0,
+          "y": -0.833
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.667,
+      "y1": -0.833,
+      "x2": 1.667,
+      "y2": -0.833,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{261cdd1d-8cda-4882-868c-d1396ac2b326}",
+      "name": "A",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b3b4ed95-09b0-4121-b3cc-eea28add6101}",
+      "name": "K",
+      "x": 0.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 2.4951842496285286,
+      "y": -4.806173848439823,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{b31e7307-7bfa-4fad-a449-610adf6546b4}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Atuador_de_diafragma.opcad",
+  "id": "{291517ca-f492-ed5f-e1f5-d28cdaee30e0}",
+  "names": {
+    "ar": "مشغل الحجاب الحاجز",
+    "ca": "Actuador de diafragma",
+    "cs": "Membránový pohon",
+    "da": "Membranaktuator",
+    "de": "Membranantrieb",
+    "el": "Ενεργοποιητής διαφράγματος",
+    "en": "Diaphragm actuator",
+    "es": "Actuador de diafragma",
+    "fr": "Actionneur à membrane",
+    "hr": "Membranski aktuator",
+    "hu": "Membrán működtető",
+    "it": "Attuatore a membrana",
+    "ja": "ダイヤフラムアクチュエータ",
+    "mn": "Диафрагмын идэвхжүүлэгч",
+    "nb": "Membranaktuator",
+    "nl": "Membraanactuator:",
+    "pl": "Siłownik membranowy",
+    "pt": "Atuador de diafragma",
+    "pt_BR": "Atuador de diafragma",
+    "ro": "Servomotor cu diafragmă",
+    "ru": "Мембранный привод",
+    "sl": "Membranski aktuator",
+    "sr": "Мембрански актуатор",
+    "tr": "diyafram aktüatörü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 29.998,
+  "height": 24.998,
+  "hotspotX": 10.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 8.748,
+      "y1": -2.54,
+      "x2": 8.748,
+      "y2": -8.372,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -8.75,
+      "y1": -2.54,
+      "x2": -8.75,
+      "y2": -8.372,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.833,
+      "y1": -8.372,
+      "x2": 5.831,
+      "y2": -8.372,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 2.915,
+      "y": -8.372,
+      "width": 5.833,
+      "height": 5.832,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -8.75,
+      "y1": -2.54,
+      "x2": 8.748,
+      "y2": -2.54,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -8.75,
+      "y": -8.372,
+      "width": 5.833,
+      "height": 5.832,
+      "start": 90,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.584,
+          "y": -2.54
+        },
+        {
+          "x": 0.583,
+          "y": -2.54
+        },
+        {
+          "x": -0.0,
+          "y": -3.706
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.02384949832775919,
+      "y1": -2.3330050167224083,
+      "x2": 0.02384949832775919,
+      "y2": -0.33300501672240834,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{1129e77a-f0bd-41f4-acd4-deb39cc06314}",
+      "name": "",
+      "x": 0.0,
+      "y": 0.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.4774414715719062,
+      "y": -11.81789297658863,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{f298e455-a295-413b-9314-fe7a0fed84b8}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

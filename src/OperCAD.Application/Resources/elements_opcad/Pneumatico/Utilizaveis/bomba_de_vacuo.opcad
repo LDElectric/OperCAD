@@ -1,0 +1,207 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "bomba_de_vacuo.opcad",
+  "id": "{f5530f8b-9f2b-cc0d-0661-132cec664564}",
+  "names": {
+    "ar": "مضخة فراغ",
+    "ca": "bomba de buit",
+    "cs": "vakuová pumpa",
+    "da": "vakuumpumpe",
+    "de": "Vakuumpumpe",
+    "el": "ΑΝΤΛΙΑ ΚΕΝΟΥ",
+    "en": "vacuum pump",
+    "es": "bomba aspiradora",
+    "fr": "pompe à vide",
+    "hr": "vakuumska pumpa",
+    "hu": "légszivattyú",
+    "it": "pompa a vuoto",
+    "ja": "真空ポンプ",
+    "mn": "вакуум насос",
+    "nb": "støvsuger pumpe",
+    "nl": "vacuum pomp",
+    "pl": "pompa próżniowa",
+    "pt": "bomba de vácuo",
+    "pt_BR": "bomba de vácuo",
+    "ro": "pompă de vid",
+    "ru": "вакуумный насос",
+    "sl": "vakuumska črpalka",
+    "sr": "вакумска пумпа",
+    "tr": "vakum pompası"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 22.498,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -4.499,
+      "y1": 1.5,
+      "x2": -1.5,
+      "y2": -4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.499,
+      "y1": 1.5,
+      "x2": 1.999,
+      "y2": -4.499,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -5.0,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -10.0,
+      "y1": 0.501,
+      "x2": -5.0,
+      "y2": 0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -10.0,
+      "y1": -0.501,
+      "x2": -5.0,
+      "y2": -0.501,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.5,
+      "x2": 0.0,
+      "y2": 5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -7.4679313379913825,
+      "x2": 0.0,
+      "y2": -5.188247034815066,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{8c314fc9-c749-4ab9-93f4-1c85f676afdd}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c0293bf6-55fa-4101-b6b3-4b93e62e4f21}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.0347549110549,
+      "y": -6.586751019314969,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{386a23c2-0051-4fac-9fee-f1d46ed7364d}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

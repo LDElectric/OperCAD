@@ -1,0 +1,518 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Disjunctor_diferencial_4.opcad",
+  "id": "{49fa95b9-e030-e452-1506-3b772a409bf3}",
+  "names": {
+    "ar": "قاطع تفاضلي",
+    "cs": "Proudový chránič 3P",
+    "de": "Fehlerstromschutzschalter 3-polig",
+    "en": "Residual Circuit Breaker with Overload",
+    "es": "Dispositivo diferencial residual",
+    "fr": "Disjoncteur différentiel",
+    "hu": "Hibaáram-védőkapcsoló 3P",
+    "it": "Interruttore differenziale",
+    "nl": "Aardlekschakelaar + automaat",
+    "pl": "Wyącznik różnicowoprądowy",
+    "pt": "Disjuntor diferencial III",
+    "ru": "Дифавтомат"
+  },
+  "kindInformations": {
+    "type": "protection"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 18.498,
+  "height": 10.0,
+  "hotspotX": 2.5,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.008075153654243383,
+      "y1": -2.4369855202192827,
+      "x2": 0.008075153654243383,
+      "y2": 1.9510144797807174,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.014125256090404,
+      "y1": -2.376212134774705,
+      "x2": 5.014125256090404,
+      "y2": 2.011787865225295,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.997974948781919,
+      "y1": -2.619305676553017,
+      "x2": -4.997974948781919,
+      "y2": 1.7686943234469832,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.8860751536542435,
+      "y1": 1.0730144797807175,
+      "x2": -0.8699248463457567,
+      "y2": 2.8270144797807175,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.804125256090405,
+      "y1": 1.1337878652252953,
+      "x2": 4.047125256090405,
+      "y2": 2.8877878652252953,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.047125256090405,
+      "y1": 1.1337878652252953,
+      "x2": 5.804125256090405,
+      "y2": 2.8877878652252953,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.8699248463457567,
+      "y1": 1.0730144797807175,
+      "x2": 0.8860751536542435,
+      "y2": 2.8270144797807175,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.012792004202852425,
+          "y": 12.411233779816428
+        },
+        {
+          "x": 0.012792004202852425,
+          "y": 8.784787498824691
+        },
+        {
+          "x": -2.5243980784417763,
+          "y": 1.8971841930395694
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.018668552920006,
+          "y": 12.28968700892727
+        },
+        {
+          "x": 5.018668552920006,
+          "y": 8.663240727935538
+        },
+        {
+          "x": 2.478999131432404,
+          "y": 1.7756374221504148
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -4.118974948781919,
+      "y1": 0.8906943234469833,
+      "x2": -5.87597494878192,
+      "y2": 2.6446943234469833,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.87597494878192,
+      "y1": 0.8906943234469833,
+      "x2": -4.118974948781919,
+      "y2": 2.6446943234469833,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.948595875303079,
+          "y": 12.165054061369297
+        },
+        {
+          "x": -4.948595875303079,
+          "y": 8.868284715013173
+        },
+        {
+          "x": -7.255132314070924,
+          "y": 2.6068271642994265
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.412417606455399,
+      "y": 8.24973385444578,
+      "width": 14.178999999999998,
+      "height": 2.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 7.753052185522662,
+          "y": 4.187677794521363
+        },
+        {
+          "x": -8.921327979766593,
+          "y": 4.187677794521363
+        },
+        {
+          "x": -8.921327979766593,
+          "y": 9.2637108523726
+        },
+        {
+          "x": -6.384137897121965,
+          "y": 9.2637108523726
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -8.74613307277711,
+      "y": -3.5852516657735034,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": -3.76,
+      "y": -3.21,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "5",
+      "x": 1.28,
+      "y": -3.1500000000000004,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -8.503039530998798,
+      "y": 8.995359687332531,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "4",
+      "x": -3.339172603775908,
+      "y": 9.240719374665066,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "6",
+      "x": 1.9562410943361386,
+      "y": 9.113758905663861,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f97bd3bb-bcaf-4d19-8c07-65fc44fe0b45}",
+      "name": "",
+      "x": -5.0,
+      "y": 12.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e52766c3-4b8f-4021-b148-85d7593b5d35}",
+      "name": "",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3f540cb1-9ee9-4a34-aa14-1e2ddadc8104}",
+      "name": "",
+      "x": 5.0,
+      "y": -2.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f70d3d4b-8977-4ef1-86a7-6ea170ce3491}",
+      "name": "",
+      "x": 0.0,
+      "y": -2.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{eecff306-80d9-453c-bbb5-5e4d0d8d7399}",
+      "name": "",
+      "x": 5.0,
+      "y": 12.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e19e1a7b-f7e7-4e09-9ac9-42cdaa6ef662}",
+      "name": "",
+      "x": 0.0,
+      "y": 12.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -14.295811253529935,
+      "y": 1.3833913397440454,
+      "z": 10,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{0b158bf8-6742-41d8-ac12-73828f75194a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -16.313602989882202,
+      "y": 6.290220643680757,
+      "z": 13,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "UserText",
+      "uuid": "{1d22f9f7-bcad-4e1e-b191-78da97c93729}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "___mA",
+      "infoName": ""
+    }
+  ]
+}

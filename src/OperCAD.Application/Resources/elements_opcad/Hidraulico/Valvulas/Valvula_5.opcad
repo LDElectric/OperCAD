@@ -1,0 +1,345 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_5.opcad",
+  "id": "{b4dc79bb-6d83-672f-de60-d71406350591}",
+  "names": {
+    "ar": "صمّام  بثلاث مسارات مُزوّد بمُحرّك",
+    "ca": "Vàlvula motoritzada de tres vies",
+    "cs": "Trojcestná klapka řízená motorem",
+    "en": "Motorized three-way valve",
+    "fr": "Vanne trois voies motorisée",
+    "it": "Valvola motorizzata 3vie",
+    "nl": "Klep drieweg motor",
+    "pl": "Zawór trójdrogowy sterowany silnikiem"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 9.553,
+  "hotspotX": 1.25,
+  "hotspotY": 3.125,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.009378741074140606,
+      "y1": 3.731350782859942,
+      "x2": -0.009378741074140606,
+      "y2": 7.508350782859941,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.8963787410741406,
+          "y": 3.731350782859942
+        },
+        {
+          "x": 1.8776212589258594,
+          "y": 3.731350782859942
+        },
+        {
+          "x": -0.009378741074140606,
+          "y": -0.043649217140058205
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.8413787410741405,
+      "y": -10.431649217140059,
+      "width": 5.664,
+      "height": 5.666,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.7863787410741407,
+      "y": -11.376649217140058,
+      "width": 7.554,
+      "height": 7.556,
+      "start": 225,
+      "angle": 90,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "M",
+      "x": -1.7645551176935732,
+      "y": -10.227603152606276,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.2576212589258593,
+          "y": -5.332649217140058
+        },
+        {
+          "x": 3.0096212589258595,
+          "y": -4.577649217140058
+        },
+        {
+          "x": 3.7676212589258595,
+          "y": -6.464649217140058
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.031378741074141,
+          "y": -4.577649217140058
+        },
+        {
+          "x": -2.2763787410741405,
+          "y": -5.332649217140058
+        },
+        {
+          "x": -3.7863787410741407,
+          "y": -6.464649217140058
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.3873787410741406,
+      "y1": -0.42264921714005776,
+      "x2": -0.3873787410741406,
+      "y2": -4.577649217140058,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.3676212589258594,
+      "y1": -0.42264921714005776,
+      "x2": 0.3676212589258594,
+      "y2": -4.577649217140058,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.56437874107414,
+      "y1": -0.043649217140058205,
+      "x2": -3.7863787410741407,
+      "y2": -0.043649217140058205,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.7676212589258595,
+      "y1": -0.043649217140058205,
+      "x2": 7.54362125892586,
+      "y2": -0.043649217140058205,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.7676212589258595,
+          "y": 2.222350782859942
+        },
+        {
+          "x": -0.009378741074140606,
+          "y": -0.043649217140058205
+        },
+        {
+          "x": 3.7676212589258595,
+          "y": -2.310649217140058
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.7863787410741407,
+          "y": -2.310649217140058
+        },
+        {
+          "x": -3.7863787410741407,
+          "y": 2.222350782859942
+        },
+        {
+          "x": -0.009378741074140606,
+          "y": -0.043649217140058205
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{612a73e6-609a-4afb-8a04-9941b1629551}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8aba835e-48fc-40db-bdd2-c300522c0ab1}",
+      "name": "",
+      "x": -7.442755511769358,
+      "y": 8.881784197001252e-16,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{70ead6e1-412a-4250-8ca1-460e17da7c78}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.3389377995255582,
+      "y": -15.743811428197754,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0d4d14d4-f6cd-4e8f-a7a8-e2d6dfc5b939}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Inductancia_2.opcad",
+  "id": "{ff2587ca-e053-c7cb-6482-9dcbc569fa96}",
+  "names": {
+    "ar": "حثّ",
+    "cs": "Cívka",
+    "de": "Induktivität",
+    "el": "Πηνίο",
+    "en": "Inductor",
+    "es": "Inductor nucleo de hierro",
+    "fr": "Inductance",
+    "it": "Induttanza",
+    "nl": "Inductor",
+    "pl": "Cewka",
+    "pt": "Indutor II",
+    "ru": "Индуктивность"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 4.251,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": -1.094,
+      "y": -4.097,
+      "width": 2.188,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.094,
+      "y": -0.972,
+      "width": 2.188,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.094,
+      "y": 0.59,
+      "width": 2.188,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.094,
+      "y": -2.535,
+      "width": 2.188,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.0,
+      "y1": 2.153,
+      "x2": -0.0,
+      "y2": 5.278,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.0,
+      "y1": -7.222,
+      "x2": -0.0,
+      "y2": -4.097,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{f67c61ba-4585-4018-b636-1698814767da}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{933d0693-f9e0-4444-9ac6-2a24b173ceb0}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.434,
+      "y": -8.793,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{39a24fd8-55be-41ab-a946-9852d9ff5976}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

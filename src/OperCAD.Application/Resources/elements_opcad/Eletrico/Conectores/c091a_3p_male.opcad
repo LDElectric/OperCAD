@@ -1,0 +1,328 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "c091a_3p_male.elmt",
+  "id": "{95fd6436-1b0b-4bd4-6b30-5fee55a90709}",
+  "names": {
+    "ca": "Connector C091D mascle de 3 polzades",
+    "cs": "C091A 3p male",
+    "hu": "C091D 3p apa csatlakozó"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 28.873,
+  "height": 7.124,
+  "hotspotX": -10.0,
+  "hotspotY": 1.25,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 3.875,
+      "y1": 0.874,
+      "x2": 5.0,
+      "y2": -0.249,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.624,
+      "y1": 0.874,
+      "x2": -2.5,
+      "y2": -0.249,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": -0.249,
+      "x2": 6.124,
+      "y2": 0.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": -0.249,
+      "x2": -1.375,
+      "y2": 0.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 5.0,
+      "x2": -2.5,
+      "y2": 0.125,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 5.0,
+      "x2": 5.0,
+      "y2": 0.125,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -11.124,
+      "y1": 0.874,
+      "x2": -9.999,
+      "y2": -0.249,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": -0.249,
+      "x2": -8.875,
+      "y2": 0.874,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 5.0,
+      "x2": -9.999,
+      "y2": 0.125,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 1.626,
+      "x2": 5.0,
+      "y2": 1.626,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -9.999,
+      "y1": 2.375,
+      "x2": 5.0,
+      "y2": 2.375,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.562,
+      "length2": 0.562,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -9.249,
+      "y": 5.0,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -1.75,
+      "y": 5.0,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": 5.75,
+      "y": 5.0,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{445883c1-91c3-480d-bfda-0ace92ea6860}",
+      "name": "",
+      "x": -2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{812608e2-c192-46a7-96e9-350a52b259d3}",
+      "name": "",
+      "x": -10.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{5be002ed-9a8f-4e13-8255-05a95f133ff9}",
+      "name": "",
+      "x": 5.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -22.748,
+      "y": -2.124,
+      "z": 19,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{1640ef0e-7d5c-4342-a5c8-90b708c32e4c}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

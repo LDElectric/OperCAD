@@ -1,0 +1,370 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nucleo_toroidal_de_3_polos.opcad",
+  "id": "{6b041d8a-cfc4-b1ef-9614-182027322b93}",
+  "names": {
+    "ar": "ملف حلقي بثلاث أقطاب",
+    "cs": "Třípólový proudový transformátor",
+    "de": "Stromwandler 3-polig",
+    "el": "Τοροειδές πηνίο 3 πόλων",
+    "en": "3-poles toroidal core",
+    "es": "Núcleo toroide 3 polos",
+    "fr": "Tore 3 pôles",
+    "it": "Toroide a 3 poli",
+    "nl": "Stroomtransformator ringkern 3AC",
+    "pl": "Przekładnik prądowy trójtorowy",
+    "pt": "Nucleo toroidal de 3 polos"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 27.999,
+  "height": 17.474,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 4.99,
+      "y1": -15.299,
+      "x2": 4.99,
+      "y2": 3.002,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.029,
+      "y1": -15.335,
+      "x2": 0.029,
+      "y2": 2.966,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 8.482,
+      "y1": -4.84,
+      "x2": 8.482,
+      "y2": -12.16,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 15.07,
+      "y1": -12.395,
+      "x2": 8.482,
+      "y2": -12.395,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 14.754,
+      "y1": -5.033,
+      "x2": 11.826,
+      "y2": -5.033,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.016,
+      "y1": -15.298,
+      "x2": -5.016,
+      "y2": 3.003,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -8.338,
+      "y": -7.712,
+      "width": 20.01,
+      "height": 5.003,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{af76f844-a923-48a3-83cc-41ebf9687847}",
+      "name": "",
+      "x": 0.0,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9080d8ac-0fbf-4a08-97cc-5b16c14df1f2}",
+      "name": "",
+      "x": 5.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{caeee2c7-7ed7-4847-9997-fc5d7e14cf10}",
+      "name": "",
+      "x": 15.0,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{333baa50-c2e9-49f7-8796-d61b492c9333}",
+      "name": "",
+      "x": 5.0,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{fe94c624-607b-44cb-9514-c64a7ae08ee4}",
+      "name": "",
+      "x": 15.0,
+      "y": -12.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c49629b5-dc42-4b1e-8c88-70186ec588a1}",
+      "name": "",
+      "x": 0.0,
+      "y": 2.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{c15d890b-dac5-4849-b746-c390cbfe0db3}",
+      "name": "",
+      "x": -5.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3139b16c-e4f8-489f-8d4c-f5cb9d560d3e}",
+      "name": "",
+      "x": -5.0,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.66774351917028,
+      "y": -10.178996240873591,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{1a0c8c04-706f-4705-9dc6-4542a9427c3a}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 12.45,
+      "y": -8.3,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{c46da6e7-0ce0-46a6-89cc-e1e7771aae82}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "8",
+      "infoName": "tag"
+    },
+    {
+      "x": 12.54,
+      "y": -15.7,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{560f6906-d7fa-46c5-941b-749ad0fef1c2}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "7",
+      "infoName": "tag"
+    },
+    {
+      "x": -7.471455155733794,
+      "y": -14.224644013867165,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{545b2c71-760d-4bc8-8c6f-11ac8ba84679}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "tag"
+    },
+    {
+      "x": -7.542755432533475,
+      "y": -1.1840557093331556,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{54429f4f-496c-49fa-b7af-aa3cbad0c23a}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": "tag"
+    },
+    {
+      "x": -2.4463777162667375,
+      "y": -14.239566574400106,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{d3e772f1-a6ac-44ae-83fc-f0c1b5c2edb7}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": "tag"
+    },
+    {
+      "x": -2.586811141866631,
+      "y": -1.2304334255998934,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{ad0423e1-35e3-4445-949e-11d6df080cdf}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": "tag"
+    },
+    {
+      "x": 2.443188858133369,
+      "y": -14.216811141866632,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a400a4db-005f-4722-b3ec-7344ea803eda}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "5",
+      "infoName": "tag"
+    },
+    {
+      "x": 2.51,
+      "y": -1.320866851199787,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a8ffa524-3b38-4b47-9068-c63924f35e62}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "6",
+      "infoName": "tag"
+    }
+  ]
+}

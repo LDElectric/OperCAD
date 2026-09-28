@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>OperCAD.App</RootNamespace>
+    <AssemblyName>OperCAD</AssemblyName>
+    <ApplicationIcon>..\OperCAD.UI\Resources\app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <!-- Publicação portátil: executável único, self-contained, win-x64.
+       IMPORTANTE:
+       - EnableCompressionInSingleFile precisa ser FALSE (compressão quebra recursos do WPF).
+       - IncludeAllContentForSelfExtract=true força a extração de TODOS os assemblies para o
+         diretório temporário na inicialização, o que faz a resolução de recursos WPF (BAML,
+         pack URIs, StaticResource/DynamicResource) funcionar idêntico a um app normal.
+         A DISTRIBUIÇÃO continua sendo um único .exe. -->
+  <PropertyGroup>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <IncludeAllContentForSelfExtract>true</IncludeAllContentForSelfExtract>
+    <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OperCAD.UI\OperCAD.UI.csproj" />
+  </ItemGroup>
+
+  <!-- Autonomia: a biblioteca de elementos e os cartouches vão para a RAIZ da saída do executável.
+       Para execução em debug (F5), os Content items copiam os arquivos para o diretório de saída.
+       Para publicação portátil (single-file), os recursos são embutidos no .exe via EmbeddedResource
+       e extraídos na primeira execução. -->
+  <ItemGroup>
+    <Content Include="..\OperCAD.Application\Resources\elements\**"
+             Link="elements\%(RecursiveDir)%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\OperCAD.Application\Resources\elements_opcad\**"
+             Link="elements_opcad\%(RecursiveDir)%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\OperCAD.Application\Resources\titleblocks\default.titleblock"
+           Link="titleblocks\default.titleblock"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="..\OperCAD.Application\Resources\template.json"
+             Link="template.json"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="LEIA-ME.txt"
+             CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <!-- Pre-build: cria um .zip com os recursos que serão embutidos no .exe -->
+  <Target Name="CreateEmbeddedResourcesZip" BeforeTargets="BeforeBuild">
+    <PropertyGroup>
+      <ResourcesDir>$([MSBuild]::NormalizePath('$(MSBuildProjectDirectory)', '..', 'OperCAD.Application', 'Resources'))</ResourcesDir>
+      <EmbeddedResourcesDir>$(ProjectDir)obj\embedded-resources</EmbeddedResourcesDir>
+      <TemplateFile>$([MSBuild]::NormalizePath('$(MSBuildProjectDirectory)', '..', 'OperCAD.Application', 'Resources', 'template.json'))</TemplateFile>
+      <EmbeddedZip>$(ProjectDir)obj\embedded-resources.zip</EmbeddedZip>
+    </PropertyGroup>
+    <MakeDir Directories="$(ProjectDir)obj" />
+        <RemoveDir Directories="$(EmbeddedResourcesDir)" />
+        <MakeDir Directories="$(EmbeddedResourcesDir)\titleblocks" />
+        <Copy SourceFiles="$(ResourcesDir)\titleblocks\default.titleblock"
+          DestinationFolder="$(EmbeddedResourcesDir)\titleblocks" />
+        <Exec Command="powershell -NoProfile -Command &quot;Compress-Archive -Path '$(ResourcesDir)\elements_opcad','$(EmbeddedResourcesDir)\titleblocks','$(TemplateFile)' -DestinationPath '$(EmbeddedZip)' -Force&quot;" />
+  </Target>
+
+  <!-- Embute o .zip de recursos como EmbeddedResource no assembly -->
+  <ItemGroup>
+    <EmbeddedResource Include="$(ProjectDir)obj\embedded-resources.zip"
+                      LogicalName="embedded-resources.zip" />
+  </ItemGroup>
+
+</Project>

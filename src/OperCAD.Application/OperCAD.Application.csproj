@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>OperCAD.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OperCAD.Core\OperCAD.Core.csproj" />
+    <PackageReference Include="UglyToad.PdfPig" Version="1.7.0-custom-5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Biblioteca de elementos e cartouches embutida. Copiadas para a RAIZ da saída (elements/ e
+         titleblocks/ ao lado do exe), onde o ElementCollectionService e o
+         TitleBlockTemplateCatalog as procuram via AppContext.BaseDirectory. -->
+    <Content Include="Resources\elements\**" Link="elements\%(RecursiveDir)%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Resources\titleblocks\default.titleblock" Link="titleblocks\default.titleblock"
+             CopyToOutputDirectory="PreserveNewest" />
+    <!-- Biblioteca de elementos .opcad (formato próprio do OperCAD) -->
+    <Content Include="Resources\elements_opcad\**" Link="elements_opcad\%(RecursiveDir)%(Filename)%(Extension)"
+             CopyToOutputDirectory="PreserveNewest" />
+    <!-- Dicionário de tradução pt-BR embutido no assembly (runtime). -->
+    <EmbeddedResource Include="Resources\traducoes_pt_br.txt" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Transformador_trifasico_2.opcad",
+  "id": "{95e4efdd-2953-0f30-783e-87098f3a612d}",
+  "names": {
+    "ar": "محوّل ثلاثي الأوجه",
+    "cs": "Transformátor se třemi vinutími",
+    "de": "Transformator Drehstrom",
+    "el": "Τριφασικός μετασχηματιστής",
+    "en": "Three-phase transducer",
+    "es": "Transformador trifásico",
+    "fr": "Transformateur triphasé",
+    "it": "Trasformatore trifase",
+    "nl": "driefasen transformator",
+    "pl": "Transformator trójfazowy",
+    "pt": "Transformador 2 secundarios II",
+    "ru": "Трёхфазный трансформатор"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.998,
+  "height": 40.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "ellipse",
+      "x": -12.498,
+      "y": -2.5,
+      "width": 14.998,
+      "height": 14.998,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -7.5,
+      "y": -12.498,
+      "width": 14.998,
+      "height": 14.998,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.5,
+      "y": -2.5,
+      "width": 14.998,
+      "height": 14.998,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 19.998,
+      "x2": 5.0,
+      "y2": 12.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 12.498,
+      "x2": -5.0,
+      "y2": 19.998,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -19.998,
+      "x2": 0.0,
+      "y2": -12.498,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d442cc5d-ce30-4813-a143-e2b4e6abc894}",
+      "name": "",
+      "x": 0.0,
+      "y": -20.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{aeeba04e-3164-407b-bfab-bd942dfae46d}",
+      "name": "",
+      "x": -5.0,
+      "y": 20.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3026cc6b-abfa-4cb8-9105-95717e4f5924}",
+      "name": "",
+      "x": 5.0,
+      "y": 20.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 13.5,
+      "y": -6.25,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{e02e8914-b0a6-421a-a539-a0b7a4508b64}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

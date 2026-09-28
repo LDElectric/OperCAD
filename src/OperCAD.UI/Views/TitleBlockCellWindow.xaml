@@ -1,0 +1,63 @@
+<Window x:Class="OperCAD.UI.Views.TitleBlockCellWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Célula da legenda"
+        Width="420" Height="520"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}">
+
+    <Grid Margin="16">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Text="CÉLULA" Style="{StaticResource App.SectionHeader}" />
+            <Grid Margin="0,6,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="110" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition /><RowDefinition /><RowDefinition /><RowDefinition />
+                    <RowDefinition /><RowDefinition /><RowDefinition /><RowDefinition />
+                    <RowDefinition /><RowDefinition /><RowDefinition />
+                </Grid.RowDefinitions>
+                <TextBlock Text="Linha" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <TextBox x:Name="TxtRow" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                <TextBlock Grid.Row="1" Text="Coluna" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <TextBox x:Name="TxtCol" Grid.Row="1" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                <TextBlock Grid.Row="2" Text="Span linhas" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <TextBox x:Name="TxtRowSpan" Grid.Row="2" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                <TextBlock Grid.Row="3" Text="Span colunas" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <TextBox x:Name="TxtColSpan" Grid.Row="3" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                <TextBlock Grid.Row="4" Text="Campo" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <TextBox x:Name="TxtName" Grid.Row="4" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                <TextBlock Grid.Row="5" Text="Valor" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <TextBox x:Name="TxtValue" Grid.Row="5" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                <TextBlock Grid.Row="6" Text="Rótulo" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <TextBox x:Name="TxtLabel" Grid.Row="6" Grid.Column="1" Style="{StaticResource App.TextBox}" Margin="0,3" />
+                <TextBlock Grid.Row="7" Text="Alinhamento" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <ComboBox x:Name="CmbAlign" Grid.Row="7" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,3" />
+                <TextBlock Grid.Row="8" Text="Alinh. vertical" Style="{StaticResource App.FieldLabel}" Margin="0,3,8,3" />
+                <ComboBox x:Name="CmbValign" Grid.Row="8" Grid.Column="1" Style="{StaticResource App.ComboBox}" Margin="0,3" />
+                <CheckBox x:Name="ChkDisplayLabel" Grid.Row="9" Grid.Column="1" Content="Exibir rótulo"
+                          Style="{StaticResource App.CheckBox}" Margin="0,4" />
+                <CheckBox x:Name="ChkHadjust" Grid.Row="10" Grid.Column="1" Content="Ajustar fonte"
+                          Style="{StaticResource App.CheckBox}" Margin="0,4" />
+            </Grid>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,14,0,0">
+            <Button Content="OK" IsDefault="True" Click="OnOk" Style="{StaticResource App.PrimaryButton}" Width="88" Height="30"
+                    Background="{DynamicResource App.Accent}" Foreground="White"
+                    FontFamily="{StaticResource App.Font}" BorderThickness="0" />
+            <Button Content="Cancelar" IsCancel="True" Width="88" Height="30" Margin="8,0,0,0"
+                    Background="{DynamicResource App.Panel.Card}" Foreground="{DynamicResource App.Text.Primary}"
+                    FontFamily="{StaticResource App.Font}" BorderBrush="{DynamicResource App.Border}" />
+        </StackPanel>
+    </Grid>
+</Window>

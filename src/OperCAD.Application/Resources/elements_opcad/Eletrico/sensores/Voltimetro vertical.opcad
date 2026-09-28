@@ -1,0 +1,119 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Voltimetro_vertical.opcad",
+  "id": "{e97ea78b-e198-c7cc-a66d-95a74d73eb8c}",
+  "names": {
+    "ar": "فولتمتر عمودي",
+    "ca": "Voltímetre vertical",
+    "cs": "Voltmetr, svislý",
+    "de": "Voltmeter senkrecht",
+    "el": "Βολτόμετρο κατακόρυφο",
+    "en": "Vertical voltmeter",
+    "es": "Voltímetro vertical",
+    "fr": "Voltmètre vertical",
+    "it": "Volmetro verticale",
+    "nl": "Voltmeter",
+    "pl": "Woltomierz (pionowo)",
+    "pt": "Voltímetro vertical",
+    "ru": "Вольтметр (вертикальный)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 22.974,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -10.0,
+      "x2": 0.0,
+      "y2": 10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -5.0,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "V",
+      "x": -2.228,
+      "y": -3.57,
+      "rotation": 0,
+      "font": "Liberation Sans,12,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ee5e578a-43cd-41cb-be2a-1f19c553d556}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{f73618cd-586c-45b7-8b88-3af7b5168596}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.0,
+      "y": -12.974,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{ab294d09-1d2d-4f7e-8ef5-ebf0b33ad106}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

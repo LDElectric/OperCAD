@@ -1,0 +1,254 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_16.opcad",
+  "id": "{9e421bc4-7a7d-a4df-ed45-e684a594d9cb}",
+  "names": {
+    "cs": "Kontakt NC/NO řízený motorem",
+    "de": "Wechsler Motor betätigt",
+    "en": "Contact Motorized NC/NO",
+    "es": "Contacto motorizado NC/NA",
+    "fr": "Commande par moteur électrique NO/NF",
+    "it": "Contatto NC/NO motorizzato",
+    "nl": "Motor contact (NC/NO)",
+    "pl": "Zestyk przełączny sterowany silnikiem",
+    "pt": "Contato NA-NF motorizado"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.75,
+  "height": 10.999,
+  "hotspotX": -2.5,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "M",
+      "x": -8.481,
+      "y": -4.811,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.781,
+      "y1": -2.367,
+      "x2": 0.673,
+      "y2": -2.367,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -8.416,
+      "y": -4.185,
+      "width": 3.636,
+      "height": 3.636,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -4.781,
+      "y1": -5.639,
+      "x2": -0.054,
+      "y2": -5.639,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.492,
+          "y": 4.906
+        },
+        {
+          "x": 2.492,
+          "y": 1.27
+        },
+        {
+          "x": -1.145,
+          "y": -6.003
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -4.969,
+      "y1": -9.591,
+      "x2": -4.969,
+      "y2": -5.593,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.492,
+      "y1": -9.638,
+      "x2": 2.492,
+      "y2": -6.003,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{610147b1-b437-4314-a212-109626644a5c}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9309b8b2-347b-4494-8661-9f9507132687}",
+      "name": "",
+      "x": 2.5,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{73ce8dcb-90b5-4731-bfde-5e1a22debb30}",
+      "name": "",
+      "x": -5.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -12.86658379369512,
+      "y": -5.224024354914498,
+      "z": 9,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{33509634-855c-43a5-91d6-73073eb9da64}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 3.3480422757207373,
+      "y": 1.5736230738781654,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{39b08b43-018b-4a02-84eb-c93c10cc7ee9}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": -8.219788621396317,
+      "y": -9.316376926121833,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{7c2bb752-58fe-40a2-9041-a5fe2dff5ee3}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "22",
+      "infoName": "tag"
+    },
+    {
+      "x": 3.2528921371772626,
+      "y": -9.275434610817248,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{bef7954c-e2b5-49c3-b8a3-c1386b9811c9}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "24",
+      "infoName": "tag"
+    }
+  ]
+}

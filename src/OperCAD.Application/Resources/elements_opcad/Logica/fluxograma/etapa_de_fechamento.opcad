@@ -1,0 +1,164 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "etapa_de_fechamento.opcad",
+  "id": "{07cc9a04-d981-5ebc-ba7d-d3adc0f2cac5}",
+  "names": {
+    "ar": "أرفق خطوة",
+    "ca": "pas de tancament",
+    "cs": "uzavírací krok",
+    "da": "omsluttende trin",
+    "de": "Einschließender Schritt",
+    "el": "κλιμακωτό βήμα",
+    "en": "enclosing step",
+    "es": "paso envolvente",
+    "fr": "étape d'enfermement",
+    "hr": "obuhvatni korak",
+    "hu": "befoglaló lépés",
+    "it": "passo di chiusura",
+    "ja": "包囲ステップ",
+    "mn": "хаалттай алхам",
+    "nb": "omsluttende trinn",
+    "nl": "omsluitende stap",
+    "pl": "stopień zamykający",
+    "pt": "etapa de fechamento",
+    "ro": "pas de anexare",
+    "ru": "ограждающая ступенька",
+    "sl": "zapiralni korak",
+    "sr": "оградни корак",
+    "tr": "çevreleyen adım"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 17.5,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -7.5,
+      "y": -7.5,
+      "width": 14.998,
+      "height": 14.998,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -7.5,
+          "y": -2.5
+        },
+        {
+          "x": -3.5,
+          "y": -7.5
+        },
+        {
+          "x": 2.999,
+          "y": -7.5
+        },
+        {
+          "x": 7.5,
+          "y": -2.5
+        },
+        {
+          "x": 7.5,
+          "y": 2.999
+        },
+        {
+          "x": 2.999,
+          "y": 7.5
+        },
+        {
+          "x": -2.5,
+          "y": 7.5
+        },
+        {
+          "x": -7.5,
+          "y": 2.999
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{af048eba-fa01-4a94-82ca-45d8d9f8f1b3}",
+      "name": "",
+      "x": 10.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7948ab13-acb4-42b8-9900-d9448cadae4b}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3bf2a658-fdf1-4a41-a1e4-ee8488bd2832}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.999,
+      "y": -5.0,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{363f99d2-74a9-4e99-9844-5c2a9ad0eac6}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": ""
+    },
+    {
+      "x": 7.999,
+      "y": -1.999,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{01127e1b-5c5c-44f7-80a5-6c40a027c45c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

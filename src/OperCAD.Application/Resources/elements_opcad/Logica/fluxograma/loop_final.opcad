@@ -1,0 +1,155 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "loop_final.opcad",
+  "id": "{2faf9e32-6068-378f-7766-641f1e3cb507}",
+  "names": {
+    "ar": "حلقة النهاية",
+    "ca": "bucle final",
+    "cs": "koncová smyčka",
+    "da": "endeløkke",
+    "de": "Ende Schleife",
+    "el": "τελικός βρόχος",
+    "en": "end loop",
+    "es": "bucle final",
+    "fr": "boucle de fin",
+    "hr": "završna petlja",
+    "hu": "vég hurok",
+    "it": "ciclo finale",
+    "ja": "エンドループ",
+    "mn": "төгсгөлийн гогцоо",
+    "nb": "endeløkke",
+    "nl": "einde lus",
+    "pl": "końcowa pętla",
+    "pt": "loop final",
+    "ro": "buclă de capăt",
+    "ru": "конец цикла",
+    "sl": "končna zanka",
+    "sr": "завршна петља",
+    "tr": "son döngü"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nezza",
+  "width": 52.496,
+  "height": 30.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 14.279588663600892,
+          "y": -4.634177327201784
+        },
+        {
+          "x": 14.279588663600892,
+          "y": 3.9368226727982156
+        },
+        {
+          "x": 11.423588663600892,
+          "y": 6.793822672798216
+        },
+        {
+          "x": -11.428411336399108,
+          "y": 6.793822672798216
+        },
+        {
+          "x": -14.286411336399109,
+          "y": 3.9368226727982156
+        },
+        {
+          "x": -14.286411336399109,
+          "y": -4.634177327201784
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.002411336399108177,
+      "y1": 8.222822672798216,
+      "x2": -0.002411336399108177,
+      "y2": 6.793822672798216,
+      "end1": "triangle",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.002411336399108177,
+      "y1": -7.462177327201784,
+      "x2": -0.002411336399108177,
+      "y2": -4.663177327201784,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.002411336399108177,
+      "y1": 6.793822672798216,
+      "x2": -0.002411336399108177,
+      "y2": 9.652822672798216,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{57b7e209-a46c-4ed7-9efb-4fafe6573315}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{77c6dacf-52dc-4304-b6b2-39678276cf9e}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

@@ -1,0 +1,346 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Disjunctor_diferencial_2.opcad",
+  "id": "{925de831-866c-bc61-7c74-938282b5e72c}",
+  "names": {
+    "ar": "قاطع تفاضلي",
+    "ca": "Interruptor residual amb sobrecàrrega",
+    "cs": "Proudový chránič 2P",
+    "de": "Fehlerstromschutzschalter 1-polig + N",
+    "en": "Residual Circuit Breaker with Overload",
+    "es": "Dispositivo diferencial residual",
+    "fr": "Disjoncteur différentiel",
+    "hu": "Hibaáram-védőkapcsoló 1P+N",
+    "it": "Interruttore differenziale",
+    "nl": "Aardlekschakelaar + automaat",
+    "pl": "Wyłącznik różnicowoprądowy",
+    "pt": "Disjunctor diferencial",
+    "ru": "Дифавтомат"
+  },
+  "kindInformations": {
+    "type": "protection"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 13.499,
+  "height": 10.0,
+  "hotspotX": 1.25,
+  "hotspotY": 1.25,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.041517811327723,
+          "y": 9.540054010779514
+        },
+        {
+          "x": 5.041517811327723,
+          "y": 5.384054010779514
+        },
+        {
+          "x": 2.1325178113277223,
+          "y": -2.512945989220486
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.011280625334936345,
+      "y1": -4.808704894884347,
+      "x2": 0.011280625334936345,
+      "y2": -2.652704894884346,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.980744425883145,
+      "y1": -4.808704894884348,
+      "x2": 4.980744425883145,
+      "y2": -2.652704894884347,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.873517811327723,
+      "y1": -3.759945989220486,
+      "x2": 4.210517811327723,
+      "y2": -2.097945989220486,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.210517811327723,
+      "y1": -3.759945989220486,
+      "x2": 5.873517811327723,
+      "y2": -2.097945989220486,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.549,
+      "y": 5.008,
+      "width": 9.975,
+      "height": 1.662,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.011280625334936345,
+          "y": 9.661600781668671
+        },
+        {
+          "x": 0.011280625334936345,
+          "y": 5.5056007816686705
+        },
+        {
+          "x": -2.8977193746650634,
+          "y": -2.3913992183313297
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 5.93,
+          "y": 0.438
+        },
+        {
+          "x": -4.875,
+          "y": 0.438
+        },
+        {
+          "x": -4.875,
+          "y": 5.839
+        },
+        {
+          "x": -1.549,
+          "y": 5.839
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "N",
+      "x": -3.804837967661457,
+      "y": -6.486237185992787,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "L",
+      "x": 1.623945989220486,
+      "y": -6.423596873325318,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "N",
+      "x": -3.1147839568819427,
+      "y": 5.755108021559029,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "L",
+      "x": 2.3513596873325318,
+      "y": 6.018881407003607,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{ee7ef37b-5cc2-4490-975c-31205c8a648f}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{784cf258-ab34-4fcd-b5ca-0452114f97cc}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a432fc16-eaf8-4bf3-8820-4517a12266d8}",
+      "name": "",
+      "x": 5.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{ec16ae15-b6d0-4013-8225-10c89af697d6}",
+      "name": "",
+      "x": 5.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -9.441984262804201,
+      "y": -1.1307264944943238,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{1d803954-3deb-4040-a790-bdaa30e178c3}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -12.466168596354484,
+      "y": 4.043446495393921,
+      "z": 8,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a14d95ce-8bf6-4b10-beb4-c8e653f54bc5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "___mA",
+      "infoName": ""
+    }
+  ]
+}

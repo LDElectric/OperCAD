@@ -1,0 +1,173 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fim_de_curso_NO_2.opcad",
+  "id": "{e033b8b5-4166-e9f7-9c70-c79c08374bf9}",
+  "names": {
+    "ar": "مفتاح نهاية مشوار (NO)  بحدبة دورانية",
+    "cs": "Vačkový spínač NO",
+    "de": "Schliesser Steuernocken",
+    "el": "Τερματικό, Ανοικτό",
+    "en": "Cam switch (NO)",
+    "es": "Final de carrera",
+    "fr": "Fin de course came (no)",
+    "it": "Finecorsa (NA)",
+    "nl": "Nokkenschakelaar (NO)",
+    "pl": "Zestyk zwierny łącznika krańcowego",
+    "pt": "Fim de curso NA II",
+    "ru": "Концевой контакт (НР)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 13.872,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -9.65091304347826,
+      "y1": -1.125,
+      "x2": -3.650913043478261,
+      "y2": -1.125,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -10.02591304347826,
+          "y": -2.812
+        },
+        {
+          "x": -10.02591304347826,
+          "y": -1.125
+        },
+        {
+          "x": -8.150913043478262,
+          "y": -1.125
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -4.400913043478261,
+          "y": -3.75
+        },
+        {
+          "x": -2.525913043478261,
+          "y": 3.75
+        },
+        {
+          "x": -2.525913043478261,
+          "y": 7.5
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -11.89991304347826,
+      "y": -2.812,
+      "width": 3.75,
+      "height": 3.75,
+      "start": 90,
+      "angle": 275,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.525913043478261,
+      "y1": -7.5,
+      "x2": -2.525913043478261,
+      "y2": -3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d9943685-c931-4032-9f2f-234d525c3d16}",
+      "name": "",
+      "x": -2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{34611bed-3210-4657-95ff-3dcd9bc59c91}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.1831739130434773,
+      "y": -2.538956521739131,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{fcbe77c7-4775-45cb-9332-43866ff525f3}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fonte_de_neutro.opcad",
+  "id": "{ce885983-c584-01cd-03dc-e2884305acca}",
+  "names": {
+    "ar": "مصدر محايد",
+    "ca": "Font neutral",
+    "cs": "Přípojnice N",
+    "de": "Neutralleiter",
+    "el": "Ουδέτερος",
+    "en": "Neutral source",
+    "es": "Fuente neutro",
+    "fr": "Source neutre",
+    "hu": "N",
+    "it": "Sorgente neutro",
+    "nl": "Nul voeding",
+    "pl": "Przewód neutralny",
+    "pt": "Fonte de neutro",
+    "ru": "Нейтраль"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.0,
+  "height": 14.973,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.0,
+      "x2": 5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "N",
+      "x": -1.2257991552257939,
+      "y": -0.8573585638838501,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{b58c0935-084d-404f-ac30-22143250ba8c}",
+      "name": "N",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.1557969524855265,
+      "y": -4.431227207646237,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{a10ebacc-e729-4f96-af3f-24134a2f5848}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

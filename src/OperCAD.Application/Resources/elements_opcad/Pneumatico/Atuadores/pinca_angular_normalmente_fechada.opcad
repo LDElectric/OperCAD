@@ -1,0 +1,337 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "pinca_angular_normalmente_fechada.opcad",
+  "id": "{80437b03-a09e-82e2-6ff7-fa2d1ae96ee1}",
+  "names": {
+    "ar": "القابض الزاوية مغلق عادة",
+    "ca": "pinça angular normalment tancada",
+    "cs": "úhlové chapadlo normálně zavřené",
+    "da": "vinkelgriber normalt lukket",
+    "de": "winkelgreifer normal geschlossen",
+    "el": "γωνιακή λαβή κανονικά κλειστή",
+    "en": "angle gripper normally closed",
+    "es": "Pinza angular normalmente cerrada",
+    "fr": "pince d'angle normalement fermée",
+    "hr": "kutna hvataljka normalno zatvorena",
+    "hu": "szögfogó normál esetben zárva",
+    "it": "pinza angolare normalmente chiusa",
+    "ja": "アングルグリッパーは通常閉",
+    "mn": "өнцгийн атгагч нь ихэвчлэн хаалттай байдаг",
+    "nb": "vinkelgriper normalt lukket",
+    "nl": "haakse grijper normaal gesloten",
+    "pl": "chwytak kątowy normalnie zamknięty",
+    "pt": "pinça angular normalmente fechada",
+    "pt_BR": "pinça angular normalmente fechada",
+    "ro": "prindere unghiulară normal închisă",
+    "ru": "угловой захват нормально закрытый",
+    "sl": "kotni prijemal normalno zaprt",
+    "sr": "угаона хватаљка нормално затворена",
+    "tr": "açılı tutucu normalde kapalı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 25.998,
+  "height": 22.498,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.499,
+          "y": -0.6681466543321365
+        },
+        {
+          "x": 8.999,
+          "y": -0.6681466543321365
+        },
+        {
+          "x": 10.499,
+          "y": -1.6701466543321364
+        },
+        {
+          "x": 11.999,
+          "y": -0.6681466543321365
+        },
+        {
+          "x": 12.999,
+          "y": -0.6681466543321365
+        },
+        {
+          "x": 13.999,
+          "y": -0.6681466543321365
+        },
+        {
+          "x": 13.999,
+          "y": 0.8298533456678636
+        },
+        {
+          "x": 12.999,
+          "y": 0.8298533456678636
+        },
+        {
+          "x": 11.999,
+          "y": 0.8298533456678636
+        },
+        {
+          "x": 10.499,
+          "y": 0.8298533456678636
+        },
+        {
+          "x": 8.999,
+          "y": 0.8298533456678636
+        },
+        {
+          "x": 6.499,
+          "y": 0.8298533456678636
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.499,
+          "y": 1.8298533456678636
+        },
+        {
+          "x": 8.999,
+          "y": 1.8298533456678636
+        },
+        {
+          "x": 10.499,
+          "y": 1.8298533456678636
+        },
+        {
+          "x": 11.999,
+          "y": 1.8298533456678636
+        },
+        {
+          "x": 12.999,
+          "y": 1.8298533456678636
+        },
+        {
+          "x": 13.999,
+          "y": 1.8298533456678636
+        },
+        {
+          "x": 13.999,
+          "y": 3.329853345667863
+        },
+        {
+          "x": 12.999,
+          "y": 3.329853345667863
+        },
+        {
+          "x": 11.999,
+          "y": 3.329853345667863
+        },
+        {
+          "x": 10.499,
+          "y": 4.329853345667863
+        },
+        {
+          "x": 8.999,
+          "y": 3.329853345667863
+        },
+        {
+          "x": 6.499,
+          "y": 3.329853345667863
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -8.5,
+      "y": -2.6691466543321365,
+      "width": 3.5,
+      "height": 7.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -10.0,
+      "y1": 5.329853345667863,
+      "x2": -10.0,
+      "y2": 7.3308533456678635,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -11.0,
+          "y": 5.329853345667863
+        },
+        {
+          "x": -8.999,
+          "y": 5.329853345667863
+        },
+        {
+          "x": -10.0,
+          "y": 3.329853345667863
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.0,
+          "y": 5.329853345667863
+        },
+        {
+          "x": 5.0,
+          "y": 7.3308533456678635
+        },
+        {
+          "x": 4.0,
+          "y": 5.329853345667863
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -11.499,
+      "y": -2.6691466543321365,
+      "width": 17.999,
+      "height": 7.999,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.35,
+          "y": 5.110853345667864
+        },
+        {
+          "x": 4.55,
+          "y": -2.5781466543321363
+        },
+        {
+          "x": 2.29,
+          "y": 5.204853345667863
+        },
+        {
+          "x": 0.035,
+          "y": -2.6691466543321365
+        },
+        {
+          "x": -2.5,
+          "y": 5.329853345667863
+        },
+        {
+          "x": -4.744,
+          "y": -2.4491466543321367
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{23c888b0-cc9b-402b-827c-177017ce9ce1}",
+      "name": "",
+      "x": -10.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.555163052045687,
+      "y": -6.522361544524641,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{dbd71dbe-d663-477f-9dfd-8725fc661135}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

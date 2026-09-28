@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Contato_12.opcad",
+  "id": "{332d69e7-d33e-d1de-74ef-4dc6b94431f5}",
+  "names": {
+    "cs": "Kontakt NO řízený elektrickými hodinami",
+    "de": "Schliesser zeitgesteuert",
+    "el": "Ανοικτή επαφή χρονοδιακόπτη",
+    "en": "Contact NO-controlled clock",
+    "es": "Contacto NA controlado por reloj",
+    "fr": "Commande par horloge électrique NO",
+    "it": "Contatto NO comandato da orologio",
+    "nl": "Klok contact (NO)",
+    "pl": "Zestyk zwierny zegara sterującego",
+    "pt": "Contato NA temporizado"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.501,
+  "height": 21.999,
+  "hotspotX": -5.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -3.683,
+      "y1": -4.757,
+      "x2": -1.058,
+      "y2": -4.757,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -7.433,
+      "y": -6.632,
+      "width": 3.75,
+      "height": 3.75,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.808,
+          "y": -8.507
+        },
+        {
+          "x": 0.067,
+          "y": -1.007
+        },
+        {
+          "x": 0.067,
+          "y": 2.743
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.067,
+      "y1": -12.256,
+      "x2": 0.067,
+      "y2": -8.507,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -7.057,
+          "y": -4.757
+        },
+        {
+          "x": -5.558,
+          "y": -4.757
+        },
+        {
+          "x": -5.558,
+          "y": -6.257
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{32d4a1b2-663a-47db-90de-b6e791627cbf}",
+      "name": "",
+      "x": 0.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{022ebb4c-3495-4b7d-85ed-052462e761dd}",
+      "name": "",
+      "x": 0.0,
+      "y": -12.5,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.208681696188318,
+      "y": -9.642511936039647,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{3b9c708a-c111-4fa1-888d-dd7dda162daa}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 0.95,
+      "y": -11.78,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{a74dd0f1-86d8-4056-b8ea-165f44314716}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "13",
+      "infoName": "tag"
+    },
+    {
+      "x": 0.7,
+      "y": -0.7,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{8e274f9c-309c-4d77-9e27-115a0d0aa499}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "14",
+      "infoName": "tag"
+    }
+  ]
+}

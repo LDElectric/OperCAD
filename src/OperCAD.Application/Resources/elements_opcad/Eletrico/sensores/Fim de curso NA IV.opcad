@@ -1,0 +1,183 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Fim_de_curso_NO.opcad",
+  "id": "{85e8fcd8-10b0-295e-1279-04480e480bf3}",
+  "names": {
+    "ar": "مفتاح نهاية مشوار بحدبة (NO)",
+    "cs": "Koncový spínač s kladkou NO",
+    "de": "Schliesser Einschaltnocken",
+    "el": "Τερματικό, Ανοικτό",
+    "en": "Limitswitch (NO)",
+    "es": "Final de carrera",
+    "fr": "Fin de course came (no)",
+    "it": "Finecorsa (NA)",
+    "nl": "eindschakelaar (NO)",
+    "pl": "Zestyk zwierny łącznika krańcowego",
+    "pt": "Fim de curso NA IV",
+    "ru": "Концевой контакт (НР)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.873,
+  "height": 20.0,
+  "hotspotX": -5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -6.030304347826087,
+          "y": 4.135565217391305
+        },
+        {
+          "x": -6.030304347826087,
+          "y": 0.00956521739130467
+        },
+        {
+          "x": -6.405304347826087,
+          "y": -1.1134347826086954
+        },
+        {
+          "x": -6.405304347826087,
+          "y": -4.114434782608695
+        },
+        {
+          "x": -7.155304347826086,
+          "y": -4.114434782608695
+        },
+        {
+          "x": -7.155304347826086,
+          "y": 4.135565217391305
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.2173043478260865,
+      "y": -1.3024347826086953,
+      "width": 1.125,
+      "height": 1.126,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.905304347826087,
+          "y": -3.3644347826086953
+        },
+        {
+          "x": -0.030304347826087152,
+          "y": 4.135565217391305
+        },
+        {
+          "x": -0.030304347826087152,
+          "y": 7.885565217391305
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -0.030304347826087152,
+      "y1": -7.114434782608695,
+      "x2": -0.030304347826087152,
+      "y2": -3.3644347826086953,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0923043478260865,
+      "y1": -0.7394347826086953,
+      "x2": -1.530304347826087,
+      "y2": -0.7394347826086953,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{18b94112-5b7e-4b02-b4bd-d8180fa6db5d}",
+      "name": "",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1e2d545f-f9a5-4a6b-bf89-1cf00b745177}",
+      "name": "",
+      "x": 0.0,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.2839130434782602,
+      "y": -2.551869565217391,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{a13f8683-7714-4fcb-9c47-ca09dff99c11}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

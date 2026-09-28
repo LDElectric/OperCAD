@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Bateria.opcad",
+  "id": "{c1765c18-7486-da0d-ebb3-da39a3d7fa03}",
+  "names": {
+    "ar": "بطارية خليّة واحدة",
+    "cs": "Baterie 1 článek",
+    "de": "Batterie 1 Element",
+    "el": "Μπαταρία (1 στοιχείο)",
+    "en": "Battery one element",
+    "es": "Bateria 1 elemento",
+    "fr": "Pile 1 élément",
+    "it": "Batteria (un elemento)",
+    "nl": "Batterij 1 element DC",
+    "nl_BE": "Batterij 1 element DC",
+    "pl": "Ogniwo elektrochemiczne",
+    "pt": "Bateria I"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.5,
+  "height": 11.546,
+  "hotspotX": 1.25,
+  "hotspotY": -3.125,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 7.5,
+      "y1": 0.0,
+      "x2": 2.188,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.312,
+      "y1": 0.0,
+      "x2": -5.0,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.312,
+      "y1": -2.812,
+      "x2": 0.312,
+      "y2": 2.812,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.468,
+      "length2": 0.468,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": 1.25,
+      "y": -1.874,
+      "width": 0.938,
+      "height": 3.75,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "-",
+      "x": 3.124,
+      "y": 2.084,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "+",
+      "x": -2.187,
+      "y": 2.084,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{7c71aefc-f08b-4f70-9d3c-f3620e03ac76}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9717e1c4-91f6-4676-ac01-ff537e298383}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -0.22310397424086847,
+      "y": -7.197104162739609,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{9c42ee67-df86-4e5a-a55b-ba1b52d22a47}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

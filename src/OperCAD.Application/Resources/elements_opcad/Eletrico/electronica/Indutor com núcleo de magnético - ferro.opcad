@@ -1,0 +1,208 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Self_2.opcad",
+  "id": "{33ae159f-c086-d3c5-50ed-122a5881ed43}",
+  "names": {
+    "ar": "ملف حثّي بقلب حديدي",
+    "ca": "Jo mateix",
+    "cs": "Tlumivka",
+    "de": "Induktivität mit Eisenkern",
+    "el": "Πηνίο",
+    "en": "Self",
+    "fr": "Inductance",
+    "it": "Induttanza",
+    "nl": "Inductor",
+    "pl": "Dławik"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 9.001,
+  "height": 20.0,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -0.3008157503714708,
+      "y1": -3.0624205052005946,
+      "x2": -0.3008157503714708,
+      "y2": 3.1875794947994054,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.3231842496285293,
+      "y1": -3.125,
+      "x2": 0.3231842496285293,
+      "y2": 3.125,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.582815750371471,
+      "y": -3.0624205052005946,
+      "width": 2.187,
+      "height": 1.563,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.582815750371471,
+      "y": 0.0,
+      "width": 2.187,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.582815750371471,
+      "y": 1.562,
+      "width": 2.187,
+      "height": 1.563,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.582815750371471,
+      "y": -1.4994205052005947,
+      "width": 2.187,
+      "height": 1.562,
+      "start": 270,
+      "angle": 180,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.4888157503714705,
+      "y1": 3.186864041604755,
+      "x2": -2.4888157503714705,
+      "y2": 5.186864041604755,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.4888157503714705,
+      "y1": -5.0617050520059435,
+      "x2": -2.4888157503714705,
+      "y2": -3.0617050520059435,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{d63a23ec-541d-4b12-8727-4420d56b5d2c}",
+      "name": "",
+      "x": -2.5,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{26655bc5-93a8-438c-a8ae-e8635635bf70}",
+      "name": "",
+      "x": -2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.5552659732540874,
+      "y": -2.456933135215453,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{f653332d-c5cf-4503-8e3d-f87529184107}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Tacometro.opcad",
+  "id": "{8dedc012-5ef8-b50d-e59b-0cb769f77186}",
+  "names": {
+    "ar": "مقياس سرعة الدوران",
+    "ca": "Tacòmetre",
+    "cs": "Tachometr",
+    "da": "Omdrejningstæller",
+    "de": "Geschwindigkeitsmesser",
+    "el": "Ταχύμετρο",
+    "en": "Tachometer",
+    "es": "Tacómetro",
+    "fr": "Tachymètre",
+    "hr": "Tahometar",
+    "hu": "Fordulatszámmérő",
+    "it": "Tachimetro",
+    "ja": "タコメータ",
+    "mn": "Тахометр",
+    "nb": "Turteller",
+    "nl": "toerenteller",
+    "pl": "Tachometr",
+    "pt": "Tacômetro",
+    "pt_BR": "Tacômetro",
+    "ro": "Tahometru",
+    "ru": "Тахометр",
+    "sl": "Tahometer",
+    "sr": "Тахометар",
+    "tr": "Takometre"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 11.75,
+  "height": 10.249,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 2.25,
+      "y1": -2.5,
+      "x2": 4.034,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.25,
+      "y1": 0.0,
+      "x2": 4.034,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -1.75,
+      "y": -3.0,
+      "width": 3.499,
+      "height": 3.499,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.617,
+          "y": -3.423
+        },
+        {
+          "x": -0.617,
+          "y": -2.422
+        },
+        {
+          "x": 0.633,
+          "y": -2.922
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -2.5,
+      "y": -3.75,
+      "width": 5.0,
+      "height": 5.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -3.999,
+      "y1": 0.0,
+      "x2": -2.215,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.75,
+      "y1": -2.5,
+      "x2": -2.25,
+      "y2": -2.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{cd924d8e-fe71-4061-b731-841f87db1f25}",
+      "name": "",
+      "x": 5.0,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{616998a0-1780-4bf1-b45c-cf9ebcc34061}",
+      "name": "",
+      "x": 5.0,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{1bb18efd-04d7-4d03-a31d-95d3b7f78350}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{2f8fa494-cba8-47d0-8c1b-d2f11fd3cb2c}",
+      "name": "",
+      "x": -5.0,
+      "y": -2.5,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -6.75,
+      "y": -8.999,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{963d4e84-403a-498a-8e3d-ad8063f88fc8}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

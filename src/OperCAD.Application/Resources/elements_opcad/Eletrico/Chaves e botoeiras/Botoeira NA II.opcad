@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Botoeira_2.opcad",
+  "id": "{e1f38606-8e83-93c9-f974-929cf2800bc4}",
+  "names": {
+    "ar": "زرّ ضاغط",
+    "cs": "Prosvětlené tlačítko",
+    "de": "Drucktaster Schliesser beleuchtet",
+    "el": "Μπουτόν, φωτειζόμενο",
+    "en": "Push-button",
+    "es": "Pulsador con lampara",
+    "fr": "Bouton poussoir",
+    "it": "Pulsante luminoso",
+    "nl": "Drukknop met lamp (NO)",
+    "pl": "Łącznik przyciskowy podświetlony  z powrotem samoczynnym",
+    "pt": "Botoeira NA II"
+  },
+  "kindInformations": {
+    "type": "commutator"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 13.874,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -3.128,
+      "y1": -0.4,
+      "x2": 1.372,
+      "y2": -0.4,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.253,
+          "y": 1.099
+        },
+        {
+          "x": -2.378,
+          "y": 1.099
+        },
+        {
+          "x": -2.378,
+          "y": -1.9
+        },
+        {
+          "x": -1.253,
+          "y": -1.9
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.257,
+      "y1": 0.429,
+      "x2": -3.757,
+      "y2": -1.07,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.257,
+      "y1": -1.07,
+      "x2": -3.757,
+      "y2": 0.429,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.497,
+          "y": 7.1
+        },
+        {
+          "x": 2.497,
+          "y": 3.35
+        },
+        {
+          "x": 0.247,
+          "y": -4.15
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.913,
+      "y": -1.727,
+      "width": 2.812,
+      "height": 2.812,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.497,
+      "y1": -7.135,
+      "x2": 2.497,
+      "y2": -3.009,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{11fb3821-aa85-46c9-af25-7f31ec30f497}",
+      "name": "",
+      "x": 2.5,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b2594b52-4361-4929-b8f9-744355df3f22}",
+      "name": "",
+      "x": 2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -10.064052197581765,
+      "y": -2.4380000000000006,
+      "z": 8,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{9b64c805-37cb-46e2-9757-35edc0aff8e0}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 3.388438629878552,
+      "y": -6.695951290171005,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{94a3e1ba-063a-4428-bdd0-6f47b4d9a9ad}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "11",
+      "infoName": "tag"
+    },
+    {
+      "x": 3.4260971782403855,
+      "y": 4.022341451638166,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{e694bc2d-e332-4109-97e9-3564fa576b86}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "12",
+      "infoName": "tag"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nucleo_toroidal_de_2_polos.opcad",
+  "id": "{dc832590-4cc0-d532-2221-d212212bf80d}",
+  "names": {
+    "ar": "ملف حلقي بقطبين",
+    "cs": "Dvoupólový proudový transformátor",
+    "de": "Stromwandler 2-polig",
+    "el": "Τοροειδές πηνίο 2 πόλων",
+    "en": "2-poles toroidal core",
+    "es": "Núcleo toroide 2 polos",
+    "fr": "Tore 2 pôles",
+    "it": "Toroide a 2 poli",
+    "nl": "Stroomtransformator ringkern 2AC",
+    "pl": "Przekładnik prądowy dwutorowy",
+    "pt": "Nucleo toroidal de 2 polos"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 21.999,
+  "height": 16.999,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 12.57,
+      "y1": -9.895,
+      "x2": 5.982,
+      "y2": -9.895,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -6.176,
+      "y": -4.643,
+      "width": 15.641,
+      "height": 4.66,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "white",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 2.49,
+      "y1": -12.799,
+      "x2": 2.49,
+      "y2": 5.502,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.982,
+      "y1": -2.34,
+      "x2": 5.982,
+      "y2": -9.66,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 12.254,
+      "y1": -2.533,
+      "x2": 9.326,
+      "y2": -2.533,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.471,
+      "y1": -12.835,
+      "x2": -2.471,
+      "y2": 5.466,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{5c9e4ef2-a305-43ad-96eb-a59f5c0291b1}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{235eb696-1b23-4e55-9840-e1b5597c9911}",
+      "name": "",
+      "x": 12.5,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{382a3b66-bec6-4c64-a456-7de2eac9736b}",
+      "name": "",
+      "x": 2.5,
+      "y": -12.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e109cadd-9e27-4fda-933d-58ca93e54a89}",
+      "name": "",
+      "x": 12.5,
+      "y": -2.5,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{e0169f7c-8286-4740-b2b7-bd73d81a500a}",
+      "name": "",
+      "x": -2.5,
+      "y": -12.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{7e91391d-b748-4663-83fd-29ee9315f330}",
+      "name": "",
+      "x": -2.5,
+      "y": 5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -8.682323732220517,
+      "y": -7.595539486810191,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{231e31a6-7ff7-4621-97d1-103ccd707abf}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -4.942012249065353,
+      "y": -11.303777162667378,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{352d3a6d-11ca-42c3-929f-2f0cc64bc919}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "1",
+      "infoName": "tag"
+    },
+    {
+      "x": -4.993188858133369,
+      "y": 1.4731888581333688,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{0d3914d6-4101-4f7d-83ba-719ecfc0ef81}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "2",
+      "infoName": "tag"
+    },
+    {
+      "x": -0.06318885813336896,
+      "y": -11.47,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{74fd31cf-d950-4eb1-8fe1-aaf89b4cbd11}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "3",
+      "infoName": "tag"
+    },
+    {
+      "x": -0.01,
+      "y": 1.69,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{39ef78c9-7302-4c30-944a-5b209eaa495b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": "tag"
+    },
+    {
+      "x": 9.950866851199788,
+      "y": -5.799133148800213,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{5ef9907d-055c-400c-9440-865368694300}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "5",
+      "infoName": "tag"
+    },
+    {
+      "x": 10.047244567466525,
+      "y": -13.245944290666845,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{49fa8be5-5bd2-4e88-a83e-cf19bb2c4ec9}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "4",
+      "infoName": "tag"
+    }
+  ]
+}

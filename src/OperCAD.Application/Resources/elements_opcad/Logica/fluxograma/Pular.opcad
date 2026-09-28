@@ -1,0 +1,86 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Pular.opcad",
+  "id": "{986ce5c4-419e-9d90-65f2-e77c6dba12e2}",
+  "names": {
+    "ar": "القفز",
+    "ca": "Saltar",
+    "cs": "Skok",
+    "da": "Hoppe",
+    "de": "Springen",
+    "el": "Αλμα",
+    "en": "Jump",
+    "es": "Saltar",
+    "fr": "Saut",
+    "hr": "Skok",
+    "hu": "Ugrás",
+    "it": "Salto",
+    "ja": "ジャンプ",
+    "mn": "Үсрэх",
+    "nb": "Hoppe",
+    "nl": "Springen",
+    "pl": "Skok",
+    "pt": "Pular",
+    "ro": "A sari",
+    "ru": "Прыгать",
+    "sl": "Skok",
+    "sr": "Скочи",
+    "tr": "Zıplamak"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 5.5,
+  "height": 15.499,
+  "hotspotX": 0.0,
+  "hotspotY": -10.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.01,
+          "y": -10.0
+        },
+        {
+          "x": -0.01,
+          "y": 0.0
+        },
+        {
+          "x": 1.902,
+          "y": -2.172
+        },
+        {
+          "x": -0.01,
+          "y": 0.0
+        },
+        {
+          "x": -1.51,
+          "y": -2.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{33be7f1a-b228-4d47-a0a6-a7f8a96d594a}",
+      "name": "",
+      "x": 0.0,
+      "y": -10.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

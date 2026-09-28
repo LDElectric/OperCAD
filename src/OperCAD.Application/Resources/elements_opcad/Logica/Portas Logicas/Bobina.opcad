@@ -1,0 +1,148 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Definir_saida_de_sinal.opcad",
+  "id": "{636acc3d-52de-0a1a-9996-7f7359fe3901}",
+  "names": {
+    "ar": "ضبط خرج الإشارة",
+    "cs": "Nastavte výstup signálu",
+    "da": "Indstil signaludgang",
+    "de": "Signal Ausgang setzen",
+    "el": "Ρύθμιση εξόδου σήματος",
+    "en": "Set signal output",
+    "es": "Establecer salida de señal",
+    "fr": "Définir la sortie du signal",
+    "hr": "Postavite izlaz signala",
+    "hu": "Állítsa be a jelkimenetet",
+    "it": "Impostare l'uscita del segnale",
+    "ja": "設定信号出力",
+    "mn": "Дохионы гаралтыг тохируулах",
+    "nb": "Still inn signalutgang",
+    "nl": "Signaaloutput instellen",
+    "pl": "Ustaw wyjście sygnału",
+    "pt": "Set de Saída de sinal",
+    "ro": "Setați semnalul de ieșire",
+    "ru": "Установить выходной сигнал",
+    "sl": "Nastavite izhodni signal",
+    "sr": "Подесите излаз сигнала",
+    "tr": "Sinyal çıkışını ayarla"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 20.0,
+  "height": 14.459,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "arc",
+      "x": 0.3946968226429055,
+      "y": -3.4256557458114325,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 280,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -8.104303177357094,
+      "y": -3.4256557458114325,
+      "width": 2.749,
+      "height": 6.875,
+      "start": 100,
+      "angle": 160,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 3.145696822642906,
+      "y1": 0.012344254188567633,
+      "x2": 10.020696822642906,
+      "y2": 0.012344254188567633,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -14.979303177357094,
+      "y1": 0.012344254188567633,
+      "x2": -8.104303177357094,
+      "y2": 0.012344254188567633,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{aeffac06-1020-4172-a0f6-0d6f2c72ca50}",
+      "name": "",
+      "x": -15.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{a7f9c9d0-48ef-4d00-96f3-4164d37beca7}",
+      "name": "",
+      "x": 9.842203900665236,
+      "y": -0.04917212709428381,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.795429116522918,
+      "y": -6.6160904350721745,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{0227b844-6168-3cc1-ac00-de7919361834}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

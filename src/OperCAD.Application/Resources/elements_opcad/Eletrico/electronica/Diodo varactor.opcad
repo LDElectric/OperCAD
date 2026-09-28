@@ -1,0 +1,203 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Nf_4.opcad",
+  "id": "{b19ec78d-2b9c-e641-f51b-2992ebd0d922}",
+  "names": {
+    "ar": "دايود مكثّف متغيّر (فاراكتور)",
+    "ca": "Díode de capacitat variable Varactor",
+    "cs": "Varaktor",
+    "de": "Kapazitätsdiode",
+    "en": "Variable capacitance diode\nVaractor",
+    "fr": "Diode à capacité variable\nVaractor",
+    "it": "Diodo a capacità variabile\nVaractor",
+    "nl": "Diode capaciteit",
+    "pl": "Dioda pojemnościowa. (Waraktor)"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD\nEN 60617: 05-03-04",
+  "width": 7.999,
+  "height": 15.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 2.724,
+      "y1": -2.41,
+      "x2": 2.724,
+      "y2": -3.41,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.056,
+      "y1": -1.744,
+      "x2": 3.39,
+      "y2": -1.744,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.056,
+      "y1": -2.41,
+      "x2": 3.39,
+      "y2": -2.41,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.724,
+      "y1": -0.743,
+      "x2": 2.724,
+      "y2": -1.744,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.057,
+      "y1": -7.41,
+      "x2": 0.057,
+      "y2": 2.59,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.61,
+          "y": -4.077
+        },
+        {
+          "x": 1.723,
+          "y": -4.077
+        },
+        {
+          "x": 0.057,
+          "y": -0.743
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -1.61,
+      "y1": -0.743,
+      "x2": 1.723,
+      "y2": -0.743,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{b4cc4219-c8cb-4508-9621-3ed0cab5a07a}",
+      "name": "A",
+      "x": 0.0,
+      "y": -7.5,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0014b006-f7c8-4002-aef8-cafafdfeef41}",
+      "name": "K",
+      "x": 0.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 1.677,
+      "y": -8.859,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{05c9e117-e7ab-4067-a4e9-e60950127eb1}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

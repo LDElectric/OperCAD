@@ -1,0 +1,342 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "temporizador_pneumatico.opcad",
+  "id": "{fc7a5d48-601f-a121-2919-0c8d4497fbf5}",
+  "names": {
+    "ar": "توقيت هوائي",
+    "ca": "temporitzador pneumàtic",
+    "cs": "pneumatický časovač",
+    "da": "pneumatisk timer",
+    "de": "pneumatischer Timer",
+    "el": "πνευματικό χρονόμετρο",
+    "en": "pneumatic timer",
+    "es": "temporizador neumático",
+    "fr": "temporisateur pneumatique",
+    "hr": "pneumatski mjerač vremena",
+    "hu": "pneumatikus időzítő",
+    "it": "temporizzatore pneumatico",
+    "ja": "空気圧タイマー",
+    "mn": "пневматик таймер",
+    "nb": "pneumatisk timer",
+    "nl": "pneumatische timer",
+    "pl": "pneumatyczny timer",
+    "pt": "temporizador pneumático",
+    "pt_BR": "temporizador pneumático",
+    "ro": "cronometru pneumatic",
+    "ru": "пневматический таймер",
+    "sl": "pnevmatski časovnik",
+    "sr": "пнеуматски тајмер",
+    "tr": "pnömatik zamanlayıcı"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.499,
+  "height": 16.749,
+  "hotspotX": 0.0,
+  "hotspotY": -2.5,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "text",
+      "text": "1",
+      "x": -3.322427900024591,
+      "y": -7.815732229779579,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": -5.892270016225522,
+      "y": 3.2912357026960564,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "3",
+      "x": 2.417528594607888,
+      "y": 3.434124693272155,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.828123570269605,
+      "y1": 0.4810560662132257,
+      "x2": -4.420876429730395,
+      "y2": 0.4810560662132257,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -4.420876429730395,
+      "y1": -0.2689439337867743,
+      "x2": -4.420876429730395,
+      "y2": 1.2310560662132257,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.079123570269605,
+      "y1": -0.012629289191183002,
+      "x2": 4.079123570269605,
+      "y2": 1.487370710808817,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.670876429730395,
+      "y1": 1.737370710808817,
+      "x2": 2.329123570269605,
+      "y2": -0.762629289191183,
+      "end1": "none",
+      "end2": "simple",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polyline",
+      "points": [
+        [
+          -2.306831801360323,
+          4.186472528394662
+        ],
+        [
+          -5.895236825698602,
+          4.186472528394662
+        ],
+        [
+          -5.895236825698602,
+          -3.4175285946078873
+        ],
+        [
+          6.49330432975499,
+          -3.4175285946078873
+        ],
+        [
+          6.49330432975499,
+          4.27191074325986
+        ],
+        [
+          -2.1359553716299278,
+          4.27191074325986
+        ]
+      ],
+      "type": "polyline",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.4777082310907184,
+      "y1": 4.7845400324510425,
+      "x2": -2.4777082310907184,
+      "y2": 4.186472528394662,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.563146445955916,
+      "y1": 4.86997824731624,
+      "x2": 2.40216110525118,
+      "y2": 4.26917277653238,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.040854677046634,
+      "x2": 0.0,
+      "y2": -3.588405024338282,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c9510c17-2a71-42f3-833c-77b994b1be8a}",
+      "name": "",
+      "x": 2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{af1cce47-2db4-422c-a64a-8b37e6e6f489}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8021e182-085f-4a81-b6e1-10d3367d2bf7}",
+      "name": "",
+      "x": -2.5,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -11.328361518970762,
+      "y": -1.667290645906732,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{c7fe176a-401d-4fd6-ab54-84b1ec282477}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 1.6199564946324774,
+      "y": 0.940854677046636,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{037b1849-ac0f-4798-b38c-d74e5589eda6}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "t0",
+      "infoName": "value"
+    },
+    {
+      "x": 2.669303206752435,
+      "y": -3.271932495943619,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{9281d927-393a-4c90-9014-8cda36fb481d}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "t1",
+      "infoName": "value"
+    }
+  ]
+}

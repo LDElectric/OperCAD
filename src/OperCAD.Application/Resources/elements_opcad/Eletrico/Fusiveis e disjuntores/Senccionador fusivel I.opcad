@@ -1,0 +1,214 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Seccionador_4.opcad",
+  "id": "{b62c810f-23f5-2de7-09ad-7e6d3a2cbdbd}",
+  "names": {
+    "ar": "مفتاح عزل بمصهر",
+    "cs": "Pojistkový odpojovač",
+    "de": "Sicherungstrenner 1-polig",
+    "el": "Ασφαλειοδιακόπτης",
+    "en": "switchfuses",
+    "es": "Seccionador",
+    "fr": "Porte fusible mono",
+    "it": "Sezionatore con fusibile 1P",
+    "nl": "Zekeringscheider 1",
+    "pl": "Odłącznik bezpiecznikowy",
+    "pt": "Senccionador fusivel I",
+    "ru": "Выключатель-предохранитель"
+  },
+  "kindInformations": {
+    "type": "protection"
+  },
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 12.845,
+  "height": 20.0,
+  "hotspotX": 5.0,
+  "hotspotY": 0.0,
+  "linkType": "master",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 5.0216040076737904,
+      "y1": -14.49160066794563,
+      "x2": 5.0216040076737904,
+      "y2": -11.75060066794563,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.3276040076737905,
+          "y": -8.80014485263344
+        },
+        {
+          "x": 3.5106040076737903,
+          "y": -4.061144852633441
+        },
+        {
+          "x": 5.349604007673791,
+          "y": -4.529144852633441
+        },
+        {
+          "x": 4.163604007673791,
+          "y": -9.267144852633441
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.6526040076737907,
+          "y": -11.402144852633441
+        },
+        {
+          "x": 5.0216040076737904,
+          "y": -1.926144852633441
+        },
+        {
+          "x": 5.0216040076737904,
+          "y": 2.8148551473665595
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 3.8884485263344164,
+      "y1": -11.588300333972814,
+      "x2": 5.785448526334416,
+      "y2": -11.588300333972814,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "text",
+      "text": "2",
+      "x": 1.7127803229343197,
+      "y": -1.8962925003915685,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "1",
+      "x": 1.773951048753403,
+      "y": -15.904388712961545,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{bff510fe-d88a-44a1-b392-8555fdbe73c8}",
+      "name": "",
+      "x": 5.0,
+      "y": 2.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{07b9b5cd-b26e-448e-9359-a0e1b2823e47}",
+      "name": "",
+      "x": 5.0,
+      "y": -15.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -3.126308036236655,
+      "y": -8.754377834470388,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{2d972e1a-cd58-420a-a3b0-bd0f21357ca8}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": -5.837853870513014,
+      "y": -3.909268145477072,
+      "z": 10,
+      "textWidth": -1.0,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ComponentInfo",
+      "uuid": "{59b5b0bb-321a-4df4-aa74-7dc469bec05c}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "value"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Motor_nos_dois_sentidos_de_rotacao_velocidade_variavel.opcad",
+  "id": "{cf0b997d-d4ee-cc2e-a8b6-866d6fe007f5}",
+  "names": {
+    "ar": "محرك كلا اتجاهي الدوران + سرعة متغيرة",
+    "ca": "Motor ambdós sentits de gir + velocitat variable",
+    "cs": "Motor oba směry otáčení + variabilní rychlost",
+    "da": "Motor begge omdrejningsretninger + variabel hastighed",
+    "de": "Motor beide Drehrichtungen + variable Drehzahl",
+    "el": "Κινητήρας και στις δύο κατευθύνσεις περιστροφής + μεταβλητή ταχύτητα",
+    "en": "Motor both directions of rotation + variable speed",
+    "es": "Motor ambos sentidos de giro + velocidad variable",
+    "fr": "Moteur deux sens de rotation + vitesse variable",
+    "hr": "Motor u oba smjera vrtnje + promjenjiva brzina",
+    "hu": "Motor mindkét forgásirányban + változtatható fordulatszám",
+    "it": "Motore in entrambi i sensi di rotazione + velocità variabile",
+    "ja": "モーター両回転方向+可変速度",
+    "mn": "Хөдөлгүүрийн хоёр чиглэлийн эргэлт + хувьсах хурд",
+    "nb": "Motor begge rotasjonsretninger + variabel hastighet",
+    "nl": "Motor beide draairichtingen + variabele snelheid",
+    "pl": "Silnik w obu kierunkach obrotów + zmienna prędkość",
+    "pt": "Motor nos dois sentidos de rotação + velocidade variável",
+    "pt_BR": "Motor nos dois sentidos de rotação + velocidade variável",
+    "ro": "Motor ambele sensuri de rotatie + viteza variabila",
+    "ru": "Двигатель оба направления вращения + регулируемая скорость",
+    "sl": "Motor v obe smeri vrtenja + spremenljiva hitrost",
+    "sr": "Мотор у оба смера ротације + променљива брзина",
+    "tr": "Motor her iki dönüş yönü + değişken hız"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 36.497,
+  "height": 23.998,
+  "hotspotX": 10.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 6.695,
+          "y": -3.81
+        },
+        {
+          "x": 4.564,
+          "y": -2.56
+        },
+        {
+          "x": 5.66,
+          "y": -1.535
+        },
+        {
+          "x": 6.744,
+          "y": -3.81
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 7.5,
+      "x2": 0.0,
+      "y2": 10.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 7.999,
+      "x2": 5.0,
+      "y2": -1.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.0,
+      "x2": 0.0,
+      "y2": -5.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": 8.999,
+      "y": -5.499,
+      "width": 17.498,
+      "height": 17.498,
+      "start": 143,
+      "angle": 70,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.471,
+          "y": -2.29
+        },
+        {
+          "x": -1.261,
+          "y": -2.314
+        },
+        {
+          "x": 0.04,
+          "y": 0.595
+        },
+        {
+          "x": 1.439,
+          "y": -2.236
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 3.5,
+      "x2": 11.0,
+      "y2": 3.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 12.134,
+          "y": 9.47
+        },
+        {
+          "x": 9.825,
+          "y": 8.444
+        },
+        {
+          "x": 10.895,
+          "y": 7.579
+        },
+        {
+          "x": 12.134,
+          "y": 9.314
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 12.463,
+          "y": -4.0
+        },
+        {
+          "x": 10.289,
+          "y": -2.535
+        },
+        {
+          "x": 11.464,
+          "y": -1.66
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.0,
+      "y1": 1.5,
+      "x2": 11.0,
+      "y2": 1.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -2.5,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.471,
+          "y": 7.29
+        },
+        {
+          "x": 1.266,
+          "y": 7.32
+        },
+        {
+          "x": -0.035,
+          "y": 4.41
+        },
+        {
+          "x": -1.439,
+          "y": 7.234
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -4.922739050078075,
+      "x2": 0.0,
+      "y2": -2.4950869157929967,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{7450114d-3dbd-433b-924b-496b74d25710}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{8c314fc9-c749-4ab9-93f4-1c85f676afdd}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -9.292336874051593,
+      "y": 1.3286555386949903,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": true,
+      "textFrom": "ElementInfo",
+      "uuid": "{386a23c2-0051-4fac-9fee-f1d46ed7364d}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

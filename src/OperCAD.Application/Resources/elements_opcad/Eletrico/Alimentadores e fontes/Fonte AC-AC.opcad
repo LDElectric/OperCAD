@@ -1,0 +1,348 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Alterna_monofasica_Alterna_monofasica.opcad",
+  "id": "{330cb2f7-72b9-eb50-2dbe-7ca5a339e3b6}",
+  "names": {
+    "ar": "حاكم جهد أحادي الوجه",
+    "cs": "Jednofázový měnič AC/AC",
+    "de": "Umformer AC/AC",
+    "el": "Μονοφασικό εναλλασσόμενο > Μονοφασικό εναλλασσόμενο",
+    "en": "One-phase alternating > One-phase alternating",
+    "es": "Alterna monofásica > Alterna monofásica",
+    "fr": "Alternatif monophasé > Alternatif monophasé",
+    "it": "AC monofase > AC monofase",
+    "nl": "Wisselspanning > Wisselspanning  AC1 > AC1",
+    "nl_BE": "Wisselspanning > Wisselspanning  AC1 > AC1",
+    "pl": "Przekształtnik prądu przemiennego",
+    "pt": "Fonte AC-AC",
+    "ru": "Однофазный перем. ток > Однофазный перем. ток"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 9.749,
+  "hotspotX": -1.25,
+  "hotspotY": -3.438,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -5.496563150074294,
+      "y1": -9.98255720653789,
+      "x2": -7.280563150074294,
+      "y2": -9.98255720653789,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.278156017830609,
+          "y": -13.473
+        },
+        {
+          "x": 5.415843982169391,
+          "y": -13.473
+        },
+        {
+          "x": 5.415843982169391,
+          "y": -2.779
+        },
+        {
+          "x": -5.278156017830609,
+          "y": -2.779
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.262843982169392,
+      "y1": -4.985610698365528,
+      "x2": 5.478843982169392,
+      "y2": -4.985610698365528,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.621047548291234,
+      "y1": -10.02995839524517,
+      "x2": 7.405047548291234,
+      "y2": -10.02995839524517,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.327964338781576,
+      "y1": -5.033011887072808,
+      "x2": -5.543964338781576,
+      "y2": -5.033011887072808,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.255442793462111,
+      "y1": -13.293,
+      "x2": -5.0825572065378894,
+      "y2": -2.957,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "N",
+      "x": -5.702760772659733,
+      "y": -8.09401783060921,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "L",
+      "x": -5.829365527488856,
+      "y": -13.410209509658246,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "N",
+      "x": 2.418832095096583,
+      "y": -7.245017830609212,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "text",
+      "text": "L",
+      "x": 2.76862852897474,
+      "y": -12.689,
+      "rotation": 0,
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "size": 0,
+      "color": "#000000",
+      "type": "text",
+      "style": {
+        "lineStyle": "dashed",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.6275572065378894,
+      "y": -10.798,
+      "width": 1.784,
+      "height": 1.784,
+      "start": 5,
+      "angle": 175,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -1.8465572065378897,
+      "y": -10.798,
+      "width": 1.784,
+      "height": 1.784,
+      "start": 185,
+      "angle": 175,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 0.5324427934621103,
+      "y": -8.27,
+      "width": 1.784,
+      "height": 1.782,
+      "start": 5,
+      "angle": 175,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": 2.31644279346211,
+      "y": -8.27,
+      "width": 1.784,
+      "height": 1.782,
+      "start": 185,
+      "angle": 175,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{228932d9-dfad-4435-ab9a-f81fb9847f77}",
+      "name": "",
+      "x": -7.5,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b8dee25a-3879-4efc-bdb5-d5fdf20d8618}",
+      "name": "",
+      "x": -7.5,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{b243e90d-b403-4a96-be3e-47d3279f60e1}",
+      "name": "",
+      "x": 7.5,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4408b1a3-2c94-46c6-93f2-751bed593fff}",
+      "name": "",
+      "x": 7.5,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.2777080200898405,
+      "y": -17.676407283096225,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{956859a9-f555-436d-aa1c-ad26fc8013ea}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+<Window x:Class="OperCAD.UI.Views.ManualWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Manual do OperCAD"
+        Width="900" Height="700"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource App.Background}"
+        FontFamily="{StaticResource App.Font}"
+        Icon="pack://application:,,,/OperCAD.UI;component/Resources/app.ico">
+    <FlowDocumentScrollViewer>
+        <FlowDocument PagePadding="40" Background="{DynamicResource App.Panel.Background}" Foreground="{DynamicResource App.Text.Primary}" FontFamily="{StaticResource App.Font}">
+            <Paragraph FontSize="28" FontWeight="Bold" TextAlignment="Center" Margin="0,0,0,20">
+                Manual do OperCAD
+            </Paragraph>
+
+            <Paragraph FontSize="16" Margin="0,0,0,10">
+                Bem-vindo ao OperCAD! Este manual irá guiá-lo no uso de todas as funcionalidades disponíveis na ferramenta.
+            </Paragraph>
+
+            <Section>
+                <Paragraph FontSize="20" FontWeight="Bold" Margin="0,20,0,10">
+                    1. Gerenciamento de Projetos
+                </Paragraph>
+                <Paragraph>
+                    O OperCAD permite criar esquemas elétricos e fluidos através de projetos organizados em folhas. No menu <Bold>Arquivo</Bold>, você encontra as opções fundamentais:
+                </Paragraph>
+                <List Margin="20,0,0,0">
+                    <ListItem><Paragraph><Bold>Novo Projeto (Ctrl+N):</Bold> Inicia um projeto em branco com uma folha vazia.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Abrir Projeto (Ctrl+O):</Bold> Carrega um projeto salvo anteriormente (.opercad).</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Salvar / Salvar como (Ctrl+S):</Bold> Grava o estado atual do projeto no disco.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Propriedades da Folha:</Bold> Dê um duplo-clique no carimbo/legenda para configurar tamanho da página e propriedades da folha, ou edite os textos diretamente dando duplo-clique sobre os campos da legenda.</Paragraph></ListItem>
+                </List>
+            </Section>
+
+            <Section>
+                <Paragraph FontSize="20" FontWeight="Bold" Margin="0,20,0,10">
+                    2. Ferramentas de Desenho
+                </Paragraph>
+                <Paragraph>
+                    Na barra de ferramentas superior, você tem acesso às primitivas de desenho livre. Para utilizá-las, basta clicar no ícone correspondente e desenhar na folha. Para finalizar o uso da ferramenta, pressione <Bold>ESC</Bold> ou mude para o modo de Seleção.
+                </Paragraph>
+                <List Margin="20,0,0,0">
+                    <ListItem><Paragraph><Bold>Linha:</Bold> Desenha uma reta entre dois pontos.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Retângulo / Retângulo Arredondado:</Bold> Formas preenchidas ou vazias.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Elipse / Triângulo:</Bold> Formas geométricas com suporte a mudança de cor e preenchimento (clique direito na forma > Cor/Preenchimento).</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Arcos / Curvas:</Bold> Para traçados mais complexos.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Texto (A+ / A-):</Bold> Adiciona uma caixa de texto solta. Você pode alterar seu tamanho (A+/A-) ou estilo (Negrito, Itálico, Sublinhado) na própria barra antes de inserir, e dar duplo-clique nele para editar o conteúdo posteriormente.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Régua:</Bold> Permite medir distâncias na folha.</Paragraph></ListItem>
+                </List>
+            </Section>
+
+            <Section>
+                <Paragraph FontSize="20" FontWeight="Bold" Margin="0,20,0,10">
+                    3. Modos de Operação e Bibliotecas
+                </Paragraph>
+                <Paragraph>
+                    O OperCAD é dividido em duas categorias principais de símbolos na barra superior:
+                </Paragraph>
+                <List Margin="20,0,0,0">
+                    <ListItem><Paragraph><Bold>Elétrica:</Bold> Inclui classes de símbolos para componentes elétricos, como contatos, bobinas, disjuntores e motores.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Fluidos:</Bold> Inclui símbolos de pneumática e hidráulica, como válvulas e cilindros.</Paragraph></ListItem>
+                </List>
+                <Paragraph>
+                    Selecione o modo desejado, clique na categoria (ícone) e arraste o componente (Drag and Drop) da sub-barra diretamente para a folha. As conexões podem ser feitas puxando linhas (condutores) dos terminais dos componentes, e eles possuem snap (imã) automático.
+                </Paragraph>
+            </Section>
+
+            <Section>
+                <Paragraph FontSize="20" FontWeight="Bold" Margin="0,20,0,10">
+                    4. Fluxo de Importação (PDF, DXF e Imagens)
+                </Paragraph>
+                <Paragraph>
+                    O fluxo de importação é um dos diferenciais do OperCAD.
+                </Paragraph>
+
+                <Paragraph FontWeight="Bold">Importando um PDF:</Paragraph>
+                <List Margin="20,0,0,0">
+                    <ListItem><Paragraph>Vá em <Bold>Arquivo > Importar PDF...</Bold> e selecione seu documento. O assistente de importação abrirá.</Paragraph></ListItem>
+                    <ListItem><Paragraph>No assistente, você verá uma visualização real da página. Use os botões <Bold>Detectar formas</Bold> ou <Bold>Extrair texto</Bold> e certifique-se de desmarcar a extração de textos em áreas irrelevantes se não forem necessários.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Na aba Finalizar Importação, defina o mapeamento de cores e se deseja converter preenchimentos. Ao clicar em <Bold>Importar</Bold>, os elementos serão inseridos no seu projeto atual (se necessário, agrupe-os ou mova-os para a posição correta da folha).</Paragraph></ListItem>
+                </List>
+
+                <Paragraph FontWeight="Bold">Tratamento de Elementos Importados (Triagem):</Paragraph>
+                <List Margin="20,0,0,0">
+                    <ListItem><Paragraph>Elementos importados frequentemente vêm como um <Bold>grupo importado</Bold> gigante. Você pode usar <Bold>Editar > Bloquear/desbloquear grupo importado</Bold> para impedir que você os mova sem querer.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Para transformar o desenho importado (ex: blocos CAD) em um componente funcional do OperCAD, use a ferramenta <Bold>Arquivo > Reconhecer elementos importados (marcar/triar)</Bold>. Ela permite varrer a área do desenho, e caso ache formas que formam um contator/valvula, você pode converter o conjunto de linhas estáticas num Símbolo reconhecível do sistema!</Paragraph></ListItem>
+                    <ListItem><Paragraph>Se precisar alterar um rótulo de um PDF importado (que vem junto da linha), clique com o botão direito nele e escolha <Bold>Separar rótulos do objeto</Bold>. Isso desmembra as letras agrupadas para você apagá-las ou editá-las livremente.</Paragraph></ListItem>
+                </List>
+            </Section>
+
+            <Section>
+                <Paragraph FontSize="20" FontWeight="Bold" Margin="0,20,0,10">
+                    5. Ferramentas de Edição e Propriedades
+                </Paragraph>
+                <Paragraph>
+                    Toda a edição ocorre de forma intuitiva:
+                </Paragraph>
+                <List Margin="20,0,0,0">
+                    <ListItem><Paragraph><Bold>Duplo-Clique:</Bold> Em condutores, símbolos ou textos, abre a janela de propriedades onde você pode nomeá-los, trocar suas características, ou no caso de contatos/bobinas, referenciá-los.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Botão Direito:</Bold> Oferece acesso rápido para <Bold>Recortar, Copiar, Colar, Colar Aqui e Excluir</Bold>.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Girar:</Bold> Selecione um ou mais itens e pressione a tecla <Bold>Espaço</Bold> ou clique com o botão direito para escolher rotações fixas (90°, 180°) ou livres com o mouse.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Agrupamento:</Bold> Selecione várias primitivas e use <Bold>Botão Direito > Agrupar seleção (símbolo)</Bold> para transformá-las em uma peça única que se comporta como um componente.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Ordem Z:</Bold> Na barra de ferramentas ou no botão direito, use "Trazer para a frente" ou "Enviar para trás" para ordenar figuras e textos uns sobre os outros.</Paragraph></ListItem>
+                </List>
+            </Section>
+
+            <Section>
+                <Paragraph FontSize="20" FontWeight="Bold" Margin="0,20,0,10">
+                    6. Exportação e Impressão
+                </Paragraph>
+                <Paragraph>
+                    Ao concluir o esquema, as ferramentas de exportação garantem o melhor resultado:
+                </Paragraph>
+                <List Margin="20,0,0,0">
+                    <ListItem><Paragraph>Use <Bold>Arquivo > Exportar para PDF...</Bold> para salvar seu diagrama num documento seguro, escalado perfeitamente com os vetores originais.</Paragraph></ListItem>
+                    <ListItem><Paragraph>Você também pode exportar partes específicas ou a folha inteira para imagens (PNG) ou formatos vetoriais SVG e DXF.</Paragraph></ListItem>
+                    <ListItem><Paragraph><Bold>Ctrl + P</Bold> abre o diálogo padrão de impressão do Windows.</Paragraph></ListItem>
+                </List>
+
+                <Paragraph Margin="0,20,0,0" TextAlignment="Center" FontStyle="Italic" Foreground="{DynamicResource App.Text.Secondary}">
+                    OperCAD - Projetos Inteligentes e Fluidos.
+                </Paragraph>
+            </Section>
+
+        </FlowDocument>
+    </FlowDocumentScrollViewer>
+</Window>

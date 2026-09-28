@@ -1,0 +1,319 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Resfriamento_a_ar_comprimido_com_trocador_de_calor.opcad",
+  "id": "{87deef78-1917-03ad-0d8d-2019cb42f9c8}",
+  "names": {
+    "ar": "تبريد الهواء المضغوط بمبادل حراري",
+    "ca": "Refrigeració per aire comprimit amb intercanviador de calor",
+    "cs": "Chlazení stlačeným vzduchem s výměníkem tepla",
+    "da": "Trykluftkøling med varmeveksler",
+    "de": "Druckluftkühlung mit Wärmetauscher",
+    "el": "Ψύξη πεπιεσμένου αέρα με εναλλάκτη θερμότητας",
+    "en": "Compressed air cooling with heat exchanger",
+    "es": "Refrigeración por aire comprimido con intercambiador de calor",
+    "fr": "Refroidissement par air comprimé avec échangeur de chaleur",
+    "hr": "Hlađenje komprimiranim zrakom s izmjenjivačem topline",
+    "hu": "Sűrített levegős hűtés hőcserélővel",
+    "it": "Raffreddamento ad aria compressa con scambiatore di calore",
+    "ja": "熱交換器による圧縮空気冷却",
+    "mn": "Дулаан солилцуур бүхий шахсан агаарын хөргөлт",
+    "nb": "Trykkluftkjøling med varmeveksler",
+    "nl": "Persluchtkoeling met warmtewisselaar",
+    "pl": "Chłodzenie sprężonym powietrzem z wymiennikiem ciepła",
+    "pt": "Resfriamento a ar comprimido com trocador de calor",
+    "ro": "Răcire cu aer comprimat cu schimbător de căldură",
+    "ru": "Охлаждение сжатым воздухом с теплообменником",
+    "sl": "Hlajenje s stisnjenim zrakom s toplotnim izmenjevalnikom",
+    "sr": "Хлађење компримованим ваздухом са измењивачем топлоте",
+    "tr": "Isı eşanjörü ile basınçlı hava soğutma"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 14.999,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -2.5,
+      "y1": 2.5,
+      "x2": -2.5,
+      "y2": 6.249,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.5,
+      "y1": 2.5,
+      "x2": 2.5,
+      "y2": 6.249,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -3.75,
+      "x2": 0.0,
+      "y2": 3.75,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.499,
+      "y1": 0.0,
+      "x2": 7.499,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.374,
+      "length2": 0.374,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.0,
+          "y": 6.125
+        },
+        {
+          "x": -2.0,
+          "y": 6.125
+        },
+        {
+          "x": -2.5,
+          "y": 7.375
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.5,
+          "y": 3.625
+        },
+        {
+          "x": 0.5,
+          "y": 3.625
+        },
+        {
+          "x": 0.0,
+          "y": 4.875
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 2.5,
+          "y": 6.125
+        },
+        {
+          "x": 2.0,
+          "y": 7.375
+        },
+        {
+          "x": 3.0,
+          "y": 7.375
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.0,
+          "y": -4.875
+        },
+        {
+          "x": -0.5,
+          "y": -3.625
+        },
+        {
+          "x": 0.5,
+          "y": -3.625
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.0,
+          "y": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": -5.0
+        },
+        {
+          "x": 5.0,
+          "y": 0.0
+        },
+        {
+          "x": 0.0,
+          "y": 5.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{bdf13533-e52d-4813-aac7-63efff0c3192}",
+      "name": "",
+      "x": -7.5,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{34739f2b-097c-4093-b853-62137ba9d7bd}",
+      "name": "",
+      "x": -2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{95f30c87-3feb-4eaa-bcba-046cfca91934}",
+      "name": "",
+      "x": 2.5,
+      "y": 7.5,
+      "orientation": "s",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{771eccac-33b7-41f8-92ed-1448153c667a}",
+      "name": "",
+      "x": 7.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -7.499,
+      "y": -7.499,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{2703004f-a99c-1701-5ece-9968646fb9f1}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    },
+    {
+      "x": 5.0,
+      "y": 2.5,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "UserText",
+      "uuid": "{f99ff7f3-3a2a-1d59-c9e5-023e822058b5}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Triac_2.opcad",
+  "id": "{d6b87b9d-f486-5097-4871-d315f8c7e6f6}",
+  "names": {
+    "ar": "ترياك",
+    "cs": "Triak",
+    "de": "Triac",
+    "en": "Triac",
+    "fr": "Triac",
+    "it": "Triac",
+    "nl": "Triac",
+    "pl": "Triak",
+    "pt": "Triac"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 10.0,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.16126151560178306,
+          "y": 1.1547845468053493
+        },
+        {
+          "x": -1.2542615156017831,
+          "y": 2.5617845468053493
+        },
+        {
+          "x": -3.130261515601783,
+          "y": 2.5617845468053493
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 2.494738484398217,
+      "y1": 0.9987845468053496,
+      "x2": -2.505261515601783,
+      "y2": 0.9987845468053496,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.31826151560178306,
+          "y": -2.1252154531946506
+        },
+        {
+          "x": 1.2447384843982168,
+          "y": 0.9987845468053496
+        },
+        {
+          "x": 2.8067384843982173,
+          "y": -2.1252154531946506
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -2.505261515601783,
+      "y1": -2.1252154531946506,
+      "x2": 2.494738484398217,
+      "y2": -2.1252154531946506,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.2542615156017831,
+          "y": -2.1252154531946506
+        },
+        {
+          "x": -2.817261515601783,
+          "y": 0.9987845468053496
+        },
+        {
+          "x": 0.30773848439821694,
+          "y": 0.9987845468053496
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.006359583952451,
+      "x2": 0.0,
+      "y2": -2.3154413075780083,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.06257949479940564,
+      "y1": 4.88120059435364,
+      "x2": 0.06257949479940564,
+      "y2": 0.9386924219910846,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.8786567607726594,
+      "y1": 2.565759286775631,
+      "x2": -5.068939078751857,
+      "y2": 2.565759286775631,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{c9355d3c-5f45-42a2-9fbb-72b84e33f133}",
+      "name": "A1",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{89d251ee-c26f-46c5-aa08-07450dc7e512}",
+      "name": "G",
+      "x": -5.0,
+      "y": 2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0e2f9fb9-391b-4768-b67a-72cd81e36bb4}",
+      "name": "A2",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": 4.186466567607726,
+      "y": -2.975943536404161,
+      "z": 8,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{d80d30c4-56e4-4e7f-b6b4-555479361749}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

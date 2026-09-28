@@ -1,0 +1,227 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Comando_2.opcad",
+  "id": "{1ddaefbe-97fa-e14e-cae0-27b001bc5043}",
+  "names": {
+    "ar": "صمّام - تحكّم كهرومغناطييسي",
+    "ca": "Vàlvula - control electromagnètic",
+    "cs": "Klapka řízená elektromagnetem",
+    "el": "Βαλβίδα - Ηλεκτρομαγνητικός έλεγχος",
+    "en": "Valve - electromagnetic control",
+    "fr": "Vanne - commande électromagnétique",
+    "it": "Elettrovalvola",
+    "nl": "Klep elektrisch",
+    "pl": "Zawór zasuwowy odcinający sterowany elektromagnetycznie"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 7.865,
+  "hotspotX": 1.25,
+  "hotspotY": 0.625,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "rect",
+      "x": -1.7879546483749154,
+      "y": -6.8394109539566355,
+      "width": 3.611,
+      "height": 5.056,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -1.7879546483749154,
+      "y1": -6.117410953956636,
+      "x2": 1.8200453516250845,
+      "y2": -2.5054109539566363,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -0.3469546483749153,
+      "y1": 2.187589046043364,
+      "x2": -0.3469546483749153,
+      "y2": -1.7834109539566363,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.37604535162508457,
+      "y1": 2.187589046043364,
+      "x2": 0.37604535162508457,
+      "y2": -1.7834109539566363,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.205954648374915,
+      "y1": 2.5495890460433634,
+      "x2": -3.5949546483749155,
+      "y2": 2.5495890460433634,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.627045351625085,
+      "y1": 2.5495890460433634,
+      "x2": 7.237045351625085,
+      "y2": 2.5495890460433634,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 3.627045351625085,
+          "y": 4.716589046043364
+        },
+        {
+          "x": 0.01604535162508469,
+          "y": 2.5495890460433634
+        },
+        {
+          "x": 3.627045351625085,
+          "y": 0.38258904604336363
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -3.5949546483749155,
+          "y": 0.38258904604336363
+        },
+        {
+          "x": -3.5949546483749155,
+          "y": 4.716589046043364
+        },
+        {
+          "x": 0.01604535162508469,
+          "y": 2.5495890460433634
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{a95bdc14-e821-4b81-826e-f5af1f47b098}",
+      "name": "",
+      "x": -7.5,
+      "y": 2.5,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{20d7d9fc-345b-4844-8848-2cc635f1c75f}",
+      "name": "",
+      "x": 7.5,
+      "y": 2.5,
+      "orientation": "e",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.3527118432641725,
+      "y": -11.21825222326884,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{c302fac8-6484-4c9e-a0d3-c99f4eaad9bc}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

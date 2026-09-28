@@ -1,0 +1,467 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Conversor_de_temperatura.opcad",
+  "id": "{b4a00c1d-4c2c-e847-f5ce-7937d4cd18e7}",
+  "names": {
+    "ar": "محول قياسات",
+    "ca": "Convertidor de mesures Pt100/TC",
+    "cs": "Převodník teploty Pt100/TC",
+    "de": "Messumformer Pt100/Thermoelement",
+    "el": "Μετατροπέας μέτρησης θερμοκρασίας",
+    "en": "Measure converter Pt100/TC",
+    "es": "Convertidor de temperatura",
+    "fr": "Convertisseur de mesure Pt100/TC",
+    "it": "Convertitore di misura",
+    "nl": "Converter temperatuur Pt100/TC",
+    "pl": "Przetwornik temperatury",
+    "pt": "Conversor de temperatura"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 10.374,
+  "hotspotX": -1.25,
+  "hotspotY": -3.438,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -5.400491712707183,
+          "y": -12.424
+        },
+        {
+          "x": 5.591508287292817,
+          "y": -12.424
+        },
+        {
+          "x": 5.591508287292817,
+          "y": -1.43
+        },
+        {
+          "x": -5.400491712707183,
+          "y": -1.43
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 0.09550828729281724,
+          "y": -9.124
+        },
+        {
+          "x": -1.7384917127071828,
+          "y": -9.124
+        },
+        {
+          "x": -2.835491712707183,
+          "y": -10.225
+        },
+        {
+          "x": -1.7384917127071828,
+          "y": -11.323
+        },
+        {
+          "x": 2.294508287292817,
+          "y": -11.323
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "rect",
+      "x": -4.485491712707183,
+      "y": -8.758,
+      "width": 1.098,
+      "height": 3.297,
+      "rx": 0.0,
+      "ry": 0.0,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.9344917127071826,
+      "y1": -8.758,
+      "x2": -3.9344917127071826,
+      "y2": -9.857,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.9344917127071826,
+      "y1": -5.461,
+      "x2": -3.9344917127071826,
+      "y2": -4.36,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.0354917127071825,
+      "y1": -8.391,
+      "x2": -2.835491712707183,
+      "y2": -5.826,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 5.591508287292817,
+      "y1": -12.057,
+      "x2": -4.852491712707183,
+      "y2": -1.612,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.393508287292817,
+      "y1": -5.093,
+      "x2": 4.858508287292818,
+      "y2": -5.093,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.125508287292817,
+      "y1": -9.491,
+      "x2": 4.125508287292817,
+      "y2": -8.024,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.393508287292817,
+      "y1": -8.758,
+      "x2": 4.858508287292818,
+      "y2": -8.758,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -5.35642955801105,
+      "y1": -10.061254143646408,
+      "x2": -7.19042955801105,
+      "y2": -10.061254143646408,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 7.531508287292818,
+      "y1": -4.933497237569061,
+      "x2": 5.697508287292817,
+      "y2": -4.933497237569061,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 5.591508287292817,
+      "y1": -9.973129834254143,
+      "x2": 7.425508287292818,
+      "y2": -9.973129834254143,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -7.384553867403316,
+      "y1": -4.9255593922651935,
+      "x2": -5.550553867403315,
+      "y2": -4.9255593922651935,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 3.0285082872928175,
+      "y1": -3.628,
+      "x2": 3.577508287292817,
+      "y2": -3.628,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 1.9295082872928173,
+      "y1": -3.628,
+      "x2": 2.476508287292817,
+      "y2": -3.628,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.8285082872928171,
+      "y1": -3.628,
+      "x2": 1.3805082872928174,
+      "y2": -3.628,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.8285082872928171,
+      "y1": -2.895,
+      "x2": 3.577508287292817,
+      "y2": -2.895,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 4.6775082872928175,
+      "y1": -12.239,
+      "x2": -5.400491712707183,
+      "y2": -2.163,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.281,
+      "length2": 0.281,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{3962a621-a6db-479c-abd2-0c58b629d39a}",
+      "name": "",
+      "x": 7.5,
+      "y": -5.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{4691dc28-c713-4b42-8c08-48bf8fdaf582}",
+      "name": "",
+      "x": 7.5,
+      "y": -10.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{3b865d22-ce99-4271-b87e-b6e5dd32953c}",
+      "name": "",
+      "x": -7.5,
+      "y": -5.0,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{6d90d218-9529-4739-a051-df18b2099b70}",
+      "name": "",
+      "x": -7.5,
+      "y": -10.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -1.0545658705704744,
+      "y": -16.65556429963963,
+      "z": 11,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{3382078c-0156-4d78-9c07-5656272554e0}",
+      "font": "Liberation Sans,8,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

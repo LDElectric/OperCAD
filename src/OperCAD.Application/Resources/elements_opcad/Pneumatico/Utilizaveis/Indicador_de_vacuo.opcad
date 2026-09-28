@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Indicador_de_vacuo.opcad",
+  "id": "{0d2c66e8-32f4-4bcb-b7c1-ca9a91ec66a2}",
+  "names": {
+    "ar": "مؤشر الفراغ",
+    "ca": "Indicador de buit",
+    "cs": "Indikátor vakua",
+    "da": "Vakuum indikator",
+    "de": "Vakuumanzeige",
+    "el": "Ένδειξη κενού",
+    "en": "Vacuum Indicator",
+    "es": "Indicador de vacío",
+    "fr": "Indicateur de vide",
+    "hr": "Indikator vakuuma",
+    "hu": "Vákuumjelző",
+    "it": "Indicatore di vuoto",
+    "ja": "バキュームインジケーター",
+    "mn": "Вакуум үзүүлэлт",
+    "nb": "Vakuumindikator",
+    "nl": "Vacuümindicator",
+    "pl": "Wskaźnik podciśnienia",
+    "pt": "Indicador de vácuo",
+    "pt_BR": "Indicador de vácuo",
+    "ro": "Indicator de vid",
+    "ru": "Индикатор вакуума",
+    "sl": "Indikator vakuuma",
+    "sr": "Вацуум Индицатор",
+    "tr": "Vakum Göstergesi"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 15.0,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 1.5,
+      "y1": 1.5,
+      "x2": -1.999,
+      "y2": -1.999,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "ellipse",
+      "x": -5.0,
+      "y": -5.0,
+      "width": 10.0,
+      "height": 10.0,
+      "type": "ellipse",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": 1.339,
+          "y": 0.175
+        },
+        {
+          "x": 0.151,
+          "y": 1.355
+        },
+        {
+          "x": 2.5,
+          "y": 2.5
+        },
+        {
+          "x": 1.355,
+          "y": 0.191
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 5.0,
+      "x2": 0.0,
+      "y2": 7.5,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{69923bbc-9b30-4cd9-97e3-0d84df98d099}",
+      "name": "",
+      "x": 0.0,
+      "y": 10.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -10.0,
+      "y": -10.0,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{2645e2af-b363-4b19-9494-2fcd9e2fbb5b}",
+      "font": "Liberation Sans,7,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

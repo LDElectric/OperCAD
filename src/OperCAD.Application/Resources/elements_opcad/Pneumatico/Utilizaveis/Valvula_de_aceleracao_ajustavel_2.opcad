@@ -1,0 +1,218 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Valvula_de_aceleracao_ajustavel_2.opcad",
+  "id": "{438ce604-4b4b-5f85-1821-9f1eed6ea0d7}",
+  "names": {
+    "ar": "صمام خانق قابل للتعديل",
+    "ca": "Vàlvula d'acceleració regulable",
+    "cs": "Nastavitelný škrticí ventil",
+    "da": "Justerbar drosselventil",
+    "de": "Einstellbare Drosselklappe",
+    "el": "Ρυθμιζόμενη βαλβίδα γκαζιού",
+    "en": "Adjustable throttle valve",
+    "es": "Válvula de mariposa ajustable",
+    "fr": "Papillon des gaz réglable",
+    "hr": "Podesivi ventil za gas",
+    "hu": "Állítható fojtószelep",
+    "it": "Valvola a farfalla regolabile",
+    "ja": "調整可能なスロットルバルブ",
+    "mn": "Тохируулах тохируулагч хавхлаг",
+    "nb": "Justerbar strupeventil",
+    "nl": "Verstelbare gasklep",
+    "pl": "Regulowany zawór dławiący",
+    "pt": "Válvula de aceleração ajustável",
+    "pt_BR": "Válvula de aceleração ajustável",
+    "ro": "Supapă de accelerație reglabilă",
+    "ru": "Регулируемый дроссельный клапан",
+    "sl": "Nastavljiv dušilni ventil",
+    "sr": "Подесиви вентил за гас",
+    "tr": "Ayarlanabilir gaz kelebeği"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 7.5,
+  "height": 5.994,
+  "hotspotX": -1.25,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.75,
+          "y": -0.75
+        },
+        {
+          "x": -0.5,
+          "y": -0.5
+        },
+        {
+          "x": -0.25,
+          "y": -1.0
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "arc",
+      "x": -3.75,
+      "y": 0.25,
+      "width": 5.0,
+      "height": 2.5,
+      "start": 60,
+      "angle": 60,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": -5.0,
+      "y1": 0.0,
+      "x2": 2.5,
+      "y2": 0.0,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.25,
+      "y1": 1.0,
+      "x2": -0.625,
+      "y2": -0.625,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.187,
+      "length2": 0.187,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "arc",
+      "x": -3.75,
+      "y": -2.75,
+      "width": 5.0,
+      "height": 2.5,
+      "start": 240,
+      "angle": 60,
+      "type": "arc",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -1.375,
+          "y": -0.25
+        },
+        {
+          "x": -1.375,
+          "y": -1.0
+        },
+        {
+          "x": -1.125,
+          "y": -1.0
+        },
+        {
+          "x": -1.125,
+          "y": -0.25
+        },
+        {
+          "x": -1.125,
+          "y": -1.0
+        },
+        {
+          "x": -0.875,
+          "y": -1.0
+        },
+        {
+          "x": -1.625,
+          "y": -1.0
+        }
+      ],
+      "closed": false,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "thin",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{dbde988d-7c2f-4a81-a222-2a1c098788bc}",
+      "name": "",
+      "x": 2.5,
+      "y": 0.0,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{aab83c28-d1ed-45e0-af11-1939638974c5}",
+      "name": "",
+      "x": -5.0,
+      "y": 0.0,
+      "orientation": "w",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -2.7024176241416535,
+      "y": -8.039198017026045,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{7f79e76f-8864-49b7-a716-1372924b9246}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

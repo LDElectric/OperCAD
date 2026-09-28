@@ -1,0 +1,172 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Descarregador_de_faisca.opcad",
+  "id": "{cb735181-0da0-a3a9-9bde-13a47fa41c21}",
+  "names": {
+    "ar": "فجوة شرارة",
+    "ca": "Espurna",
+    "cs": "Jiskřiště",
+    "de": "Funkenstrecke",
+    "en": "Spark-gap",
+    "es": "Descargador de chispa",
+    "fr": "Éclateur",
+    "hu": "Szikraköz",
+    "it": "Scaricatore",
+    "nl": "Vonkbrug",
+    "pl": "Iskiernik",
+    "pt": "Descarregador de faísca",
+    "ru": "Разрядник"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 4.0,
+  "height": 20.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": 0.6258930163447258,
+      "x2": 0.0,
+      "y2": 5.313893016344726,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.938,
+          "y": 3.125
+        },
+        {
+          "x": 0.0,
+          "y": 0.625
+        },
+        {
+          "x": 0.938,
+          "y": 3.125
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "polygon",
+      "points": [
+        {
+          "x": -0.938,
+          "y": -3.125
+        },
+        {
+          "x": 0.0,
+          "y": -0.625
+        },
+        {
+          "x": 0.938,
+          "y": -3.125
+        }
+      ],
+      "closed": true,
+      "type": "polygon",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "black",
+        "color": "black"
+      },
+      "antialias": true
+    },
+    {
+      "$type": "line",
+      "x1": 0.0,
+      "y1": -5.280460624071322,
+      "x2": 0.0,
+      "y2": -0.5924606240713224,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "rect",
+      "x": -1.5378900445765231,
+      "y": -3.7444279346210996,
+      "width": 3.0423476968796432,
+      "height": 7.488855869242199,
+      "type": "rect",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": true
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{88c97440-d7f8-4a18-a92b-81e7d4399b88}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{9d8edb73-86be-40d7-a235-0b9c34aef604}",
+      "name": "",
+      "x": 0.0,
+      "y": 5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "x": -5.850704132548495,
+      "y": -2.045911773352352,
+      "z": 7,
+      "textWidth": -1,
+      "halignment": "AlignLeft",
+      "valignment": "AlignTop",
+      "frame": false,
+      "rotation": 0,
+      "keepVisualRotation": false,
+      "textFrom": "ElementInfo",
+      "uuid": "{371a40c3-c80b-4fa9-a03e-7b1fc1045ab3}",
+      "font": "Liberation Sans,9,-1,5,50,0,0,0,0,0,Regular",
+      "text": "",
+      "infoName": "label"
+    }
+  ]
+}

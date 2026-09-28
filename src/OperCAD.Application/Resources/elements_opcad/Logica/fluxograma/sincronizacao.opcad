@@ -1,0 +1,152 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "sincronizacao.opcad",
+  "id": "{505533f9-301f-f11f-6e78-5dfbf81e5529}",
+  "names": {
+    "ar": "التزامن",
+    "ca": "sincronització",
+    "cs": "synchronizace",
+    "da": "synkronisering",
+    "de": "Synchronisierung",
+    "el": "συγχρονισμός",
+    "en": "synchronization",
+    "es": "sincronización",
+    "fr": "synchronisation",
+    "hr": "sinkronizacija",
+    "hu": "szinkronizálás",
+    "it": "sincronizzazione",
+    "ja": "同期",
+    "mn": "синхрончлол",
+    "nb": "synkronisering",
+    "nl": "synchronisatie",
+    "pl": "synchronizacja",
+    "pt": "sincronização",
+    "ro": "sincronizare",
+    "ru": "синхронизация",
+    "sl": "sinhronizacijo",
+    "sr": "синхронизација",
+    "tr": "senkronizasyon"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 36.667,
+  "height": 9.166,
+  "hotspotX": 0.0,
+  "hotspotY": -5.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": 19.165,
+      "y1": 0.042,
+      "x2": -17.499,
+      "y2": 0.042,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 19.165,
+      "y1": -0.876,
+      "x2": -17.499,
+      "y2": -0.876,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 14.96415095457079,
+      "y1": -5.0,
+      "x2": 14.96415095457079,
+      "y2": -0.876,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -14.984015154682274,
+      "y1": -5.0,
+      "x2": -14.984015154682274,
+      "y2": -0.876,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.687,
+      "length2": 0.687,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{93beea49-0e66-48cc-8286-0dc074b7a455}",
+      "name": "",
+      "x": 15.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{936ed365-9a46-4dc2-b266-ffe32ebf066b}",
+      "name": "",
+      "x": 19.166,
+      "y": -0.417,
+      "orientation": "e",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{0cd2693e-0e95-4f65-9433-e67c6e37ee58}",
+      "name": "",
+      "x": -17.5,
+      "y": -0.417,
+      "orientation": "w",
+      "type": "Generic"
+    },
+    {
+      "uuid": "{5a7277ef-6b64-41f1-93bf-402d0ca3066f}",
+      "name": "",
+      "x": -15.0,
+      "y": -5.0,
+      "orientation": "n",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": []
+}

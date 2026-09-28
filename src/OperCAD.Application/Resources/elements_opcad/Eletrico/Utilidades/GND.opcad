@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "source": "opcad",
+  "sourceFile": "Protecao.opcad",
+  "id": "{377f145f-25b6-4e83-6710-5281ad570871}",
+  "names": {
+    "pt": "Terra (GND)",
+    "en": "Ground (GND)",
+    "hu": "Föld"
+  },
+  "kindInformations": {},
+  "elementInformations": {},
+  "informations": "Author: LDElectric\nApplication: OperCAD",
+  "width": 16.5,
+  "height": 22.0,
+  "hotspotX": 0.0,
+  "hotspotY": 0.0,
+  "linkType": "simple",
+  "primitives": [
+    {
+      "$type": "line",
+      "x1": -1.46,
+      "y1": 2.275,
+      "x2": 1.539,
+      "y2": 2.275,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -2.461,
+      "y1": 1.276,
+      "x2": 2.539,
+      "y2": 1.276,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": -3.461,
+      "y1": 0.276,
+      "x2": 3.539,
+      "y2": 0.276,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    },
+    {
+      "$type": "line",
+      "x1": 0.039,
+      "y1": 0.276,
+      "x2": 0.039,
+      "y2": -4.724,
+      "end1": "none",
+      "end2": "none",
+      "length1": 0.749,
+      "length2": 0.749,
+      "type": "line",
+      "style": {
+        "lineStyle": "normal",
+        "lineWeight": "normal",
+        "filling": "none",
+        "color": "black"
+      },
+      "antialias": false
+    }
+  ],
+  "terminals": [
+    {
+      "uuid": "{3be68e78-574c-529c-4960-f45af5fdad31}",
+      "name": "",
+      "x": 0.0,
+      "y": -5.0,
+      "orientation": "s",
+      "type": "Generic"
+    }
+  ],
+  "dynamicTexts": [],
+  "freeDrawing": false
+}
